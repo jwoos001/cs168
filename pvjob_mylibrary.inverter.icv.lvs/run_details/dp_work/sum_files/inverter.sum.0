@@ -1,0 +1,4841 @@
+Wed Jan 31 09:44:13 2018
+                                        
+                                 ICV_Engine (R)
+                                        
+           Version K-2015.12-3 for linux64 - Dec 17, 2015 cl#3052145
+                                        
+                    Copyright (c) 1996 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 1 thread(s)
+
+Runset file ......................  /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+Current Directory ................  /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs
+Hostname .........................  bender.engr.ucr.edu
+Platform type ....................  LINUX.64
+OPENACCESS lib.defs file .........  /home/cemaj/jwoosam/eecs168/lib.defs
+OPENACCESS input library name ....  mylibrary
+OPENACCESS block name ............  inverter
+OPENACCESS view name .............  layout
+Run details ......................  /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/run_details
+Group file directory .............  /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/run_details/group
+Check reference structures .......  yes
+
+openaccess_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:85
+openaccess_options(view = "layout", layer_mapping_file = "/usr/local/synopsys/pdk/SAED_PDK90nm" + "/techfiles/saed_pdk90_layer.map")
+
+library() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:91
+library(library_name = "GDSFILENAME", format = GDSII, cell = "TOPCELLNAME")
+
+schematic() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:100
+schem_netl_fh = schematic(schematic_file = { { filename = "lvs_top.sp", format = SPICE } }, expand_multiple_devices = true, global_nets = { "VDD", "VDD12", "VDD22" })
+
+run_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:112
+run_options(instance_prefix = "X", uppercase = false)
+
+error_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:117
+error_options(db_path = "./TOPCELLNAME_err", create_vue_output = true)
+
+hierarchy_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:121
+hierarchy_options(flatten = { "*" })
+
+resolution_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:123
+resolution_options(snap_resolution = 0.001)
+
+text_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:124
+text_options(net_prefix = "N", layout_power = { "VDD", "VDD12", "VDD22" }, layout_ground = { "VSS", "VSS12", "VDD22" })
+
+net_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:127
+net_options(schematic_power = { "VDD", "VDD12", "VDD22" }, schematic_ground = { "VSS", "VSS12", "VDD22" }, schematic_global = { "VDD", "VDD12", "VDD22", "VSS", "VSS12", "VDD22" })
+
+prototype_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:132
+prototype_options(false)
+
+incremental_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:137
+incremental_options()
+
+layout_drawn_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:137
+layout_drawn_options()
+
+layout_grid_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:137
+layout_grid_options()
+
+layout_integrity_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:137
+layout_integrity_options()
+
+hierarchy_auto_options() at /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:137
+hierarchy_auto_options()
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=11.857
+
+Initialized OpenAccess libraries successfully
+   Check Time=0:00:00  User=0.21 Sys=0.00 Mem=11.857
+
+[liboa] WARNING: Ignoring data on layer/purpose pairs not present in the
+layer mapping file "/usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map":
+  (Layer number 237, drawing)
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=23.434
+
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=21.043
+
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.00 Sys=0.00 Mem=22.043
+
+Prototype Placement Pass 1
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+  Set 1 schematic file cells to NO_EXPLODE
+top cell extent 0 -2850 6000 3000
+top cell trap_flat_cnt 34
+Find duplicate placements in cells
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=25.691
+
+
+small_memory stop_memory 0 500000000
+
+placement_count stop_count 1 100000000
+     Prototype Pass 2 Time=0:00:00  User=0.00 Sys=0.00 Mem=18.528
+
+     Determine Region Time=0:00:00  User=0.00 Sys=0.00 Mem=17.528
+
+0 Total errors found.
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.01 Sys=0.00 Mem=18.528
+
+Preprocess Step 10 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.00 Sys=0.00 Mem=17.497
+
+     write_inst_name_data Time=0:00:00  User=0.00 Sys=0.00 Mem=17.465
+
+    Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=17.481
+
+0 Total errors found.
+    
+Hierarchy Cleanup Time=0:00:00  User=0.00 Sys=0.01 Mem=20.481
+
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=25.691
+
+No output written.
+Layer "empty_layer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.450
+
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=16.403
+
+Hierarchy Cleanup
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.434
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:137
+NWELLi = assign({ { == 1 } })
+  Function: assign
+  Outputs: SUBSTRATE
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.497
+
+
+Reading error hierarchy hrchy1.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=16.450
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:137:Layer creation
+NWELLi = assign({ { == 1 } })
+  Function: assign
+  Inputs: NWELLi.polygonlayer.0001
+  Outputs: NWELLi.polygonlayer.0002
+0 non-45 violations found.
+0 non-90 violations found.
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.590
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:138:Layer creation
+DNWi = assign({ { == 2 } })
+  Function: assign
+  Inputs: DNWi.polygonlayer.0001
+  Outputs: DNWi.polygonlayer.0002
+No output written.
+Layer "DNWi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:139:Layer creation
+DIFFi = assign({ { == 3 } })
+  Function: assign
+  Inputs: DIFFi.polygonlayer.0001
+  Outputs: DIFFi.polygonlayer.0002
+0 non-45 violations found.
+0 non-90 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.949
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:140:Layer creation
+DDMYi = assign({ { == 3, == 1 } })
+  Function: assign
+  Inputs: DDMYi.polygonlayer.0001
+  Outputs: DDMYi.polygonlayer.0002
+No output written.
+Layer "DDMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:141:Layer creation
+PIMPi = assign({ { == 4 } })
+  Function: assign
+  Inputs: PIMPi.polygonlayer.0001
+  Outputs: PIMPi.polygonlayer.0002
+0 non-45 violations found.
+0 non-90 violations found.
+2 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.949
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:142:Layer creation
+NIMPi = assign({ { == 5 } })
+  Function: assign
+  Inputs: NIMPi.polygonlayer.0001
+  Outputs: NIMPi.polygonlayer.0002
+0 non-45 violations found.
+0 non-90 violations found.
+2 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=19.949
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:143:Layer creation
+DIFF_25i = assign({ { == 6 } })
+  Function: assign
+  Inputs: DIFF_25i.polygonlayer.0001
+  Outputs: DIFF_25i.polygonlayer.0002
+No output written.
+Layer "DIFF_25i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:144:Layer creation
+PADi = assign({ { == 7 } })
+  Function: assign
+  Inputs: PADi.polygonlayer.0001
+  Outputs: PADi.polygonlayer.0002
+No output written.
+Layer "PADi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:145:Layer creation
+ESD_25 = assign({ { == 8 } })
+  Function: assign
+  Inputs: ESD_25.polygonlayer.0001
+  Outputs: ESD_25.polygonlayer.0002
+No output written.
+Layer "ESD_25.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:146:Layer creation
+SBLKi = assign({ { == 9 } })
+  Function: assign
+  Inputs: SBLKi.polygonlayer.0001
+  Outputs: SBLKi.polygonlayer.0002
+No output written.
+Layer "SBLKi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:147:Layer creation
+POi = assign({ { == 10 } })
+  Function: assign
+  Inputs: POi.polygonlayer.0001
+  Outputs: POi.polygonlayer.0002
+0 non-45 violations found.
+0 non-90 violations found.
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.964
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:148:Layer creation
+PODMYi = assign({ { == 10, == 1 } })
+  Function: assign
+  Inputs: PODMYi.polygonlayer.0001
+  Outputs: PODMYi.polygonlayer.0002
+No output written.
+Layer "PODMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:149:Layer creation
+M1i = assign({ { == 11 } })
+  Function: assign
+  Inputs: M1i.polygonlayer.0001
+  Outputs: M1i.polygonlayer.0002
+0 non-45 violations found.
+0 non-90 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.964
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:150:Layer creation
+M1i_text = assign_text({ { == 11 } })
+  Function: assign_text
+  Inputs: M1i_text.textlayer.0001.TEXT
+  Outputs: M1i_text.textlayer.0002.TEXT
+No output written.
+Layer "M1i_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M1i_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:151:Layer creation
+M1DMYi = assign({ { == 11, == 1 } })
+  Function: assign
+  Inputs: M1DMYi.polygonlayer.0001
+  Outputs: M1DMYi.polygonlayer.0002
+No output written.
+Layer "M1DMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:152:Layer creation
+VIA1i = assign({ { == 12 } })
+  Function: assign
+  Inputs: VIA1i.polygonlayer.0001
+  Outputs: VIA1i.polygonlayer.0002
+No output written.
+Layer "VIA1i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:153:Layer creation
+M2i = assign({ { == 13 } })
+  Function: assign
+  Inputs: M2i.polygonlayer.0001
+  Outputs: M2i.polygonlayer.0002
+No output written.
+Layer "M2i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:154:Layer creation
+M2i_text = assign_text({ { == 12 } })
+  Function: assign_text
+  Inputs: M2i_text.textlayer.0001.TEXT
+  Outputs: M2i_text.textlayer.0002.TEXT
+No output written.
+Layer "M2i_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M2i_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:155:Layer creation
+M2DMYi = assign({ { == 13, == 1 } })
+  Function: assign
+  Inputs: M2DMYi.polygonlayer.0001
+  Outputs: M2DMYi.polygonlayer.0002
+No output written.
+Layer "M2DMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:156:Layer creation
+VIA2i = assign({ { == 14 } })
+  Function: assign
+  Inputs: VIA2i.polygonlayer.0001
+  Outputs: VIA2i.polygonlayer.0002
+No output written.
+Layer "VIA2i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:157:Layer creation
+M3i = assign({ { == 15 } })
+  Function: assign
+  Inputs: M3i.polygonlayer.0001
+  Outputs: M3i.polygonlayer.0002
+No output written.
+Layer "M3i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:158:Layer creation
+M3i_text = assign_text({ { == 13 } })
+  Function: assign_text
+  Inputs: M3i_text.textlayer.0001.TEXT
+  Outputs: M3i_text.textlayer.0002.TEXT
+No output written.
+Layer "M3i_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M3i_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:159:Layer creation
+M3DMYi = assign({ { == 15, == 1 } })
+  Function: assign
+  Inputs: M3DMYi.polygonlayer.0001
+  Outputs: M3DMYi.polygonlayer.0002
+No output written.
+Layer "M3DMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:160:Layer creation
+VIA3i = assign({ { == 16 } })
+  Function: assign
+  Inputs: VIA3i.polygonlayer.0001
+  Outputs: VIA3i.polygonlayer.0002
+No output written.
+Layer "VIA3i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:161:Layer creation
+M4i = assign({ { == 17 } })
+  Function: assign
+  Inputs: M4i.polygonlayer.0001
+  Outputs: M4i.polygonlayer.0002
+No output written.
+Layer "M4i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:162:Layer creation
+M4i_text = assign_text({ { == 14 } })
+  Function: assign_text
+  Inputs: M4i_text.textlayer.0001.TEXT
+  Outputs: M4i_text.textlayer.0002.TEXT
+No output written.
+Layer "M4i_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M4i_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:163:Layer creation
+M4DMYi = assign({ { == 17, == 1 } })
+  Function: assign
+  Inputs: M4DMYi.polygonlayer.0001
+  Outputs: M4DMYi.polygonlayer.0002
+No output written.
+Layer "M4DMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:164:Layer creation
+VIA4i = assign({ { == 18 } })
+  Function: assign
+  Inputs: VIA4i.polygonlayer.0001
+  Outputs: VIA4i.polygonlayer.0002
+No output written.
+Layer "VIA4i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:165:Layer creation
+M5i = assign({ { == 19 } })
+  Function: assign
+  Inputs: M5i.polygonlayer.0001
+  Outputs: M5i.polygonlayer.0002
+No output written.
+Layer "M5i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:166:Layer creation
+M5i_text = assign_text({ { == 15 } })
+  Function: assign_text
+  Inputs: M5i_text.textlayer.0001.TEXT
+  Outputs: M5i_text.textlayer.0002.TEXT
+No output written.
+Layer "M5i_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M5i_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:167:Layer creation
+M5DMYi = assign({ { 19, 1 } })
+  Function: assign
+  Inputs: M5DMYi.polygonlayer.0001
+  Outputs: M5DMYi.polygonlayer.0002
+No output written.
+Layer "M5DMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:168:Layer creation
+VIA5i = assign({ { 20 } })
+  Function: assign
+  Inputs: VIA5i.polygonlayer.0001
+  Outputs: VIA5i.polygonlayer.0002
+No output written.
+Layer "VIA5i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:169:Layer creation
+M6i = assign({ { 21 } })
+  Function: assign
+  Inputs: M6i.polygonlayer.0001
+  Outputs: M6i.polygonlayer.0002
+No output written.
+Layer "M6i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:170:Layer creation
+M6i_text = assign_text({ { 16 } })
+  Function: assign_text
+  Inputs: M6i_text.textlayer.0001.TEXT
+  Outputs: M6i_text.textlayer.0002.TEXT
+No output written.
+Layer "M6i_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M6i_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:171:Layer creation
+M6DMYi = assign({ { 21, 1 } })
+  Function: assign
+  Inputs: M6DMYi.polygonlayer.0001
+  Outputs: M6DMYi.polygonlayer.0002
+No output written.
+Layer "M6DMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:172:Layer creation
+VIA6i = assign({ { 22 } })
+  Function: assign
+  Inputs: VIA6i.polygonlayer.0001
+  Outputs: VIA6i.polygonlayer.0002
+No output written.
+Layer "VIA6i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:173:Layer creation
+M7i = assign({ { 23 } })
+  Function: assign
+  Inputs: M7i.polygonlayer.0001
+  Outputs: M7i.polygonlayer.0002
+No output written.
+Layer "M7i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:174:Layer creation
+M7i_text = assign_text({ { 17 } })
+  Function: assign_text
+  Inputs: M7i_text.textlayer.0001.TEXT
+  Outputs: M7i_text.textlayer.0002.TEXT
+No output written.
+Layer "M7i_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M7i_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:175:Layer creation
+M7DMYi = assign({ { 23, 1 } })
+  Function: assign
+  Inputs: M7DMYi.polygonlayer.0001
+  Outputs: M7DMYi.polygonlayer.0002
+No output written.
+Layer "M7DMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:176:Layer creation
+M8i = assign({ { 24 } })
+  Function: assign
+  Inputs: M8i.polygonlayer.0001
+  Outputs: M8i.polygonlayer.0002
+No output written.
+Layer "M8i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:177:Layer creation
+M8i_text = assign_text({ { 18 } })
+  Function: assign_text
+  Inputs: M8i_text.textlayer.0001.TEXT
+  Outputs: M8i_text.textlayer.0002.TEXT
+No output written.
+Layer "M8i_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M8i_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:178:Layer creation
+M8DMYi = assign({ { 24, 1 } })
+  Function: assign
+  Inputs: M8DMYi.polygonlayer.0001
+  Outputs: M8DMYi.polygonlayer.0002
+No output written.
+Layer "M8DMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:179:Layer creation
+M9i = assign({ { 25 } })
+  Function: assign
+  Inputs: M9i.polygonlayer.0001
+  Outputs: M9i.polygonlayer.0002
+No output written.
+Layer "M9i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:180:Layer creation
+M9i_text = assign_text({ { 19 } })
+  Function: assign_text
+  Inputs: M9i_text.textlayer.0001.TEXT
+  Outputs: M9i_text.textlayer.0002.TEXT
+No output written.
+Layer "M9i_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M9i_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:181:Layer creation
+M9DMYi = assign({ { 25, 1 } })
+  Function: assign
+  Inputs: M9DMYi.polygonlayer.0001
+  Outputs: M9DMYi.polygonlayer.0002
+No output written.
+Layer "M9DMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:182:Layer creation
+COi = assign({ { 26 } })
+  Function: assign
+  Inputs: COi.polygonlayer.0001
+  Outputs: COi.polygonlayer.0002
+0 non-45 violations found.
+0 non-90 violations found.
+10 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.949
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:183:Layer creation
+VIA7i = assign({ { 27 } })
+  Function: assign
+  Inputs: VIA7i.polygonlayer.0001
+  Outputs: VIA7i.polygonlayer.0002
+No output written.
+Layer "VIA7i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:184:Layer creation
+VIA8i = assign({ { 28 } })
+  Function: assign
+  Inputs: VIA8i.polygonlayer.0001
+  Outputs: VIA8i.polygonlayer.0002
+No output written.
+Layer "VIA8i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:185:Layer creation
+HVTIMPi = assign({ { 29 } })
+  Function: assign
+  Inputs: HVTIMPi.polygonlayer.0001
+  Outputs: HVTIMPi.polygonlayer.0002
+No output written.
+Layer "HVTIMPi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:186:Layer creation
+LVTIMPi = assign({ { 30 } })
+  Function: assign
+  Inputs: LVTIMPi.polygonlayer.0001
+  Outputs: LVTIMPi.polygonlayer.0002
+No output written.
+Layer "LVTIMPi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:187:Layer creation
+M1PIN = assign({ { 31 } })
+  Function: assign
+  Inputs: M1PIN.polygonlayer.0001
+  Outputs: M1PIN.polygonlayer.0002
+No output written.
+Layer "M1PIN.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:188:Layer creation
+M1PIN_text = assign_text({ { 31 } })
+  Function: assign_text
+  Inputs: M1PIN_text.textlayer.0001.TEXT
+  Outputs: M1PIN_text.textlayer.0002.TEXT
+No output written.
+Layer "M1PIN_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+4 text strings written.
+No output written.
+Layer "M1PIN_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.980
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:189:Layer creation
+M2PIN = assign({ { 32 } })
+  Function: assign
+  Inputs: M2PIN.polygonlayer.0001
+  Outputs: M2PIN.polygonlayer.0002
+No output written.
+Layer "M2PIN.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:190:Layer creation
+M2PIN_text = assign_text({ { 32 } })
+  Function: assign_text
+  Inputs: M2PIN_text.textlayer.0001.TEXT
+  Outputs: M2PIN_text.textlayer.0002.TEXT
+No output written.
+Layer "M2PIN_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M2PIN_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:191:Layer creation
+M3PIN = assign({ { 33 } })
+  Function: assign
+  Inputs: M3PIN.polygonlayer.0001
+  Outputs: M3PIN.polygonlayer.0002
+No output written.
+Layer "M3PIN.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:192:Layer creation
+M3PIN_text = assign_text({ { 33 } })
+  Function: assign_text
+  Inputs: M3PIN_text.textlayer.0001.TEXT
+  Outputs: M3PIN_text.textlayer.0002.TEXT
+No output written.
+Layer "M3PIN_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M3PIN_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:193:Layer creation
+M4PIN = assign({ { 34 } })
+  Function: assign
+  Inputs: M4PIN.polygonlayer.0001
+  Outputs: M4PIN.polygonlayer.0002
+No output written.
+Layer "M4PIN.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:194:Layer creation
+M4PIN_text = assign_text({ { 34 } })
+  Function: assign_text
+  Inputs: M4PIN_text.textlayer.0001.TEXT
+  Outputs: M4PIN_text.textlayer.0002.TEXT
+No output written.
+Layer "M4PIN_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M4PIN_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:195:Layer creation
+M5PIN = assign({ { 35 } })
+  Function: assign
+  Inputs: M5PIN.polygonlayer.0001
+  Outputs: M5PIN.polygonlayer.0002
+No output written.
+Layer "M5PIN.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:196:Layer creation
+M5PIN_text = assign_text({ { 35 } })
+  Function: assign_text
+  Inputs: M5PIN_text.textlayer.0001.TEXT
+  Outputs: M5PIN_text.textlayer.0002.TEXT
+No output written.
+Layer "M5PIN_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M5PIN_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:197:Layer creation
+M6PIN = assign({ { 36 } })
+  Function: assign
+  Inputs: M6PIN.polygonlayer.0001
+  Outputs: M6PIN.polygonlayer.0002
+No output written.
+Layer "M6PIN.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:198:Layer creation
+M6PIN_text = assign_text({ { 36 } })
+  Function: assign_text
+  Inputs: M6PIN_text.textlayer.0001.TEXT
+  Outputs: M6PIN_text.textlayer.0002.TEXT
+No output written.
+Layer "M6PIN_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M6PIN_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:199:Layer creation
+M7PIN = assign({ { 37 } })
+  Function: assign
+  Inputs: M7PIN.polygonlayer.0001
+  Outputs: M7PIN.polygonlayer.0002
+No output written.
+Layer "M7PIN.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:200:Layer creation
+M7PIN_text = assign_text({ { 37 } })
+  Function: assign_text
+  Inputs: M7PIN_text.textlayer.0001.TEXT
+  Outputs: M7PIN_text.textlayer.0002.TEXT
+No output written.
+Layer "M7PIN_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M7PIN_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:201:Layer creation
+M8PIN = assign({ { 38 } })
+  Function: assign
+  Inputs: M8PIN.polygonlayer.0001
+  Outputs: M8PIN.polygonlayer.0002
+No output written.
+Layer "M8PIN.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:202:Layer creation
+M8PIN_text = assign_text({ { 38 } })
+  Function: assign_text
+  Inputs: M8PIN_text.textlayer.0001.TEXT
+  Outputs: M8PIN_text.textlayer.0002.TEXT
+No output written.
+Layer "M8PIN_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M8PIN_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:203:Layer creation
+M9PIN = assign({ { 39 } })
+  Function: assign
+  Inputs: M9PIN.polygonlayer.0001
+  Outputs: M9PIN.polygonlayer.0002
+No output written.
+Layer "M9PIN.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:204:Layer creation
+M9PIN_text = assign_text({ { 39 } })
+  Function: assign_text
+  Inputs: M9PIN_text.textlayer.0001.TEXT
+  Outputs: M9PIN_text.textlayer.0002.TEXT
+No output written.
+Layer "M9PIN_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "M9PIN_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:205:Layer creation
+HOTNWLi = assign({ { 41 } })
+  Function: assign
+  Inputs: HOTNWLi.polygonlayer.0001
+  Outputs: HOTNWLi.polygonlayer.0002
+No output written.
+Layer "HOTNWLi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:206:Layer creation
+DIODMARKi = assign({ { 43 } })
+  Function: assign
+  Inputs: DIODMARKi.polygonlayer.0001
+  Outputs: DIODMARKi.polygonlayer.0002
+No output written.
+Layer "DIODMARKi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:207:Layer creation
+BJTDMARKi = assign({ { 44 } })
+  Function: assign
+  Inputs: BJTDMARKi.polygonlayer.0001
+  Outputs: BJTDMARKi.polygonlayer.0002
+No output written.
+Layer "BJTDMARKi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:208:Layer creation
+RNWi = assign({ { 45 } })
+  Function: assign
+  Inputs: RNWi.polygonlayer.0001
+  Outputs: RNWi.polygonlayer.0002
+No output written.
+Layer "RNWi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:209:Layer creation
+RMARKERi = assign({ { 46 } })
+  Function: assign
+  Inputs: RMARKERi.polygonlayer.0001
+  Outputs: RMARKERi.polygonlayer.0002
+No output written.
+Layer "RMARKERi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:210:Layer creation
+LOGO = assign({ { 48 } })
+  Function: assign
+  Inputs: LOGO.polygonlayer.0001
+  Outputs: LOGO.polygonlayer.0002
+No output written.
+Layer "LOGO.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:211:Layer creation
+IP = assign({ { 49, 49 } })
+  Function: assign
+  Inputs: IP.polygonlayer.0001
+  Outputs: IP.polygonlayer.0002
+No output written.
+Layer "IP.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign_text() at rules.lvs.9m_saed90_lvs.lvs.rs:212:Layer creation
+IP_text = assign_text({ { 49, 49 } })
+  Function: assign_text
+  Inputs: IP_text.textlayer.0001.TEXT
+  Outputs: IP_text.textlayer.0002.TEXT
+No output written.
+Layer "IP_text.textlayer.0001.TEXT" is empty.
+0 non-45 violations found.
+0 non-90 violations found.
+No output written.
+Layer "IP_text.textlayer.0002.TEXT" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.871
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:213:Layer creation
+RM1i = assign({ { 51 } })
+  Function: assign
+  Inputs: RM1i.polygonlayer.0001
+  Outputs: RM1i.polygonlayer.0002
+No output written.
+Layer "RM1i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:214:Layer creation
+RM2i = assign({ { 52 } })
+  Function: assign
+  Inputs: RM2i.polygonlayer.0001
+  Outputs: RM2i.polygonlayer.0002
+No output written.
+Layer "RM2i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:215:Layer creation
+RM3i = assign({ { 53 } })
+  Function: assign
+  Inputs: RM3i.polygonlayer.0001
+  Outputs: RM3i.polygonlayer.0002
+No output written.
+Layer "RM3i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:216:Layer creation
+RM4i = assign({ { 54 } })
+  Function: assign
+  Inputs: RM4i.polygonlayer.0001
+  Outputs: RM4i.polygonlayer.0002
+No output written.
+Layer "RM4i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:217:Layer creation
+RM5i = assign({ { 55 } })
+  Function: assign
+  Inputs: RM5i.polygonlayer.0001
+  Outputs: RM5i.polygonlayer.0002
+No output written.
+Layer "RM5i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:218:Layer creation
+RM6i = assign({ { 56 } })
+  Function: assign
+  Inputs: RM6i.polygonlayer.0001
+  Outputs: RM6i.polygonlayer.0002
+No output written.
+Layer "RM6i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:219:Layer creation
+RM7i = assign({ { 57 } })
+  Function: assign
+  Inputs: RM7i.polygonlayer.0001
+  Outputs: RM7i.polygonlayer.0002
+No output written.
+Layer "RM7i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:220:Layer creation
+RM8i = assign({ { 58 } })
+  Function: assign
+  Inputs: RM8i.polygonlayer.0001
+  Outputs: RM8i.polygonlayer.0002
+No output written.
+Layer "RM8i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:221:Layer creation
+RM9i = assign({ { 59 } })
+  Function: assign
+  Inputs: RM9i.polygonlayer.0001
+  Outputs: RM9i.polygonlayer.0002
+No output written.
+Layer "RM9i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:222:Layer creation
+VARMARKi = assign({ { 70 } })
+  Function: assign
+  Inputs: VARMARKi.polygonlayer.0001
+  Outputs: VARMARKi.polygonlayer.0002
+No output written.
+Layer "VARMARKi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:223:Layer creation
+INDMARKi = assign({ { 72 } })
+  Function: assign
+  Inputs: INDMARKi.polygonlayer.0001
+  Outputs: INDMARKi.polygonlayer.0002
+No output written.
+Layer "INDMARKi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:224:Layer creation
+CBMMARKi = assign({ { 71 } })
+  Function: assign
+  Inputs: CBMMARKi.polygonlayer.0001
+  Outputs: CBMMARKi.polygonlayer.0002
+No output written.
+Layer "CBMMARKi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:225:Layer creation
+CTMMARKi = assign({ { 73 } })
+  Function: assign
+  Inputs: CTMMARKi.polygonlayer.0001
+  Outputs: CTMMARKi.polygonlayer.0002
+No output written.
+Layer "CTMMARKi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:226:Layer creation
+METDMYi = assign({ { 74 } })
+  Function: assign
+  Inputs: METDMYi.polygonlayer.0001
+  Outputs: METDMYi.polygonlayer.0002
+No output written.
+Layer "METDMYi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:227:Layer creation
+PWELLi = assign({ { 75 } })
+  Function: assign
+  Inputs: PWELLi.polygonlayer.0001
+  Outputs: PWELLi.polygonlayer.0002
+No output written.
+Layer "PWELLi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:228:Layer creation
+DIFF_33i = assign({ { 76 } })
+  Function: assign
+  Inputs: DIFF_33i.polygonlayer.0001
+  Outputs: DIFF_33i.polygonlayer.0002
+No output written.
+Layer "DIFF_33i.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+assign() at rules.lvs.9m_saed90_lvs.lvs.rs:229:Layer creation
+INDPINMi = assign({ { 79 } })
+  Function: assign
+  Inputs: INDPINMi.polygonlayer.0001
+  Outputs: INDPINMi.polygonlayer.0002
+No output written.
+Layer "INDPINMi.polygonlayer.0002" is empty.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.715
+
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=19.465
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:235
+nwell = copy(NWELLi)
+  Function: copy
+  Inputs: NWELLi.polygonlayer.0002
+  Outputs: nwell.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:236
+pwell = copy(PWELLi)
+  Function: copy
+  Inputs: PWELLi.polygonlayer.0002
+  Outputs: pwell.polygonlayer.0001
+Input layer "PWELLi.polygonlayer.0002" is empty.
+No output written.
+Layer "pwell.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:237
+dnw = copy(DNWi)
+  Function: copy
+  Inputs: DNWi.polygonlayer.0002
+  Outputs: dnw.polygonlayer.0001
+Input layer "DNWi.polygonlayer.0002" is empty.
+No output written.
+Layer "dnw.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:238
+diff = copy(DIFFi)
+  Function: copy
+  Inputs: DIFFi.polygonlayer.0002
+  Outputs: diff.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:239
+ddmy = copy(DDMYi)
+  Function: copy
+  Inputs: DDMYi.polygonlayer.0002
+  Outputs: ddmy.polygonlayer.0001
+Input layer "DDMYi.polygonlayer.0002" is empty.
+No output written.
+Layer "ddmy.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:240
+pimp = copy(PIMPi)
+  Function: copy
+  Inputs: PIMPi.polygonlayer.0002
+  Outputs: pimp.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:241
+nimp = copy(NIMPi)
+  Function: copy
+  Inputs: NIMPi.polygonlayer.0002
+  Outputs: nimp.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:242
+diff_25 = copy(DIFF_25i)
+  Function: copy
+  Inputs: DIFF_25i.polygonlayer.0002
+  Outputs: diff_25.polygonlayer.0001
+Input layer "DIFF_25i.polygonlayer.0002" is empty.
+No output written.
+Layer "diff_25.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:243
+diff_33 = copy(DIFF_33i)
+  Function: copy
+  Inputs: DIFF_33i.polygonlayer.0002
+  Outputs: diff_33.polygonlayer.0001
+Input layer "DIFF_33i.polygonlayer.0002" is empty.
+No output written.
+Layer "diff_33.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:244
+pad = copy(PADi)
+  Function: copy
+  Inputs: PADi.polygonlayer.0002
+  Outputs: pad.polygonlayer.0001
+Input layer "PADi.polygonlayer.0002" is empty.
+No output written.
+Layer "pad.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:245
+esd_25 = copy(ESD_25)
+  Function: copy
+  Inputs: ESD_25.polygonlayer.0002
+  Outputs: esd_25.polygonlayer.0001
+Input layer "ESD_25.polygonlayer.0002" is empty.
+No output written.
+Layer "esd_25.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:246
+sblk = copy(SBLKi)
+  Function: copy
+  Inputs: SBLKi.polygonlayer.0002
+  Outputs: sblk.polygonlayer.0001
+Input layer "SBLKi.polygonlayer.0002" is empty.
+No output written.
+Layer "sblk.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:247
+po = copy(POi)
+  Function: copy
+  Inputs: POi.polygonlayer.0002
+  Outputs: po.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:248
+podmy = copy(PODMYi)
+  Function: copy
+  Inputs: PODMYi.polygonlayer.0002
+  Outputs: podmy.polygonlayer.0001
+Input layer "PODMYi.polygonlayer.0002" is empty.
+No output written.
+Layer "podmy.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:250
+m1 = copy(M1i)
+  Function: copy
+  Inputs: M1i.polygonlayer.0002
+  Outputs: m1.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:251
+m2 = copy(M2i)
+  Function: copy
+  Inputs: M2i.polygonlayer.0002
+  Outputs: m2.polygonlayer.0001
+Input layer "M2i.polygonlayer.0002" is empty.
+No output written.
+Layer "m2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:252
+m3 = copy(M3i)
+  Function: copy
+  Inputs: M3i.polygonlayer.0002
+  Outputs: m3.polygonlayer.0001
+Input layer "M3i.polygonlayer.0002" is empty.
+No output written.
+Layer "m3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:253
+m4 = copy(M4i)
+  Function: copy
+  Inputs: M4i.polygonlayer.0002
+  Outputs: m4.polygonlayer.0001
+Input layer "M4i.polygonlayer.0002" is empty.
+No output written.
+Layer "m4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:254
+m5 = copy(M5i)
+  Function: copy
+  Inputs: M5i.polygonlayer.0002
+  Outputs: m5.polygonlayer.0001
+Input layer "M5i.polygonlayer.0002" is empty.
+No output written.
+Layer "m5.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:255
+m6 = copy(M6i)
+  Function: copy
+  Inputs: M6i.polygonlayer.0002
+  Outputs: m6.polygonlayer.0001
+Input layer "M6i.polygonlayer.0002" is empty.
+No output written.
+Layer "m6.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:256
+m7 = copy(M7i)
+  Function: copy
+  Inputs: M7i.polygonlayer.0002
+  Outputs: m7.polygonlayer.0001
+Input layer "M7i.polygonlayer.0002" is empty.
+No output written.
+Layer "m7.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:257
+m8 = copy(M8i)
+  Function: copy
+  Inputs: M8i.polygonlayer.0002
+  Outputs: m8.polygonlayer.0001
+Input layer "M8i.polygonlayer.0002" is empty.
+No output written.
+Layer "m8.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:258
+m9 = copy(M9i)
+  Function: copy
+  Inputs: M9i.polygonlayer.0002
+  Outputs: m9.polygonlayer.0001
+Input layer "M9i.polygonlayer.0002" is empty.
+No output written.
+Layer "m9.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:260
+co = copy(COi)
+  Function: copy
+  Inputs: COi.polygonlayer.0002
+  Outputs: co.polygonlayer.0001
+10 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:261
+via1 = copy(VIA1i)
+  Function: copy
+  Inputs: VIA1i.polygonlayer.0002
+  Outputs: via1.polygonlayer.0001
+Input layer "VIA1i.polygonlayer.0002" is empty.
+No output written.
+Layer "via1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:262
+via2 = copy(VIA2i)
+  Function: copy
+  Inputs: VIA2i.polygonlayer.0002
+  Outputs: via2.polygonlayer.0001
+Input layer "VIA2i.polygonlayer.0002" is empty.
+No output written.
+Layer "via2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:263
+via3 = copy(VIA3i)
+  Function: copy
+  Inputs: VIA3i.polygonlayer.0002
+  Outputs: via3.polygonlayer.0001
+Input layer "VIA3i.polygonlayer.0002" is empty.
+No output written.
+Layer "via3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:264
+via4 = copy(VIA4i)
+  Function: copy
+  Inputs: VIA4i.polygonlayer.0002
+  Outputs: via4.polygonlayer.0001
+Input layer "VIA4i.polygonlayer.0002" is empty.
+No output written.
+Layer "via4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:265
+via5 = copy(VIA5i)
+  Function: copy
+  Inputs: VIA5i.polygonlayer.0002
+  Outputs: via5.polygonlayer.0001
+Input layer "VIA5i.polygonlayer.0002" is empty.
+No output written.
+Layer "via5.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:266
+via6 = copy(VIA6i)
+  Function: copy
+  Inputs: VIA6i.polygonlayer.0002
+  Outputs: via6.polygonlayer.0001
+Input layer "VIA6i.polygonlayer.0002" is empty.
+No output written.
+Layer "via6.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:267
+via7 = copy(VIA7i)
+  Function: copy
+  Inputs: VIA7i.polygonlayer.0002
+  Outputs: via7.polygonlayer.0001
+Input layer "VIA7i.polygonlayer.0002" is empty.
+No output written.
+Layer "via7.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:268
+via8 = copy(VIA8i)
+  Function: copy
+  Inputs: VIA8i.polygonlayer.0002
+  Outputs: via8.polygonlayer.0001
+Input layer "VIA8i.polygonlayer.0002" is empty.
+No output written.
+Layer "via8.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:270
+hvtimp = copy(HVTIMPi)
+  Function: copy
+  Inputs: HVTIMPi.polygonlayer.0002
+  Outputs: hvtimp.polygonlayer.0001
+Input layer "HVTIMPi.polygonlayer.0002" is empty.
+No output written.
+Layer "hvtimp.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:271
+lvtimp = copy(LVTIMPi)
+  Function: copy
+  Inputs: LVTIMPi.polygonlayer.0002
+  Outputs: lvtimp.polygonlayer.0001
+Input layer "LVTIMPi.polygonlayer.0002" is empty.
+No output written.
+Layer "lvtimp.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:272
+hotnwl = copy(HOTNWLi)
+  Function: copy
+  Inputs: HOTNWLi.polygonlayer.0002
+  Outputs: hotnwl.polygonlayer.0001
+Input layer "HOTNWLi.polygonlayer.0002" is empty.
+No output written.
+Layer "hotnwl.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:274
+rm1 = copy(RM1i)
+  Function: copy
+  Inputs: RM1i.polygonlayer.0002
+  Outputs: rm1.polygonlayer.0001
+Input layer "RM1i.polygonlayer.0002" is empty.
+No output written.
+Layer "rm1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:275
+rm2 = copy(RM2i)
+  Function: copy
+  Inputs: RM2i.polygonlayer.0002
+  Outputs: rm2.polygonlayer.0001
+Input layer "RM2i.polygonlayer.0002" is empty.
+No output written.
+Layer "rm2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:276
+rm3 = copy(RM3i)
+  Function: copy
+  Inputs: RM3i.polygonlayer.0002
+  Outputs: rm3.polygonlayer.0001
+Input layer "RM3i.polygonlayer.0002" is empty.
+No output written.
+Layer "rm3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:277
+rm4 = copy(RM4i)
+  Function: copy
+  Inputs: RM4i.polygonlayer.0002
+  Outputs: rm4.polygonlayer.0001
+Input layer "RM4i.polygonlayer.0002" is empty.
+No output written.
+Layer "rm4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:278
+rm5 = copy(RM5i)
+  Function: copy
+  Inputs: RM5i.polygonlayer.0002
+  Outputs: rm5.polygonlayer.0001
+Input layer "RM5i.polygonlayer.0002" is empty.
+No output written.
+Layer "rm5.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:279
+rm6 = copy(RM6i)
+  Function: copy
+  Inputs: RM6i.polygonlayer.0002
+  Outputs: rm6.polygonlayer.0001
+Input layer "RM6i.polygonlayer.0002" is empty.
+No output written.
+Layer "rm6.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:280
+rm7 = copy(RM7i)
+  Function: copy
+  Inputs: RM7i.polygonlayer.0002
+  Outputs: rm7.polygonlayer.0001
+Input layer "RM7i.polygonlayer.0002" is empty.
+No output written.
+Layer "rm7.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:281
+rm8 = copy(RM8i)
+  Function: copy
+  Inputs: RM8i.polygonlayer.0002
+  Outputs: rm8.polygonlayer.0001
+Input layer "RM8i.polygonlayer.0002" is empty.
+No output written.
+Layer "rm8.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:282
+rm9 = copy(RM9i)
+  Function: copy
+  Inputs: RM9i.polygonlayer.0002
+  Outputs: rm9.polygonlayer.0001
+Input layer "RM9i.polygonlayer.0002" is empty.
+No output written.
+Layer "rm9.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:284
+varmark = copy(VARMARKi)
+  Function: copy
+  Inputs: VARMARKi.polygonlayer.0002
+  Outputs: varmark.polygonlayer.0001
+Input layer "VARMARKi.polygonlayer.0002" is empty.
+No output written.
+Layer "varmark.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:285
+diod = copy(DIODMARKi)
+  Function: copy
+  Inputs: DIODMARKi.polygonlayer.0002
+  Outputs: diod.polygonlayer.0001
+Input layer "DIODMARKi.polygonlayer.0002" is empty.
+No output written.
+Layer "diod.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:286
+bjtmark = copy(BJTDMARKi)
+  Function: copy
+  Inputs: BJTDMARKi.polygonlayer.0002
+  Outputs: bjtmark.polygonlayer.0001
+Input layer "BJTDMARKi.polygonlayer.0002" is empty.
+No output written.
+Layer "bjtmark.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:287
+rnw = copy(RNWi)
+  Function: copy
+  Inputs: RNWi.polygonlayer.0002
+  Outputs: rnw.polygonlayer.0001
+Input layer "RNWi.polygonlayer.0002" is empty.
+No output written.
+Layer "rnw.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:288
+rmark = copy(RMARKERi)
+  Function: copy
+  Inputs: RMARKERi.polygonlayer.0002
+  Outputs: rmark.polygonlayer.0001
+Input layer "RMARKERi.polygonlayer.0002" is empty.
+No output written.
+Layer "rmark.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:289
+cbmmark = copy(CBMMARKi)
+  Function: copy
+  Inputs: CBMMARKi.polygonlayer.0002
+  Outputs: cbmmark.polygonlayer.0001
+Input layer "CBMMARKi.polygonlayer.0002" is empty.
+No output written.
+Layer "cbmmark.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:290
+ctmmark = copy(CTMMARKi)
+  Function: copy
+  Inputs: CTMMARKi.polygonlayer.0002
+  Outputs: ctmmark.polygonlayer.0001
+Input layer "CTMMARKi.polygonlayer.0002" is empty.
+No output written.
+Layer "ctmmark.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:291
+indmark = copy(INDMARKi)
+  Function: copy
+  Inputs: INDMARKi.polygonlayer.0002
+  Outputs: indmark.polygonlayer.0001
+Input layer "INDMARKi.polygonlayer.0002" is empty.
+No output written.
+Layer "indmark.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:292
+indpinm = copy(INDPINMi)
+  Function: copy
+  Inputs: INDPINMi.polygonlayer.0002
+  Outputs: indpinm.polygonlayer.0001
+Input layer "INDPINMi.polygonlayer.0002" is empty.
+No output written.
+Layer "indpinm.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:295
+m1_pin = copy(M1PIN)
+  Function: copy
+  Inputs: M1PIN.polygonlayer.0002
+  Outputs: m1_pin.polygonlayer.0001
+Input layer "M1PIN.polygonlayer.0002" is empty.
+No output written.
+Layer "m1_pin.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:296
+m2_pin = copy(M2PIN)
+  Function: copy
+  Inputs: M2PIN.polygonlayer.0002
+  Outputs: m2_pin.polygonlayer.0001
+Input layer "M2PIN.polygonlayer.0002" is empty.
+No output written.
+Layer "m2_pin.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:297
+m3_pin = copy(M3PIN)
+  Function: copy
+  Inputs: M3PIN.polygonlayer.0002
+  Outputs: m3_pin.polygonlayer.0001
+Input layer "M3PIN.polygonlayer.0002" is empty.
+No output written.
+Layer "m3_pin.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:298
+m4_pin = copy(M4PIN)
+  Function: copy
+  Inputs: M4PIN.polygonlayer.0002
+  Outputs: m4_pin.polygonlayer.0001
+Input layer "M4PIN.polygonlayer.0002" is empty.
+No output written.
+Layer "m4_pin.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:299
+m5_pin = copy(M5PIN)
+  Function: copy
+  Inputs: M5PIN.polygonlayer.0002
+  Outputs: m5_pin.polygonlayer.0001
+Input layer "M5PIN.polygonlayer.0002" is empty.
+No output written.
+Layer "m5_pin.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:300
+m6_pin = copy(M6PIN)
+  Function: copy
+  Inputs: M6PIN.polygonlayer.0002
+  Outputs: m6_pin.polygonlayer.0001
+Input layer "M6PIN.polygonlayer.0002" is empty.
+No output written.
+Layer "m6_pin.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:301
+m7_pin = copy(M7PIN)
+  Function: copy
+  Inputs: M7PIN.polygonlayer.0002
+  Outputs: m7_pin.polygonlayer.0001
+Input layer "M7PIN.polygonlayer.0002" is empty.
+No output written.
+Layer "m7_pin.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:302
+m8_pin = copy(M8PIN)
+  Function: copy
+  Inputs: M8PIN.polygonlayer.0002
+  Outputs: m8_pin.polygonlayer.0001
+Input layer "M8PIN.polygonlayer.0002" is empty.
+No output written.
+Layer "m8_pin.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:303
+m9_pin = copy(M9PIN)
+  Function: copy
+  Inputs: M9PIN.polygonlayer.0002
+  Outputs: m9_pin.polygonlayer.0001
+Input layer "M9PIN.polygonlayer.0002" is empty.
+No output written.
+Layer "m9_pin.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.481
+
+cell_extent() at rules.lvs.9m_saed90_lvs.lvs.rs:307
+chip = cell_extent(cell_list = { "*" })
+  Function: cell_extent
+  Outputs: chip.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=19.590
+
+size() at rules.lvs.9m_saed90_lvs.lvs.rs:308
+bulk = size(chip, 1)
+  Function: size
+  Inputs: chip.polygonlayer.0001
+  Outputs: bulk.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.918
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:310
+pwell = not(bulk, nwell)
+  Function: not
+  Inputs: bulk.polygonlayer.0001, nwell.polygonlayer.0001
+  Outputs: pwell.polygonlayer.0002
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=23.871
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:313
+rnwel = interacting(nwell, rnw)
+  Function: interacting
+  Inputs: nwell.polygonlayer.0001, rnw.polygonlayer.0001
+  Outputs: rnwel.polygonlayer.0001
+Input layer "rnw.polygonlayer.0001" is empty.
+No output written.
+Layer "rnwel.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:314
+dnwnwell = interacting(nwell, dnw)
+  Function: interacting
+  Inputs: nwell.polygonlayer.0001, dnw.polygonlayer.0001
+  Outputs: dnwnwell.polygonlayer.0001
+Input layer "dnw.polygonlayer.0001" is empty.
+No output written.
+Layer "dnwnwell.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:315
+nwres = and(nwell, rnw)
+  Function: and
+  Inputs: nwell.polygonlayer.0001, rnw.polygonlayer.0001
+  Outputs: nwres.polygonlayer.0001
+Input layer "rnw.polygonlayer.0001" is empty.
+No output written.
+Layer "nwres.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not_interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:317
+nwnr = not_interacting(nwell, rnwel, include_touch = ALL)
+  Function: not_interacting
+  Inputs: nwell.polygonlayer.0001, rnwel.polygonlayer.0001
+  Outputs: nwnr.polygonlayer.0001
+Input layer "rnwel.polygonlayer.0001" is empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not_interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:318
+nwoutdnw = not_interacting(nwell, dnw, include_touch = ALL)
+  Function: not_interacting
+  Inputs: nwell.polygonlayer.0001, dnw.polygonlayer.0001
+  Outputs: nwoutdnw.polygonlayer.0001
+Input layer "dnw.polygonlayer.0001" is empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:322
+imp = or(nimp, pimp)
+  Function: or
+  Inputs: nimp.polygonlayer.0001, pimp.polygonlayer.0001
+  Outputs: imp.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:323
+ndiff = and(nimp, diff)
+  Function: and
+  Inputs: nimp.polygonlayer.0001, diff.polygonlayer.0001
+  Outputs: ndiff.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:324
+pdiff = and(pimp, diff)
+  Function: and
+  Inputs: pimp.polygonlayer.0001, diff.polygonlayer.0001
+  Outputs: pdiff.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:325
+nact = and(ndiff, pwell)
+  Function: and
+  Inputs: ndiff.polygonlayer.0001, pwell.polygonlayer.0002
+  Outputs: nact.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:326
+pact = and(pdiff, nwnr)
+  Function: and
+  Inputs: pdiff.polygonlayer.0001, nwnr.polygonlayer.0001
+  Outputs: pact.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:327
+act = or(pact, nact)
+  Function: or
+  Inputs: pact.polygonlayer.0001, nact.polygonlayer.0001
+  Outputs: act.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=22.902
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:328
+odwr = interacting(diff, nwres)
+  Function: interacting
+  Inputs: diff.polygonlayer.0001, nwres.polygonlayer.0001
+  Outputs: odwr.polygonlayer.0001
+Input layer "nwres.polygonlayer.0001" is empty.
+No output written.
+Layer "odwr.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:331
+fpoly = not(po, diff)
+  Function: not
+  Inputs: po.polygonlayer.0001, diff.polygonlayer.0001
+  Outputs: fpoly.polygonlayer.0001
+3 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=23.871
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:332
+ponr = not(po, rmark)
+  Function: not
+  Inputs: po.polygonlayer.0001, rmark.polygonlayer.0001
+  Outputs: ponr.polygonlayer.0001
+Input layer "rmark.polygonlayer.0001" is empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:333
+pores = and(po, rmark)
+  Function: and
+  Inputs: po.polygonlayer.0001, rmark.polygonlayer.0001
+  Outputs: pores.polygonlayer.0001
+Input layer "rmark.polygonlayer.0001" is empty.
+No output written.
+Layer "pores.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:335
+ppores = and(pores, pimp)
+  Function: and
+  Inputs: pores.polygonlayer.0001, pimp.polygonlayer.0001
+  Outputs: ppores.polygonlayer.0001
+Input layer "pores.polygonlayer.0001" is empty.
+No output written.
+Layer "ppores.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:336
+npores = and(pores, nimp)
+  Function: and
+  Inputs: pores.polygonlayer.0001, nimp.polygonlayer.0001
+  Outputs: npores.polygonlayer.0001
+Input layer "pores.polygonlayer.0001" is empty.
+No output written.
+Layer "npores.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:337
+ppores_sblk = and(ppores, sblk)
+  Function: and
+  Inputs: ppores.polygonlayer.0001, sblk.polygonlayer.0001
+  Outputs: ppores_sblk.polygonlayer.0001
+Input layer "ppores.polygonlayer.0001" is empty.
+Input layer "sblk.polygonlayer.0001" is empty.
+No output written.
+Layer "ppores_sblk.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:338
+npores_sblk = and(npores, sblk)
+  Function: and
+  Inputs: npores.polygonlayer.0001, sblk.polygonlayer.0001
+  Outputs: npores_sblk.polygonlayer.0001
+Input layer "npores.polygonlayer.0001" is empty.
+Input layer "sblk.polygonlayer.0001" is empty.
+No output written.
+Layer "npores_sblk.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:340
+ppores = not(ppores, ppores_sblk)
+  Function: not
+  Inputs: ppores.polygonlayer.0001, ppores_sblk.polygonlayer.0001
+  Outputs: ppores.polygonlayer.0002
+Input layer "ppores.polygonlayer.0001" is empty.
+Input layer "ppores_sblk.polygonlayer.0001" is empty.
+No output written.
+Layer "ppores.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:341
+npores = not(npores, npores_sblk)
+  Function: not
+  Inputs: npores.polygonlayer.0001, npores_sblk.polygonlayer.0001
+  Outputs: npores.polygonlayer.0002
+Input layer "npores.polygonlayer.0001" is empty.
+Input layer "npores_sblk.polygonlayer.0001" is empty.
+No output written.
+Layer "npores.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:349
+ngate = and(po, nact)
+  Function: and
+  Inputs: po.polygonlayer.0001, nact.polygonlayer.0001
+  Outputs: ngate.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:350
+pgate = and(po, pact)
+  Function: and
+  Inputs: po.polygonlayer.0001, pact.polygonlayer.0001
+  Outputs: pgate.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:351
+gate = or(ngate, pgate)
+  Function: or
+  Inputs: ngate.polygonlayer.0001, pgate.polygonlayer.0001
+  Outputs: gate.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=22.902
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:356
+interacting(hvtimp, lvtimp)
+  Comment: "Interact of HVTIMP and LVTIMP is not allowed"
+  Function: interacting
+  Inputs: hvtimp.polygonlayer.0001, lvtimp.polygonlayer.0001
+Input layer "hvtimp.polygonlayer.0001" is empty.
+Input layer "lvtimp.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:360
+interacting(hvtimp, diff_25)
+  Comment: "Interact of HVTIMP and DIFF_25 is not allowed"
+  Function: interacting
+  Inputs: hvtimp.polygonlayer.0001, diff_25.polygonlayer.0001
+Input layer "hvtimp.polygonlayer.0001" is empty.
+Input layer "diff_25.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:364
+interacting(lvtimp, diff_25)
+  Comment: "Interact of LVTIMP and DIFF_25 is not allowed"
+  Function: interacting
+  Inputs: lvtimp.polygonlayer.0001, diff_25.polygonlayer.0001
+Input layer "lvtimp.polygonlayer.0001" is empty.
+Input layer "diff_25.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:368
+interacting(hvtimp, diff_33)
+  Comment: "Interact of HVTIMP and DIFF_33 is not allowed"
+  Function: interacting
+  Inputs: hvtimp.polygonlayer.0001, diff_33.polygonlayer.0001
+Input layer "hvtimp.polygonlayer.0001" is empty.
+Input layer "diff_33.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:373
+interacting(lvtimp, diff_33)
+  Comment: "Interact of LVTIMP and DIFF_33 is not allowed"
+  Function: interacting
+  Inputs: lvtimp.polygonlayer.0001, diff_33.polygonlayer.0001
+Input layer "lvtimp.polygonlayer.0001" is empty.
+Input layer "diff_33.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:376
+ngate_12 = not(ngate, (diff_25 or hvtimp or lvtimp or varmark or diff_33))
+  Function: or
+  Inputs: diff_25.polygonlayer.0001, hvtimp.polygonlayer.0001
+  Outputs: ngate_12.polygonlayer.0001
+Input layer "diff_25.polygonlayer.0001" is empty.
+Input layer "hvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "ngate_12.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:376
+ngate_12 = not(ngate, (diff_25 or hvtimp or lvtimp or varmark or diff_33))
+  Function: or
+  Inputs: ngate_12.polygonlayer.0001, lvtimp.polygonlayer.0001
+  Outputs: ngate_12.polygonlayer.0002
+Input layer "ngate_12.polygonlayer.0001" is empty.
+Input layer "lvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "ngate_12.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:376
+ngate_12 = not(ngate, (diff_25 or hvtimp or lvtimp or varmark or diff_33))
+  Function: or
+  Inputs: ngate_12.polygonlayer.0002, varmark.polygonlayer.0001
+  Outputs: ngate_12.polygonlayer.0003
+Input layer "ngate_12.polygonlayer.0002" is empty.
+Input layer "varmark.polygonlayer.0001" is empty.
+No output written.
+Layer "ngate_12.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:376
+ngate_12 = not(ngate, (diff_25 or hvtimp or lvtimp or varmark or diff_33))
+  Function: or
+  Inputs: ngate_12.polygonlayer.0003, diff_33.polygonlayer.0001
+  Outputs: ngate_12.polygonlayer.0004
+Input layer "ngate_12.polygonlayer.0003" is empty.
+Input layer "diff_33.polygonlayer.0001" is empty.
+No output written.
+Layer "ngate_12.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:376
+ngate_12 = not(ngate, (diff_25 or hvtimp or lvtimp or varmark or diff_33))
+  Function: not
+  Inputs: ngate.polygonlayer.0001, ngate_12.polygonlayer.0004
+  Outputs: ngate_12.polygonlayer.0005
+Input layer "ngate_12.polygonlayer.0004" is empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:377
+pgate_12 = pgate not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: diff_25.polygonlayer.0001, hvtimp.polygonlayer.0001
+  Outputs: pgate_12.polygonlayer.0001
+Input layer "diff_25.polygonlayer.0001" is empty.
+Input layer "hvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "pgate_12.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:377
+pgate_12 = pgate not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: pgate_12.polygonlayer.0001, lvtimp.polygonlayer.0001
+  Outputs: pgate_12.polygonlayer.0002
+Input layer "pgate_12.polygonlayer.0001" is empty.
+Input layer "lvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "pgate_12.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:377
+pgate_12 = pgate not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: pgate_12.polygonlayer.0002, varmark.polygonlayer.0001
+  Outputs: pgate_12.polygonlayer.0003
+Input layer "pgate_12.polygonlayer.0002" is empty.
+Input layer "varmark.polygonlayer.0001" is empty.
+No output written.
+Layer "pgate_12.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:377
+pgate_12 = pgate not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: pgate_12.polygonlayer.0003, diff_33.polygonlayer.0001
+  Outputs: pgate_12.polygonlayer.0004
+Input layer "pgate_12.polygonlayer.0003" is empty.
+Input layer "diff_33.polygonlayer.0001" is empty.
+No output written.
+Layer "pgate_12.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:377
+pgate_12 = pgate not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: not
+  Inputs: pgate.polygonlayer.0001, pgate_12.polygonlayer.0004
+  Outputs: pgate_12.polygonlayer.0005
+Input layer "pgate_12.polygonlayer.0004" is empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:378
+gate_12 = or(ngate_12, pgate_12)
+  Function: or
+  Inputs: ngate_12.polygonlayer.0005, pgate_12.polygonlayer.0005
+  Outputs: gate_12.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:380
+ngate_25 = and(ngate, diff_25)
+  Function: and
+  Inputs: ngate.polygonlayer.0001, diff_25.polygonlayer.0001
+  Outputs: ngate_25.polygonlayer.0001
+Input layer "diff_25.polygonlayer.0001" is empty.
+No output written.
+Layer "ngate_25.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:381
+pgate_25 = and(pgate, diff_25)
+  Function: and
+  Inputs: pgate.polygonlayer.0001, diff_25.polygonlayer.0001
+  Outputs: pgate_25.polygonlayer.0001
+Input layer "diff_25.polygonlayer.0001" is empty.
+No output written.
+Layer "pgate_25.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:382
+ngate_33 = and(ngate, diff_33)
+  Function: and
+  Inputs: ngate.polygonlayer.0001, diff_33.polygonlayer.0001
+  Outputs: ngate_33.polygonlayer.0001
+Input layer "diff_33.polygonlayer.0001" is empty.
+No output written.
+Layer "ngate_33.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:383
+pgate_33 = and(pgate, diff_33)
+  Function: and
+  Inputs: pgate.polygonlayer.0001, diff_33.polygonlayer.0001
+  Outputs: pgate_33.polygonlayer.0001
+Input layer "diff_33.polygonlayer.0001" is empty.
+No output written.
+Layer "pgate_33.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:385
+gate_25 = or(ngate_25, pgate_25)
+  Function: or
+  Inputs: ngate_25.polygonlayer.0001, pgate_25.polygonlayer.0001
+  Outputs: gate_25.polygonlayer.0001
+Input layer "ngate_25.polygonlayer.0001" is empty.
+Input layer "pgate_25.polygonlayer.0001" is empty.
+No output written.
+Layer "gate_25.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:386
+gate_33 = or(ngate_33, pgate_33)
+  Function: or
+  Inputs: ngate_33.polygonlayer.0001, pgate_33.polygonlayer.0001
+  Outputs: gate_33.polygonlayer.0001
+Input layer "ngate_33.polygonlayer.0001" is empty.
+Input layer "pgate_33.polygonlayer.0001" is empty.
+No output written.
+Layer "gate_33.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:388
+ngate_12_lvt = and(ngate, lvtimp)
+  Function: and
+  Inputs: ngate.polygonlayer.0001, lvtimp.polygonlayer.0001
+  Outputs: ngate_12_lvt.polygonlayer.0001
+Input layer "lvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "ngate_12_lvt.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:389
+pgate_12_lvt = and(pgate, lvtimp)
+  Function: and
+  Inputs: pgate.polygonlayer.0001, lvtimp.polygonlayer.0001
+  Outputs: pgate_12_lvt.polygonlayer.0001
+Input layer "lvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "pgate_12_lvt.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:390
+gate_12_lvt = or(ngate_12_lvt, pgate_12_lvt)
+  Function: or
+  Inputs: ngate_12_lvt.polygonlayer.0001, pgate_12_lvt.polygonlayer.0001
+  Outputs: gate_12_lvt.polygonlayer.0001
+Input layer "ngate_12_lvt.polygonlayer.0001" is empty.
+Input layer "pgate_12_lvt.polygonlayer.0001" is empty.
+No output written.
+Layer "gate_12_lvt.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:392
+ngate_12_hvt = and(ngate, hvtimp)
+  Function: and
+  Inputs: ngate.polygonlayer.0001, hvtimp.polygonlayer.0001
+  Outputs: ngate_12_hvt.polygonlayer.0001
+Input layer "hvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "ngate_12_hvt.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:393
+pgate_12_hvt = and(pgate, hvtimp)
+  Function: and
+  Inputs: pgate.polygonlayer.0001, hvtimp.polygonlayer.0001
+  Outputs: pgate_12_hvt.polygonlayer.0001
+Input layer "hvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "pgate_12_hvt.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:394
+gate_12_hvt = or(ngate_12_hvt, pgate_12_hvt)
+  Function: or
+  Inputs: ngate_12_hvt.polygonlayer.0001, pgate_12_hvt.polygonlayer.0001
+  Outputs: gate_12_hvt.polygonlayer.0001
+Input layer "ngate_12_hvt.polygonlayer.0001" is empty.
+Input layer "pgate_12_hvt.polygonlayer.0001" is empty.
+No output written.
+Layer "gate_12_hvt.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:397
+ptap = and(pdiff, pwell)
+  Function: and
+  Inputs: pdiff.polygonlayer.0001, pwell.polygonlayer.0002
+  Outputs: ptap.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:398
+ntap = and(ndiff, nwnr)
+  Function: and
+  Inputs: ndiff.polygonlayer.0001, nwnr.polygonlayer.0001
+  Outputs: ntap.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:401
+codiff = and(co, diff)
+  Function: and
+  Inputs: co.polygonlayer.0001, diff.polygonlayer.0001
+  Outputs: codiff.polygonlayer.0001
+9 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:402
+copoly = not(co, diff)
+  Function: not
+  Inputs: co.polygonlayer.0001, diff.polygonlayer.0001
+  Outputs: copoly.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=23.871
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:405
+sd = not(act, gate)
+  Function: not
+  Inputs: act.polygonlayer.0001, gate.polygonlayer.0001
+  Outputs: sd.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=23.871
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:406
+nsd = nact not (gate or rmark or varmark)
+  Function: or
+  Inputs: gate.polygonlayer.0001, rmark.polygonlayer.0001
+  Outputs: nsd.polygonlayer.0001
+Input layer "rmark.polygonlayer.0001" is empty.
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:406
+nsd = nact not (gate or rmark or varmark)
+  Function: or
+  Inputs: nsd.polygonlayer.0001, varmark.polygonlayer.0001
+  Outputs: nsd.polygonlayer.0002
+Input layer "varmark.polygonlayer.0001" is empty.
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:406
+nsd = nact not (gate or rmark or varmark)
+  Function: not
+  Inputs: nact.polygonlayer.0001, nsd.polygonlayer.0002
+  Outputs: nsd.polygonlayer.0003
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=23.871
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:407
+psd = pact not (gate or rmark or varmark)
+  Function: or
+  Inputs: gate.polygonlayer.0001, rmark.polygonlayer.0001
+  Outputs: psd.polygonlayer.0001
+Input layer "rmark.polygonlayer.0001" is empty.
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:407
+psd = pact not (gate or rmark or varmark)
+  Function: or
+  Inputs: psd.polygonlayer.0001, varmark.polygonlayer.0001
+  Outputs: psd.polygonlayer.0002
+Input layer "varmark.polygonlayer.0001" is empty.
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:407
+psd = pact not (gate or rmark or varmark)
+  Function: not
+  Inputs: pact.polygonlayer.0001, psd.polygonlayer.0002
+  Outputs: psd.polygonlayer.0003
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=23.871
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:411
+m1res = m1 and rm1
+  Function: and
+  Inputs: m1.polygonlayer.0001, rm1.polygonlayer.0001
+  Outputs: m1res.polygonlayer.0001
+Input layer "rm1.polygonlayer.0001" is empty.
+No output written.
+Layer "m1res.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:412
+m2res = m2 and rm2
+  Function: and
+  Inputs: m2.polygonlayer.0001, rm2.polygonlayer.0001
+  Outputs: m2res.polygonlayer.0001
+Input layer "m2.polygonlayer.0001" is empty.
+Input layer "rm2.polygonlayer.0001" is empty.
+No output written.
+Layer "m2res.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:413
+m3res = m3 and rm3
+  Function: and
+  Inputs: m3.polygonlayer.0001, rm3.polygonlayer.0001
+  Outputs: m3res.polygonlayer.0001
+Input layer "m3.polygonlayer.0001" is empty.
+Input layer "rm3.polygonlayer.0001" is empty.
+No output written.
+Layer "m3res.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:414
+m4res = m4 and rm4
+  Function: and
+  Inputs: m4.polygonlayer.0001, rm4.polygonlayer.0001
+  Outputs: m4res.polygonlayer.0001
+Input layer "m4.polygonlayer.0001" is empty.
+Input layer "rm4.polygonlayer.0001" is empty.
+No output written.
+Layer "m4res.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:415
+m5res = m5 and rm5
+  Function: and
+  Inputs: m5.polygonlayer.0001, rm5.polygonlayer.0001
+  Outputs: m5res.polygonlayer.0001
+Input layer "m5.polygonlayer.0001" is empty.
+Input layer "rm5.polygonlayer.0001" is empty.
+No output written.
+Layer "m5res.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:416
+m6res = m6 and rm6
+  Function: and
+  Inputs: m6.polygonlayer.0001, rm6.polygonlayer.0001
+  Outputs: m6res.polygonlayer.0001
+Input layer "m6.polygonlayer.0001" is empty.
+Input layer "rm6.polygonlayer.0001" is empty.
+No output written.
+Layer "m6res.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:417
+m7res = m7 and rm7
+  Function: and
+  Inputs: m7.polygonlayer.0001, rm7.polygonlayer.0001
+  Outputs: m7res.polygonlayer.0001
+Input layer "m7.polygonlayer.0001" is empty.
+Input layer "rm7.polygonlayer.0001" is empty.
+No output written.
+Layer "m7res.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:418
+m8res = m8 and rm8
+  Function: and
+  Inputs: m8.polygonlayer.0001, rm8.polygonlayer.0001
+  Outputs: m8res.polygonlayer.0001
+Input layer "m8.polygonlayer.0001" is empty.
+Input layer "rm8.polygonlayer.0001" is empty.
+No output written.
+Layer "m8res.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:419
+m9res = m9 and rm9
+  Function: and
+  Inputs: m9.polygonlayer.0001, rm9.polygonlayer.0001
+  Outputs: m9res.polygonlayer.0001
+Input layer "m9.polygonlayer.0001" is empty.
+Input layer "rm9.polygonlayer.0001" is empty.
+No output written.
+Layer "m9res.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:421
+m1 = m1 not rm1
+  Function: not
+  Inputs: m1.polygonlayer.0001, rm1.polygonlayer.0001
+  Outputs: m1.polygonlayer.0002
+Input layer "rm1.polygonlayer.0001" is empty.
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:422
+m2 = m2 not rm2
+  Function: not
+  Inputs: m2.polygonlayer.0001, rm2.polygonlayer.0001
+  Outputs: m2.polygonlayer.0002
+Input layer "m2.polygonlayer.0001" is empty.
+Input layer "rm2.polygonlayer.0001" is empty.
+No output written.
+Layer "m2.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:423
+m3 = m3 not rm3
+  Function: not
+  Inputs: m3.polygonlayer.0001, rm3.polygonlayer.0001
+  Outputs: m3.polygonlayer.0002
+Input layer "m3.polygonlayer.0001" is empty.
+Input layer "rm3.polygonlayer.0001" is empty.
+No output written.
+Layer "m3.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:424
+m4 = m4 not rm4
+  Function: not
+  Inputs: m4.polygonlayer.0001, rm4.polygonlayer.0001
+  Outputs: m4.polygonlayer.0002
+Input layer "m4.polygonlayer.0001" is empty.
+Input layer "rm4.polygonlayer.0001" is empty.
+No output written.
+Layer "m4.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:425
+m5 = m5 not rm5
+  Function: not
+  Inputs: m5.polygonlayer.0001, rm5.polygonlayer.0001
+  Outputs: m5.polygonlayer.0002
+Input layer "m5.polygonlayer.0001" is empty.
+Input layer "rm5.polygonlayer.0001" is empty.
+No output written.
+Layer "m5.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:426
+m6 = m6 not rm6
+  Function: not
+  Inputs: m6.polygonlayer.0001, rm6.polygonlayer.0001
+  Outputs: m6.polygonlayer.0002
+Input layer "m6.polygonlayer.0001" is empty.
+Input layer "rm6.polygonlayer.0001" is empty.
+No output written.
+Layer "m6.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:427
+m7 = m7 not rm7
+  Function: not
+  Inputs: m7.polygonlayer.0001, rm7.polygonlayer.0001
+  Outputs: m7.polygonlayer.0002
+Input layer "m7.polygonlayer.0001" is empty.
+Input layer "rm7.polygonlayer.0001" is empty.
+No output written.
+Layer "m7.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:428
+m8 = m8 not rm8
+  Function: not
+  Inputs: m8.polygonlayer.0001, rm8.polygonlayer.0001
+  Outputs: m8.polygonlayer.0002
+Input layer "m8.polygonlayer.0001" is empty.
+Input layer "rm8.polygonlayer.0001" is empty.
+No output written.
+Layer "m8.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:429
+m9 = m9 not rm9
+  Function: not
+  Inputs: m9.polygonlayer.0001, rm9.polygonlayer.0001
+  Outputs: m9.polygonlayer.0002
+Input layer "m9.polygonlayer.0001" is empty.
+Input layer "rm9.polygonlayer.0001" is empty.
+No output written.
+Layer "m9.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:432
+ndif = nimp and diff
+  Function: and
+  Inputs: nimp.polygonlayer.0001, diff.polygonlayer.0001
+  Outputs: ndif.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:433
+pdif = pimp and diff
+  Function: and
+  Inputs: pimp.polygonlayer.0001, diff.polygonlayer.0001
+  Outputs: pdif.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:435
+ngate_v = po and ndif
+  Function: and
+  Inputs: po.polygonlayer.0001, ndif.polygonlayer.0001
+  Outputs: ngate_v.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:436
+pgate_v = po and pdif
+  Function: and
+  Inputs: po.polygonlayer.0001, pdif.polygonlayer.0001
+  Outputs: pgate_v.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:438
+ngatev = varmark and ngate_v
+  Function: and
+  Inputs: varmark.polygonlayer.0001, ngate_v.polygonlayer.0001
+  Outputs: ngatev.polygonlayer.0001
+Input layer "varmark.polygonlayer.0001" is empty.
+No output written.
+Layer "ngatev.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:439
+pgatev = varmark and pgate_v
+  Function: and
+  Inputs: varmark.polygonlayer.0001, pgate_v.polygonlayer.0001
+  Outputs: pgatev.polygonlayer.0001
+Input layer "varmark.polygonlayer.0001" is empty.
+No output written.
+Layer "pgatev.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:440
+ngate_12v = ngatev not (diff_25 or hvtimp or lvtimp or diff_33)
+  Function: or
+  Inputs: diff_25.polygonlayer.0001, hvtimp.polygonlayer.0001
+  Outputs: ngate_12v.polygonlayer.0001
+Input layer "diff_25.polygonlayer.0001" is empty.
+Input layer "hvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "ngate_12v.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:440
+ngate_12v = ngatev not (diff_25 or hvtimp or lvtimp or diff_33)
+  Function: or
+  Inputs: ngate_12v.polygonlayer.0001, lvtimp.polygonlayer.0001
+  Outputs: ngate_12v.polygonlayer.0002
+Input layer "ngate_12v.polygonlayer.0001" is empty.
+Input layer "lvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "ngate_12v.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:440
+ngate_12v = ngatev not (diff_25 or hvtimp or lvtimp or diff_33)
+  Function: or
+  Inputs: ngate_12v.polygonlayer.0002, diff_33.polygonlayer.0001
+  Outputs: ngate_12v.polygonlayer.0003
+Input layer "ngate_12v.polygonlayer.0002" is empty.
+Input layer "diff_33.polygonlayer.0001" is empty.
+No output written.
+Layer "ngate_12v.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:440
+ngate_12v = ngatev not (diff_25 or hvtimp or lvtimp or diff_33)
+  Function: not
+  Inputs: ngatev.polygonlayer.0001, ngate_12v.polygonlayer.0003
+  Outputs: ngate_12v.polygonlayer.0004
+Input layer "ngatev.polygonlayer.0001" is empty.
+Input layer "ngate_12v.polygonlayer.0003" is empty.
+No output written.
+Layer "ngate_12v.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:441
+pgate_12v = pgatev not (diff_25 or hvtimp or lvtimp or diff_33)
+  Function: or
+  Inputs: diff_25.polygonlayer.0001, hvtimp.polygonlayer.0001
+  Outputs: pgate_12v.polygonlayer.0001
+Input layer "diff_25.polygonlayer.0001" is empty.
+Input layer "hvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "pgate_12v.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:441
+pgate_12v = pgatev not (diff_25 or hvtimp or lvtimp or diff_33)
+  Function: or
+  Inputs: pgate_12v.polygonlayer.0001, lvtimp.polygonlayer.0001
+  Outputs: pgate_12v.polygonlayer.0002
+Input layer "pgate_12v.polygonlayer.0001" is empty.
+Input layer "lvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "pgate_12v.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:441
+pgate_12v = pgatev not (diff_25 or hvtimp or lvtimp or diff_33)
+  Function: or
+  Inputs: pgate_12v.polygonlayer.0002, diff_33.polygonlayer.0001
+  Outputs: pgate_12v.polygonlayer.0003
+Input layer "pgate_12v.polygonlayer.0002" is empty.
+Input layer "diff_33.polygonlayer.0001" is empty.
+No output written.
+Layer "pgate_12v.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:441
+pgate_12v = pgatev not (diff_25 or hvtimp or lvtimp or diff_33)
+  Function: not
+  Inputs: pgatev.polygonlayer.0001, pgate_12v.polygonlayer.0003
+  Outputs: pgate_12v.polygonlayer.0004
+Input layer "pgatev.polygonlayer.0001" is empty.
+Input layer "pgate_12v.polygonlayer.0003" is empty.
+No output written.
+Layer "pgate_12v.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:443
+povar = varmark and po
+  Function: and
+  Inputs: varmark.polygonlayer.0001, po.polygonlayer.0001
+  Outputs: povar.polygonlayer.0001
+Input layer "varmark.polygonlayer.0001" is empty.
+No output written.
+Layer "povar.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:444
+ngatepl = povar interacting ngate_12v
+  Function: interacting
+  Inputs: povar.polygonlayer.0001, ngate_12v.polygonlayer.0004
+  Outputs: ngatepl.polygonlayer.0001
+Input layer "povar.polygonlayer.0001" is empty.
+Input layer "ngate_12v.polygonlayer.0004" is empty.
+No output written.
+Layer "ngatepl.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:445
+pgatepl = povar interacting pgate_12v
+  Function: interacting
+  Inputs: povar.polygonlayer.0001, pgate_12v.polygonlayer.0004
+  Outputs: pgatepl.polygonlayer.0001
+Input layer "povar.polygonlayer.0001" is empty.
+Input layer "pgate_12v.polygonlayer.0004" is empty.
+No output written.
+Layer "pgatepl.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:447
+nsdv_ = ndif and varmark
+  Function: and
+  Inputs: ndif.polygonlayer.0001, varmark.polygonlayer.0001
+  Outputs: nsdv_.polygonlayer.0001
+Input layer "varmark.polygonlayer.0001" is empty.
+No output written.
+Layer "nsdv_.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:448
+psdv_ = pdif and varmark
+  Function: and
+  Inputs: pdif.polygonlayer.0001, varmark.polygonlayer.0001
+  Outputs: psdv_.polygonlayer.0001
+Input layer "varmark.polygonlayer.0001" is empty.
+No output written.
+Layer "psdv_.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:450
+nsdv = nsdv_ not ngate_12v
+  Function: not
+  Inputs: nsdv_.polygonlayer.0001, ngate_12v.polygonlayer.0004
+  Outputs: nsdv.polygonlayer.0001
+Input layer "nsdv_.polygonlayer.0001" is empty.
+Input layer "ngate_12v.polygonlayer.0004" is empty.
+No output written.
+Layer "nsdv.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:451
+psdv = psdv_ not pgate_12v
+  Function: not
+  Inputs: psdv_.polygonlayer.0001, pgate_12v.polygonlayer.0004
+  Outputs: psdv.polygonlayer.0001
+Input layer "psdv_.polygonlayer.0001" is empty.
+Input layer "pgate_12v.polygonlayer.0004" is empty.
+No output written.
+Layer "psdv.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:454
+dores = diff and rmark
+  Function: and
+  Inputs: diff.polygonlayer.0001, rmark.polygonlayer.0001
+  Outputs: dores.polygonlayer.0001
+Input layer "rmark.polygonlayer.0001" is empty.
+No output written.
+Layer "dores.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:455
+pdores = dores and pimp
+  Function: and
+  Inputs: dores.polygonlayer.0001, pimp.polygonlayer.0001
+  Outputs: pdores.polygonlayer.0001
+Input layer "dores.polygonlayer.0001" is empty.
+No output written.
+Layer "pdores.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:456
+ndores = dores and nimp
+  Function: and
+  Inputs: dores.polygonlayer.0001, nimp.polygonlayer.0001
+  Outputs: ndores.polygonlayer.0001
+Input layer "dores.polygonlayer.0001" is empty.
+No output written.
+Layer "ndores.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:457
+ndores = ndores not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: diff_25.polygonlayer.0001, hvtimp.polygonlayer.0001
+  Outputs: ndores.polygonlayer.0002
+Input layer "diff_25.polygonlayer.0001" is empty.
+Input layer "hvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "ndores.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:457
+ndores = ndores not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: ndores.polygonlayer.0002, lvtimp.polygonlayer.0001
+  Outputs: ndores.polygonlayer.0003
+Input layer "ndores.polygonlayer.0002" is empty.
+Input layer "lvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "ndores.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:457
+ndores = ndores not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: ndores.polygonlayer.0003, varmark.polygonlayer.0001
+  Outputs: ndores.polygonlayer.0004
+Input layer "ndores.polygonlayer.0003" is empty.
+Input layer "varmark.polygonlayer.0001" is empty.
+No output written.
+Layer "ndores.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:457
+ndores = ndores not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: ndores.polygonlayer.0004, diff_33.polygonlayer.0001
+  Outputs: ndores.polygonlayer.0005
+Input layer "ndores.polygonlayer.0004" is empty.
+Input layer "diff_33.polygonlayer.0001" is empty.
+No output written.
+Layer "ndores.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:457
+ndores = ndores not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: not
+  Inputs: ndores.polygonlayer.0001, ndores.polygonlayer.0005
+  Outputs: ndores.polygonlayer.0006
+Input layer "ndores.polygonlayer.0001" is empty.
+Input layer "ndores.polygonlayer.0005" is empty.
+No output written.
+Layer "ndores.polygonlayer.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:458
+pdores = pdores not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: diff_25.polygonlayer.0001, hvtimp.polygonlayer.0001
+  Outputs: pdores.polygonlayer.0002
+Input layer "diff_25.polygonlayer.0001" is empty.
+Input layer "hvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "pdores.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:458
+pdores = pdores not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: pdores.polygonlayer.0002, lvtimp.polygonlayer.0001
+  Outputs: pdores.polygonlayer.0003
+Input layer "pdores.polygonlayer.0002" is empty.
+Input layer "lvtimp.polygonlayer.0001" is empty.
+No output written.
+Layer "pdores.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:458
+pdores = pdores not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: pdores.polygonlayer.0003, varmark.polygonlayer.0001
+  Outputs: pdores.polygonlayer.0004
+Input layer "pdores.polygonlayer.0003" is empty.
+Input layer "varmark.polygonlayer.0001" is empty.
+No output written.
+Layer "pdores.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:458
+pdores = pdores not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: or
+  Inputs: pdores.polygonlayer.0004, diff_33.polygonlayer.0001
+  Outputs: pdores.polygonlayer.0005
+Input layer "pdores.polygonlayer.0004" is empty.
+Input layer "diff_33.polygonlayer.0001" is empty.
+No output written.
+Layer "pdores.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:458
+pdores = pdores not (diff_25 or hvtimp or lvtimp or varmark or diff_33)
+  Function: not
+  Inputs: pdores.polygonlayer.0001, pdores.polygonlayer.0005
+  Outputs: pdores.polygonlayer.0006
+Input layer "pdores.polygonlayer.0001" is empty.
+Input layer "pdores.polygonlayer.0005" is empty.
+No output written.
+Layer "pdores.polygonlayer.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:459
+pdores_sblk = pdores and sblk
+  Function: and
+  Inputs: pdores.polygonlayer.0006, sblk.polygonlayer.0001
+  Outputs: pdores_sblk.polygonlayer.0001
+Input layer "pdores.polygonlayer.0006" is empty.
+Input layer "sblk.polygonlayer.0001" is empty.
+No output written.
+Layer "pdores_sblk.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:460
+pdores = pdores not pdores_sblk
+  Function: not
+  Inputs: pdores.polygonlayer.0006, pdores_sblk.polygonlayer.0001
+  Outputs: pdores.polygonlayer.0007
+Input layer "pdores.polygonlayer.0006" is empty.
+Input layer "pdores_sblk.polygonlayer.0001" is empty.
+No output written.
+Layer "pdores.polygonlayer.0007" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:461
+ndores_sblk = ndores and sblk
+  Function: and
+  Inputs: ndores.polygonlayer.0006, sblk.polygonlayer.0001
+  Outputs: ndores_sblk.polygonlayer.0001
+Input layer "ndores.polygonlayer.0006" is empty.
+Input layer "sblk.polygonlayer.0001" is empty.
+No output written.
+Layer "ndores_sblk.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:464
+pactr = pdiff and nwnr
+  Function: and
+  Inputs: pdiff.polygonlayer.0001, nwnr.polygonlayer.0001
+  Outputs: pactr.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:465
+nactr = ndiff and pwell
+  Function: and
+  Inputs: ndiff.polygonlayer.0001, pwell.polygonlayer.0002
+  Outputs: nactr.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=22.902
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:467
+psdr = pactr not (rmark or po)
+  Function: or
+  Inputs: rmark.polygonlayer.0001, po.polygonlayer.0001
+  Outputs: psdr.polygonlayer.0001
+Input layer "rmark.polygonlayer.0001" is empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:467
+psdr = pactr not (rmark or po)
+  Function: not
+  Inputs: pactr.polygonlayer.0001, psdr.polygonlayer.0001
+  Outputs: psdr.polygonlayer.0002
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=23.871
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:468
+nsdr = nactr not (rmark or po)
+  Function: or
+  Inputs: rmark.polygonlayer.0001, po.polygonlayer.0001
+  Outputs: nsdr.polygonlayer.0001
+Input layer "rmark.polygonlayer.0001" is empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:468
+nsdr = nactr not (rmark or po)
+  Function: not
+  Inputs: nactr.polygonlayer.0001, nsdr.polygonlayer.0001
+  Outputs: nsdr.polygonlayer.0002
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=23.871
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:472
+ndiffdio1 = diod and nact
+  Function: and
+  Inputs: diod.polygonlayer.0001, nact.polygonlayer.0001
+  Outputs: ndiffdio1.polygonlayer.0001
+Input layer "diod.polygonlayer.0001" is empty.
+No output written.
+Layer "ndiffdio1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:473
+ndiffdio = ndiffdio1 and m1
+  Function: and
+  Inputs: ndiffdio1.polygonlayer.0001, m1.polygonlayer.0002
+  Outputs: ndiffdio.polygonlayer.0001
+Input layer "ndiffdio1.polygonlayer.0001" is empty.
+No output written.
+Layer "ndiffdio.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:476
+pdiffdio = interacting(diod, pact, include_touch = NONE)
+  Function: interacting
+  Inputs: diod.polygonlayer.0001, pact.polygonlayer.0001
+  Outputs: pdiffdio.polygonlayer.0001
+Input layer "diod.polygonlayer.0001" is empty.
+No output written.
+Layer "pdiffdio.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:484
+cap_top_via = CTMMARKi and top_via_poss
+  Function: and
+  Inputs: CTMMARKi.polygonlayer.0002, VIA3i.polygonlayer.0002
+  Outputs: cap_top_via.polygonlayer.0001
+Input layer "CTMMARKi.polygonlayer.0002" is empty.
+Input layer "VIA3i.polygonlayer.0002" is empty.
+No output written.
+Layer "cap_top_via.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:485
+top_via = VIA3i not cap_top_via
+  Function: not
+  Inputs: VIA3i.polygonlayer.0002, cap_top_via.polygonlayer.0001
+  Outputs: top_via.polygonlayer.0001
+Input layer "VIA3i.polygonlayer.0002" is empty.
+Input layer "cap_top_via.polygonlayer.0001" is empty.
+No output written.
+Layer "top_via.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+buildsub() at rules.lvs.9m_saed90_lvs.lvs.rs:486
+psub = buildsub(NWELLi)
+  Function: buildsub
+  Inputs: NWELLi.polygonlayer.0002
+  Outputs: psub.polygonlayer.0001
+1 unique polygon written.
+Pulled 0 polygons
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=25.151
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:488
+rm = rm1 or rm2 or rm3 or rm4 or rm5 or rm6 or rm7 or rm8 or rm9
+  Function: or
+  Inputs: rm1.polygonlayer.0001, rm2.polygonlayer.0001
+  Outputs: rm.polygonlayer.0001
+Input layer "rm1.polygonlayer.0001" is empty.
+Input layer "rm2.polygonlayer.0001" is empty.
+No output written.
+Layer "rm.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:488
+rm = rm1 or rm2 or rm3 or rm4 or rm5 or rm6 or rm7 or rm8 or rm9
+  Function: or
+  Inputs: rm.polygonlayer.0001, rm3.polygonlayer.0001
+  Outputs: rm.polygonlayer.0002
+Input layer "rm.polygonlayer.0001" is empty.
+Input layer "rm3.polygonlayer.0001" is empty.
+No output written.
+Layer "rm.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:488
+rm = rm1 or rm2 or rm3 or rm4 or rm5 or rm6 or rm7 or rm8 or rm9
+  Function: or
+  Inputs: rm.polygonlayer.0002, rm4.polygonlayer.0001
+  Outputs: rm.polygonlayer.0003
+Input layer "rm.polygonlayer.0002" is empty.
+Input layer "rm4.polygonlayer.0001" is empty.
+No output written.
+Layer "rm.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:488
+rm = rm1 or rm2 or rm3 or rm4 or rm5 or rm6 or rm7 or rm8 or rm9
+  Function: or
+  Inputs: rm.polygonlayer.0003, rm5.polygonlayer.0001
+  Outputs: rm.polygonlayer.0004
+Input layer "rm.polygonlayer.0003" is empty.
+Input layer "rm5.polygonlayer.0001" is empty.
+No output written.
+Layer "rm.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:488
+rm = rm1 or rm2 or rm3 or rm4 or rm5 or rm6 or rm7 or rm8 or rm9
+  Function: or
+  Inputs: rm.polygonlayer.0004, rm6.polygonlayer.0001
+  Outputs: rm.polygonlayer.0005
+Input layer "rm.polygonlayer.0004" is empty.
+Input layer "rm6.polygonlayer.0001" is empty.
+No output written.
+Layer "rm.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:488
+rm = rm1 or rm2 or rm3 or rm4 or rm5 or rm6 or rm7 or rm8 or rm9
+  Function: or
+  Inputs: rm.polygonlayer.0005, rm7.polygonlayer.0001
+  Outputs: rm.polygonlayer.0006
+Input layer "rm.polygonlayer.0005" is empty.
+Input layer "rm7.polygonlayer.0001" is empty.
+No output written.
+Layer "rm.polygonlayer.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:488
+rm = rm1 or rm2 or rm3 or rm4 or rm5 or rm6 or rm7 or rm8 or rm9
+  Function: or
+  Inputs: rm.polygonlayer.0006, rm8.polygonlayer.0001
+  Outputs: rm.polygonlayer.0007
+Input layer "rm.polygonlayer.0006" is empty.
+Input layer "rm8.polygonlayer.0001" is empty.
+No output written.
+Layer "rm.polygonlayer.0007" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:488
+rm = rm1 or rm2 or rm3 or rm4 or rm5 or rm6 or rm7 or rm8 or rm9
+  Function: or
+  Inputs: rm.polygonlayer.0007, rm9.polygonlayer.0001
+  Outputs: rm.polygonlayer.0008
+Input layer "rm.polygonlayer.0007" is empty.
+Input layer "rm9.polygonlayer.0001" is empty.
+No output written.
+Layer "rm.polygonlayer.0008" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:490
+tiod1 = diff not po
+  Function: not
+  Inputs: diff.polygonlayer.0001, po.polygonlayer.0001
+  Outputs: tiod1.polygonlayer.0001
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=23.886
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:491
+tiod2 = tiod1 not sblk
+  Function: not
+  Inputs: tiod1.polygonlayer.0001, sblk.polygonlayer.0001
+  Outputs: tiod2.polygonlayer.0001
+Input layer "sblk.polygonlayer.0001" is empty.
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:492
+tiod3 = tiod2 not (rmark or bjtmark)
+  Function: or
+  Inputs: rmark.polygonlayer.0001, bjtmark.polygonlayer.0001
+  Outputs: tiod3.polygonlayer.0001
+Input layer "rmark.polygonlayer.0001" is empty.
+Input layer "bjtmark.polygonlayer.0001" is empty.
+No output written.
+Layer "tiod3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:492
+tiod3 = tiod2 not (rmark or bjtmark)
+  Function: not
+  Inputs: tiod2.polygonlayer.0001, tiod3.polygonlayer.0001
+  Outputs: tiod3.polygonlayer.0002
+Input layer "tiod3.polygonlayer.0001" is empty.
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:493
+tiod4 = tiod3 not rnw
+  Function: not
+  Inputs: tiod3.polygonlayer.0002, rnw.polygonlayer.0001
+  Outputs: tiod4.polygonlayer.0001
+Input layer "rnw.polygonlayer.0001" is empty.
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:494
+tiod = tiod4 not varmark
+  Function: not
+  Inputs: tiod4.polygonlayer.0001, varmark.polygonlayer.0001
+  Outputs: tiod.polygonlayer.0001
+Input layer "varmark.polygonlayer.0001" is empty.
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:495
+nodcon = tiod and nimp
+  Function: and
+  Inputs: tiod.polygonlayer.0001, nimp.polygonlayer.0001
+  Outputs: nodcon.polygonlayer.0001
+3 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=22.917
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:496
+podcon = tiod and pimp
+  Function: and
+  Inputs: tiod.polygonlayer.0001, pimp.polygonlayer.0001
+  Outputs: podcon.polygonlayer.0001
+3 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.917
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:497
+subtie = podcon and psub
+  Function: and
+  Inputs: podcon.polygonlayer.0001, psub.polygonlayer.0001
+  Outputs: subtie.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.933
+
+size() at rules.lvs.9m_saed90_lvs.lvs.rs:501
+inddmy_usize = size(indmark, -44.95)
+  Function: size
+  Inputs: indmark.polygonlayer.0001
+  Outputs: inddmy_usize.polygonlayer.0001
+Input layer "indmark.polygonlayer.0001" is empty.
+No output written.
+Layer "inddmy_usize.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:502
+ovlp_inddmy = indmark not inddmy_usize
+  Function: not
+  Inputs: indmark.polygonlayer.0001, inddmy_usize.polygonlayer.0001
+  Outputs: ovlp_inddmy.polygonlayer.0001
+Input layer "indmark.polygonlayer.0001" is empty.
+Input layer "inddmy_usize.polygonlayer.0001" is empty.
+No output written.
+Layer "ovlp_inddmy.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:503
+met_ovlp_inddmy = sec_top_met and ovlp_inddmy
+  Function: and
+  Inputs: M3i.polygonlayer.0002, ovlp_inddmy.polygonlayer.0001
+  Outputs: met_ovlp_inddmy.polygonlayer.0001
+Input layer "M3i.polygonlayer.0002" is empty.
+Input layer "ovlp_inddmy.polygonlayer.0001" is empty.
+No output written.
+Layer "met_ovlp_inddmy.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:504
+inddmy_std = indmark interacting met_ovlp_inddmy
+  Function: interacting
+  Inputs: indmark.polygonlayer.0001, met_ovlp_inddmy.polygonlayer.0001
+  Outputs: inddmy_std.polygonlayer.0001
+Input layer "indmark.polygonlayer.0001" is empty.
+Input layer "met_ovlp_inddmy.polygonlayer.0001" is empty.
+No output written.
+Layer "inddmy_std.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:505
+ind_std_dmy = inddmy_usize interacting inddmy_std
+  Function: interacting
+  Inputs: inddmy_usize.polygonlayer.0001, inddmy_std.polygonlayer.0001
+  Outputs: ind_std_dmy.polygonlayer.0001
+Input layer "inddmy_usize.polygonlayer.0001" is empty.
+Input layer "inddmy_std.polygonlayer.0001" is empty.
+No output written.
+Layer "ind_std_dmy.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:506
+std_ind1 = top_met and ind_std_dmy
+  Function: and
+  Inputs: M4i.polygonlayer.0002, ind_std_dmy.polygonlayer.0001
+  Outputs: std_ind1.polygonlayer.0001
+Input layer "M4i.polygonlayer.0002" is empty.
+Input layer "ind_std_dmy.polygonlayer.0001" is empty.
+No output written.
+Layer "std_ind1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=20.574
+
+size() at rules.lvs.9m_saed90_lvs.lvs.rs:507
+std_ind2 = size(size(std_ind1, distance = 3, clip_acute = NONE, processing_mode = CELL_LEVEL), distance = -3, clip_acute = NONE, processing_mode = CELL_LEVEL)
+  Function: size
+  Inputs: std_ind1.polygonlayer.0001
+  Outputs: std_ind2.polygonlayer.0001
+Input layer "std_ind1.polygonlayer.0001" is empty.
+No output written.
+Layer "std_ind2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+size() at rules.lvs.9m_saed90_lvs.lvs.rs:507
+std_ind2 = size(size(std_ind1, distance = 3, clip_acute = NONE, processing_mode = CELL_LEVEL), distance = -3, clip_acute = NONE, processing_mode = CELL_LEVEL)
+  Function: size
+  Inputs: std_ind2.polygonlayer.0001
+  Outputs: std_ind2.polygonlayer.0002
+Input layer "std_ind2.polygonlayer.0001" is empty.
+No output written.
+Layer "std_ind2.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+size() at rules.lvs.9m_saed90_lvs.lvs.rs:507
+std_ind2 = size(size(std_ind1, distance = 3, clip_acute = NONE, processing_mode = CELL_LEVEL), distance = -3, clip_acute = NONE, processing_mode = CELL_LEVEL)
+  Function: size
+  Inputs: std_ind2.polygonlayer.0002
+  Outputs: std_ind2.polygonlayer.0003
+Input layer "std_ind2.polygonlayer.0002" is empty.
+No output written.
+Layer "std_ind2.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+size() at rules.lvs.9m_saed90_lvs.lvs.rs:507
+std_ind2 = size(size(std_ind1, distance = 3, clip_acute = NONE, processing_mode = CELL_LEVEL), distance = -3, clip_acute = NONE, processing_mode = CELL_LEVEL)
+  Function: size
+  Inputs: std_ind2.polygonlayer.0003
+  Outputs: std_ind2.polygonlayer.0004
+Input layer "std_ind2.polygonlayer.0003" is empty.
+No output written.
+Layer "std_ind2.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+donut_holes() at rules.lvs.9m_saed90_lvs.lvs.rs:509
+std_hole = donut_holes(std_ind2)
+  Function: donut_holes
+  Inputs: std_ind2.polygonlayer.0004
+  Outputs: std_hole.polygonlayer.0001
+Input layer "std_ind2.polygonlayer.0004" is empty.
+No output written.
+Layer "std_hole.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:510
+std_ind4 = std_ind1 interacting std_hole
+  Function: interacting
+  Inputs: std_ind1.polygonlayer.0001, std_hole.polygonlayer.0001
+  Outputs: std_ind4.polygonlayer.0001
+Input layer "std_ind1.polygonlayer.0001" is empty.
+Input layer "std_hole.polygonlayer.0001" is empty.
+No output written.
+Layer "std_ind4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:511
+ind_met = std_ind1 not std_ind4
+  Function: not
+  Inputs: std_ind1.polygonlayer.0001, std_ind4.polygonlayer.0001
+  Outputs: ind_met.polygonlayer.0001
+Input layer "std_ind1.polygonlayer.0001" is empty.
+Input layer "std_ind4.polygonlayer.0001" is empty.
+No output written.
+Layer "ind_met.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:512
+ind_met1 = ind_met and inddmy_usize
+  Function: and
+  Inputs: ind_met.polygonlayer.0001, inddmy_usize.polygonlayer.0001
+  Outputs: ind_met1.polygonlayer.0001
+Input layer "ind_met.polygonlayer.0001" is empty.
+Input layer "inddmy_usize.polygonlayer.0001" is empty.
+No output written.
+Layer "ind_met1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:513
+std_ind5 = ind_met interacting ind_met1
+  Function: interacting
+  Inputs: ind_met.polygonlayer.0001, ind_met1.polygonlayer.0001
+  Outputs: std_ind5.polygonlayer.0001
+Input layer "ind_met.polygonlayer.0001" is empty.
+Input layer "ind_met1.polygonlayer.0001" is empty.
+No output written.
+Layer "std_ind5.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:516
+ind_octagon = std_ind4 or std_ind5
+  Function: or
+  Inputs: std_ind4.polygonlayer.0001, std_ind5.polygonlayer.0001
+  Outputs: ind_octagon.polygonlayer.0001
+Input layer "std_ind4.polygonlayer.0001" is empty.
+Input layer "std_ind5.polygonlayer.0001" is empty.
+No output written.
+Layer "ind_octagon.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:518
+indmet1 = m3 and m4
+  Function: and
+  Inputs: m3.polygonlayer.0002, m4.polygonlayer.0002
+  Outputs: indmet1.polygonlayer.0001
+Input layer "m3.polygonlayer.0002" is empty.
+Input layer "m4.polygonlayer.0002" is empty.
+No output written.
+Layer "indmet1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:519
+indmet2 = indmet1 not indpinm
+  Function: not
+  Inputs: indmet1.polygonlayer.0001, indpinm.polygonlayer.0001
+  Outputs: indmet2.polygonlayer.0001
+Input layer "indmet1.polygonlayer.0001" is empty.
+Input layer "indpinm.polygonlayer.0001" is empty.
+No output written.
+Layer "indmet2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:520
+indbody = indmet2 and indmark
+  Function: and
+  Inputs: indmet2.polygonlayer.0001, indmark.polygonlayer.0001
+  Outputs: indbody.polygonlayer.0001
+Input layer "indmet2.polygonlayer.0001" is empty.
+Input layer "indmark.polygonlayer.0001" is empty.
+No output written.
+Layer "indbody.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:522
+indterm_ = indmet1 and indmark
+  Function: and
+  Inputs: indmet1.polygonlayer.0001, indmark.polygonlayer.0001
+  Outputs: indterm_.polygonlayer.0001
+Input layer "indmet1.polygonlayer.0001" is empty.
+Input layer "indmark.polygonlayer.0001" is empty.
+No output written.
+Layer "indterm_.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:523
+indterm = indterm_ and indpinm
+  Function: and
+  Inputs: indterm_.polygonlayer.0001, indpinm.polygonlayer.0001
+  Outputs: indterm.polygonlayer.0001
+Input layer "indterm_.polygonlayer.0001" is empty.
+Input layer "indpinm.polygonlayer.0001" is empty.
+No output written.
+Layer "indterm.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:525
+all_stdind_dumy = inddmy_usize interacting ind_octagon
+  Function: interacting
+  Inputs: inddmy_usize.polygonlayer.0001, ind_octagon.polygonlayer.0001
+  Outputs: all_stdind_dumy.polygonlayer.0001
+Input layer "inddmy_usize.polygonlayer.0001" is empty.
+Input layer "ind_octagon.polygonlayer.0001" is empty.
+No output written.
+Layer "all_stdind_dumy.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:529
+sym_all_dmy = inddmy_usize not all_stdind_dumy
+  Function: not
+  Inputs: inddmy_usize.polygonlayer.0001, all_stdind_dumy.polygonlayer.0001
+  Outputs: sym_all_dmy.polygonlayer.0001
+Input layer "inddmy_usize.polygonlayer.0001" is empty.
+Input layer "all_stdind_dumy.polygonlayer.0001" is empty.
+No output written.
+Layer "sym_all_dmy.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:531
+indpin = sec_top_met and indmark
+  Function: and
+  Inputs: M3i.polygonlayer.0002, indmark.polygonlayer.0001
+  Outputs: indpin.polygonlayer.0001
+Input layer "M3i.polygonlayer.0002" is empty.
+Input layer "indmark.polygonlayer.0001" is empty.
+No output written.
+Layer "indpin.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:532
+sym_all_ind1 = top_met and sym_all_dmy
+  Function: and
+  Inputs: M4i.polygonlayer.0002, sym_all_dmy.polygonlayer.0001
+  Outputs: sym_all_ind1.polygonlayer.0001
+Input layer "M4i.polygonlayer.0002" is empty.
+Input layer "sym_all_dmy.polygonlayer.0001" is empty.
+No output written.
+Layer "sym_all_ind1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:533
+sym_all_ind2 = sym_all_ind1 or indpin
+  Function: or
+  Inputs: sym_all_ind1.polygonlayer.0001, indpin.polygonlayer.0001
+  Outputs: sym_all_ind2.polygonlayer.0001
+Input layer "sym_all_ind1.polygonlayer.0001" is empty.
+Input layer "indpin.polygonlayer.0001" is empty.
+No output written.
+Layer "sym_all_ind2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+size() at rules.lvs.9m_saed90_lvs.lvs.rs:534
+sz_sym_ind = size(size(sym_all_ind2, distance = 5, clip_acute = NONE, processing_mode = CELL_LEVEL), distance = -5, clip_acute = NONE, processing_mode = CELL_LEVEL)
+  Function: size
+  Inputs: sym_all_ind2.polygonlayer.0001
+  Outputs: sz_sym_ind.polygonlayer.0001
+Input layer "sym_all_ind2.polygonlayer.0001" is empty.
+No output written.
+Layer "sz_sym_ind.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+size() at rules.lvs.9m_saed90_lvs.lvs.rs:534
+sz_sym_ind = size(size(sym_all_ind2, distance = 5, clip_acute = NONE, processing_mode = CELL_LEVEL), distance = -5, clip_acute = NONE, processing_mode = CELL_LEVEL)
+  Function: size
+  Inputs: sz_sym_ind.polygonlayer.0001
+  Outputs: sz_sym_ind.polygonlayer.0002
+Input layer "sz_sym_ind.polygonlayer.0001" is empty.
+No output written.
+Layer "sz_sym_ind.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+size() at rules.lvs.9m_saed90_lvs.lvs.rs:534
+sz_sym_ind = size(size(sym_all_ind2, distance = 5, clip_acute = NONE, processing_mode = CELL_LEVEL), distance = -5, clip_acute = NONE, processing_mode = CELL_LEVEL)
+  Function: size
+  Inputs: sz_sym_ind.polygonlayer.0002
+  Outputs: sz_sym_ind.polygonlayer.0003
+Input layer "sz_sym_ind.polygonlayer.0002" is empty.
+No output written.
+Layer "sz_sym_ind.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+size() at rules.lvs.9m_saed90_lvs.lvs.rs:534
+sz_sym_ind = size(size(sym_all_ind2, distance = 5, clip_acute = NONE, processing_mode = CELL_LEVEL), distance = -5, clip_acute = NONE, processing_mode = CELL_LEVEL)
+  Function: size
+  Inputs: sz_sym_ind.polygonlayer.0003
+  Outputs: sz_sym_ind.polygonlayer.0004
+Input layer "sz_sym_ind.polygonlayer.0003" is empty.
+No output written.
+Layer "sz_sym_ind.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+donut_holes() at rules.lvs.9m_saed90_lvs.lvs.rs:535
+sym_hole = donut_holes(sz_sym_ind)
+  Function: donut_holes
+  Inputs: sz_sym_ind.polygonlayer.0004
+  Outputs: sym_hole.polygonlayer.0001
+Input layer "sz_sym_ind.polygonlayer.0004" is empty.
+No output written.
+Layer "sym_hole.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:536
+sym_all_ind3 = sz_sym_ind interacting sym_hole
+  Function: interacting
+  Inputs: sz_sym_ind.polygonlayer.0004, sym_hole.polygonlayer.0001
+  Outputs: sym_all_ind3.polygonlayer.0001
+Input layer "sz_sym_ind.polygonlayer.0004" is empty.
+Input layer "sym_hole.polygonlayer.0001" is empty.
+No output written.
+Layer "sym_all_ind3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:537
+sym_all_ind = sym_all_ind2 interacting sym_all_ind3
+  Function: interacting
+  Inputs: sym_all_ind2.polygonlayer.0001, sym_all_ind3.polygonlayer.0001
+  Outputs: sym_all_ind.polygonlayer.0001
+Input layer "sym_all_ind2.polygonlayer.0001" is empty.
+Input layer "sym_all_ind3.polygonlayer.0001" is empty.
+No output written.
+Layer "sym_all_ind.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:539
+induct_body = ind_octagon or sym_all_ind
+  Function: or
+  Inputs: ind_octagon.polygonlayer.0001, sym_all_ind.polygonlayer.0001
+  Outputs: induct_body.polygonlayer.0001
+Input layer "ind_octagon.polygonlayer.0001" is empty.
+Input layer "sym_all_ind.polygonlayer.0001" is empty.
+No output written.
+Layer "induct_body.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:540
+top_metex = top_met not induct_body
+  Function: not
+  Inputs: M4i.polygonlayer.0002, induct_body.polygonlayer.0001
+  Outputs: top_metex.polygonlayer.0001
+Input layer "M4i.polygonlayer.0002" is empty.
+Input layer "induct_body.polygonlayer.0001" is empty.
+No output written.
+Layer "top_metex.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:541
+top_metex = top_metex not rm
+  Function: not
+  Inputs: top_metex.polygonlayer.0001, rm.polygonlayer.0008
+  Outputs: top_metex.polygonlayer.0002
+Input layer "top_metex.polygonlayer.0001" is empty.
+Input layer "rm.polygonlayer.0008" is empty.
+No output written.
+Layer "top_metex.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:543
+CONTSB = co and bjtmark
+  Function: and
+  Inputs: co.polygonlayer.0001, bjtmark.polygonlayer.0001
+  Outputs: CONTSB.polygonlayer.0001
+Input layer "bjtmark.polygonlayer.0001" is empty.
+No output written.
+Layer "CONTSB.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:544
+CONTS = co not CONTSB
+  Function: not
+  Inputs: co.polygonlayer.0001, CONTSB.polygonlayer.0001
+  Outputs: CONTS.polygonlayer.0001
+Input layer "CONTSB.polygonlayer.0001" is empty.
+10 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+donut_holes() at rules.lvs.9m_saed90_lvs.lvs.rs:549
+nwell_hole = donut_holes(nwnr, INNER)
+  Function: donut_holes
+  Inputs: nwnr.polygonlayer.0001
+  Outputs: nwell_hole.polygonlayer.0001
+No output written.
+Layer "nwell_hole.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.840
+
+donut_holes() at rules.lvs.9m_saed90_lvs.lvs.rs:550
+pdiff_hole = donut_holes(pdiff, INNER)
+  Function: donut_holes
+  Inputs: pdiff.polygonlayer.0001
+  Outputs: pdiff_hole.polygonlayer.0001
+No output written.
+Layer "pdiff_hole.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=22.840
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:552
+pdiff_hole = (pdiff_hole interacting bjtmark)
+  Function: interacting
+  Inputs: pdiff_hole.polygonlayer.0001, bjtmark.polygonlayer.0001
+  Outputs: pdiff_hole.polygonlayer.0002
+Input layer "pdiff_hole.polygonlayer.0001" is empty.
+Input layer "bjtmark.polygonlayer.0001" is empty.
+No output written.
+Layer "pdiff_hole.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.559
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:555
+BJT_EMIT_PNP = pdiff and nwnr and bjtmark
+  Function: and
+  Inputs: pdiff.polygonlayer.0001, nwnr.polygonlayer.0001
+  Outputs: BJT_EMIT_PNP.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.917
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:555
+BJT_EMIT_PNP = pdiff and nwnr and bjtmark
+  Function: and
+  Inputs: BJT_EMIT_PNP.polygonlayer.0001, bjtmark.polygonlayer.0001
+  Outputs: BJT_EMIT_PNP.polygonlayer.0002
+Input layer "bjtmark.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_EMIT_PNP.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:556
+PNP_bjtmark = bjtmark interacting BJT_EMIT_PNP
+  Function: interacting
+  Inputs: bjtmark.polygonlayer.0001, BJT_EMIT_PNP.polygonlayer.0002
+  Outputs: PNP_bjtmark.polygonlayer.0001
+Input layer "bjtmark.polygonlayer.0001" is empty.
+Input layer "BJT_EMIT_PNP.polygonlayer.0002" is empty.
+No output written.
+Layer "PNP_bjtmark.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:558
+BJT_BASE_PNP = (nwnr interacting ndiff) and PNP_bjtmark
+  Function: interacting
+  Inputs: nwnr.polygonlayer.0001, ndiff.polygonlayer.0001
+  Outputs: BJT_BASE_PNP.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=24.042
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:558
+BJT_BASE_PNP = (nwnr interacting ndiff) and PNP_bjtmark
+  Function: and
+  Inputs: BJT_BASE_PNP.polygonlayer.0001, PNP_bjtmark.polygonlayer.0001
+  Outputs: BJT_BASE_PNP.polygonlayer.0002
+Input layer "PNP_bjtmark.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_BASE_PNP.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+size() at rules.lvs.9m_saed90_lvs.lvs.rs:560
+pdiff_hole_PNP = size(pdiff_hole, 0.1) interacting BJT_BASE_PNP
+  Function: size
+  Inputs: pdiff_hole.polygonlayer.0002
+  Outputs: pdiff_hole_PNP.polygonlayer.0001
+Input layer "pdiff_hole.polygonlayer.0002" is empty.
+No output written.
+Layer "pdiff_hole_PNP.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:560
+pdiff_hole_PNP = size(pdiff_hole, 0.1) interacting BJT_BASE_PNP
+  Function: interacting
+  Inputs: pdiff_hole_PNP.polygonlayer.0001, BJT_BASE_PNP.polygonlayer.0002
+  Outputs: pdiff_hole_PNP.polygonlayer.0002
+Input layer "pdiff_hole_PNP.polygonlayer.0001" is empty.
+Input layer "BJT_BASE_PNP.polygonlayer.0002" is empty.
+No output written.
+Layer "pdiff_hole_PNP.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:562
+BJT_COLL_poss = (pdiff interacting PNP_bjtmark) interacting pdiff_hole_PNP
+  Function: interacting
+  Inputs: pdiff.polygonlayer.0001, PNP_bjtmark.polygonlayer.0001
+  Outputs: BJT_COLL_poss.polygonlayer.0001
+Input layer "PNP_bjtmark.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_COLL_poss.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:562
+BJT_COLL_poss = (pdiff interacting PNP_bjtmark) interacting pdiff_hole_PNP
+  Function: interacting
+  Inputs: BJT_COLL_poss.polygonlayer.0001, pdiff_hole_PNP.polygonlayer.0002
+  Outputs: BJT_COLL_poss.polygonlayer.0002
+Input layer "BJT_COLL_poss.polygonlayer.0001" is empty.
+Input layer "pdiff_hole_PNP.polygonlayer.0002" is empty.
+No output written.
+Layer "BJT_COLL_poss.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:563
+BJT_COLL_PNP = (PNP_bjtmark not BJT_COLL_poss) or BJT_COLL_poss
+  Function: not
+  Inputs: PNP_bjtmark.polygonlayer.0001, BJT_COLL_poss.polygonlayer.0002
+  Outputs: BJT_COLL_PNP.polygonlayer.0001
+Input layer "PNP_bjtmark.polygonlayer.0001" is empty.
+Input layer "BJT_COLL_poss.polygonlayer.0002" is empty.
+No output written.
+Layer "BJT_COLL_PNP.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:563
+BJT_COLL_PNP = (PNP_bjtmark not BJT_COLL_poss) or BJT_COLL_poss
+  Function: or
+  Inputs: BJT_COLL_PNP.polygonlayer.0001, BJT_COLL_poss.polygonlayer.0002
+  Outputs: BJT_COLL_PNP.polygonlayer.0002
+Input layer "BJT_COLL_PNP.polygonlayer.0001" is empty.
+Input layer "BJT_COLL_poss.polygonlayer.0002" is empty.
+No output written.
+Layer "BJT_COLL_PNP.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:566
+NPN_center = ndiff and pwell and bjtmark
+  Function: and
+  Inputs: ndiff.polygonlayer.0001, pwell.polygonlayer.0002
+  Outputs: NPN_center.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.917
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:566
+NPN_center = ndiff and pwell and bjtmark
+  Function: and
+  Inputs: NPN_center.polygonlayer.0001, bjtmark.polygonlayer.0001
+  Outputs: NPN_center.polygonlayer.0002
+Input layer "bjtmark.polygonlayer.0001" is empty.
+No output written.
+Layer "NPN_center.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:567
+NPN_bjtmark = bjtmark interacting NPN_center
+  Function: interacting
+  Inputs: bjtmark.polygonlayer.0001, NPN_center.polygonlayer.0002
+  Outputs: NPN_bjtmark.polygonlayer.0001
+Input layer "bjtmark.polygonlayer.0001" is empty.
+Input layer "NPN_center.polygonlayer.0002" is empty.
+No output written.
+Layer "NPN_bjtmark.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:571
+NPN_emit_pwell = pwell interacting BJT_EMIT_NPN
+  Function: interacting
+  Inputs: pwell.polygonlayer.0002, NPN_center.polygonlayer.0002
+  Outputs: NPN_emit_pwell.polygonlayer.0001
+Input layer "NPN_center.polygonlayer.0002" is empty.
+No output written.
+Layer "NPN_emit_pwell.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:573
+BJT_BASE_NPN = NPN_emit_pwell interacting pdiff
+  Function: interacting
+  Inputs: NPN_emit_pwell.polygonlayer.0001, pdiff.polygonlayer.0001
+  Outputs: BJT_BASE_NPN.polygonlayer.0001
+Input layer "NPN_emit_pwell.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_BASE_NPN.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:575
+BJT_COLL_NPN = (nwnr interacting ndiff) interacting NPN_bjtmark
+  Function: interacting
+  Inputs: nwnr.polygonlayer.0001, ndiff.polygonlayer.0001
+  Outputs: BJT_COLL_NPN.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.042
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:575
+BJT_COLL_NPN = (nwnr interacting ndiff) interacting NPN_bjtmark
+  Function: interacting
+  Inputs: BJT_COLL_NPN.polygonlayer.0001, NPN_bjtmark.polygonlayer.0001
+  Outputs: BJT_COLL_NPN.polygonlayer.0002
+Input layer "NPN_bjtmark.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_COLL_NPN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:576
+BJT_COLL_NPN = (nwell_hole interacting BJT_COLL_NPN) or BJT_COLL_NPN
+  Function: interacting
+  Inputs: nwell_hole.polygonlayer.0001, BJT_COLL_NPN.polygonlayer.0002
+  Outputs: BJT_COLL_NPN.polygonlayer.0003
+Input layer "nwell_hole.polygonlayer.0001" is empty.
+Input layer "BJT_COLL_NPN.polygonlayer.0002" is empty.
+No output written.
+Layer "BJT_COLL_NPN.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+or() at rules.lvs.9m_saed90_lvs.lvs.rs:576
+BJT_COLL_NPN = (nwell_hole interacting BJT_COLL_NPN) or BJT_COLL_NPN
+  Function: or
+  Inputs: BJT_COLL_NPN.polygonlayer.0003, BJT_COLL_NPN.polygonlayer.0002
+  Outputs: BJT_COLL_NPN.polygonlayer.0004
+Input layer "BJT_COLL_NPN.polygonlayer.0003" is empty.
+Input layer "BJT_COLL_NPN.polygonlayer.0002" is empty.
+No output written.
+Layer "BJT_COLL_NPN.polygonlayer.0004" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:580
+BJT_COLL_cont_PNP = BJT_COLL_PNP not nwnr and CONTSB
+  Function: not
+  Inputs: BJT_COLL_PNP.polygonlayer.0002, nwnr.polygonlayer.0001
+  Outputs: BJT_COLL_cont_PNP.polygonlayer.0001
+Input layer "BJT_COLL_PNP.polygonlayer.0002" is empty.
+No output written.
+Layer "BJT_COLL_cont_PNP.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:580
+BJT_COLL_cont_PNP = BJT_COLL_PNP not nwnr and CONTSB
+  Function: and
+  Inputs: BJT_COLL_cont_PNP.polygonlayer.0001, CONTSB.polygonlayer.0001
+  Outputs: BJT_COLL_cont_PNP.polygonlayer.0002
+Input layer "BJT_COLL_cont_PNP.polygonlayer.0001" is empty.
+Input layer "CONTSB.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_COLL_cont_PNP.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:581
+BJT_BASE_cont_PNP = BJT_BASE_PNP and CONTSB and nimp
+  Function: and
+  Inputs: BJT_BASE_PNP.polygonlayer.0002, CONTSB.polygonlayer.0001
+  Outputs: BJT_BASE_cont_PNP.polygonlayer.0001
+Input layer "BJT_BASE_PNP.polygonlayer.0002" is empty.
+Input layer "CONTSB.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_BASE_cont_PNP.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:581
+BJT_BASE_cont_PNP = BJT_BASE_PNP and CONTSB and nimp
+  Function: and
+  Inputs: BJT_BASE_cont_PNP.polygonlayer.0001, nimp.polygonlayer.0001
+  Outputs: BJT_BASE_cont_PNP.polygonlayer.0002
+Input layer "BJT_BASE_cont_PNP.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_BASE_cont_PNP.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:582
+BJT_EMIT_cont_PNP = BJT_EMIT_PNP and CONTSB
+  Function: and
+  Inputs: BJT_EMIT_PNP.polygonlayer.0002, CONTSB.polygonlayer.0001
+  Outputs: BJT_EMIT_cont_PNP.polygonlayer.0001
+Input layer "BJT_EMIT_PNP.polygonlayer.0002" is empty.
+Input layer "CONTSB.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_EMIT_cont_PNP.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:585
+BJT_COLL_cont_NPN = BJT_COLL_NPN and nwnr and CONTSB
+  Function: and
+  Inputs: BJT_COLL_NPN.polygonlayer.0004, nwnr.polygonlayer.0001
+  Outputs: BJT_COLL_cont_NPN.polygonlayer.0001
+Input layer "BJT_COLL_NPN.polygonlayer.0004" is empty.
+No output written.
+Layer "BJT_COLL_cont_NPN.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:585
+BJT_COLL_cont_NPN = BJT_COLL_NPN and nwnr and CONTSB
+  Function: and
+  Inputs: BJT_COLL_cont_NPN.polygonlayer.0001, CONTSB.polygonlayer.0001
+  Outputs: BJT_COLL_cont_NPN.polygonlayer.0002
+Input layer "BJT_COLL_cont_NPN.polygonlayer.0001" is empty.
+Input layer "CONTSB.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_COLL_cont_NPN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:586
+BJT_BASE_cont_NPN = BJT_BASE_NPN and CONTSB not nimp
+  Function: and
+  Inputs: BJT_BASE_NPN.polygonlayer.0001, CONTSB.polygonlayer.0001
+  Outputs: BJT_BASE_cont_NPN.polygonlayer.0001
+Input layer "BJT_BASE_NPN.polygonlayer.0001" is empty.
+Input layer "CONTSB.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_BASE_cont_NPN.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:586
+BJT_BASE_cont_NPN = BJT_BASE_NPN and CONTSB not nimp
+  Function: not
+  Inputs: BJT_BASE_cont_NPN.polygonlayer.0001, nimp.polygonlayer.0001
+  Outputs: BJT_BASE_cont_NPN.polygonlayer.0002
+Input layer "BJT_BASE_cont_NPN.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_BASE_cont_NPN.polygonlayer.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:587
+BJT_EMIT_cont_NPN = BJT_EMIT_NPN and CONTSB
+  Function: and
+  Inputs: NPN_center.polygonlayer.0002, CONTSB.polygonlayer.0001
+  Outputs: BJT_EMIT_cont_NPN.polygonlayer.0001
+Input layer "NPN_center.polygonlayer.0002" is empty.
+Input layer "CONTSB.polygonlayer.0001" is empty.
+No output written.
+Layer "BJT_EMIT_cont_NPN.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:591
+cv_1a = m1 and m2
+  Function: and
+  Inputs: m1.polygonlayer.0002, m2.polygonlayer.0002
+  Outputs: cv_1a.polygonlayer.0001
+Input layer "m2.polygonlayer.0002" is empty.
+No output written.
+Layer "cv_1a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:592
+cv_2a = m2 and m3
+  Function: and
+  Inputs: m2.polygonlayer.0002, m3.polygonlayer.0002
+  Outputs: cv_2a.polygonlayer.0001
+Input layer "m2.polygonlayer.0002" is empty.
+Input layer "m3.polygonlayer.0002" is empty.
+No output written.
+Layer "cv_2a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:593
+cv_3a = m3 and m4
+  Function: and
+  Inputs: m3.polygonlayer.0002, m4.polygonlayer.0002
+  Outputs: cv_3a.polygonlayer.0001
+Input layer "m3.polygonlayer.0002" is empty.
+Input layer "m4.polygonlayer.0002" is empty.
+No output written.
+Layer "cv_3a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+and() at rules.lvs.9m_saed90_lvs.lvs.rs:594
+cv_4a = m4 and m5
+  Function: and
+  Inputs: m4.polygonlayer.0002, m5.polygonlayer.0002
+  Outputs: cv_4a.polygonlayer.0001
+Input layer "m4.polygonlayer.0002" is empty.
+Input layer "m5.polygonlayer.0002" is empty.
+No output written.
+Layer "cv_4a.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:596
+body_1 = ctmmark interacting cv_1a
+  Function: interacting
+  Inputs: ctmmark.polygonlayer.0001, cv_1a.polygonlayer.0001
+  Outputs: body_1.polygonlayer.0001
+Input layer "ctmmark.polygonlayer.0001" is empty.
+Input layer "cv_1a.polygonlayer.0001" is empty.
+No output written.
+Layer "body_1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=20.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:597
+body_2 = ctmmark interacting cv_2a
+  Function: interacting
+  Inputs: ctmmark.polygonlayer.0001, cv_2a.polygonlayer.0001
+  Outputs: body_2.polygonlayer.0001
+Input layer "ctmmark.polygonlayer.0001" is empty.
+Input layer "cv_2a.polygonlayer.0001" is empty.
+No output written.
+Layer "body_2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:598
+body_3 = ctmmark interacting cv_3a
+  Function: interacting
+  Inputs: ctmmark.polygonlayer.0001, cv_3a.polygonlayer.0001
+  Outputs: body_3.polygonlayer.0001
+Input layer "ctmmark.polygonlayer.0001" is empty.
+Input layer "cv_3a.polygonlayer.0001" is empty.
+No output written.
+Layer "body_3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:599
+body_4 = ctmmark interacting cv_4a
+  Function: interacting
+  Inputs: ctmmark.polygonlayer.0001, cv_4a.polygonlayer.0001
+  Outputs: body_4.polygonlayer.0001
+Input layer "ctmmark.polygonlayer.0001" is empty.
+Input layer "cv_4a.polygonlayer.0001" is empty.
+No output written.
+Layer "body_4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:602
+termc_1 = cv_1a interacting body_1
+  Function: interacting
+  Inputs: cv_1a.polygonlayer.0001, body_1.polygonlayer.0001
+  Outputs: termc_1.polygonlayer.0001
+Input layer "cv_1a.polygonlayer.0001" is empty.
+Input layer "body_1.polygonlayer.0001" is empty.
+No output written.
+Layer "termc_1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:603
+term_1 = cv_1a not body_1
+  Function: not
+  Inputs: cv_1a.polygonlayer.0001, body_1.polygonlayer.0001
+  Outputs: term_1.polygonlayer.0001
+Input layer "cv_1a.polygonlayer.0001" is empty.
+Input layer "body_1.polygonlayer.0001" is empty.
+No output written.
+Layer "term_1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:605
+termc_2 = cv_2a interacting body_2
+  Function: interacting
+  Inputs: cv_2a.polygonlayer.0001, body_2.polygonlayer.0001
+  Outputs: termc_2.polygonlayer.0001
+Input layer "cv_2a.polygonlayer.0001" is empty.
+Input layer "body_2.polygonlayer.0001" is empty.
+No output written.
+Layer "termc_2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:606
+term_2 = cv_2a not body_2
+  Function: not
+  Inputs: cv_2a.polygonlayer.0001, body_2.polygonlayer.0001
+  Outputs: term_2.polygonlayer.0001
+Input layer "cv_2a.polygonlayer.0001" is empty.
+Input layer "body_2.polygonlayer.0001" is empty.
+No output written.
+Layer "term_2.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:608
+termc_3 = cv_3a interacting body_3
+  Function: interacting
+  Inputs: cv_3a.polygonlayer.0001, body_3.polygonlayer.0001
+  Outputs: termc_3.polygonlayer.0001
+Input layer "cv_3a.polygonlayer.0001" is empty.
+Input layer "body_3.polygonlayer.0001" is empty.
+No output written.
+Layer "termc_3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:609
+term_3 = cv_3a not body_3
+  Function: not
+  Inputs: cv_3a.polygonlayer.0001, body_3.polygonlayer.0001
+  Outputs: term_3.polygonlayer.0001
+Input layer "cv_3a.polygonlayer.0001" is empty.
+Input layer "body_3.polygonlayer.0001" is empty.
+No output written.
+Layer "term_3.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+interacting() at rules.lvs.9m_saed90_lvs.lvs.rs:611
+termc_4 = cv_4a interacting body_4
+  Function: interacting
+  Inputs: cv_4a.polygonlayer.0001, body_4.polygonlayer.0001
+  Outputs: termc_4.polygonlayer.0001
+Input layer "cv_4a.polygonlayer.0001" is empty.
+Input layer "body_4.polygonlayer.0001" is empty.
+No output written.
+Layer "termc_4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:612
+term_4 = cv_4a not body_4
+  Function: not
+  Inputs: cv_4a.polygonlayer.0001, body_4.polygonlayer.0001
+  Outputs: term_4.polygonlayer.0001
+Input layer "cv_4a.polygonlayer.0001" is empty.
+Input layer "body_4.polygonlayer.0001" is empty.
+No output written.
+Layer "term_4.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+not() at rules.lvs.9m_saed90_lvs.lvs.rs:617
+subtie = subtie not nwell
+  Function: not
+  Inputs: subtie.polygonlayer.0001, nwell.polygonlayer.0001
+  Outputs: subtie.polygonlayer.0002
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.886
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:618
+subtie_scon = copy(subtie)
+  Function: copy
+  Inputs: subtie.polygonlayer.0002
+  Outputs: subtie_scon.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+copy() at rules.lvs.9m_saed90_lvs.lvs.rs:620
+pwell_cont = copy(ptap)
+  Function: copy
+  Inputs: ptap.polygonlayer.0001
+  Outputs: pwell_cont.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.574
+
+text_origin() at rules.lvs.9m_saed90_lvs.lvs.rs:629
+m1pin_marker = text_origin(M1PIN_text, shape_size = 0.01, text = { "*" }, cells = { "*" })
+  Function: text_origin
+  Inputs: M1PIN_text.textlayer.0002.TEXT
+  Outputs: m1pin_marker.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.902
+
+text_origin() at rules.lvs.9m_saed90_lvs.lvs.rs:630
+m2pin_marker = text_origin(M2PIN_text, shape_size = 0.01, text = { "*" }, cells = { "*" })
+  Function: text_origin
+  Inputs: M2PIN_text.textlayer.0002.TEXT
+  Outputs: m2pin_marker.polygonlayer.0001
+Warning #704: Cannot open text file "M2PIN_text.textlayer.0002.TEXT" for reading.  Continuing.
+No output written.
+Layer "m2pin_marker.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.559
+
+text_origin() at rules.lvs.9m_saed90_lvs.lvs.rs:631
+m3pin_marker = text_origin(M3PIN_text, shape_size = 0.01, text = { "*" }, cells = { "*" })
+  Function: text_origin
+  Inputs: M3PIN_text.textlayer.0002.TEXT
+  Outputs: m3pin_marker.polygonlayer.0001
+Warning #704: Cannot open text file "M3PIN_text.textlayer.0002.TEXT" for reading.  Continuing.
+No output written.
+Layer "m3pin_marker.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.559
+
+text_origin() at rules.lvs.9m_saed90_lvs.lvs.rs:632
+m4pin_marker = text_origin(M4PIN_text, shape_size = 0.01, text = { "*" }, cells = { "*" })
+  Function: text_origin
+  Inputs: M4PIN_text.textlayer.0002.TEXT
+  Outputs: m4pin_marker.polygonlayer.0001
+Warning #704: Cannot open text file "M4PIN_text.textlayer.0002.TEXT" for reading.  Continuing.
+No output written.
+Layer "m4pin_marker.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.559
+
+text_origin() at rules.lvs.9m_saed90_lvs.lvs.rs:633
+m5pin_marker = text_origin(M5PIN_text, shape_size = 0.01, text = { "*" }, cells = { "*" })
+  Function: text_origin
+  Inputs: M5PIN_text.textlayer.0002.TEXT
+  Outputs: m5pin_marker.polygonlayer.0001
+Warning #704: Cannot open text file "M5PIN_text.textlayer.0002.TEXT" for reading.  Continuing.
+No output written.
+Layer "m5pin_marker.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.559
+
+text_origin() at rules.lvs.9m_saed90_lvs.lvs.rs:634
+m6pin_marker = text_origin(M6PIN_text, shape_size = 0.01, text = { "*" }, cells = { "*" })
+  Function: text_origin
+  Inputs: M6PIN_text.textlayer.0002.TEXT
+  Outputs: m6pin_marker.polygonlayer.0001
+Warning #704: Cannot open text file "M6PIN_text.textlayer.0002.TEXT" for reading.  Continuing.
+No output written.
+Layer "m6pin_marker.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.559
+
+text_origin() at rules.lvs.9m_saed90_lvs.lvs.rs:635
+m7pin_marker = text_origin(M7PIN_text, shape_size = 0.01, text = { "*" }, cells = { "*" })
+  Function: text_origin
+  Inputs: M7PIN_text.textlayer.0002.TEXT
+  Outputs: m7pin_marker.polygonlayer.0001
+Warning #704: Cannot open text file "M7PIN_text.textlayer.0002.TEXT" for reading.  Continuing.
+No output written.
+Layer "m7pin_marker.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.559
+
+text_origin() at rules.lvs.9m_saed90_lvs.lvs.rs:636
+m8pin_marker = text_origin(M8PIN_text, shape_size = 0.01, text = { "*" }, cells = { "*" })
+  Function: text_origin
+  Inputs: M8PIN_text.textlayer.0002.TEXT
+  Outputs: m8pin_marker.polygonlayer.0001
+Warning #704: Cannot open text file "M8PIN_text.textlayer.0002.TEXT" for reading.  Continuing.
+No output written.
+Layer "m8pin_marker.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.559
+
+text_origin() at rules.lvs.9m_saed90_lvs.lvs.rs:637
+m9pin_marker = text_origin(M9PIN_text, shape_size = 0.01, text = { "*" }, cells = { "*" })
+  Function: text_origin
+  Inputs: M9PIN_text.textlayer.0002.TEXT
+  Outputs: m9pin_marker.polygonlayer.0001
+Warning #704: Cannot open text file "M9PIN_text.textlayer.0002.TEXT" for reading.  Continuing.
+No output written.
+Layer "m9pin_marker.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.559
+
+connect() at rules.lvs.9m_saed90_lvs.lvs.rs:644
+c_db = connect(connect_items = { { { ptap, pwell }, pwell_cont }, { { ntap, nwnr }, nwell_cont }, { { m1, nsd }, codiff }, { { m1, psd }, codiff }, { { m1, ntap }, codiff }, { { m1, ptap }, codiff }, { { m1, nsdr }, codiff }, { { m1, psdr }, codiff }, { { m1, nsdv }, codiff }, { { m1, psdv }, codiff }, { { m1, ngatepl }, copoly }, { { m1, pgatepl }, copoly }, { ngate_12, ponr }, { pgate_12, ponr }, { ngate_25, ponr }, { pgate_25, ponr }, { ngate_33, ponr }, { pgate_33, ponr }, { ngate_12_lvt, ponr }, { pgate_12_lvt, ponr }, { ngate_12_hvt, ponr }, { pgate_12_hvt, ponr }, { { m1, ponr }, copoly }, { { m2, m1 }, via1 }, { { m3, m2 }, via2 }, { { m4, m3 }, via3 }, { { m5, m4 }, via4 }, { { m6, m5 }, via5 }, { { m7, m6 }, via6 }, { { m8, m7 }, via7 }, { { m9, m8 }, via8 }, { { BJT_BASE_PNP, m1 }, BJT_BASE_cont_PNP }, { { BJT_COLL_PNP, m1 }, BJT_COLL_cont_PNP }, { { BJT_EMIT_PNP, m1 }, BJT_EMIT_cont_PNP }, { { BJT_COLL_NPN, m1 }, BJT_COLL_cont_NPN }, { { BJT_EMIT_NPN, m1 }, codiff }, { { BJT_BASE_NPN, m1 }, BJT_BASE_cont_NPN }, { { m3, term_1 }, via2 }, { { m2, term_1 }, m2 }, { { m1, term_1 }, via1 }, { { m4, term_2 }, via3 }, { { m3, term_2 }, m3 }, { { m2, term_2 }, via2 }, { { m5, term_3 }, via4 }, { { m4, term_3 }, m4 }, { { m3, term_3 }, via3 }, { { m6, term_4 }, via5 }, { { m5, term_4 }, m5 }, { { m4, term_4 }, via4 }, { { top_metex, sec_top_met }, top_via }, { { top_metex, sec_top_met }, top_via }, { { subtie, psub }, subtie_scon }, { { indterm, m5 }, via4 }, { m1pin_marker, m1 }, { m2pin_marker, m2 }, { m3pin_marker, m3 }, { m4pin_marker, m4 }, { m5pin_marker, m5 }, { m6pin_marker, m6 }, { m7pin_marker, m7 }, { m8pin_marker, m8 }, { m9pin_marker, m9 } })
+Layer "nsdv.polygonlayer.0001" is empty.
+Layer "psdv.polygonlayer.0001" is empty.
+Layer "ngatepl.polygonlayer.0001" is empty.
+Layer "pgatepl.polygonlayer.0001" is empty.
+Layer "ngate_25.polygonlayer.0001" is empty.
+Layer "pgate_25.polygonlayer.0001" is empty.
+Layer "ngate_33.polygonlayer.0001" is empty.
+Layer "pgate_33.polygonlayer.0001" is empty.
+Layer "ngate_12_lvt.polygonlayer.0001" is empty.
+Layer "pgate_12_lvt.polygonlayer.0001" is empty.
+Layer "ngate_12_hvt.polygonlayer.0001" is empty.
+Layer "pgate_12_hvt.polygonlayer.0001" is empty.
+Layer "m2.polygonlayer.0002" is empty.
+Layer "via1.polygonlayer.0001" is empty.
+Layer "m3.polygonlayer.0002" is empty.
+Layer "via2.polygonlayer.0001" is empty.
+Layer "m4.polygonlayer.0002" is empty.
+Layer "via3.polygonlayer.0001" is empty.
+Layer "m5.polygonlayer.0002" is empty.
+Layer "via4.polygonlayer.0001" is empty.
+Layer "m6.polygonlayer.0002" is empty.
+Layer "via5.polygonlayer.0001" is empty.
+Layer "m7.polygonlayer.0002" is empty.
+Layer "via6.polygonlayer.0001" is empty.
+Layer "m8.polygonlayer.0002" is empty.
+Layer "via7.polygonlayer.0001" is empty.
+Layer "m9.polygonlayer.0002" is empty.
+Layer "via8.polygonlayer.0001" is empty.
+Layer "BJT_BASE_PNP.polygonlayer.0002" is empty.
+Layer "BJT_BASE_cont_PNP.polygonlayer.0002" is empty.
+Layer "BJT_COLL_PNP.polygonlayer.0002" is empty.
+Layer "BJT_COLL_cont_PNP.polygonlayer.0002" is empty.
+Layer "BJT_EMIT_PNP.polygonlayer.0002" is empty.
+Layer "BJT_EMIT_cont_PNP.polygonlayer.0001" is empty.
+Layer "BJT_COLL_NPN.polygonlayer.0004" is empty.
+Layer "BJT_COLL_cont_NPN.polygonlayer.0002" is empty.
+Layer "NPN_center.polygonlayer.0002" is empty.
+Layer "BJT_BASE_NPN.polygonlayer.0001" is empty.
+Layer "BJT_BASE_cont_NPN.polygonlayer.0002" is empty.
+Layer "term_1.polygonlayer.0001" is empty.
+Layer "term_2.polygonlayer.0001" is empty.
+Layer "term_3.polygonlayer.0001" is empty.
+Layer "term_4.polygonlayer.0001" is empty.
+Layer "top_metex.polygonlayer.0002" is empty.
+Layer "top_via.polygonlayer.0001" is empty.
+Layer "M3i.polygonlayer.0002" is empty.
+Layer "indterm.polygonlayer.0001" is empty.
+Layer "m2pin_marker.polygonlayer.0001" is empty.
+Layer "m3pin_marker.polygonlayer.0001" is empty.
+Layer "m4pin_marker.polygonlayer.0001" is empty.
+Layer "m5pin_marker.polygonlayer.0001" is empty.
+Layer "m6pin_marker.polygonlayer.0001" is empty.
+Layer "m7pin_marker.polygonlayer.0001" is empty.
+Layer "m8pin_marker.polygonlayer.0001" is empty.
+Layer "m9pin_marker.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=29.276
+
+text_net() at rules.lvs.9m_saed90_lvs.lvs.rs:738
+c_db = text_net(connect_sequence = c_db, rename_prefix = "N", text_layer_items = { { m1pin_marker, M1PIN_text }, { m2pin_marker, M2PIN_text }, { m3pin_marker, M3PIN_text }, { m4pin_marker, M4PIN_text }, { m5pin_marker, M5PIN_text }, { m6pin_marker, M6PIN_text }, { m7pin_marker, M7PIN_text }, { m8pin_marker, M8PIN_text }, { m9pin_marker, M9PIN_text } }, attach_text = ALL)
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=24.183
+
+Input layer "m2pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=23.011
+
+Input layer "m3pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=23.011
+
+Input layer "m4pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=23.011
+
+Input layer "m5pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=23.011
+
+Input layer "m6pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=23.011
+
+Input layer "m7pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=24.011
+
+Input layer "m8pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=24.011
+
+Input layer "m9pin_marker.polygonlayer.0001" is empty.
+    Text Time=0:00:00  User=0.00 Sys=0.00 Mem=24.011
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=25.011
+
+text_net() at rules.lvs.9m_saed90_lvs.lvs.rs:738
+c_db = text_net(connect_sequence = c_db, rename_prefix = "N", text_layer_items = { { m1pin_marker, M1PIN_text }, { m2pin_marker, M2PIN_text }, { m3pin_marker, M3PIN_text }, { m4pin_marker, M4PIN_text }, { m5pin_marker, M5PIN_text }, { m6pin_marker, M6PIN_text }, { m7pin_marker, M7PIN_text }, { m8pin_marker, M8PIN_text }, { m9pin_marker, M9PIN_text } }, attach_text = ALL)
+Completed opens check. Now merging/renaming nets based on text.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=23.964
+
+create_ports() at rules.lvs.9m_saed90_lvs.lvs.rs:755
+c_db = create_ports(connect_sequence = c_db, port_items = { { m1pin_marker, m1pin_marker }, { m2pin_marker, m2pin_marker }, { m3pin_marker, m3pin_marker }, { m4pin_marker, m4pin_marker }, { m5pin_marker, m5pin_marker }, { m6pin_marker, m6pin_marker }, { m7pin_marker, m7pin_marker }, { m8pin_marker, m8pin_marker }, { m9pin_marker, m9pin_marker } })
+Input layer "m2pin_marker.polygonlayer.0001" is empty.
+Input layer "m3pin_marker.polygonlayer.0001" is empty.
+Input layer "m4pin_marker.polygonlayer.0001" is empty.
+Input layer "m5pin_marker.polygonlayer.0001" is empty.
+Input layer "m6pin_marker.polygonlayer.0001" is empty.
+Input layer "m7pin_marker.polygonlayer.0001" is empty.
+Input layer "m8pin_marker.polygonlayer.0001" is empty.
+Input layer "m9pin_marker.polygonlayer.0001" is empty.
+4 new ports created
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=25.323
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging gate layers ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=23.027
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging gate layers ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=23.027
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Preprocessing bulks pulldown ...
+No output written.
+Layer "device_db.polygonlayer.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.964
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Performing bulks pulldown ...
+1 unique polygon written.
+Pulled 0 polygons
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.980
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Preprocessing bulks pulldown ...
+No output written.
+Layer "device_db.polygonlayer.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=24.964
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Performing bulks pulldown ...
+1 unique polygon written.
+Pulled 0 polygons
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.980
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Preprocessing device layers for pmos p12 ...
+Pulled 0 polygons
+Pulled 0 polygons
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=25.276
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Preprocessing device layers for nmos n12 ...
+Pulled 0 polygons
+Pulled 0 polygons
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=25.307
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging device layers ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=25.073
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging device layers ...
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=25.073
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging device layers ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=27.229
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging device layers ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=25.073
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging device layers ...
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=25.073
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging device layers ...
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=27.229
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging device layers ...
+All preprocessed layers are empty.
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.730
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging device layers ...
+All preprocessed layers are empty.
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.730
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging device layers ...
+All preprocessed layers are empty.
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.730
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Merging device layers ...
+All preprocessed layers are empty.
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.730
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Reconnecting device layers ...
+   Check Time=0:00:00  User=0.00 Sys=0.02 Mem=31.416
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: pmos
+  Inputs: device_db.polygonlayer.0096, device_db.polygonlayer.0097, device_db.polygonlayer.0097, device_db.polygonlayer.0098, device_db.polygonlayer.0007
+pmos(my_devices, pm.n, psd, pm.g, psd, { { pm.b } }, merge_parallel = true, properties = { { \"l\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"w\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"nf\", DOUBLE } }, property_function = prop_mos)
+Extracted 1 unique 4-terminal "p12" devices.
+   Check Time=0:00:00  User=0.02 Sys=0.00 Mem=30.728
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: nmos
+  Inputs: device_db.polygonlayer.0103, device_db.polygonlayer.0104, device_db.polygonlayer.0104, device_db.polygonlayer.0105, device_db.polygonlayer.0022
+nmos(my_devices, nm.n, nsd, nm.g, nsd, { { nm.b } }, merge_parallel = true, properties = { { \"l\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"w\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"nf\", DOUBLE } }, property_function = prop_mos)
+Extracted 1 unique 4-terminal "n12" devices.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=30.806
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+Connecting devices ...
+   Device Connect Time=0:00:00  User=0.00 Sys=0.00 Mem=28.058
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+Generating inverter.acct file ...
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=26.980
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+Creating netlisting connect database ...
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=27.027
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+Writing VUE info.
+Input layer "nsdv.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0139" is empty.
+Input layer "psdv.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0142" is empty.
+Input layer "ngatepl.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0138" is empty.
+Input layer "pgatepl.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0141" is empty.
+Input layer "ngate_25.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0106" is empty.
+Input layer "pgate_25.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0099" is empty.
+Input layer "ngate_33.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0107" is empty.
+Input layer "pgate_33.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0100" is empty.
+Input layer "ngate_12_lvt.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0108" is empty.
+Input layer "pgate_12_lvt.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0101" is empty.
+Input layer "ngate_12_hvt.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0109" is empty.
+Input layer "pgate_12_hvt.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0102" is empty.
+Input layer "m2.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0122" is empty.
+Input layer "via1.polygonlayer.0001" is empty.
+Input layer "m3.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0124" is empty.
+Input layer "via2.polygonlayer.0001" is empty.
+Input layer "m4.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0126" is empty.
+Input layer "via3.polygonlayer.0001" is empty.
+Input layer "m5.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0128" is empty.
+Input layer "via4.polygonlayer.0001" is empty.
+Input layer "m6.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0130" is empty.
+Input layer "via5.polygonlayer.0001" is empty.
+Input layer "m7.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0132" is empty.
+Input layer "via6.polygonlayer.0001" is empty.
+Input layer "m8.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0134" is empty.
+Input layer "via7.polygonlayer.0001" is empty.
+Input layer "m9.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0136" is empty.
+Input layer "via8.polygonlayer.0001" is empty.
+Input layer "BJT_BASE_PNP.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0154" is empty.
+Input layer "BJT_BASE_cont_PNP.polygonlayer.0002" is empty.
+Input layer "BJT_COLL_PNP.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0155" is empty.
+Input layer "BJT_COLL_cont_PNP.polygonlayer.0002" is empty.
+Input layer "BJT_EMIT_PNP.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0153" is empty.
+Input layer "BJT_EMIT_cont_PNP.polygonlayer.0001" is empty.
+Input layer "BJT_COLL_NPN.polygonlayer.0004" is empty.
+Input layer "device_db.polygonlayer.0158" is empty.
+Input layer "BJT_COLL_cont_NPN.polygonlayer.0002" is empty.
+Input layer "NPN_center.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0156" is empty.
+Input layer "BJT_BASE_NPN.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0157" is empty.
+Input layer "BJT_BASE_cont_NPN.polygonlayer.0002" is empty.
+Input layer "term_1.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0144" is empty.
+Input layer "term_2.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0146" is empty.
+Input layer "term_3.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0148" is empty.
+Input layer "term_4.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0150" is empty.
+Input layer "top_metex.polygonlayer.0002" is empty.
+Input layer "M3i.polygonlayer.0002" is empty.
+Input layer "top_via.polygonlayer.0001" is empty.
+Input layer "indterm.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0152" is empty.
+Input layer "m2pin_marker.polygonlayer.0001" is empty.
+Input layer "m3pin_marker.polygonlayer.0001" is empty.
+Input layer "m4pin_marker.polygonlayer.0001" is empty.
+Input layer "m5pin_marker.polygonlayer.0001" is empty.
+Input layer "m6pin_marker.polygonlayer.0001" is empty.
+Input layer "m7pin_marker.polygonlayer.0001" is empty.
+Input layer "m8pin_marker.polygonlayer.0001" is empty.
+Input layer "m9pin_marker.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0110" is empty.
+Input layer "device_db.polygonlayer.0112" is empty.
+Input layer "device_db.polygonlayer.0114" is empty.
+Input layer "device_db.polygonlayer.0116" is empty.
+Input layer "device_db.polygonlayer.0117" is empty.
+Input layer "device_db.polygonlayer.0118" is empty.
+Input layer "device_db.polygonlayer.0119" is empty.
+Input layer "device_db.polygonlayer.0121" is empty.
+Input layer "device_db.polygonlayer.0123" is empty.
+Input layer "device_db.polygonlayer.0125" is empty.
+Input layer "device_db.polygonlayer.0127" is empty.
+Input layer "device_db.polygonlayer.0129" is empty.
+Input layer "device_db.polygonlayer.0131" is empty.
+Input layer "device_db.polygonlayer.0133" is empty.
+Input layer "device_db.polygonlayer.0135" is empty.
+Input layer "device_db.polygonlayer.0137" is empty.
+Input layer "device_db.polygonlayer.0140" is empty.
+Input layer "device_db.polygonlayer.0143" is empty.
+Input layer "device_db.polygonlayer.0145" is empty.
+Input layer "device_db.polygonlayer.0147" is empty.
+Input layer "device_db.polygonlayer.0149" is empty.
+Input layer "device_db.polygonlayer.0151" is empty.
+Input layer "device_db.polygonlayer.0159" is empty.
+Input layer "device_db.polygonlayer.0160" is empty.
+Creating VUE info directory.
+   Check Time=0:00:00  User=0.01 Sys=0.02 Mem=37.535
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=27.027
+
+netlist() at rules.lvs.9m_saed90_lvs.lvs.rs:1085
+layout_netl_fh = netlist(device_db)
+
+Generating micron-based NDB ...
+
+
+                                        
+                                ICV_Netlist (R)
+                                        
+           Version K-2015.12-3 for linux64 - Dec 17, 2015 cl#3052145
+                                        
+                    Copyright (c) 1996 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ Netlisting Time=0:00:01  User=0.00 Sys=0.01 Mem=8.851
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.699
+
+netlist() at rules.lvs.9m_saed90_lvs.lvs.rs:1085
+layout_netl_fh = netlist(device_db)
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=32.863
+
+compare() at rules.lvs.9m_saed90_lvs.lvs.rs:1218
+xref_db_h = compare(state = compare_settings, schematic = schem_netl_fh, layout = layout_netl_fh, user_functions_file = "/usr/local/synopsys/pdk/SAED_PDK90nm" + "/icv/lvs/include/functions.rs", memory_array_compare = false, write_equiv_netlists = ALL, action_on_error = EXPLODE, remove_dangling_net = LAYOUT_UNTEXTED, multiply_width = false, push_down_pins = false)
+Comparing schematic and layout netlists.
+   Check Time=0:00:00  User=0.01 Sys=0.01 Mem=24.699
+
+write_xref_spice() at rules.lvs.9m_saed90_lvs.lvs.rs:1237
+write_xref_spice(device_db, xref_db = xref_db_h, output_file = spice_netlist_fh)
+
+ Generating SPICE file "block".
+
+                                        
+                                ICV_Netlist (R)
+                                        
+           Version K-2015.12-3 for linux64 - Dec 17, 2015 cl#3052145
+                                        
+                    Copyright (c) 1996 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ Netlisting Time=0:00:01  User=0.00 Sys=0.01 Mem=6.952
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.699
+
+pex_generate_results() at rules.lvs.9m_saed90_lvs.lvs.rs:1882
+pex_generate_results(pex_matrix = pex_matrix, layout_database = mw_handle, pex_process_map_file = pex_process_handle, pex_runset_report_file = pex_report_handle, pex_lpp_map_file = pex_lpp_handle)
+  Function: pex_generate_results
+  Inputs: ptap.polygonlayer.0001, device_db.polygonlayer.0105, pwell_cont.polygonlayer.0001, ntap.polygonlayer.0001, device_db.polygonlayer.0098, device_db.polygonlayer.0120, device_db.polygonlayer.0104, codiff.polygonlayer.0001, device_db.polygonlayer.0097, device_db.polygonlayer.0113, device_db.polygonlayer.0111, device_db.polygonlayer.0139, device_db.polygonlayer.0142, device_db.polygonlayer.0138, copoly.polygonlayer.0001, device_db.polygonlayer.0141, device_db.polygonlayer.0103, device_db.polygonlayer.0115, device_db.polygonlayer.0096, device_db.polygonlayer.0106, device_db.polygonlayer.0099, device_db.polygonlayer.0107, device_db.polygonlayer.0100, device_db.polygonlayer.0108, device_db.polygonlayer.0101, device_db.polygonlayer.0109, device_db.polygonlayer.0102, device_db.polygonlayer.0122, via1.polygonlayer.0001, device_db.polygonlayer.0124, via2.polygonlayer.0001, device_db.polygonlayer.0126, via3.polygonlayer.0001, device_db.polygonlayer.0128, via4.polygonlayer.0001, device_db.polygonlayer.0130, via5.polygonlayer.0001, device_db.polygonlayer.0132, via6.polygonlayer.0001, device_db.polygonlayer.0134, via7.polygonlayer.0001, device_db.polygonlayer.0136, via8.polygonlayer.0001, device_db.polygonlayer.0154, BJT_BASE_cont_PNP.polygonlayer.0002, device_db.polygonlayer.0155, BJT_COLL_cont_PNP.polygonlayer.0002, device_db.polygonlayer.0153, BJT_EMIT_cont_PNP.polygonlayer.0001, device_db.polygonlayer.0158, BJT_COLL_cont_NPN.polygonlayer.0002, device_db.polygonlayer.0156, device_db.polygonlayer.0157, BJT_BASE_cont_NPN.polygonlayer.0002, device_db.polygonlayer.0144, device_db.polygonlayer.0146, device_db.polygonlayer.0148, device_db.polygonlayer.0150, top_metex.polygonlayer.0002, M3i.polygonlayer.0002, top_via.polygonlayer.0001, subtie.polygonlayer.0002, psub.polygonlayer.0001, subtie_scon.polygonlayer.0001, device_db.polygonlayer.0152, m1pin_marker.polygonlayer.0001, m2pin_marker.polygonlayer.0001, m3pin_marker.polygonlayer.0001, m4pin_marker.polygonlayer.0001, m5pin_marker.polygonlayer.0001, m6pin_marker.polygonlayer.0001, m7pin_marker.polygonlayer.0001, m8pin_marker.polygonlayer.0001, m9pin_marker.polygonlayer.0001, device_db.polygonlayer.0110, device_db.polygonlayer.0112, device_db.polygonlayer.0114, device_db.polygonlayer.0116, device_db.polygonlayer.0117, device_db.polygonlayer.0118, device_db.polygonlayer.0119, device_db.polygonlayer.0121, device_db.polygonlayer.0123, device_db.polygonlayer.0125, device_db.polygonlayer.0127, device_db.polygonlayer.0129, device_db.polygonlayer.0131, device_db.polygonlayer.0133, device_db.polygonlayer.0135, device_db.polygonlayer.0137, device_db.polygonlayer.0140, device_db.polygonlayer.0143, device_db.polygonlayer.0145, device_db.polygonlayer.0147, device_db.polygonlayer.0149, device_db.polygonlayer.0151, device_db.polygonlayer.0159, device_db.polygonlayer.0160
+
+layout_database = XTROUT
+pex_process_map_file = pex_process_map
+pex_runset_report_file = pex_runset_report
+pex_lpp_map_file =  pex_lpp_map
+
+Input layer "device_db.polygonlayer.0139" is empty.
+Input layer "device_db.polygonlayer.0142" is empty.
+Input layer "device_db.polygonlayer.0138" is empty.
+Input layer "device_db.polygonlayer.0141" is empty.
+Input layer "device_db.polygonlayer.0106" is empty.
+Input layer "device_db.polygonlayer.0099" is empty.
+Input layer "device_db.polygonlayer.0107" is empty.
+Input layer "device_db.polygonlayer.0100" is empty.
+Input layer "device_db.polygonlayer.0108" is empty.
+Input layer "device_db.polygonlayer.0101" is empty.
+Input layer "device_db.polygonlayer.0109" is empty.
+Input layer "device_db.polygonlayer.0102" is empty.
+Input layer "device_db.polygonlayer.0122" is empty.
+Input layer "via1.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0124" is empty.
+Input layer "via2.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0126" is empty.
+Input layer "via3.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0128" is empty.
+Input layer "via4.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0130" is empty.
+Input layer "via5.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0132" is empty.
+Input layer "via6.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0134" is empty.
+Input layer "via7.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0136" is empty.
+Input layer "via8.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0154" is empty.
+Input layer "BJT_BASE_cont_PNP.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0155" is empty.
+Input layer "BJT_COLL_cont_PNP.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0153" is empty.
+Input layer "BJT_EMIT_cont_PNP.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0158" is empty.
+Input layer "BJT_COLL_cont_NPN.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0156" is empty.
+Input layer "device_db.polygonlayer.0157" is empty.
+Input layer "BJT_BASE_cont_NPN.polygonlayer.0002" is empty.
+Input layer "device_db.polygonlayer.0144" is empty.
+Input layer "device_db.polygonlayer.0146" is empty.
+Input layer "device_db.polygonlayer.0148" is empty.
+Input layer "device_db.polygonlayer.0150" is empty.
+Input layer "top_metex.polygonlayer.0002" is empty.
+Input layer "M3i.polygonlayer.0002" is empty.
+Input layer "top_via.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0152" is empty.
+Input layer "m2pin_marker.polygonlayer.0001" is empty.
+Input layer "m3pin_marker.polygonlayer.0001" is empty.
+Input layer "m4pin_marker.polygonlayer.0001" is empty.
+Input layer "m5pin_marker.polygonlayer.0001" is empty.
+Input layer "m6pin_marker.polygonlayer.0001" is empty.
+Input layer "m7pin_marker.polygonlayer.0001" is empty.
+Input layer "m8pin_marker.polygonlayer.0001" is empty.
+Input layer "m9pin_marker.polygonlayer.0001" is empty.
+Input layer "device_db.polygonlayer.0110" is empty.
+Input layer "device_db.polygonlayer.0112" is empty.
+Input layer "device_db.polygonlayer.0114" is empty.
+Input layer "device_db.polygonlayer.0116" is empty.
+Input layer "device_db.polygonlayer.0117" is empty.
+Input layer "device_db.polygonlayer.0118" is empty.
+Input layer "device_db.polygonlayer.0119" is empty.
+Input layer "device_db.polygonlayer.0121" is empty.
+Input layer "device_db.polygonlayer.0123" is empty.
+Input layer "device_db.polygonlayer.0125" is empty.
+Input layer "device_db.polygonlayer.0127" is empty.
+Input layer "device_db.polygonlayer.0129" is empty.
+Input layer "device_db.polygonlayer.0131" is empty.
+Input layer "device_db.polygonlayer.0133" is empty.
+Input layer "device_db.polygonlayer.0135" is empty.
+Input layer "device_db.polygonlayer.0137" is empty.
+Input layer "device_db.polygonlayer.0140" is empty.
+Input layer "device_db.polygonlayer.0143" is empty.
+Input layer "device_db.polygonlayer.0145" is empty.
+Input layer "device_db.polygonlayer.0147" is empty.
+Input layer "device_db.polygonlayer.0149" is empty.
+Input layer "device_db.polygonlayer.0151" is empty.
+Input layer "device_db.polygonlayer.0159" is empty.
+Input layer "device_db.polygonlayer.0160" is empty.
+Using default technology file "hx2mw.tf" to create extract view library
+Start to load technology file hx2mw.tf.
+Technology file hx2mw.tf has been loaded successfully.
+Set "n12" cell flag to Standard Cell
+Set "p12" cell flag to Standard Cell
+Set "inverter" cell flag to Standard Cell
+========== Cache Usage Status ==========
+Initial cache size:              16384K bytes
+Largest cache size:              18432K bytes
+Current cache size:              16384K bytes
+
+Largest number of cache blocks:     3
+Current number of cache blocks:     1
+Current number of cache pages:   4096
+========================================
+
+
+Milkyway db session terminated successfully!
+
+
+ Milkyway memory usage: 176.172M
+   Check Time=0:00:00  User=0.11 Sys=0.03 Mem=33.459
+
+  File Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=24.668
+

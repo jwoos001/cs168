@@ -1,0 +1,1522 @@
+[08:19:36.55] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Tue Jan 30 08:19:32 2018
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[08:19:38.77] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+610
+[08:19:43.58] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+738+301
+[08:20:05.61] /# gi::executeAction dmShowNewCellView -in [gi::getWindows 0]
+[08:20:05.61] /i dm::showNewCellView -parent 0
+[08:20:05.63] /o oa:0x233ba1b0
+[08:20:05.81] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[08:20:06.07] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x336+424+303
+[08:20:09.33] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x336+777+182
+[08:20:14.19] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getDialogs {dmNewCellView}]
+[08:20:14.21] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getDialogs {dmNewCellView}]
+[08:20:16.29] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getDialogs {dmNewCellView}]
+[08:20:16.40] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getDialogs {dmNewCellView}]
+[08:20:20.81] /i gi::setItemSelection {views} -index {layout} -in [gi::getDialogs {dmNewCellView}]
+[08:20:26.88] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView}]
+[08:20:26.89] /# db::getAttr viewType -of [dm::findCellView layout -cell [dm::findCell inverter -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]]]
+[08:20:26.96] /r giDialog gi::setActiveDialog [gi::getDialogs {dmOverwrite}]
+[08:20:27.24] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmOverwrite}] -value 254x89+591+427
+[08:20:29.26] /r giDialog gi::pressButton {overwrite} -in [gi::getDialogs {dmOverwrite}]
+[08:20:29.34] /# db::destroy [dm::findCellView layout -cellName inverter -libName mylibrary]
+[08:20:29.38] /# gi::setItemSelection {views} -index {} -in [gi::getDialogs {dmNewCellView}]
+[08:20:29.39] /# dm::createCellView layout -cell [dm::findCell inverter -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]] -viewType maskLayout
+[08:20:29.41] /# de::open [dm::findCellView layout -cell [dm::findCell inverter -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]]] -application leLayout
+[08:20:29.47] /m Information: License 'Layout Editor' checked out. (LICENSE-003)
+[08:20:29.48] /o 	############################################
+[08:20:29.48] /o 	--------------------------------------------
+[08:20:29.48] /o 	PDK Name................... : SAED_PDK_90
+[08:20:29.48] /o 	PDK Release Date........... : 29-Sep-2015
+[08:20:29.48] /o 	PDK Custom Designer Version : J-2014.12-2
+[08:20:29.48] /o 	--------------------------------------------
+[08:20:29.48] /o 	############################################
+[08:20:29.48] /o 
+[08:20:29.48] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[08:20:29.49] /o SAED PDK 90: Loaded callbacks
+[08:20:29.49] /o SAED PDK 90: Loaded display resources
+[08:20:29.56] /r giWindowId 1
+[08:20:29.56] /r giWindowGeometry 1224x864
+[08:20:29.88] /# gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[08:20:30.86] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]] -value 190x714
+[08:20:31.11] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:20:31.11] /i de::zoom -window 1 -factor 0.5 -center {-0.024 0.041}
+[08:20:31.12] /o {-0.468 -0.396} {0.517 0.314}
+[08:20:31.12] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:20:31.12] /i de::zoom -window 1 -factor 0.5 -center {0.22 0.408}
+[08:20:31.14] /o {-1.157 -1.2} {0.813 0.22}
+[08:20:31.26] /i db::setAttr geometry -of [gi::getFrames 1] -value 1224x864+15+54
+[08:20:33.51] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]] -value 190x738
+[08:20:33.70] /i db::setAttr geometry -of [gi::getFrames 1] -value 717x888+722+31
+[08:20:35.61] /# gi::executeAction deFitEdit -in [gi::getWindows 1]
+[08:20:35.61] /i de::fit -window 1 -fitEdit true
+[08:20:35.62] /o {-0.119 -0.183} {0.12 0.184}
+[08:21:05.38] /# gi::executeAction leRuler -in [gi::getWindows 1]
+[08:21:05.38] /i ile::createRuler
+[08:21:07.62] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:21:07.62] /i de::addPoint {0.001 -0.001} -window 1
+[08:21:12.68] /i gi::setField {delta_coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:21:14.28] /i gi::setField {delta_coordY} -value {1.5} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:21:14.38] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[08:21:16.18] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:21:16.18] /i de::startDrag {0.057 1.433} -window 1
+[08:21:16.95] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:21:16.95] /i de::endDrag {0.058 1.47} -window 1
+[08:21:17.50] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:21:17.50] /i de::abortCommand -window 1
+[08:21:19.50] /i gi::executeAction deObjectActivation -in [gi::getWindows 1]
+[08:21:19.79] /# gi::executeAction deZoomIn -in [gi::getWindows 1]
+[08:21:19.79] /i de::zoom -window 1 -factor 2.0
+[08:21:19.80] /o {-0.06 1.408} {0.06 1.592}
+[08:21:20.17] /i gi::executeAction deObjectActivation -in [gi::getWindows 1]
+[08:21:21.84] /# gi::executeAction deFitEdit -in [gi::getWindows 1]
+[08:21:21.84] /i de::fit -window 1 -fitEdit true
+[08:21:21.85] /o {-0.515 -0.083} {0.57 1.583}
+[08:21:24.87] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:21:24.87] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {0.055 1.454} -index 0 -intent none] -replace true
+[08:21:24.88] /o oa:0x251f71b0
+[08:21:25.86] /# gi::executeAction leDelete -in [gi::getWindows 1]
+[08:21:25.86] /i ile::delete
+[08:21:28.07] /# gi::executeAction leRuler -in [gi::getWindows 1]
+[08:21:28.08] /i ile::createRuler
+[08:21:31.23] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:21:31.23] /i de::addPoint {0.003 0.001} -window 1
+[08:21:34.31] /i gi::setField {delta_coordX} -value {3} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:21:35.94] /i gi::setField {delta_coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:21:39.31] /i gi::setField {delta_coordX} -value {3} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:21:40.62] /i gi::setField {delta_coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:21:40.72] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[08:21:42.63] /# gi::executeAction deFitEdit -in [gi::getWindows 1]
+[08:21:42.63] /i de::fit -window 1 -fitEdit true
+[08:21:42.64] /o {-0.167 -1.814} {3.172 3.314}
+[08:21:46.55] /i gi::setCurrentIndex {lpps} -index {0,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:21:46.55] /i gi::setItemSelection {lpps} -index {0,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:21:46.56] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:21:46.56] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:21:46.56] /# gi::setItemSelection {lpps} -index {0,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:21:46.62] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:22:01.21] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:22:01.21] /i ile::createRectangle
+[08:22:05.89] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:22:05.89] /i de::zoom -window 1 -factor 2.0 -center {0.001 1.337}
+[08:22:05.90] /o {-0.083 -0.238} {1.586 2.325}
+[08:22:05.95] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:22:05.95] /i de::zoom -window 1 -factor 2.0 -center {-0.006 1.337}
+[08:22:05.97] /o {-0.044 0.549} {0.79 1.831}
+[08:22:06.36] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:22:06.37] /i de::zoom -window 1 -factor 2.0 -center {-0.017 1.429}
+[08:22:06.38] /o {-0.031 0.989} {0.387 1.63}
+[08:22:06.39] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:22:06.39] /i de::zoom -window 1 -factor 2.0 -center {-0.017 1.429}
+[08:22:06.40] /o {-0.024 1.209} {0.185 1.53}
+[08:22:06.43] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:22:06.43] /i de::zoom -window 1 -factor 2.0 -center {-0.017 1.429}
+[08:22:06.45] /o {-0.02 1.319} {0.084 1.479}
+[08:22:08.55] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:22:08.55] /i de::zoom -window 1 -factor 0.5 -center {0.011 1.459}
+[08:22:08.57] /o {-0.052 1.179} {0.157 1.5}
+[08:22:08.77] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:22:08.77] /i de::zoom -window 1 -factor 0.5 -center {-0.001 1.462}
+[08:22:08.78] /o {-0.103 0.896} {0.315 1.537}
+[08:22:08.83] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:22:08.83] /i de::zoom -window 1 -factor 0.5 -center {-0.008 1.462}
+[08:22:08.84] /o {-0.197 0.33} {0.637 1.612}
+[08:22:11.10] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:22:11.10] /i de::addPoint {0.002 1.5} -window 1
+[08:22:11.68] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:22:11.68] /i de::zoom -window 1 -factor 0.5 -center {0.19 1.179}
+[08:22:11.69] /o {-0.585 -0.518} {1.084 2.045}
+[08:22:11.75] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:22:11.75] /i de::zoom -window 1 -factor 0.5 -center {0.19 1.179}
+[08:22:11.77] /o {-1.36 -2.216} {1.979 2.912}
+[08:22:11.88] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:22:11.88] /i de::zoom -window 1 -factor 0.5 -center {0.191 1.179}
+[08:22:11.89] /o {-2.911 -5.61} {3.767 4.644}
+[08:22:18.34] /i gi::setField {delta_coordX} -value {3} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:22:20.97] /i gi::setField {delta_coordY} -value {-1.5} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:22:21.07] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[08:22:23.13] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:22:23.13] /i de::zoom -window 1 -factor 2.0 -center {2.412 -0.078}
+[08:22:23.14] /o {-0.249 -2.844} {3.089 2.283}
+[08:22:23.17] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:22:23.17] /i de::zoom -window 1 -factor 2.0 -center {2.412 -0.071}
+[08:22:23.18] /o {1.081 -1.458} {2.751 1.106}
+[08:22:23.20] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:22:23.20] /i de::zoom -window 1 -factor 2.0 -center {2.415 -0.067}
+[08:22:23.22] /o {1.748 -0.762} {2.583 0.52}
+[08:22:23.60] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:22:23.60] /i de::zoom -window 1 -factor 0.5 -center {2.396 -0.031}
+[08:22:23.61] /o {1.1 -1.494} {2.77 1.07}
+[08:22:23.69] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:22:23.69] /i de::zoom -window 1 -factor 0.5 -center {2.372 -0.02}
+[08:22:23.70] /o {-0.171 -2.967} {3.167 2.16}
+[08:22:25.77] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:22:25.77] /i de::abortCommand -window 1
+[08:22:26.50] /# gi::executeAction deSelectByWindow -in [gi::getWindows 1]
+[08:22:26.50] /i de::deselectAll [db::getNext [de::getContexts -window 1]]; ide::selectByRegion -region rectangle -select true -point {1.225 1.77} 
+[08:22:27.40] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:22:27.40] /i de::endDrag {1.198 1.678} -window 1
+[08:22:42.39] /# gi::executeAction dePan -in [gi::getWindows 1]
+[08:22:42.39] /i ide::pan 1
+[08:22:43.65] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:22:43.65] /i de::startDrag {1.98 1.978} -window 1
+[08:22:45.22] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:22:45.22] /i de::endDrag {1.973 1.978} -window 1
+[08:22:45.23] /r dePanToPoint {1.33 -0.404}
+[08:22:49.25] /i gi::setCurrentIndex {lpps} -index {2,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:22:49.26] /i gi::setItemSelection {lpps} -index {2,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:22:49.26] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:22:49.27] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:22:49.27] /# gi::setItemSelection {lpps} -index {2,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:22:49.37] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:22:50.57] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:22:50.57] /i ile::createRectangle
+[08:23:07.89] /i gi::setField {coordX} -value {0.75} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:23:12.87] /i gi::setField {coordY} -value {1} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:23:22.88] /i gi::setField {delta_coordX} -value {1} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:23:27.32] /i gi::setField {delta_coordY} -value {-0.5} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:23:27.42] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[08:23:32.06] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:23:32.06] /i de::addPoint {0.506 0.972} -window 1
+[08:23:35.97] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:23:35.97] /i de::abortCommand -window 1
+[08:23:41.05] /i gi::setField {coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:23:41.98] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:23:41.98] /i ile::createRectangle
+[08:23:44.24] /i gi::setField {coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:23:44.68] /i gi::setField {coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:23:49.86] /i gi::setField {delta_coordX} -value {0.5} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:23:51.54] /i gi::setField {delta_coordY} -value {-0.5} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:23:51.64] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[08:23:56.34] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:23:56.34] /i de::addPoint {2.14 0.965} -window 1
+[08:23:57.33] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:23:57.33] /i de::abortCommand -window 1
+[08:23:58.02] /# gi::executeAction deSelectByWindow -in [gi::getWindows 1]
+[08:23:58.02] /i de::deselectAll [db::getNext [de::getContexts -window 1]]; ide::selectByRegion -region rectangle -select true -point {2.065 -0.565} 
+[08:23:58.57] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:23:58.57] /i de::endDrag {1.651 -0.537} -window 1
+[08:23:58.97] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:23:58.97] /i de::zoom -window 1 -factor 2.0 -center {0.904 1.077}
+[08:23:58.99] /o {0.282 -0.945} {1.952 1.618}
+[08:23:59.07] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:23:59.07] /i de::zoom -window 1 -factor 2.0 -center {0.921 1.07}
+[08:23:59.08] /o {0.602 0.062} {1.436 1.344}
+[08:23:59.65] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:23:59.65] /i de::zoom -window 1 -factor 0.5 -center {0.912 1.059}
+[08:23:59.66] /o {0.291 -0.934} {1.961 1.629}
+[08:24:00.36] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:24:00.36] /i de::zoom -window 1 -factor 0.5 -center {0.469 0.976}
+[08:24:00.37] /o {0.114 -2.845} {3.452 2.283}
+[08:24:03.27] /# gi::executeAction dePan -in [gi::getWindows 1]
+[08:24:03.28] /i ide::pan 1
+[08:24:03.55] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:24:03.55] /i de::startDrag {1.539 1.954} -window 1
+[08:24:04.23] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:24:04.23] /i de::endDrag {1.546 1.954} -window 1
+[08:24:04.24] /r dePanToPoint {1.218 -0.386}
+[08:24:04.70] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:24:04.70] /i de::zoom -window 1 -factor 2.0 -center {1.337 1.786}
+[08:24:04.71] /o {0.443 -0.582} {2.112 1.982}
+[08:24:05.12] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:24:05.12] /i de::startDrag {1.288 1.8} -window 1
+[08:24:06.10] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:24:06.10] /i de::endDrag {1.288 1.797} -window 1
+[08:24:06.11] /r dePanToPoint {0.67 0.458}
+[08:24:06.74] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:24:06.74] /i de::addPoint {0.848 0.741} -window 1
+[08:24:07.69] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:24:07.69] /i de::startDrag {0.806 1.796} -window 1
+[08:24:08.04] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:24:08.04] /i de::endDrag {0.81 1.796} -window 1
+[08:24:08.05] /r dePanToPoint {0.442 0.518}
+[08:24:08.84] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:24:08.84] /i de::startDrag {0.676 0.773} -window 1
+[08:24:09.43] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:24:09.43] /i de::endDrag {0.672 0.773} -window 1
+[08:24:09.44] /r dePanToPoint {0.621 0.452}
+[08:24:09.80] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:24:09.80] /i de::addPoint {0.597 0.826} -window 1
+[08:24:09.96] /# gi::executeAction deCompleteShape -in [gi::getWindows 1]
+[08:24:09.96] /i de::completeShape -window 1
+[08:24:10.86] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:24:10.86] /i de::addPoint {0.566 0.92} -window 1
+[08:24:11.51] /# gi::executeAction deDefaultCommandOption -in [gi::getWindows 1]
+[08:24:11.51] /i de::commandOption default -point {0.671 0.763} -window 1
+[08:24:12.15] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:24:12.15] /i de::abortCommand -window 1
+[08:24:12.81] /# gi::executeAction deSelectByWindow -in [gi::getWindows 1]
+[08:24:12.81] /i de::deselectAll [db::getNext [de::getContexts -window 1]]; ide::selectByRegion -region rectangle -select true -point {0.77 0.66} 
+[08:24:13.26] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:24:13.26] /i de::endDrag {0.618 0.742} -window 1
+[08:24:13.76] /# gi::executeAction deSelectByWindow -in [gi::getWindows 1]
+[08:24:13.76] /i de::deselectAll [db::getNext [de::getContexts -window 1]]; ide::selectByRegion -region rectangle -select true -point {0.63 0.765} 
+[08:24:14.03] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:24:14.03] /i de::endDrag {0.535 0.861} -window 1
+[08:24:14.46] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:24:14.46] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {0.524 0.892} -index 0 -intent none] -replace true
+[08:24:14.47] /o oa:0x25b59b00
+[08:24:15.53] /# gi::executeAction deSelectByWindow -in [gi::getWindows 1]
+[08:24:15.53] /i de::deselectAll [db::getNext [de::getContexts -window 1]]; ide::selectByRegion -region rectangle -select true -point {0.58 0.89} 
+[08:24:16.28] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:24:16.28] /i de::endDrag {0.576 0.965} -window 1
+[08:24:17.82] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:24:17.82] /i de::zoom -window 1 -factor 0.5 -center {0.671 1.44}
+[08:24:17.83] /o {-1.208 -2.164} {2.13 2.964}
+[08:24:18.56] /# gi::executeAction deSelectByWindow -in [gi::getWindows 1]
+[08:24:18.56] /i de::deselectAll [db::getNext [de::getContexts -window 1]]; ide::selectByRegion -region rectangle -select true -point {1.055 1.95} 
+[08:24:19.03] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:24:19.03] /i de::endDrag {0.398 2.153} -window 1
+[08:24:19.37] /# gi::executeAction deZoomInCursor -in [gi::getWindows 1]
+[08:24:19.37] /i ide::setViewport 1 -direction in -point {0.782 1.937}
+[08:24:19.70] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:24:19.70] /i de::endDrag {0.14 2.111} -window 1
+[08:24:22.71] /# gi::executeAction deFitEdit -in [gi::getWindows 1]
+[08:24:22.72] /i de::fit -window 1 -fitEdit true
+[08:24:22.73] /o {-0.167 -1.814} {3.172 3.314}
+[08:24:24.94] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:24:24.94] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {0.657 0.771} -index 0 -intent none] -replace true
+[08:24:24.95] /o oa:0x238f0210
+[08:24:26.47] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:24:26.47] /i de::zoom -window 1 -factor 2.0 -center {0.56 0.464}
+[08:24:26.48] /o {0.197 -0.675} {1.866 1.889}
+[08:24:28.29] /# gi::executeAction dePan -in [gi::getWindows 1]
+[08:24:28.29] /i ide::pan 1
+[08:24:28.61] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:24:28.61] /i de::startDrag {0.958 1.749} -window 1
+[08:24:30.31] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:24:30.31] /i de::endDrag {0.961 1.749} -window 1
+[08:24:30.32] /r dePanToPoint {0.641 0.488}
+[08:24:30.87] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:24:30.87] /i de::addPoint {0.882 0.687} -window 1
+[08:24:48.41] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:24:48.41] /i de::zoom -window 1 -factor 0.5 -center {0.473 1.626}
+[08:24:48.42] /o {-0.378 -2.816} {2.96 2.312}
+[08:24:52.20] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:24:52.20] /i ile::createRectangle
+[08:24:55.80] /i gi::setField {coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:24:56.14] /i gi::setField {coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:25:00.34] /i gi::setField {delta_coordX} -value {1} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:25:02.25] /i gi::setField {delta_coordY} -value {0.25} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:25:02.35] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[08:25:08.85] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:25:08.85] /i de::addPoint {0.502 -0.895} -window 1
+[08:25:11.14] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:25:11.14] /i ile::createRectangle
+[08:25:13.10] /i gi::setField {coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:25:13.39] /i gi::setField {coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:25:16.85] /i gi::setField {delta_coordX} -value {0.5} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:25:18.40] /i gi::setField {delta_coordY} -value {0.25} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:25:18.50] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[08:25:22.87] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:25:22.87] /i de::addPoint {2.122 -0.902} -window 1
+[08:25:23.77] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:25:23.77] /i de::abortCommand -window 1
+[08:25:25.59] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:25:25.59] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[08:25:28.10] /# gi::executeAction deFitEdit -in [gi::getWindows 1]
+[08:25:28.10] /i de::fit -window 1 -fitEdit true
+[08:25:28.11] /o {-0.167 -2.264} {3.172 2.864}
+[08:25:46.18] /i gi::setCurrentIndex {lpps} -index {3,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:25:46.18] /i gi::setItemSelection {lpps} -index {3,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:25:46.19] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:25:46.20] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:25:46.20] /# gi::setItemSelection {lpps} -index {3,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:25:46.26] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:25:56.05] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:25:56.06] /i ile::createRectangle
+[08:26:53.28] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:26:53.28] /i de::startDrag {0.329 1.068} -window 1
+[08:26:57.22] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:26:57.22] /i de::endDrag {1.901 0.335} -window 1
+[08:27:00.23] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:27:01.54] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:27:01.54] /i ile::createRectangle
+[08:27:03.78] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:27:03.78] /i de::startDrag {0.273 1.187} -window 1
+[08:27:08.54] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:27:08.54] /i de::endDrag {1.817 0.216} -window 1
+[08:27:10.97] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:27:10.97] /i de::startDrag {1.95 -0.573} -window 1
+[08:27:13.58] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:27:13.58] /i de::endDrag {2.809 -1.055} -window 1
+[08:27:15.57] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:27:16.90] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:27:16.90] /i de::startDrag {2.026 -0.524} -window 1
+[08:27:19.48] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:27:19.48] /i de::endDrag {2.767 -1.062} -window 1
+[08:27:21.71] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:27:24.16] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:27:24.16] /i de::startDrag {1.859 -0.51} -window 1
+[08:27:26.08] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:27:26.08] /i de::endDrag {2.893 -1.048} -window 1
+[08:27:27.27] /i gi::setCurrentIndex {lpps} -index {4,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:27:27.27] /i gi::setItemSelection {lpps} -index {4,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:27:27.28] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:27:27.29] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:27:27.29] /# gi::setItemSelection {lpps} -index {4,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:27:27.36] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:27:28.59] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:27:28.59] /i de::zoom -window 1 -factor 2.0 -center {2.033 1.005}
+[08:27:28.60] /o {0.933 -0.629} {2.602 1.934}
+[08:27:28.67] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:27:28.67] /i de::zoom -window 1 -factor 2.0 -center {2.058 0.991}
+[08:27:28.68] /o {1.496 0.181} {2.33 1.463}
+[08:27:32.41] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:27:32.41] /i de::addPoint {1.815 1.183} -window 1
+[08:27:32.95] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:27:32.95] /i de::zoom -window 1 -factor 0.5 -center {2.028 0.827}
+[08:27:32.97] /o {0.963 -0.465} {2.632 2.098}
+[08:27:33.07] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:27:33.07] /i de::zoom -window 1 -factor 0.5 -center {2.028 0.827}
+[08:27:33.08] /o {-0.102 -1.758} {3.237 3.37}
+[08:27:34.19] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:27:34.19] /i de::zoom -window 1 -factor 2.0 -center {2.524 0.296}
+[08:27:34.21] /o {1.211 -0.731} {2.88 1.833}
+[08:27:36.11] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:27:36.11] /i de::zoom -window 1 -factor 2.0 -center {2.702 0.209}
+[08:27:36.12] /o {1.957 -0.261} {2.791 1.021}
+[08:27:37.21] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:27:37.21] /i de::zoom -window 1 -factor 0.5 -center {2.702 0.232}
+[08:27:37.22] /o {1.211 -0.754} {2.88 1.81}
+[08:27:38.49] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:27:38.49] /i de::zoom -window 1 -factor 2.0 -center {2.217 0.228}
+[08:27:38.50] /o {1.714 -0.263} {2.549 1.019}
+[08:27:43.98] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:27:43.98] /i de::zoom -window 1 -factor 0.5 -center {2.543 0.205}
+[08:27:43.99] /o {0.885 -0.731} {2.554 1.833}
+[08:27:48.77] /# gi::executeAction dePan -in [gi::getWindows 1]
+[08:27:48.77] /i ide::pan 1
+[08:27:49.31] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:27:49.31] /i de::startDrag {2.191 1.564} -window 1
+[08:27:50.60] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:27:50.60] /i de::endDrag {2.195 1.56} -window 1
+[08:27:50.61] /r dePanToPoint {2.302 0.51}
+[08:27:52.46] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:27:52.46] /i ile::createRectangle
+[08:28:00.81] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:28:00.81] /i de::addPoint {2.927 0.22} -window 1
+[08:28:03.06] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:28:03.06] /i de::zoom -window 1 -factor 2.0 -center {1.789 0.199}
+[08:28:03.07] /o {1.628 -0.286} {2.463 0.995}
+[08:28:03.86] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:28:03.86] /i de::zoom -window 1 -factor 2.0 -center {1.784 0.222}
+[08:28:03.87] /o {1.706 -0.032} {2.123 0.609}
+[08:28:05.66] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:28:05.66] /i de::zoom -window 1 -factor 0.5 -center {1.744 0.382}
+[08:28:05.67] /o {1.668 -0.446} {2.503 0.835}
+[08:28:06.91] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:28:06.91] /i de::zoom -window 1 -factor 0.5 -center {1.878 0.334}
+[08:28:06.92] /o {1.458 -1.227} {3.128 1.337}
+[08:28:07.79] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:28:09.50] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:28:09.50] /i ile::createRectangle
+[08:28:12.50] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:28:12.50] /i de::addPoint {1.822 1.176} -window 1
+[08:28:14.53] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:28:15.95] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:28:15.95] /i de::abortCommand -window 1
+[08:28:18.17] /i de::redoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:28:18.90] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:28:18.90] /i de::zoom -window 1 -factor 2.0 -center {1.629 1.194}
+[08:28:18.91] /o {1.544 -0.016} {2.378 1.265}
+[08:28:19.87] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:28:19.87] /i ile::createRectangle
+[08:28:22.42] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:28:22.42] /i de::addPoint {1.816 1.183} -window 1
+[08:28:22.97] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:28:22.97] /i de::zoom -window 1 -factor 0.5 -center {2.211 0.626}
+[08:28:22.99] /o {0.876 -0.659} {2.546 1.905}
+[08:28:24.40] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:28:24.40] /i de::zoom -window 1 -factor 0.5 -center {2.532 0.246}
+[08:28:24.41] /o {-0.779 -1.564} {2.559 3.564}
+[08:28:26.92] /# gi::executeAction dePan -in [gi::getWindows 1]
+[08:28:26.92] /i ide::pan 1
+[08:28:27.49] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:28:27.49] /i de::startDrag {2.112 1.943} -window 1
+[08:28:28.40] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:28:28.40] /i de::endDrag {2.119 1.943} -window 1
+[08:28:28.41] /r dePanToPoint {2.664 0.399}
+[08:28:29.37] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:28:29.37] /i de::zoom -window 1 -factor 2.0 -center {1.896 0.238}
+[08:28:29.38] /o {1.445 -0.963} {3.115 1.6}
+[08:28:30.74] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:28:30.74] /i de::startDrag {2.793 1.237} -window 1
+[08:28:32.09] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:28:32.09] /i de::endDrag {2.79 1.237} -window 1
+[08:28:32.10] /r dePanToPoint {2.499 0.318}
+[08:28:32.42] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:28:32.42] /i de::zoom -window 1 -factor 2.0 -center {2.785 1.237}
+[08:28:32.43] /o {2.225 0.137} {3.059 1.418}
+[08:28:33.01] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:28:33.01] /i de::startDrag {2.679 1.191} -window 1
+[08:28:33.76] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:28:33.76] /i de::endDrag {2.679 1.193} -window 1
+[08:28:33.77] /r dePanToPoint {2.407 0.7}
+[08:28:34.03] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:28:34.03] /i de::zoom -window 1 -factor 0.5 -center {2.662 1.187}
+[08:28:34.05] /o {1.317 -1.069} {2.987 1.495}
+[08:28:35.12] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:28:35.12] /i de::startDrag {2.623 1.173} -window 1
+[08:28:36.20] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:28:36.20] /i de::endDrag {2.619 1.173} -window 1
+[08:28:36.21] /r dePanToPoint {2.561 0.324}
+[08:28:37.21] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:28:37.21] /i ile::createRectangle
+[08:28:47.97] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:28:47.97] /i de::addPoint {2.858 0.216} -window 1
+[08:28:49.36] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:28:49.36] /i de::zoom -window 1 -factor 2.0 -center {1.796 0.191}
+[08:28:49.37] /o {1.761 -0.383} {2.596 0.898}
+[08:28:49.74] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:28:49.74] /i de::zoom -window 1 -factor 2.0 -center {1.8 0.196}
+[08:28:49.75] /o {1.781 -0.094} {2.198 0.547}
+[08:28:49.86] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:28:49.86] /i de::zoom -window 1 -factor 2.0 -center {1.8 0.195}
+[08:28:49.88] /o {1.79 0.051} {1.999 0.371}
+[08:28:50.62] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:28:50.62] /i de::zoom -window 1 -factor 0.5 -center {1.8 0.196}
+[08:28:50.63] /o {1.781 -0.095} {2.198 0.546}
+[08:28:50.65] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:28:50.65] /i de::zoom -window 1 -factor 0.5 -center {1.8 0.196}
+[08:28:50.67] /o {1.761 -0.385} {2.596 0.896}
+[08:28:50.69] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:28:50.69] /i de::zoom -window 1 -factor 0.5 -center {1.8 0.196}
+[08:28:50.70] /o {1.722 -0.967} {3.392 1.597}
+[08:28:50.73] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:28:50.73] /i de::zoom -window 1 -factor 0.5 -center {1.799 0.196}
+[08:28:50.75] /o {1.646 -2.13} {4.984 2.998}
+[08:28:52.01] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:28:52.01] /i de::startDrag {3.371 -0.46} -window 1
+[08:28:53.02] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:28:53.02] /i de::endDrag {3.839 -0.397} -window 1
+[08:28:53.20] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:28:53.20] /i de::abortCommand -window 1
+[08:28:54.82] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:28:55.68] /# gi::executeAction deSelectByWindow -in [gi::getWindows 1]
+[08:28:55.68] /i de::deselectAll [db::getNext [de::getContexts -window 1]]; ide::selectByRegion -region rectangle -select true -point {3.14 -0.335} 
+[08:28:56.46] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:28:56.46] /i de::endDrag {3.699 -0.481} -window 1
+[08:28:57.58] /# gi::executeAction dePan -in [gi::getWindows 1]
+[08:28:57.59] /i ide::pan 1
+[08:28:57.92] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:28:57.92] /i de::startDrag {3.154 2.488} -window 1
+[08:28:58.58] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:28:58.58] /i de::endDrag {3.154 2.481} -window 1
+[08:28:58.59] /r dePanToPoint {2.05 0.036}
+[08:28:58.99] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:28:58.99] /i de::startDrag {2.148 2.313} -window 1
+[08:28:59.24] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:28:59.24] /i de::endDrag {2.155 2.306} -window 1
+[08:28:59.25] /r dePanToPoint {1.666 -0.02}
+[08:29:00.28] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:29:00.28] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:29:00.28] /# gi::setItemSelection {lpps} -index {4,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:29:00.34] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:29:02.14] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:29:02.14] /i ile::createRectangle
+[08:29:03.21] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:29:03.21] /i de::zoom -window 1 -factor 2.0 -center {1.82 -0.656}
+[08:29:03.22] /o {0.908 -1.62} {2.578 0.944}
+[08:29:03.73] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:29:03.73] /i de::zoom -window 1 -factor 2.0 -center {1.893 -0.61}
+[08:29:03.74] /o {1.401 -1.115} {2.235 0.167}
+[08:29:05.96] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:29:05.96] /i de::addPoint {1.86 -0.514} -window 1
+[08:29:06.85] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:29:06.85] /i de::abortCommand -window 1
+[08:29:08.29] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:29:08.29] /i ile::createRectangle
+[08:29:10.37] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:29:10.37] /i de::addPoint {1.858 -0.511} -window 1
+[08:29:11.96] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:29:11.96] /i de::zoom -window 1 -factor 0.5 -center {1.659 -0.856}
+[08:29:11.97] /o {1.142 -1.374} {2.812 1.19}
+[08:29:12.48] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:29:12.48] /i de::zoom -window 1 -factor 0.5 -center {1.533 -0.815}
+[08:29:12.49] /o {0.752 -1.933} {4.09 3.195}
+[08:29:12.95] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:29:12.95] /i de::zoom -window 1 -factor 0.5 -center {1.213 -0.738}
+[08:29:12.96] /o {0.29 -3.127} {6.968 7.127}
+[08:29:14.98] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:29:14.98] /i de::zoom -window 1 -factor 2.0 -center {0.276 -1.073}
+[08:29:15.00] /o {0.283 -2.1} {3.622 3.027}
+[08:29:15.50] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:29:15.50] /i de::zoom -window 1 -factor 2.0 -center {0.269 -1.066}
+[08:29:15.52] /o {0.276 -1.583} {1.945 0.981}
+[08:29:20.19] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:29:20.19] /i de::addPoint {0.374 -1.052} -window 1
+[08:29:21.17] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:29:21.17] /i de::abortCommand -window 1
+[08:29:21.96] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:29:21.96] /i de::zoom -window 1 -factor 2.0 -center {1.858 -1.087}
+[08:29:21.97] /o {1.067 -1.335} {1.902 -0.053}
+[08:29:22.07] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:29:22.07] /i de::zoom -window 1 -factor 2.0 -center {1.858 -1.084}
+[08:29:22.08] /o {1.463 -1.21} {1.88 -0.569}
+[08:29:22.64] /# gi::executeAction deSelectByWindow -in [gi::getWindows 1]
+[08:29:22.64] /i de::deselectAll [db::getNext [de::getContexts -window 1]]; ide::selectByRegion -region rectangle -select true -point {1.84 -1.09} 
+[08:29:23.27] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:29:23.27] /i de::endDrag {1.72 -1.077} -window 1
+[08:29:23.76] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:29:23.76] /i de::zoom -window 1 -factor 0.5 -center {1.721 -1.087}
+[08:29:23.77] /o {1.204 -1.332} {2.039 -0.05}
+[08:29:23.81] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:29:23.81] /i de::zoom -window 1 -factor 0.5 -center {1.721 -1.088}
+[08:29:23.82] /o {0.687 -1.576} {2.356 0.988}
+[08:29:23.90] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:29:23.90] /i de::zoom -window 1 -factor 0.5 -center {1.721 -1.087}
+[08:29:23.92] /o {-0.347 -2.065} {2.992 3.062}
+[08:29:40.65] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:29:43.46] /# gi::executeAction deSelectByWindow -in [gi::getWindows 1]
+[08:29:43.46] /i de::deselectAll [db::getNext [de::getContexts -window 1]]; ide::selectByRegion -region rectangle -select true -point {0.4 1.765} 
+[08:29:43.64] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:29:43.64] /i de::endDrag {0.324 1.574} -window 1
+[08:29:45.02] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:29:47.03] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:29:50.91] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:29:51.78] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:33:30.93] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:34:04.98] /i gi::setCurrentIndex {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:34:04.98] /i gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:34:04.99] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:34:04.99] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:34:04.99] /# gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:34:05.11] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:34:12.89] /# gi::executeAction lePath -in [gi::getWindows 1]
+[08:34:12.89] /i ile::createPath
+[08:34:37.23] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:34:37.23] /i de::zoom -window 1 -factor 2.0 -center {1.092 0.778}
+[08:34:37.25] /o {0.373 -0.644} {2.042 1.92}
+[08:34:41.04] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:34:41.04] /i de::addPoint {0.924 1.162} -window 1
+[08:34:42.28] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:34:42.28] /i de::zoom -window 1 -factor 0.5 -center {1.242 0.446}
+[08:34:42.29] /o {-0.497 -1.733} {2.842 3.394}
+[08:34:44.61] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:34:44.61] /i de::abortCommand -window 1
+[08:34:46.15] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:34:46.15] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {1.047 1.117} -index 0 -intent none] -replace true
+[08:34:46.16] /o oa:0x25c98ba0
+[08:34:47.25] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:34:47.25] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[08:34:48.77] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:34:48.77] /i ile::createInterconnect
+[08:34:51.45] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:34:51.45] /i de::addPoint {1.061 1.145} -window 1
+[08:34:57.68] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:34:57.68] /i de::addPoint {0.977 -1.014} -window 1
+[08:34:58.96] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:34:58.96] /i de::abortCommand -window 1
+[08:35:01.01] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:35:01.01] /i ile::createInterconnect
+[08:35:04.70] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:35:04.70] /i de::addPoint {1.082 1.145} -window 1
+[08:35:10.57] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:35:10.57] /i de::addPoint {0.872 -1.021} -window 1
+[08:35:14.10] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[08:35:14.10] /i de::completeShape {1.159 -0.413} -window 1
+[08:35:18.53] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:35:19.44] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:35:19.44] /i ile::createInterconnect
+[08:35:22.77] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:35:22.77] /i de::addPoint {1.068 1.159} -window 1
+[08:35:26.75] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:35:26.75] /i de::addPoint {0.921 -1.028} -window 1
+[08:35:53.60] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:35:53.60] /i de::addPoint {1.096 -1.007} -window 1
+[08:35:56.38] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:35:57.83] /i de::redoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:35:59.09] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:35:59.09] /i de::abortCommand -window 1
+[08:36:01.88] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:36:01.88] /i ile::createInterconnect
+[08:36:04.25] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:36:04.25] /i de::addPoint {1.075 1.152} -window 1
+[08:36:05.04] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:36:05.04] /i de::abortCommand -window 1
+[08:36:06.56] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:36:06.56] /i ile::createInterconnect
+[08:36:11.67] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:36:11.67] /i de::addPoint {1.068 1.159} -window 1
+[08:36:15.70] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:36:15.70] /i de::addPoint {0.739 -1.028} -window 1
+[08:36:31.71] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:36:31.71] /i de::abortCommand -window 1
+[08:36:34.06] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:36:34.06] /i ile::createInterconnect
+[08:36:36.55] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:36:36.55] /i de::addPoint {1.068 1.159} -window 1
+[08:36:42.47] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:36:42.47] /i de::addPoint {0.879 -1.028} -window 1
+[08:36:52.82] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[08:36:52.82] /i de::completeShape {1.117 -1.251} -window 1
+[08:36:54.47] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:36:54.47] /i de::abortCommand -window 1
+[08:36:56.33] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:36:56.33] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {1.117 -0.217} -index 0 -intent none] -replace true
+[08:36:56.34] /o oa:0x2439f4d0
+[08:36:57.93] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:36:58.85] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:36:58.85] /i ile::createInterconnect
+[08:37:01.66] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:37:01.66] /i de::addPoint {1.068 1.159} -window 1
+[08:37:04.15] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:37:04.15] /i de::abortCommand -window 1
+[08:37:06.36] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:37:06.36] /i ile::createInterconnect
+[08:37:09.11] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:37:09.11] /i de::addPoint {1.075 1.173} -window 1
+[08:37:14.35] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[08:37:14.35] /i de::completeShape {0.984 -1.035} -window 1
+[08:37:25.12] /i gi::setCurrentIndex {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:25.13] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:25.13] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:25.14] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:25.14] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:25.20] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:25.21] /w Warning: LPP {CO drawing} is not a valid routing LPP. (LE_CREATE_INTERCONNECT-016)
+[08:37:25.21] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:25.21] /# gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:27.12] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:27.12] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:27.13] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:27.13] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:27.19] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:27.20] /w Warning: LPP {CO drawing} is not a valid routing LPP. (LE_CREATE_INTERCONNECT-016)
+[08:37:27.20] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:27.20] /# gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.14] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.15] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.15] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.15] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.20] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.21] /w Warning: LPP {CO drawing} is not a valid routing LPP. (LE_CREATE_INTERCONNECT-016)
+[08:37:28.21] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.21] /# gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.27] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.28] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.28] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.37] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.38] /w Warning: LPP {CO drawing} is not a valid routing LPP. (LE_CREATE_INTERCONNECT-016)
+[08:37:28.38] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.38] /# gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.38] /# gi::executeAction leShowLPPInDisplayResourceEditor -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:28.38] /i dr::showDisplayResourceEditor -parent 1 -lpp [db::getAttr lpp -of [de::getLPPs -from [oa::DesignFind mylibrary inverter layout] -filter {%lpp =="CO drawing"}]]
+[08:37:28.40] /r giWindowId 2
+[08:37:28.40] /r giWindowGeometry 100x100
+[08:37:28.42] /w Warning: Conflicting definitions for ConstraintDef minEnclosure were read. These constraints will not be available.
+[08:37:28.42] /w Warning: Conflicting definitions for ConstraintDef endOfLineEnclosure were read. These constraints will not be available.
+[08:37:28.42] /w Warning: Conflicting definitions for ConstraintDef defWidth were read. These constraints will not be available.
+[08:37:28.93] /# gi::setItemSelection {editorLPPView} -index {25,0} -in [gi::getWindows 2]
+[08:37:28.94] /o oa:0x26038af0
+[08:37:28.95] /i gi::setItemSelection {editorLPPView} -index {25,0} -in [gi::getWindows 2]
+[08:37:29.06] /i gi::setCurrentIndex {editorPacketsUsingView} -index {0,0} -in [gi::getWindows 2]
+[08:37:29.25] /i db::setAttr geometry -of [gi::getFrames 2] -value 586x600+8+31
+[08:37:31.69] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[08:37:31.73] /i gi::setActiveWindow 1
+[08:37:31.73] /i gi::setActiveWindow 1 -raise true
+[08:37:48.36] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:48.36] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:48.37] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:48.37] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:48.44] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:48.45] /w Warning: LPP {CO drawing} is not a valid routing LPP. (LE_CREATE_INTERCONNECT-016)
+[08:37:48.45] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:48.45] /# gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:50.56] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:50.56] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:50.57] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:50.57] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:50.66] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:50.67] /w Warning: LPP {CO drawing} is not a valid routing LPP. (LE_CREATE_INTERCONNECT-016)
+[08:37:50.67] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:50.67] /# gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:50.95] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:50.96] /i gi::executeAction leOLPToggleSelectable -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:37:52.92] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:37:52.92] /i de::addPoint {0.516 2.221} -window 1
+[08:37:54.95] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:37:54.95] /i de::abortCommand -window 1
+[08:37:56.50] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:37:56.50] /i ile::createRectangle
+[08:37:57.32] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:37:57.32] /i de::startDrag {0.481 2.64} -window 1
+[08:37:57.46] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:37:57.46] /i de::endDrag {1.319 2.36} -window 1
+[08:37:58.55] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:37:58.56] /i de::abortCommand -window 1
+[08:37:59.67] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:37:59.67] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {0.872 2.549} -index 0 -intent none] -replace true
+[08:37:59.68] /o oa:0x26002e80
+[08:38:03.14] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:38:06.93] /i gi::setCurrentIndex {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:06.93] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:06.94] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:06.94] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:06.94] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:07.00] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:08.04] /i gi::setCurrentIndex {lpps} -index {18,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:08.04] /i gi::setItemSelection {lpps} -index {18,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:08.05] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:08.06] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:08.06] /# gi::setItemSelection {lpps} -index {18,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:08.16] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:09.07] /i gi::setCurrentIndex {lpps} -index {16,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:09.07] /i gi::setItemSelection {lpps} -index {16,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:09.08] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:09.09] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:09.09] /# gi::setItemSelection {lpps} -index {16,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:09.18] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:09.89] /i gi::setCurrentIndex {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:09.90] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:09.91] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:09.91] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:09.91] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:10.02] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:11.05] /i gi::setCurrentIndex {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:11.06] /i gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:11.06] /i gi::executeAction leOLPToggleSelectable -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:11.92] /i gi::setCurrentIndex {lpps} -index {17,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:11.92] /i gi::setItemSelection {lpps} -index {17,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:11.93] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:11.94] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:11.94] /# gi::setItemSelection {lpps} -index {17,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:12.06] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:12.66] /i gi::setCurrentIndex {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:12.66] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:12.67] /i gi::executeAction leOLPToggleSelectable -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:13.96] /i gi::setCurrentIndex {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:13.97] /i gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:13.98] /i gi::executeAction leOLPToggleSelectable -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:15.00] /i gi::setCurrentIndex {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:15.00] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:15.01] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:15.01] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:15.01] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:15.11] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:38:31.39] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:38:31.40] /i ile::createRectangle
+[08:38:34.22] /i gi::setField {coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:38:34.58] /i gi::setField {coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:38:37.01] /i gi::setField {delta_coordX} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:38:42.82] /i gi::setField {delta_coordY} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:38:42.92] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[08:39:02.83] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:39:02.83] /i de::addPoint {0.649 0.789} -window 1
+[08:39:05.69] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:39:05.69] /i de::addPoint {0.649 0.516} -window 1
+[08:39:11.36] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:39:11.36] /i de::addPoint {1.235 0.782} -window 1
+[08:39:21.15] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:39:21.15] /i de::addPoint {1.249 0.516} -window 1
+[08:39:38.26] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:39:38.26] /i de::addPoint {0.956 -0.154} -window 1
+[08:39:41.42] /i gi::setCurrentIndex {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:39:41.43] /i gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:39:41.43] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:39:41.44] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:39:41.44] /# gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:39:41.54] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:39:44.26] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:39:44.26] /i de::addPoint {0.949 -0.21} -window 1
+[08:39:51.41] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:39:51.41] /i de::addPoint {0.956 -0.154} -window 1
+[08:39:54.48] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:39:54.67] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:39:55.25] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:40:04.54] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:40:04.54] /i de::addPoint {0.9 -0.259} -window 1
+[08:40:10.91] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:40:16.24] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:40:16.24] /i de::addPoint {0.886 -0.168} -window 1
+[08:40:22.70] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:40:22.70] /i de::addPoint {0.998 -0.168} -window 1
+[08:40:27.69] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:40:27.69] /i de::addPoint {0.886 -0.294} -window 1
+[08:40:30.28] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:40:30.28] /i de::addPoint {0.998 -0.294} -window 1
+[08:40:35.08] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:40:35.23] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:40:35.80] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:40:36.67] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:40:42.64] /# gi::executeAction deStartDrag -in [gi::getWindows 1]
+[08:40:42.64] /i de::startDrag {0.998 -0.35} -window 1
+[08:40:43.40] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:40:43.40] /i de::endDrag {0.823 -0.266} -window 1
+[08:40:47.42] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:40:47.42] /i de::addPoint {0.998 -0.217} -window 1
+[08:40:50.55] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:40:50.55] /i de::addPoint {0.872 -0.217} -window 1
+[08:40:55.88] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:40:55.88] /i de::addPoint {0.872 -0.35} -window 1
+[08:41:01.97] /i gi::setCurrentIndex {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:41:01.98] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:41:01.99] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:41:01.99] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:41:01.99] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:41:02.12] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:41:09.18] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:41:09.18] /i de::addPoint {0.928 -0.273} -window 1
+[08:41:17.73] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:41:17.73] /i de::addPoint {0.551 -0.825} -window 1
+[08:41:22.73] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:41:22.73] /i de::addPoint {1.284 -0.832} -window 1
+[08:41:26.14] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:41:26.14] /i de::addPoint {2.311 -0.839} -window 1
+[08:41:28.72] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:41:28.72] /i de::addPoint {2.332 0.775} -window 1
+[08:41:32.56] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:41:32.56] /i de::addPoint {2.339 0.516} -window 1
+[08:41:54.81] /i gi::setCurrentIndex {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:41:54.82] /i gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:41:54.82] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:41:54.83] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:41:54.83] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:41:54.86] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:06.73] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:42:06.73] /i de::addPoint {0.649 0.474} -window 1
+[08:42:11.71] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:42:14.43] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:42:14.43] /i ile::createInterconnect
+[08:42:16.42] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:16.42] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:16.42] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:16.51] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:18.71] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:42:18.71] /i de::addPoint {0.718 0.572} -window 1
+[08:42:18.72] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:18.72] /# gi::setItemSelection {lpps} -index {2,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:23.77] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:42:23.77] /i de::abortCommand -window 1
+[08:42:25.05] /i gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:25.06] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:25.06] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:25.06] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:25.14] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:27.83] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:42:27.83] /i ile::createInterconnect
+[08:42:30.78] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:42:30.78] /i de::addPoint {0.711 0.572} -window 1
+[08:42:30.79] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:30.79] /# gi::setItemSelection {lpps} -index {2,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:31.78] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:42:31.78] /i de::abortCommand -window 1
+[08:42:40.26] /i gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:40.27] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:40.27] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:40.27] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:40.35] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:41.31] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:42:41.31] /i ile::createInterconnect
+[08:42:41.69] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:42:41.69] /i de::addPoint {0.844 2.605} -window 1
+[08:42:44.23] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:42:44.23] /i de::abortCommand -window 1
+[08:42:45.49] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:45.50] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:45.50] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:45.57] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:42:46.59] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:42:46.59] /i ile::createInterconnect
+[08:47:34.84] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:47:34.84] /i de::addPoint {1.054 2.849} -window 1
+[08:47:36.98] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:47:36.98] /i de::abortCommand -window 1
+[08:47:52.29] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:47:57.55] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:47:57.55] /i ile::createInterconnect
+[08:48:03.53] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:48:03.53] /i de::addPoint {0.718 0.558} -window 1
+[08:48:03.54] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:48:03.54] /# gi::setItemSelection {lpps} -index {2,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:48:06.09] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:48:06.09] /i de::abortCommand -window 1
+[08:48:50.21] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:50:21.94] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:50:23.31] /i gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:50:23.31] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:50:23.32] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:50:23.32] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:50:23.40] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:50:27.56] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:50:27.56] /i ile::createInterconnect
+[08:50:30.77] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:50:30.77] /i de::addPoint {0.711 1.075} -window 1
+[08:50:35.63] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:50:35.63] /i de::addPoint {0.774 0.488} -window 1
+[08:50:41.28] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:50:41.28] /i de::abortCommand -window 1
+[08:50:42.62] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:50:42.62] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:50:42.62] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:50:42.70] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:50:44.97] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:50:44.97] /i ile::createInterconnect
+[08:50:59.48] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:50:59.48] /i de::addPoint {0.732 1.096} -window 1
+[08:51:02.15] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:51:02.15] /i de::abortCommand -window 1
+[08:51:03.69] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:51:03.70] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:51:03.70] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:51:03.79] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:51:06.19] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:51:06.19] /i ile::createInterconnect
+[08:51:19.11] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:51:19.11] /i de::addPoint {0.704 1.096} -window 1
+[08:51:22.00] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:51:22.00] /i de::abortCommand -window 1
+[08:51:24.20] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:51:24.20] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:51:24.20] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:51:24.30] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:51:34.72] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:51:34.72] /i ile::createInterconnect
+[08:51:48.91] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:51:48.91] /i de::addPoint {0.718 1.34} -window 1
+[08:51:52.48] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:51:52.48] /i de::addPoint {0.844 0.474} -window 1
+[08:52:06.48] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:52:06.49] /i de::abortCommand -window 1
+[08:52:08.25] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:52:08.25] /i ile::createInterconnect
+[08:52:39.23] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:52:39.23] /i ile::createInterconnect
+[08:52:45.87] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:52:45.87] /i de::addPoint {0.732 1.326} -window 1
+[08:52:47.81] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:52:47.81] /i de::abortCommand -window 1
+[08:54:54.61] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:55:08.27] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:55:08.28] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:55:08.28] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:55:08.37] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:55:09.63] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:55:09.63] /i ile::createInterconnect
+[08:55:14.19] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:55:14.19] /i de::addPoint {0.718 1.354} -window 1
+[08:55:21.16] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:55:21.16] /i de::addPoint {0.586 0.488} -window 1
+[08:55:25.82] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:55:25.82] /i de::abortCommand -window 1
+[08:55:28.23] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:55:28.23] /i ile::createInterconnect
+[08:55:33.56] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:55:33.56] /i de::addPoint {0.732 1.424} -window 1
+[08:55:35.19] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:55:35.19] /i de::abortCommand -window 1
+[08:55:36.50] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:55:36.50] /i ile::createInterconnect
+[08:55:42.86] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:55:42.86] /i de::addPoint {0.718 1.41} -window 1
+[08:55:50.03] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[08:55:50.03] /i de::completeShape {0.628 0.474} -window 1
+[08:55:54.45] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:55:54.45] /i ile::createInterconnect
+[08:55:56.09] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:55:56.09] /i de::addPoint {0.725 1.299} -window 1
+[08:55:57.93] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:55:57.93] /i de::abortCommand -window 1
+[08:55:59.72] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:55:59.72] /i ile::createInterconnect
+[08:56:03.85] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:56:03.85] /i de::addPoint {0.718 1.34} -window 1
+[08:56:11.27] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:56:11.27] /i de::zoom -window 1 -factor 2.0 -center {2.472 1.236}
+[08:56:11.28] /o {0.988 -0.249} {2.657 2.315}
+[08:56:15.01] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:56:15.01] /i de::addPoint {2.475 1.232} -window 1
+[08:56:19.85] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:56:19.86] /i de::abortCommand -window 1
+[08:56:20.50] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:56:20.50] /i de::zoom -window 1 -factor 0.5 -center {2.371 1.292}
+[08:56:20.52] /o {-0.396 -1.789} {2.943 3.338}
+[08:56:22.46] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:56:22.46] /i ile::createInterconnect
+[08:56:24.92] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:56:24.92] /i de::addPoint {0.722 1.333} -window 1
+[08:56:30.67] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[08:56:30.67] /i de::completeShape {2.482 1.229} -window 1
+[08:56:32.92] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:56:32.92] /i ile::createInterconnect
+[08:56:36.93] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:56:36.93] /i de::addPoint {2.412 1.333} -window 1
+[08:56:45.94] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:56:45.94] /i de::addPoint {2.412 0.474} -window 1
+[08:56:48.22] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:56:48.22] /i de::abortCommand -window 1
+[08:56:49.89] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:56:49.89] /i ile::createInterconnect
+[08:56:52.73] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:56:52.73] /i de::addPoint {2.405 1.326} -window 1
+[08:56:57.20] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[08:56:57.20] /i de::completeShape {2.377 0.474} -window 1
+[08:58:13.56] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:58:13.56] /i ile::createInterconnect
+[08:58:20.61] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:58:20.61] /i de::addPoint {1.294 0.942} -window 1
+[08:58:20.62] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:20.62] /# gi::setItemSelection {lpps} -index {2,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:22.99] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:58:22.99] /i de::abortCommand -window 1
+[08:58:30.91] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:58:30.91] /i de::zoom -window 1 -factor 2.0 -center {1.462 0.74}
+[08:58:30.92] /o {0.533 -0.525} {2.202 2.039}
+[08:58:32.19] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[08:58:32.19] /i de::zoom -window 1 -factor 2.0 -center {1.462 0.74}
+[08:58:32.20] /o {0.998 0.108} {1.832 1.39}
+[08:58:33.86] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:58:33.86] /i de::zoom -window 1 -factor 0.5 -center {1.462 0.74}
+[08:58:33.87] /o {0.533 -0.525} {2.202 2.039}
+[08:58:35.95] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:58:35.95] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {1.326 0.611} -index 0 -intent none] -replace true
+[08:58:35.95] /o oa:0x25f9b1c0
+[08:58:36.95] /# gi::executeAction deSelectByWindow -in [gi::getWindows 1]
+[08:58:36.95] /i de::deselectAll [db::getNext [de::getContexts -window 1]]; ide::selectByRegion -region rectangle -select true -point {1.315 0.585} 
+[08:58:37.20] /# gi::executeAction deEndDrag -in [gi::getWindows 1]
+[08:58:37.20] /i de::endDrag {1.259 0.583} -window 1
+[08:58:38.55] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[08:58:40.23] /i gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:40.23] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:40.24] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:40.24] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:40.37] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:41.39] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:41.40] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:41.40] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:41.47] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:41.55] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:41.55] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:41.55] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:41.64] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:41.65] /# gi::executeAction leShowLPPInDisplayResourceEditor -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:41.66] /i dr::showDisplayResourceEditor -parent 1 -lpp [db::getAttr lpp -of [de::getLPPs -from [oa::DesignFind mylibrary inverter layout] -filter {%lpp =="M1 drawing"}]]
+[08:58:41.67] /r giWindowId 3
+[08:58:41.67] /r giWindowGeometry 100x100
+[08:58:42.17] /# gi::setItemSelection {editorLPPView} -index {10,0} -in [gi::getWindows 3]
+[08:58:42.17] /o oa:0x26082c50
+[08:58:42.18] /i gi::setItemSelection {editorLPPView} -index {10,0} -in [gi::getWindows 3]
+[08:58:42.27] /i gi::setCurrentIndex {editorPacketsUsingView} -index {0,0} -in [gi::getWindows 3]
+[08:58:42.53] /i db::setAttr geometry -of [gi::getFrames 3] -value 586x600+8+31
+[08:58:43.98] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[08:58:44.01] /i gi::setActiveWindow 1
+[08:58:44.02] /i gi::setActiveWindow 1 -raise true
+[08:58:45.55] /# gi::executeAction leInterconnect -in [gi::getWindows 1]
+[08:58:45.55] /i ile::createInterconnect
+[08:58:50.51] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:58:50.51] /i de::addPoint {1.239 0.963} -window 1
+[08:58:50.52] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:50.52] /# gi::setItemSelection {lpps} -index {2,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:55.03] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:58:55.03] /i de::abortCommand -window 1
+[08:58:57.56] /i gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:57.57] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:57.57] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:57.57] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:58:57.65] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:59:00.77] /# gi::executeAction lePath -in [gi::getWindows 1]
+[08:59:00.77] /i ile::createPath
+[08:59:05.05] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:59:05.05] /i de::addPoint {1.301 0.942} -window 1
+[08:59:06.26] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:59:06.26] /i de::abortCommand -window 1
+[08:59:07.07] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[08:59:07.07] /i de::zoom -window 1 -factor 0.5 -center {1.326 0.593}
+[08:59:07.08] /o {-0.26 -1.642} {3.079 3.485}
+[08:59:09.56] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:09.87] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:10.07] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:10.32] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:10.62] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:10.92] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:11.16] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:11.60] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:11.98] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:12.34] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:14.09] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:14.48] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:14.88] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[08:59:21.09] /i gi::setCurrentIndex {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:59:21.09] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:59:21.10] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:59:21.11] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:59:21.11] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:59:21.19] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[08:59:24.11] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[08:59:24.11] /i ile::createRectangle
+[08:59:26.05] /i gi::setField {coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:59:26.33] /i gi::setField {coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:59:28.26] /i gi::setField {delta_coordX} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:59:29.73] /i gi::setField {delta_coordY} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[08:59:29.83] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[08:59:37.36] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:59:37.36] /i de::addPoint {2.325 0.796} -window 1
+[08:59:42.09] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:59:42.09] /i de::addPoint {2.318 0.488} -window 1
+[08:59:47.48] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:59:47.48] /i de::addPoint {2.311 -0.832} -window 1
+[08:59:53.79] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:59:53.79] /i de::addPoint {0.676 -0.839} -window 1
+[08:59:56.69] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[08:59:56.69] /i de::addPoint {1.214 -0.832} -window 1
+[08:59:58.87] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[08:59:58.87] /i de::abortCommand -window 1
+[09:00:47.35] /i gi::setCurrentIndex {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:00:47.36] /i gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:00:47.36] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:00:47.37] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:00:47.37] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:00:47.47] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:00:51.64] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:00:51.64] /i ile::createPath
+[09:00:57.36] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:00:57.36] /i de::addPoint {0.718 0.565} -window 1
+[09:00:59.12] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[09:00:59.12] /i de::abortCommand -window 1
+[09:01:01.35] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:01:01.35] /i ile::createPath
+[09:01:09.79] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:01:09.79] /i de::addPoint {0.718 0.488} -window 1
+[09:01:11.03] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[09:01:11.03] /i de::abortCommand -window 1
+[09:01:13.56] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:01:13.56] /i ile::createPath
+[09:01:17.95] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:01:17.95] /i de::addPoint {0.711 0.495} -window 1
+[09:01:20.37] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[09:01:20.37] /i de::abortCommand -window 1
+[09:01:22.11] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:01:22.11] /i ile::createPath
+[09:01:29.65] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:01:29.65] /i de::addPoint {0.711 0.488} -window 1
+[09:01:34.32] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:01:34.32] /i de::addPoint {0.76 1.417} -window 1
+[09:01:36.79] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:01:36.79] /i de::addPoint {2.443 1.348} -window 1
+[09:01:38.92] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[09:01:38.92] /i de::abortCommand -window 1
+[09:01:41.86] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:01:41.86] /i ile::createPath
+[09:01:45.73] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:01:45.73] /i de::addPoint {0.718 0.481} -window 1
+[09:01:48.89] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:01:48.89] /i de::addPoint {0.732 1.445} -window 1
+[09:01:53.68] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:01:53.68] /i de::addPoint {0.767 1.348} -window 1
+[09:01:55.23] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:01:55.23] /i de::addPoint {0.76 1.452} -window 1
+[09:01:57.78] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:01:57.78] /i de::addPoint {0.732 1.383} -window 1
+[09:02:02.07] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:02.07] /i de::addPoint {2.443 1.306} -window 1
+[09:02:05.49] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:05.49] /i de::addPoint {2.311 1.362} -window 1
+[09:02:09.91] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:09.91] /i de::addPoint {2.415 1.355} -window 1
+[09:02:12.55] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:12.55] /i de::addPoint {2.352 1.334} -window 1
+[09:02:15.83] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:15.83] /i de::addPoint {2.394 1.39} -window 1
+[09:02:24.50] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:24.50] /i de::addPoint {2.408 0.474} -window 1
+[09:02:27.04] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:27.04] /i de::addPoint {2.45 0.593} -window 1
+[09:02:29.92] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[09:02:29.92] /i de::completeShape {2.45 0.481} -window 1
+[09:02:33.01] /i gi::setCurrentIndex {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:02:33.02] /i gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:02:33.03] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:02:33.03] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:02:33.03] /# gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:02:33.12] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:02:34.95] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:02:34.95] /i ile::createPath
+[09:02:41.45] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:41.45] /i de::addPoint {1.102 -0.077} -window 1
+[09:02:43.56] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:43.56] /i de::addPoint {0.928 -0.105} -window 1
+[09:02:47.22] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:47.22] /i de::addPoint {0.955 -0.098} -window 1
+[09:02:49.48] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:49.48] /i de::addPoint {0.997 -0.105} -window 1
+[09:02:52.05] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:52.05] /i de::addPoint {0.997 -0.231} -window 1
+[09:02:53.66] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:53.67] /i de::addPoint {1.109 -0.217} -window 1
+[09:02:57.14] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:02:57.14] /i de::addPoint {1.116 -0.049} -window 1
+[09:03:00.58] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:03:00.59] /i de::addPoint {1.165 -0.042} -window 1
+[09:03:02.33] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[09:03:02.33] /i de::abortCommand -window 1
+[09:03:04.57] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:03:04.57] /i ile::createPath
+[09:03:08.36] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:03:08.36] /i de::addPoint {1.109 -0.07} -window 1
+[09:03:11.25] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:03:11.25] /i de::addPoint {0.935 -0.07} -window 1
+[09:03:13.16] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:03:13.16] /i de::addPoint {0.997 -0.091} -window 1
+[09:03:15.30] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:03:15.30] /i de::addPoint {0.983 -0.238} -window 1
+[09:03:17.68] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[09:03:17.68] /i de::completeShape {1.116 -0.21} -window 1
+[09:03:22.36] /i gi::setCurrentIndex {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:03:22.37] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:03:22.38] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:03:22.38] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:03:22.38] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:03:22.47] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:03:32.53] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[09:03:32.53] /i ile::createRectangle
+[09:03:36.11] /i gi::setField {coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:03:36.54] /i gi::setField {coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:03:38.27] /i gi::setField {delta_coordX} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:03:41.18] /i gi::setField {delta_coordY} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:03:41.28] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[09:03:46.76] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[09:03:46.76] /i de::abortCommand -window 1
+[09:03:49.02] /i gi::executeAction deCanvasDragCancel -in [gi::getWindows 1]
+[09:03:49.95] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[09:03:49.95] /i ile::createRectangle
+[09:03:53.37] /i gi::setField {coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:03:53.68] /i gi::setField {coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:03:55.20] /i gi::setField {delta_coordX} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:03:57.40] /i gi::setField {delta_coordY} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:03:57.50] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[09:04:00.80] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:04:00.80] /i de::addPoint {0.976 -0.203} -window 1
+[09:04:02.61] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[09:04:02.61] /i de::abortCommand -window 1
+[09:04:10.47] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[09:04:12.95] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[09:04:12.95] /i ile::createRectangle
+[09:04:18.56] /i gi::setField {coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:04:18.89] /i gi::setField {delta_coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:04:24.37] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[09:04:24.37] /i ile::createRectangle
+[09:04:26.07] /i gi::setField {coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:04:26.41] /i gi::setField {coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:04:27.80] /i gi::setField {delta_coordX} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:04:29.32] /i gi::setField {delta_coordY} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:04:31.87] /i gi::setField {coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:04:32.17] /i gi::setField {coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:04:33.68] /i gi::setField {delta_coordX} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:04:35.47] /i gi::setField {delta_coordY} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:04:35.57] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[09:04:45.48] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[09:04:45.48] /i de::zoom -window 1 -factor 2.0 -center {0.948 -0.224}
+[09:04:45.49] /o {0.344 -0.933} {2.013 1.631}
+[09:04:45.52] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[09:04:45.52] /i de::zoom -window 1 -factor 2.0 -center {0.948 -0.224}
+[09:04:45.53] /o {0.646 -0.579} {1.481 0.703}
+[09:05:18.10] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[09:05:18.10] /i de::abortCommand -window 1
+[09:05:19.69] /i de::undoTransaction -design [db::getAttr editDesign -of [de::getContexts -window 1]] -steps 1
+[09:05:20.99] /i gi::setCurrentIndex {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:05:20.99] /i gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:05:21.00] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:05:21.01] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:05:21.01] /# gi::setItemSelection {lpps} -index {9,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:05:21.08] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:05:22.47] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:05:22.47] /i ile::createPath
+[09:05:25.05] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:05:25.05] /i de::addPoint {1.124 -0.058} -window 1
+[09:05:27.82] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:05:27.82] /i de::addPoint {0.875 -0.044} -window 1
+[09:05:31.61] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:05:31.61] /i de::addPoint {0.906 -0.275} -window 1
+[09:05:33.78] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:05:33.78] /i de::addPoint {1.124 -0.259} -window 1
+[09:05:37.29] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:05:37.29] /i de::addPoint {1.044 -0.247} -window 1
+[09:05:39.86] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[09:05:39.86] /i de::completeShape {1.123 -0.229} -window 1
+[09:05:42.10] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:05:42.10] /i ile::createPath
+[09:05:44.16] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:05:44.16] /i de::addPoint {1.023 -0.165} -window 1
+[09:05:47.59] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[09:05:47.59] /i de::abortCommand -window 1
+[09:05:49.02] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:05:49.03] /i ile::createPath
+[09:05:50.81] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:05:50.81] /i de::addPoint {1.025 -0.142} -window 1
+[09:05:52.13] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:05:52.13] /i de::addPoint {0.929 -0.151} -window 1
+[09:05:53.19] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:05:53.19] /i de::addPoint {0.936 -0.229} -window 1
+[09:05:54.64] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:05:54.64] /i de::addPoint {1.027 -0.229} -window 1
+[09:05:56.06] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[09:05:56.06] /i de::completeShape {1.028 -0.226} -window 1
+[09:06:00.99] /# gi::executeAction leRectangle -in [gi::getWindows 1]
+[09:06:00.99] /i ile::createRectangle
+[09:06:01.92] /i gi::setCurrentIndex {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:01.92] /i gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:01.93] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:01.94] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:01.94] /# gi::setItemSelection {lpps} -index {19,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:02.00] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:04.59] /i gi::setField {coordX} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:06:04.86] /i gi::setField {coordY} -value {0} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:06:06.44] /i gi::setField {delta_coordX} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:06:08.15] /i gi::setField {delta_coordY} -value {0.13} -in [gi::getToolbars {leCanvas} -from [gi::getWindows 1]]
+[09:06:08.25] /i gi::executeAction leCanvasDelta -in [gi::getWindows 1]
+[09:06:18.00] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:06:18.00] /i de::addPoint {0.91 -0.234} -window 1
+[09:06:21.55] /i gi::setCurrentIndex {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:21.56] /i gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:21.57] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:21.57] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:21.57] /# gi::setItemSelection {lpps} -index {10,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:21.63] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:06:22.30] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[09:06:22.30] /i de::zoom -window 1 -factor 0.5 -center {1.224 0.165}
+[09:06:22.31] /o {0.068 -1.322} {1.737 1.242}
+[09:06:22.37] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[09:06:22.37] /i de::zoom -window 1 -factor 0.5 -center {1.2 0.173}
+[09:06:22.38] /o {-1.064 -2.817} {2.275 2.31}
+[09:06:23.55] /# gi::executeAction deZoomInAtPoint -in [gi::getWindows 1]
+[09:06:23.55] /i de::zoom -window 1 -factor 2.0 -center {1.332 -0.344}
+[09:06:23.57] /o {0.134 -1.581} {1.803 0.983}
+[09:06:24.78] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:06:24.78] /i ile::createPath
+[09:06:27.71] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:06:27.71] /i ile::createPath
+[09:06:32.78] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:06:32.78] /i de::addPoint {1.126 -0.163} -window 1
+[09:06:35.36] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:06:35.36] /i de::addPoint {0.529 -0.17} -window 1
+[09:06:38.27] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[09:06:38.27] /i de::completeShape {0.487 -0.18} -window 1
+[09:06:39.45] /# gi::executeAction deZoomOutAtPoint -in [gi::getWindows 1]
+[09:06:39.45] /i de::zoom -window 1 -factor 0.5 -center {0.267 -0.379}
+[09:06:39.47] /o {0.001 -2.782} {3.34 2.345}
+[09:06:52.48] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:06:52.48] /i ile::createPath
+[09:06:58.25] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:06:58.25] /i de::addPoint {1.293 0.948} -window 1
+[09:07:04.29] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:07:04.29] /i de::addPoint {1.482 -0.882} -window 1
+[09:07:07.70] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:07:07.70] /i de::addPoint {1.328 -0.826} -window 1
+[09:07:12.44] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[09:07:12.44] /i de::completeShape {1.3 -0.889} -window 1
+[09:07:17.68] /# gi::executeAction lePath -in [gi::getWindows 1]
+[09:07:17.68] /i ile::createPath
+[09:07:22.37] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:07:22.37] /i de::addPoint {0.741 -0.666} -window 1
+[09:07:26.21] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:07:26.21] /i de::addPoint {0.755 -1.357} -window 1
+[09:07:28.23] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:07:28.23] /i de::addPoint {2.411 -1.287} -window 1
+[09:07:30.99] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:07:30.99] /i de::addPoint {2.292 -1.343} -window 1
+[09:07:33.90] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:07:33.90] /i de::addPoint {2.404 -1.301} -window 1
+[09:07:39.64] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:07:39.64] /i de::addPoint {2.32 -1.322} -window 1
+[09:07:42.28] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:07:42.28] /i de::addPoint {2.383 -1.329} -window 1
+[09:07:45.23] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:07:45.23] /i de::addPoint {2.432 -0.659} -window 1
+[09:07:47.66] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:07:47.66] /i de::addPoint {2.46 -0.826} -window 1
+[09:07:53.60] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[09:07:53.60] /i de::completeShape {2.453 -0.659} -window 1
+[09:08:10.72] /i gi::setCurrentIndex {lpps} -index {30,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:08:10.73] /i gi::setItemSelection {lpps} -index {30,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:08:10.74] /i gi::executeAction leOLPSelect -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:08:10.74] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:08:10.74] /# gi::setItemSelection {lpps} -index {30,0} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:08:10.82] /i gi::executeAction leOLPSetActiveLPP -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]]
+[09:08:20.16] /# gi::executeAction leLabel -in [gi::getWindows 1]
+[09:08:20.16] /i ile::createLabel
+[09:08:32.68] /i gi::setField {textMultiline} -value {VDD} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 1]]
+[09:08:33.25] /# gi::executeAction deCompleteShapeHere -in [gi::getWindows 1]
+[09:08:33.25] /i de::completeShape {1.077 2.338} -window 1
+[09:08:36.94] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:08:36.94] /i de::addPoint {1.496 1.36} -window 1
+[09:08:41.54] /i gi::setField {textMultiline} -value {VIN} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 1]]
+[09:08:45.34] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:08:45.34] /i de::addPoint {0.651 -0.177} -window 1
+[09:08:49.41] /i gi::setField {textMultiline} -value {VOUT} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 1]]
+[09:08:54.31] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:08:54.31] /i de::addPoint {1.314 -0.205} -window 1
+[09:08:58.25] /i gi::setField {textMultiline} -value {VSS} -in [gi::getToolbars {deCommandOptions} -from [gi::getWindows 1]]
+[09:08:59.97] /# gi::executeAction deAddPoint -in [gi::getWindows 1]
+[09:08:59.97] /i de::addPoint {1.51 -1.371} -window 1
+[09:09:28.94] /i gi::executeAction deSaveDesign -in [gi::getWindows 1]
+[09:09:29.00] /m Information: Saving design 'mylibrary inverter layout'. (DESIGN_WINDOW-004)
+[09:10:59.58] /# gi::executeAction deAbortCommand -in [gi::getWindows 1]
+[09:10:59.58] /i de::abortCommand -window 1
+[09:11:00.43] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[09:11:37.65] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[09:12:48.55] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[09:12:56.60] /i gi::executeAction deSaveDesign -in [gi::getWindows 1]
+[09:12:56.61] /m Information: Saving design 'mylibrary inverter layout'. (DESIGN_WINDOW-004)
+[09:13:03.74] /i gi::setActiveWindow 0
+[09:13:03.75] /i gi::setActiveWindow 0 -raise true
+[09:13:10.51] /# gi::executeAction xtDRCSetup -in [gi::getWindows 1]
+[09:13:10.51] /i xt::showDRCSetup -job drc -window 1
+[09:13:11.32] /# gi::setActiveWindow 1
+[09:13:11.33] /# gi::setActiveWindow 1 -raise true
+[09:13:11.79] /# gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 1]]
+[09:13:11.91] /# db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 1]] -value 428x457+993+350
+[09:13:12.33] /# db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 1]] -value 445x457+993+350
+[09:13:16.26] /# db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 1]] -value 445x457+788+220
+[09:13:20.55] /o oa:0x2603ef80
+[09:17:18.65] /i gi::setField {/tabGroup/mainTab/jobParametersGroup/runsetFile/entryField} -value {/usr/local/synopsys/pdk/SAED_PDK90nm/icv/drc/rules.drc.9m_saed90_icv.rs} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 1]]
+[09:17:59.59] /i gi::pressButton {/ok} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 1]]
+[09:17:59.62] /w Warning: Attribute 'foreground' is deprecated for objects of type 'giCell' and scheduled for removal in a future release. See instead 'style.foreground'. For migration assistance, see the Custom Designer Tcl Reference Manual. (TCL_OBJECT-061)
+[09:18:00.08] /# xt::physicalVerification::executePve drc 1
+[09:18:13.13] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_1
+              /c --- ERROR SUMMARY -----------
+              /c  CO.E.6: CONT is not enclosed by M1
+              /c    not ................................................ 4 violations found.
+              /c  CO.E.6: Minimum enclosure of any contact bby M1 
+              /c  0.005um
+              /c    enclose ............................................ 5 violations found.
+              /c  R.CO.E.2: Minimum enclosure by DIFF=0.04um
+              /c    enclose ............................................ 3 violations found.
+              /c  R.CO.E7: Min enclosure of contact at end of line
+              /c    not_covered_by ..................................... 3 violations found.
+              /c  R.CO.S.2: (Contact inside DIFF) Min. space to 
+              /c  gate=0.12um
+              /c    external2 .......................................... 6 violations found.
+              /c  R.M1.S.1: Minimum spacing=0.14um
+              /c    external1 .......................................... 3 violations found.
+              /c  R.NIMP.E.1 Enclosure of P+Active is 0.14
+              /c    enclose ............................................ 6 violations found.
+              /c  R.PO.EX.1: Minimum gate extension of active (endcap) 
+              /c  0.18um
+              /c    enclose ............................................ 1 violation found.
+              /c =============================
+              /c 
+[09:18:16.67] /m Information: Connection established with 'IC Validator VUE' running on 'bender.engr.ucr.edu'.
+[09:19:15.68] /m Information: Connection closed with 'IC Validator VUE' running on 'bender.engr.ucr.edu'.
+[09:19:37.61] /i gi::executeAction deSaveDesign -in [gi::getWindows 1]
+[09:19:37.62] /m Information: Saving design 'mylibrary inverter layout'. (DESIGN_WINDOW-004)
+[09:19:39.33] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[09:19:39.74] /m Information: License 'Layout Editor' checked in. (LICENSE-004)
+[09:19:39.83] /i gi::setActiveWindow 0
+[09:19:39.84] /i gi::setActiveWindow 0 -raise true
+[09:19:42.93] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+726+234
+[09:19:44.91] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[09:19:44.96] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[09:19:45.25] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+533+362
+[09:19:46.69] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[09:19:46.75] /o Shutdown time: Tue Jan 30 09:19:46 2018
+[09:19:46.75] /o Elapsed session real time: 1 hour 0.16 minutes
+[09:19:46.75] /o Session terminated. Log is at /home/cemaj/jwoosam/eecs168/cdesigner.log

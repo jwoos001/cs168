@@ -1,0 +1,44 @@
++------------------------------------------------------------------------+
+|                    ICV_Compare LVS Comparison Report                   |
++------------------------------------------------------------------------+
+
+ICV_Compare (R) Hierarchical Layout Vs. Schematic
+	RHEL64 K-2015.12-3.3052145 2015/12/17
+Copyright (C) Synopsys, Inc. All rights reserved.
+
+
+--------------------------------------------------------------------------
+LVS error file     = inverter.LVS_ERRORS
+Layout error file  = inverter.LAYOUT_ERRORS
+Schematic netlist  = inverter.sch_out
+Layout netlist     = /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/inverter.net
+Runset file        = /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+Working directory  = /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.lvs
+Compare directory  = run_details/compare
+Compare start time = 2018-01-31 09:44:17
+
+
+
+--------------------------------------------------------------------------
+Final comparison result:PASS
+
+			#####   ##   ##### #####
+			#   #  #  #  #     #    
+			##### ###### ##### #####
+			#     #    #     #     #
+			#     #    # ##### #####
+
+
+TOP equivalence point:
+		[inverter, inverter]
+
+Comparison summary
+
+    1 successful equivalencies
+    0 failed equivalencies
+
+Schematic and layout agree at all user-intended equivalent points involved
+in compare.
+
+
+End of LVS comparison report

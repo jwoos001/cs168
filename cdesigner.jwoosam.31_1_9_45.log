@@ -1,0 +1,92 @@
+[09:41:44.15] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Jan 31 09:41:40 2018
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[09:41:46.40] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+610
+[09:43:13.55] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+809+516
+[09:43:49.18] /# gi::executeAction deRecentFile_mylibrary_inverter_layout_ReadOnly -in [gi::getWindows 0]
+[09:43:49.19] /a de::open mylibrary/inverter/layout -readOnly true
+[09:43:49.21] /o 	############################################
+[09:43:49.21] /o 	--------------------------------------------
+[09:43:49.21] /o 	PDK Name................... : SAED_PDK_90
+[09:43:49.21] /o 	PDK Release Date........... : 29-Sep-2015
+[09:43:49.21] /o 	PDK Custom Designer Version : J-2014.12-2
+[09:43:49.21] /o 	--------------------------------------------
+[09:43:49.21] /o 	############################################
+[09:43:49.21] /o 
+[09:43:49.21] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[09:43:49.21] /o SAED PDK 90: Loaded callbacks
+[09:43:49.22] /o SAED PDK 90: Loaded display resources
+[09:43:49.26] /r giWindowId 1
+[09:43:49.26] /r giWindowGeometry 1224x864
+[09:43:50.67] /o oa:0x25853ad0
+[09:43:51.12] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]] -value 190x714
+[09:43:51.53] /i db::setAttr geometry -of [gi::getFrames 1] -value 1224x864+15+54
+[09:43:52.97] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]] -value 190x747
+[09:43:53.02] /i db::setAttr geometry -of [gi::getFrames 1] -value 1440x897+0+23
+[09:44:03.78] /# gi::executeAction xtLVSSetup -in [gi::getWindows 1]
+[09:44:03.78] /i xt::showLVSSetup -job lvs -window 1
+[09:44:04.78] /o oa:0x255e9580
+[09:44:05.13] /i gi::setActiveDialog [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 1]]
+[09:44:05.56] /i db::setAttr geometry -of [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 1]] -value 704x485+556+313
+[09:44:07.35] /i gi::pressButton {/ok} -in [gi::getDialogs {xtLVSSetup} -parent [gi::getWindows 1]]
+[09:44:07.37] /w Warning: Attribute 'foreground' is deprecated for objects of type 'giCell' and scheduled for removal in a future release. See instead 'style.foreground'. For migration assistance, see the Custom Designer Tcl Reference Manual. (TCL_OBJECT-061)
+[09:44:07.76] /# xt::physicalVerification::executePve lvs 1
+[09:44:07.83] /m Information: "Starting netlisting for design "mylibrary/inverter/schematic"..." (NETLISTING-010)
+[09:44:07.89] /m Information: 
+[09:44:07.89] /o Checking "mylibrary/inverter/schematic"
+[09:44:07.89] /o No rule violations found in "mylibrary/inverter/schematic"
+[09:44:07.89] /o No Design Integrity rule violations found in "mylibrary/inverter/schematic"
+[09:44:07.98] /m Information: "Netlisting design "mylibrary/inverter/schematic" finished successfully." (NETLISTING-012)
+[09:44:16.97] /i gi::setActiveWindow 0
+[09:44:16.97] /i gi::setActiveWindow 0 -raise true
+[09:44:19.34] /m Information: 
+              /c =============================
+              /c JobID: icv_lvs_1
+              /c --- EXTRACT ERROR SUMMARY ---
+              /c LAYOUT ERRORS RESULTS: CLEAN
+              /c --- COMPARE ERROR SUMMARY ---
+              /c 
+              /c =============================
+              /c 
+[09:44:22.95] /m Information: Connection established with 'IC Validator VUE' running on 'bender.engr.ucr.edu'.
+[09:44:26.17] /r giWindowId 2
+[09:44:26.18] /r giWindowGeometry 1224x864
+[09:44:27.65] /i db::setAttr geometry -of [gi::getFrames 2] -value 1224x864+33+72
+[09:44:31.97] /i gi::setActiveWindow 1
+[09:44:31.98] /i gi::setActiveWindow 1 -raise true
+[09:44:36.22] /m Information: Connection closed with 'IC Validator VUE' running on 'bender.engr.ucr.edu'.
+[09:44:37.42] /i gi::setActiveWindow 2
+[09:44:37.43] /i gi::setActiveWindow 2 -raise true
+[09:44:39.06] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[09:44:39.64] /i gi::setActiveWindow 1
+[09:44:39.65] /i gi::setActiveWindow 1 -raise true
+[09:44:42.58] /# gi::executeAction xtDRCSetup -in [gi::getWindows 1]
+[09:44:42.58] /i xt::showDRCSetup -job drc -window 1
+[09:44:44.17] /# gi::setActiveDialog [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 1]]
+[09:44:44.73] /# db::setAttr geometry -of [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 1]] -value 445x457+633+346
+[09:44:45.78] /# gi::pressButton {/ok} -in [gi::getDialogs {xtDRCSetup} -parent [gi::getWindows 1]]
+[09:44:46.26] /# xt::physicalVerification::executePve drc 1
+[09:44:46.31] /e Error: Error: The specified object does not have attribute 'defaultScopeName'. (TCL_OBJECT-003) (OPAL-006)
+[09:44:52.79] /e Error: Error: The object is invalid. It may have been destroyed or its database may be purged.  (TCL_OBJECT-007)
+[09:44:52.79] /e Error: The object is invalid. It may have been destroyed or its database may be purged.  (TCL_OBJECT-007)
+[09:44:52.84] /i gi::setActiveWindow 0
+[09:44:52.85] /i gi::setActiveWindow 0 -raise true
+[09:44:54.01] /m Information: 
+              /c =============================
+              /c JobID: icv_drc_1
+              /c Completed with no errors.
+              /c =============================
+              /c 
+[09:45:03.34] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[09:45:03.51] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[09:45:03.95] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+533+362
+[09:45:05.51] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[09:45:06.03] /o Shutdown time: Wed Jan 31 09:45:06 2018
+[09:45:06.03] /o Elapsed session real time: 3.35 minutes
+[09:45:06.03] /o Session terminated. Log is at /home/cemaj/jwoosam/eecs168/cdesigner.log

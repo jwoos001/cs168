@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- created by Custom Designer (TM), build #, on Wed Jan 31 10:04:08 2018
+-->
+<synopsysFile version="1.0" name="synopsysFavoriteDevices">
+        <favoriteDevices viewType="maskLayout"/>
+        <favoriteDevices viewType="schematic">
+                <cellView cell="pmos4t" view="symbol" library="SAED_PDK_90">
+                        <alias name="pmos4t"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="nmos4t" view="symbol" library="SAED_PDK_90">
+                        <alias name="nmos4t"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="NAND" view="symbol" library="mylibrary">
+                        <alias name="NAND"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+</synopsysFile>

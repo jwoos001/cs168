@@ -1,0 +1,66 @@
+[09:58:04.72] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Jan 31 09:58:00 2018
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[09:58:06.95] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+610
+[09:58:09.50] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+594+520
+[09:58:10.96] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+757+500
+[09:58:12.42] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+770+500
+[10:01:33.13] /# gi::executeAction deRecentFile_mylibrary_NAND_symbol_Editing -in [gi::getWindows 0]
+[10:01:33.13] /a de::open mylibrary/NAND/symbol -readOnly false
+[10:01:33.19] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[10:01:33.24] /o 	############################################
+[10:01:33.24] /o 	--------------------------------------------
+[10:01:33.24] /o 	PDK Name................... : SAED_PDK_90
+[10:01:33.24] /o 	PDK Release Date........... : 29-Sep-2015
+[10:01:33.24] /o 	PDK Custom Designer Version : J-2014.12-2
+[10:01:33.24] /o 	--------------------------------------------
+[10:01:33.24] /o 	############################################
+[10:01:33.24] /o 
+[10:01:33.24] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[10:01:33.24] /o SAED PDK 90: Loaded callbacks
+[10:01:33.25] /o SAED PDK 90: Loaded display resources
+[10:01:33.29] /r giWindowId 1
+[10:01:33.29] /r giWindowGeometry 1224x864
+[10:01:33.91] /o oa:0x2605f290
+[10:01:34.66] /i db::setAttr geometry -of [gi::getFrames 1] -value 1224x864+15+54
+[10:02:09.66] /i gi::setActiveWindow 0
+[10:02:09.66] /i gi::setActiveWindow 0 -raise true
+[10:02:20.96] /# gi::executeAction deRecentFile_mylibrary_NAND_symbol_Editing -in [gi::getWindows 0]
+[10:02:20.96] /a de::open mylibrary/NAND/symbol -readOnly false
+[10:02:20.98] /r giWindowId 2
+[10:02:20.98] /r giWindowGeometry 1224x864
+[10:02:21.48] /o oa:0x264f7b10
+[10:02:21.95] /i db::setAttr geometry -of [gi::getFrames 2] -value 1224x864+33+72
+[10:02:25.00] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[10:02:25.48] /i gi::setActiveWindow 0
+[10:02:25.49] /i gi::setActiveWindow 0 -raise true
+[10:02:27.28] /i gi::setActiveWindow 1
+[10:02:27.29] /i gi::setActiveWindow 1 -raise true
+[10:02:27.31] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[10:02:27.68] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[10:02:27.83] /i gi::setActiveWindow 0
+[10:02:27.84] /i gi::setActiveWindow 0 -raise true
+[10:02:33.40] /# gi::executeAction deRecentFile_mylibrary_NAND_schematic_Editing -in [gi::getWindows 0]
+[10:02:33.40] /a de::open mylibrary/NAND/schematic -readOnly false
+[10:02:33.52] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[10:02:33.57] /r giWindowId 3
+[10:02:33.57] /r giWindowGeometry 1224x864
+[10:02:34.30] /o oa:0x26205380
+[10:02:34.99] /i db::setAttr geometry -of [gi::getFrames 3] -value 1224x864+51+90
+[10:03:15.22] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[10:03:15.69] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[10:03:15.87] /i gi::setActiveWindow 0
+[10:03:15.88] /i gi::setActiveWindow 0 -raise true
+[10:04:06.23] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[10:04:06.38] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[10:04:06.68] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+533+362
+[10:04:08.36] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[10:04:08.47] /o Shutdown time: Wed Jan 31 10:04:08 2018
+[10:04:08.47] /o Elapsed session real time: 6.05 minutes
+[10:04:08.47] /o Session terminated. Log is at /home/cemaj/jwoosam/eecs168/cdesigner.log

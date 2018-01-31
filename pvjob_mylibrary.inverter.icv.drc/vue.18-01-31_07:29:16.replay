@@ -1,0 +1,21 @@
+# Wed Jan 31 07:29:16 2018
+
+# icv_vue: RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiBase.a   : RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiComm.a   : RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiGUI.a    : RHEL64 K-2015.12-3.3052145 2015/12/17
+#   libhiSystem.a : RHEL64 K-2015.12-3.3052145 2015/12/17
+
+# Hostname     : bender.engr.ucr.edu
+# Platform type: LINUX.64
+
+# Called as: 
+# icv_vue 
+
+vue_loadFile {HiLoadPage} {/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.drc/inverter.vue}
+vue_select {mainTab} {DRC Errors}
+vue_select {drcCellListView} 0
+vue_select {drcErrorListView} [list 0 ]
+vue_select {drcViolationTreeView} {:1;0}
+vue_click {drcViolationTreeView} {:1;2}
+vue_close {HiMain}

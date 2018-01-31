@@ -1,0 +1,40 @@
+[11:39:11.30] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Jan 17 11:39:07 2018
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[11:39:13.22] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+610
+[11:39:19.63] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+752+184
+[11:40:35.40] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[11:40:35.40] /i dm::showLibraryManager
+[11:40:35.41] /r giWindowId 1
+[11:40:35.41] /r giWindowGeometry 660x600+50+50
+[11:40:35.54] /o oa:0x22d74290
+[11:40:36.02] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+58+81
+[11:40:40.41] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+747+123
+[11:41:00.12] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 1]
+[11:41:00.12] /i dm::showNewLibrary -parent 1
+[11:41:00.21] /o oa:0x2458d960
+[11:41:00.34] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:41:00.78] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]] -value 444x503+853+163
+[11:41:22.53] /i gi::setField {techTypeFile} -value {true} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:41:25.41] /i gi::pressButton {techFileBrowse} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:42:16.48] /r giFileDialog reject ../.synopsys_custom/processes
+[11:42:21.88] /i gi::setField {libName} -value {mylibrary} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:42:29.34] /i gi::pressButton {techFileBrowse} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:43:49.84] /r giFileDialog reject ../
+[11:43:51.42] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:43:53.26] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[11:43:55.39] /i gi::setActiveWindow 0
+[11:43:55.40] /i gi::setActiveWindow 0 -raise true
+[11:43:55.41] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[11:43:55.51] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[11:43:55.77] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+533+362
+[11:43:57.05] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[11:43:57.12] /o Shutdown time: Wed Jan 17 11:43:57 2018
+[11:43:57.12] /o Elapsed session real time: 4.75 minutes
+[11:43:57.12] /o Session terminated. Log is at /home/cemaj/jwoosam/eecs168/cdesigner.log

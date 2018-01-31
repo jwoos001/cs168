@@ -1,0 +1,2 @@
+#!/bin/sh
+unset TCL_LIBRARY;  cd /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.drc; icv -f openaccess -i mylibrary -c inverter -oa_view layout -oa_lib_defs /home/cemaj/jwoosam/eecs168/lib.defs -oa_layer_map /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.drc/inverter.drc.cdesigner.rc -vue /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.drc/rules.drc.9m_saed90_icv.drc.rs > /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.inverter.icv.drc/stdout.drc.log 2>&1
