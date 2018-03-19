@@ -1,0 +1,7 @@
+ringOscillator openaccess mylibrary layout icv /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.drc/rules.drc.9m_saed90_icv.drc.rs /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.drc/ringOscillator.drc.cdesigner.rc /home/cemaj/jwoosam/eecs168/lib.defs -vue -rc -oa_view -oa_lib_defs -oa_layer_map -i -f -c 
+schematic=UNSPECIFIED
+ICV_HOME_DIR=/usr/local/synopsys/icvalidator/K-2015.12-3
+ICV_INCLUDES=UNSET
+ringOscillator
+/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.drc/run_details
+Complete

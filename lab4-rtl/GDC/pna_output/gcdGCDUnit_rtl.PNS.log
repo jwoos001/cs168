@@ -1,0 +1,20 @@
+
+Name of design : gcdGCDUnit_rtl
+Number of cell instance masters in the library : 39
+Number of cell instances in the design : 334
+Processing net VDD ...
+Average power dissipation in gcdGCDUnit_rtl :  1000.00 mW
+Power supply voltage :     1.20 V
+Average current in gcdGCDUnit_rtl :   833.33 mA
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 104
+Maximum IR drop in gcdGCDUnit_rtl : 83.98 mV
+Maximum current in gcdGCDUnit_rtl : 22.992 mA
+Processing net VSS ...
+Average power dissipation in gcdGCDUnit_rtl :  1000.00 mW
+Power supply voltage :     1.20 V
+Average current in gcdGCDUnit_rtl :   833.33 mA
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 104
+Maximum IR drop in gcdGCDUnit_rtl : 91.69 mV
+Maximum current in gcdGCDUnit_rtl : 23.402 mA
+Memory usage for design data :      36593.664 Kbytes
+Overall takes     0.28 seconds

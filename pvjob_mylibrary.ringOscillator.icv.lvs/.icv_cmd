@@ -1,0 +1,8 @@
+ringOscillator ringOscillator openaccess mylibrary layout icv SPICE SPICE /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.lvs.cdesigner.rc /home/cemaj/jwoosam/eecs168/lib.defs -vue -stc -sf -sf -rc -quiet=0 -oa_view -oa_lib_defs -oa_layer_map -ndg -i -f -c 
+schematic=/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.cdesigner.sp
+ICV_HOME_DIR=/usr/local/synopsys/icvalidator/K-2015.12-3
+ICV_INCLUDES=UNSET
+nettran_command= icv_nettran -sp /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.cdesigner.sp -globalNets VDD VDD12 VDD22 -mprop -cell ringOscillator -quiet -logFile run_details/icv_nettran.log -globalNets VDD VDD12 VDD22 VSS VSS12 VDD22  -wireLog run_details/nettran_wire.log -outName /netlist_database_sch -outType ndb -ndb-noOrgname -ndb-micron
+ringOscillator
+/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/run_details
+Complete

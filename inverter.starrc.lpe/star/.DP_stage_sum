@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                      | END TIME        | HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Layers        Elp=00:00:00 Cpu=00:00:00 Mem=446.9  | Jan 31 11:28:59 | bender.engr.ucr.edu
+CPU_01 |*Models        Elp=00:00:00 Cpu=00:00:00 Mem=446.9  | Jan 31 11:28:59 | bender.engr.ucr.edu
+CPU_01 |*HN            Elp=00:00:00 Cpu=00:00:00 Mem=462.9  | Jan 31 11:28:59 | bender.engr.ucr.edu
+CPU_01 |*XrefHN        Elp=00:00:00 Cpu=00:00:00 Mem=186.1  | Jan 31 11:28:59 | bender.engr.ucr.edu
+CPU_01 |*Cells         Elp=00:00:01 Cpu=00:00:00 Mem=446.9  | Jan 31 11:29:00 | bender.engr.ucr.edu
+CPU_01 |*Translate     Elp=00:00:00 Cpu=00:00:00 Mem=181.9  | Jan 31 11:29:00 | bender.engr.ucr.edu
+CPU_01 |*NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Mem=181.7  | Jan 31 11:29:00 | bender.engr.ucr.edu
+CPU_01 |*xTract        Elp=00:00:00 Cpu=00:00:00 Mem=272.1  | Jan 31 11:29:00 | bender.engr.ucr.edu
+CPU_01 |*xTractPP      Elp=00:00:00 Cpu=00:00:00 Mem=192.0  | Jan 31 11:29:01 | bender.engr.ucr.edu
+CPU_01 |*ReportViolations Elp=00:00:00 Cpu=00:00:00 Mem=181.6  | Jan 31 11:29:01 | bender.engr.ucr.edu
+CPU_01 |*Netlist       Elp=00:00:00 Cpu=00:00:00 Mem=448.9  | Jan 31 11:29:01 | bender.engr.ucr.edu
+----------------------------------------------------------------------------------------------
+Start Time: Wed Jan 31 11:28:59 2018
+End Time: Wed Jan 31 11:29:01 2018
+Total Wall Time: 00:00:02
+Time on PreXtraction:  00:00:01
+Time on Xtraction:     00:00:00
+Time on PostXtraction: 00:00:01
+----------------------------------------------------------------------------------------------

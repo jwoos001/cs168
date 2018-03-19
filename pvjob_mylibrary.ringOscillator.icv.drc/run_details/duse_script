@@ -1,0 +1,8 @@
+#! /bin/sh
+total=0
+pathsize=`du -s --block-size=1 /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.drc/run_details | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.drc/ringOscillator.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.drc/run_details/duse_master.tmp && \
+mv /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.drc/run_details/duse_master.tmp /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.drc/run_details/duse_master

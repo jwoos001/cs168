@@ -1,0 +1,116 @@
+icc_shell> gui_start
+ + VUE INFO: Please click Verification->IC Validator VUE in LayoutWindow menu
+to launch VUE.
+
+ + VUE INFO: Found a usable port: 2445
+
+Information: Loaded Icv extension from /usr/local/synopsys/icvalidator/K-2015.12-3 (GUI-024)
+Information: Visibility is turned ON for cells and cell contents because the task is set to Block Implementation (GUI-026)
+icc_shell> create_mw_lib  -technology /usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/tech/saed90nm.tf -mw_reference_library {/usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/ref/saed90nm_fr} -bus_naming_style {[%d]}  -open  /home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit_icc
+Error: Technology file '/usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/tech/saed90nm.tf' does not exist. (MWUI-005)
+0
+icc_shell> create_mw_lib  -technology /usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/ref/tech/saed90nm.tf -mw_reference_library {/usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/ref/saed90nm_fr} -bus_naming_style {[%d]}  -open  /home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit_icc
+Start to load technology file /usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/ref/tech/saed90nm.tf.
+Warning: Cut layer 'VIA1' has a non-cross primary default ContactCode 'VIA12A'. (line 1573) (TFCHK-092)
+Warning: Cut layer 'VIA2' has a non-cross primary default ContactCode 'VIA23'. (line 1592) (TFCHK-092)
+Warning: Cut layer 'VIA3' has a non-cross primary default ContactCode 'VIA34'. (line 1611) (TFCHK-092)
+Warning: Cut layer 'VIA4' has a non-cross primary default ContactCode 'VIA45'. (line 1630) (TFCHK-092)
+Warning: Cut layer 'VIA5' has a non-cross primary default ContactCode 'VIA56'. (line 1649) (TFCHK-092)
+Warning: Cut layer 'VIA6' has a non-cross primary default ContactCode 'VIA67'. (line 1668) (TFCHK-092)
+Warning: Cut layer 'VIA7' has a non-cross primary default ContactCode 'VIA78'. (line 1687) (TFCHK-092)
+Warning: Cut layer 'VIA8' has a non-cross primary default ContactCode 'VIA89'. (line 1706) (TFCHK-092)
+Warning: ContactCode 'POLYCON' is missing the attribute 'unitMinResistance'. (line 1721) (TFCHK-014)
+Warning: ContactCode 'POLYCON' is missing the attribute 'unitNomResistance'. (line 1721) (TFCHK-014)
+Warning: ContactCode 'POLYCON' is missing the attribute 'unitMaxResistance'. (line 1721) (TFCHK-014)
+Warning: ContactCode 'DIFFCON' is missing the attribute 'unitMinResistance'. (line 1736) (TFCHK-014)
+Warning: ContactCode 'DIFFCON' is missing the attribute 'unitNomResistance'. (line 1736) (TFCHK-014)
+Warning: ContactCode 'DIFFCON' is missing the attribute 'unitMaxResistance'. (line 1736) (TFCHK-014)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'NWELL' and 'DIFF'. (line 1762). (TFCHK-082)
+Warning: DesignRule attribute 'layer2' is assigned a non-physical layer 'DNW'. (line 1772) (TFCHK-079)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'NWELL' and 'DNW'. (line 1775). (TFCHK-082)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'PO' and 'DIFF'. (line 1782). (TFCHK-082)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'DIFF' and 'CO'. (line 1790). (TFCHK-082)
+Warning: DesignRule attribute 'layer2' is assigned a non-physical layer 'RPOLY'. (line 1975) (TFCHK-079)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'PIMP' and 'DIFF'. (line 1983). (TFCHK-082)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'NIMP' and 'DIFF'. (line 1989). (TFCHK-082)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'DIFF_25' and 'DIFF'. (line 1995). (TFCHK-082)
+Warning: DesignRule attribute 'layer1' is assigned a non-physical layer 'HVTIMP'. (line 1998) (TFCHK-079)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'HVTIMP' and 'DIFF'. (line 2001). (TFCHK-082)
+Warning: DesignRule attribute 'layer1' is assigned a non-physical layer 'LVTIMP'. (line 2004) (TFCHK-079)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'LVTIMP' and 'DIFF'. (line 2007). (TFCHK-082)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'SBLK' and 'DIFF'. (line 2014). (TFCHK-082)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'SBLK' and 'PO'. (line 2021). (TFCHK-082)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'PIMP' and 'PO'. (line 2033). (TFCHK-082)
+Warning: DesignRule is defined with invalid metal-to-via enclosure layers 'NIMP' and 'PO'. (line 2039). (TFCHK-082)
+Warning: Layer 'M1' has a pitch 0.32 that does not match the recommended wire-to-via pitch 0.33. (TFCHK-049)
+Warning: Layer 'M3' has a pitch 0.36 that does not match the doubled pitch 0.64 or tripled pitch 0.96. (TFCHK-050)
+Warning: Layer 'M4' has a pitch 0.36 that does not match the doubled pitch 0.72 or tripled pitch 1.08. (TFCHK-050)
+Warning: Layer 'M5' has a pitch 0.36 that does not match the doubled pitch 0.72 or tripled pitch 1.08. (TFCHK-050)
+Warning: Layer 'M6' has a pitch 0.36 that does not match the doubled pitch 0.72 or tripled pitch 1.08. (TFCHK-050)
+Warning: Layer 'M7' has a pitch 0.36 that does not match the doubled pitch 0.72 or tripled pitch 1.08. (TFCHK-050)
+Warning: Layer 'M8' has a pitch 0.5 that does not match the doubled pitch 0.72 or tripled pitch 1.08. (TFCHK-050)
+Warning: Layer 'M9' has a pitch 0.935 that does not match the doubled pitch 0.72 or tripled pitch 1.08. (TFCHK-050)
+Technology file /usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/ref/tech/saed90nm.tf has been loaded successfully.
+{fa_4bit_icc}
+icc_shell> set_tlu_plus_files -max_tluplus /usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/ref/tlup/saed90nm_1p9m_1t_Cmax.tluplus -min_tluplus /usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/ref/tlup/saed90nm_1p9m_1t_Cmin.tluplus -tech2itf_map  /usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/ref/tlup/tech2itf.map
+1
+icc_shell> read_verilog {/home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit_synthesized.v}
+Loading db file '/usr/local/synopsys/pdk/SAED90_EDK/SAED_EDK90nm_REF/references/ChipTop/ref/saed90nm_fr/LM/saed90nm_typ.db'
+Loading db file '/usr/local/synopsys/icc/K-2015.06-SP4/libraries/syn/gtech.db'
+Loading db file '/usr/local/synopsys/icc/K-2015.06-SP4/libraries/syn/standard.sldb'
+Type of creating bus for undefined cells : 0
+
+*****  Verilog HDL translation! *****
+
+*****    Start Pass 1 *****
+Error: Parser error: negative index and/or other unsupported syntax.
+Error: Verilog parser cannot parse the /home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit_synthesized.v source file. (MWNL-047)
+0
+icc_shell> read_verilog -dirty_netlist {/home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit_synthesized.v}Type of creating bus for undefined cells : 0
+
+
+*****  Verilog HDL translation! *****
+
+*****    Start Pass 1 *****
+Error: Parser error: negative index and/or other unsupported syntax.
+Error: Verilog parser cannot parse the /home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit_synthesized.v source file. (MWNL-047)
+0
+icc_shell> read_verilog -dirty_netlist {/home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit_synthesized.v}Type of creating bus for undefined cells : 0
+
+
+*****  Verilog HDL translation! *****
+
+*****    Start Pass 1 *****
+Error: Parser error: negative index and/or other unsupported syntax.
+Error: Verilog parser cannot parse the /home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit_synthesized.v source file. (MWNL-047)
+0
+icc_shell> read_verilog -dirty_netlist {/home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit_synthesized.v}Type of creating bus for undefined cells : 0
+
+
+*****  Verilog HDL translation! *****
+
+*****    Start Pass 1 *****
+Error: Parser error: negative index and/or other unsupported syntax.
+Error: Verilog parser cannot parse the /home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit_synthesized.v source file. (MWNL-047)
+0
+icc_shell> read_verilog -dirty_netlist {/home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit.v}Type of creating bus for undefined cells : 0
+
+
+*****  Verilog HDL translation! *****
+
+*****    Start Pass 1 *****
+
+*****  Pass 1 Complete *****
+Elapsed =    0:00:00, CPU =    0:00:00
+
+*****  Verilog HDL translation! *****
+
+*****    Start Pass 2 *****
+Error: Parser error: The # of RHS operands is less than the one of LHS operands at or near line 8. (MWNL-029)
+Error: Parser error: negative index and/or other unsupported syntax.
+Error: Verilog parser cannot parse the /home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit/fa_4bit.v source file. (MWNL-047)
+0
+icc_shell> quit
+
+Thank you...
+

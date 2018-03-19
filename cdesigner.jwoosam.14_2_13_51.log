@@ -1,0 +1,507 @@
+[11:39:02.77] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Feb 14 11:38:58 2018
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[11:39:05.96] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+610
+[11:39:09.50] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+537+440
+[11:39:13.97] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+815+528
+[11:39:17.91] /# gi::executeAction deOpenDesign -in [gi::getWindows 0]
+[11:39:17.91] /i de::showOpenDesign
+[11:39:17.95] /o oa:0x22a10ce0
+[11:39:18.05] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[11:39:18.32] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+396+226
+[11:39:19.55] /i gi::setCurrentIndex {designLibs} -index {mylibrary} -in [gi::getDialogs {deOpenDesign}]
+[11:39:19.58] /i gi::setItemSelection {designLibs} -index {mylibrary} -in [gi::getDialogs {deOpenDesign}]
+[11:39:21.16] /i gi::setCurrentIndex {designCells} -index {NAND} -in [gi::getDialogs {deOpenDesign}]
+[11:39:21.19] /i gi::setItemSelection {designCells} -index {NAND} -in [gi::getDialogs {deOpenDesign}]
+[11:39:23.14] /i gi::setCurrentIndex {designViews} -index {schematic} -in [gi::getDialogs {deOpenDesign}]
+[11:39:23.16] /i gi::setItemSelection {designViews} -index {schematic} -in [gi::getDialogs {deOpenDesign}]
+[11:39:23.77] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[11:39:23.78] /# de::open [dm::findCellView {schematic} -cellName {NAND} -libName {mylibrary}] -readOnly 0
+[11:39:23.80] /o 	############################################
+[11:39:23.80] /o 	--------------------------------------------
+[11:39:23.80] /o 	PDK Name................... : SAED_PDK_90
+[11:39:23.80] /o 	PDK Release Date........... : 29-Sep-2015
+[11:39:23.80] /o 	PDK Custom Designer Version : J-2014.12-2
+[11:39:23.80] /o 	--------------------------------------------
+[11:39:23.80] /o 	############################################
+[11:39:23.80] /o 
+[11:39:23.80] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[11:39:23.81] /o SAED PDK 90: Loaded callbacks
+[11:39:23.82] /o SAED PDK 90: Loaded display resources
+[11:39:23.90] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[11:39:23.98] /r giWindowId 1
+[11:39:23.98] /r giWindowGeometry 1224x864
+[11:39:24.57] /o 0.1
+[11:39:25.92] /i db::setAttr geometry -of [gi::getFrames 1] -value 1224x864+15+54
+[11:39:28.97] /i db::setAttr geometry -of [gi::getFrames 1] -value 718x888+1+31
+[11:39:32.32] /# gi::executeAction deFitSelected -in [gi::getWindows 1]
+[11:39:32.32] /i de::fit -window 1 -set [de::getSelected -design [db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]]
+[11:39:32.32] /o {-1.48125 -1.575} {1.5875 1.90625}
+[11:39:33.51] /# gi::executeAction deFitEdit -in [gi::getWindows 1]
+[11:39:33.51] /i de::fit -window 1 -fitEdit true
+[11:39:33.52] /o {-0.5375 -1.7625} {2.95625 2.2}
+[13:51:48.13] /o Process killed
+              /c Information: The process was terminated by "Hangup" signal.
+              /c signal number = 1
+              /c Numeric Stack Dump 
+              /c '76737780 140137918030447 140137918775159 140137918240920 140137932811000 140137932811423 140137918044776 140137918044852 140138106773063 140138060321053 140138060311244 140138060252554 140138107005275 140138085925432 140138085926703 140138085927115 140138102155086 140138107005709 140138101979745 140138101980331 140138101997482 73943954 67895282 140137917950980 73908908'
+              /c PID Maps 
+              /c 00400000-0d54c000 r-xp 00000000 08:02 412671200                          /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c 0d74b000-0e115000 rw-p 0d14b000 08:02 412671200                          /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c 0e115000-1fc37000 rw-p 00000000 00:00 0 
+              /c 1ff09000-24b6b000 rw-p 00000000 00:00 0                                  [heap]
+              /c 7f7438000000-7f7438064000 rw-p 00000000 00:00 0 
+              /c 7f7438064000-7f743c000000 ---p 00000000 00:00 0 
+              /c 7f743c000000-7f743c064000 rw-p 00000000 00:00 0 
+              /c 7f743c064000-7f7440000000 ---p 00000000 00:00 0 
+              /c 7f7440000000-7f7440064000 rw-p 00000000 00:00 0 
+              /c 7f7440064000-7f7444000000 ---p 00000000 00:00 0 
+              /c 7f74477ff000-7f7447800000 ---p 00000000 00:00 0 
+              /c 7f7447800000-7f7448000000 rw-p 00000000 00:00 0 
+              /c 7f7448000000-7f7448064000 rw-p 00000000 00:00 0 
+              /c 7f7448064000-7f744c000000 ---p 00000000 00:00 0 
+              /c 7f744e7fd000-7f744e7fe000 ---p 00000000 00:00 0 
+              /c 7f744e7fe000-7f744effe000 rw-p 00000000 00:00 0 
+              /c 7f744effe000-7f744efff000 ---p 00000000 00:00 0 
+              /c 7f744efff000-7f744f7ff000 rw-p 00000000 00:00 0 
+              /c 7f744f7ff000-7f744f800000 ---p 00000000 00:00 0 
+              /c 7f744f800000-7f7450000000 rw-p 00000000 00:00 0 
+              /c 7f7450000000-7f7450074000 rw-p 00000000 00:00 0 
+              /c 7f7450074000-7f7454000000 ---p 00000000 00:00 0 
+              /c 7f745431f000-7f7454320000 ---p 00000000 00:00 0 
+              /c 7f7454320000-7f7454b20000 rw-p 00000000 00:00 0 
+              /c 7f7454b20000-7f7454b22000 r-xp 00000000 08:02 810625                     /usr/lib64/libutil-2.17.so
+              /c 7f7454b22000-7f7454d21000 ---p 00002000 08:02 810625                     /usr/lib64/libutil-2.17.so
+              /c 7f7454d21000-7f7454d22000 r--p 00001000 08:02 810625                     /usr/lib64/libutil-2.17.so
+              /c 7f7454d22000-7f7454d23000 rw-p 00002000 08:02 810625                     /usr/lib64/libutil-2.17.so
+              /c 7f7454d23000-7f7454e9d000 r-xp 00000000 08:02 412637573                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/Python/2.6.2/lib/libpython2.6.so.1.0
+              /c 7f7454e9d000-7f745509c000 ---p 0017a000 08:02 412637573                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/Python/2.6.2/lib/libpython2.6.so.1.0
+              /c 7f745509c000-7f74550d8000 rw-p 00179000 08:02 412637573                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/Python/2.6.2/lib/libpython2.6.so.1.0
+              /c 7f74550d8000-7f74550e6000 rw-p 00000000 00:00 0 
+              /c 7f74550e6000-7f7455242000 r-xp 00000000 08:02 412679128                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/tclpy/PY2.6.2/tclpy.so
+              /c 7f7455242000-7f7455441000 ---p 0015c000 08:02 412679128                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/tclpy/PY2.6.2/tclpy.so
+              /c 7f7455441000-7f745544d000 rw-p 0015b000 08:02 412679128                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/tclpy/PY2.6.2/tclpy.so
+              /c 7f745544d000-7f7455452000 r-xp 00000000 08:02 24295959                   /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/tdk/lib/libtbcload1.7.so
+              /c 7f7455452000-7f7455651000 ---p 00005000 08:02 24295959                   /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/tdk/lib/libtbcload1.7.so
+              /c 7f7455651000-7f7455652000 rw-p 00004000 08:02 24295959                   /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/tdk/lib/libtbcload1.7.so
+              /c 7f7455652000-7f7455653000 ---p 00000000 00:00 0 
+              /c 7f7455653000-7f7456854000 rw-p 00000000 00:00 0 
+              /c 7f7456854000-7f7456878000 r-xp 00000000 08:02 32151                      /usr/lib64/libselinux.so.1
+              /c 7f7456878000-7f7456a77000 ---p 00024000 08:02 32151                      /usr/lib64/libselinux.so.1
+              /c 7f7456a77000-7f7456a78000 r--p 00023000 08:02 32151                      /usr/lib64/libselinux.so.1
+              /c 7f7456a78000-7f7456a79000 rw-p 00024000 08:02 32151                      /usr/lib64/libselinux.so.1
+              /c 7f7456a79000-7f7456a7b000 rw-p 00000000 00:00 0 
+              /c 7f7456a7b000-7f7456a7d000 r-xp 00000000 08:02 1349                       /usr/lib64/libfreebl3.so
+              /c 7f7456a7d000-7f7456c7c000 ---p 00002000 08:02 1349                       /usr/lib64/libfreebl3.so
+              /c 7f7456c7c000-7f7456c7d000 r--p 00001000 08:02 1349                       /usr/lib64/libfreebl3.so
+              /c 7f7456c7d000-7f7456c7e000 rw-p 00002000 08:02 1349                       /usr/lib64/libfreebl3.so
+              /c 7f7456c7e000-7f7456cc4000 r-xp 00000000 08:02 31880                      /usr/lib64/libdbus-1.so.3.7.4
+              /c 7f7456cc4000-7f7456ec4000 ---p 00046000 08:02 31880                      /usr/lib64/libdbus-1.so.3.7.4
+              /c 7f7456ec4000-7f7456ec5000 r--p 00046000 08:02 31880                      /usr/lib64/libdbus-1.so.3.7.4
+              /c 7f7456ec5000-7f7456ec6000 rw-p 00047000 08:02 31880                      /usr/lib64/libdbus-1.so.3.7.4
+              /c 7f7456ec6000-7f7456ec9000 r-xp 00000000 08:02 53265                      /usr/lib64/libkeyutils.so.1.5
+              /c 7f7456ec9000-7f74570c8000 ---p 00003000 08:02 53265                      /usr/lib64/libkeyutils.so.1.5
+              /c 7f74570c8000-7f74570c9000 r--p 00002000 08:02 53265                      /usr/lib64/libkeyutils.so.1.5
+              /c 7f74570c9000-7f74570ca000 rw-p 00003000 08:02 53265                      /usr/lib64/libkeyutils.so.1.5
+              /c 7f74570ca000-7f74570d7000 r-xp 00000000 08:02 634042                     /usr/lib64/libkrb5support.so.0.1
+              /c 7f74570d7000-7f74572d6000 ---p 0000d000 08:02 634042                     /usr/lib64/libkrb5support.so.0.1
+              /c 7f74572d6000-7f74572d7000 r--p 0000c000 08:02 634042                     /usr/lib64/libkrb5support.so.0.1
+              /c 7f74572d7000-7f74572d8000 rw-p 0000d000 08:02 634042                     /usr/lib64/libkrb5support.so.0.1
+              /c 7f74572d8000-7f74572e0000 r-xp 00000000 08:02 938288                     /usr/lib64/libcrypt-2.17.so
+              /c 7f74572e0000-7f74574df000 ---p 00008000 08:02 938288                     /usr/lib64/libcrypt-2.17.so
+              /c 7f74574df000-7f74574e0000 r--p 00007000 08:02 938288                     /usr/lib64/libcrypt-2.17.so
+              /c 7f74574e0000-7f74574e1000 rw-p 00008000 08:02 938288                     /usr/lib64/libcrypt-2.17.so
+              /c 7f74574e1000-7f745750f000 rw-p 00000000 00:00 0 
+              /c 7f745750f000-7f745751f000 r-xp 00000000 08:02 34195                      /usr/lib64/libavahi-client.so.3.2.9
+              /c 7f745751f000-7f745771e000 ---p 00010000 08:02 34195                      /usr/lib64/libavahi-client.so.3.2.9
+              /c 7f745771e000-7f745771f000 r--p 0000f000 08:02 34195                      /usr/lib64/libavahi-client.so.3.2.9
+              /c 7f745771f000-7f7457720000 rw-p 00010000 08:02 34195                      /usr/lib64/libavahi-client.so.3.2.9
+              /c 7f7457720000-7f745772c000 r-xp 00000000 08:02 34197                      /usr/lib64/libavahi-common.so.3.5.3
+              /c 7f745772c000-7f745792b000 ---p 0000c000 08:02 34197                      /usr/lib64/libavahi-common.so.3.5.3
+              /c 7f745792b000-7f745792c000 r--p 0000b000 08:02 34197                      /usr/lib64/libavahi-common.so.3.5.3
+              /c 7f745792c000-7f745792d000 rw-p 0000c000 08:02 34197                      /usr/lib64/libavahi-common.so.3.5.3
+              /c 7f745792d000-7f7457b61000 r-xp 00000000 08:02 634035                     /usr/lib64/libcrypto.so.1.0.2k
+              /c 7f7457b61000-7f7457d61000 ---p 00234000 08:02 634035                     /usr/lib64/libcrypto.so.1.0.2k
+              /c 7f7457d61000-7f7457d7d000 r--p 00234000 08:02 634035                     /usr/lib64/libcrypto.so.1.0.2k
+              /c 7f7457d7d000-7f7457d8a000 rw-p 00250000 08:02 634035                     /usr/lib64/libcrypto.so.1.0.2k
+              /c 7f7457d8a000-7f7457d8e000 rw-p 00000000 00:00 0 
+              /c 7f7457d8e000-7f7457df5000 r-xp 00000000 08:02 634037                     /usr/lib64/libssl.so.1.0.2k
+              /c 7f7457df5000-7f7457ff5000 ---p 00067000 08:02 634037                     /usr/lib64/libssl.so.1.0.2k
+              /c 7f7457ff5000-7f7457ff9000 r--p 00067000 08:02 634037                     /usr/lib64/libssl.so.1.0.2k
+              /c 7f7457ff9000-7f7458000000 rw-p 0006b000 08:02 634037                     /usr/lib64/libssl.so.1.0.2k
+              /c 7f7458000000-7f7458021000 rw-p 00000000 00:00 0 
+              /c 7f7458021000-7f745c000000 ---p 00000000 00:00 0 
+              /c 7f745c018000-7f745c058000 rw-p 00000000 00:00 0 
+              /c 7f745c058000-7f745c0a5000 r--p 00000000 08:02 342042148                  /usr/share/fonts/dejavu/DejaVuSansMono-Bold.ttf
+              /c 7f745c0a5000-7f745c0b6000 r--p 00000000 08:02 412688650                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/auxx/fonts/luxisri.ttf
+              /c 7f745c0b6000-7f745c0d2000 r--p 00000000 08:02 412692245                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/auxx/fonts/INFOT_Synopsys.ttf
+              /c 7f745c0d9000-7f745c0eb000 r--p 00000000 08:02 412693764                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/auxx/fonts/luxisb.ttf
+              /c 7f745c0eb000-7f745c0ee000 r-xp 00000000 08:02 31745                      /usr/lib64/libcom_err.so.2.1
+              /c 7f745c0ee000-7f745c2ed000 ---p 00003000 08:02 31745                      /usr/lib64/libcom_err.so.2.1
+              /c 7f745c2ed000-7f745c2ee000 r--p 00002000 08:02 31745                      /usr/lib64/libcom_err.so.2.1
+              /c 7f745c2ee000-7f745c2ef000 rw-p 00003000 08:02 31745                      /usr/lib64/libcom_err.so.2.1
+              /c 7f745c2ef000-7f745c320000 r-xp 00000000 08:02 1633                       /usr/lib64/libk5crypto.so.3.1
+              /c 7f745c320000-7f745c51f000 ---p 00031000 08:02 1633                       /usr/lib64/libk5crypto.so.3.1
+              /c 7f745c51f000-7f745c521000 r--p 00030000 08:02 1633                       /usr/lib64/libk5crypto.so.3.1
+              /c 7f745c521000-7f745c522000 rw-p 00032000 08:02 1633                       /usr/lib64/libk5crypto.so.3.1
+              /c 7f745c522000-7f745c5fa000 r-xp 00000000 08:02 1686                       /usr/lib64/libkrb5.so.3.3
+              /c 7f745c5fa000-7f745c7f9000 ---p 000d8000 08:02 1686                       /usr/lib64/libkrb5.so.3.3
+              /c 7f745c7f9000-7f745c807000 r--p 000d7000 08:02 1686                       /usr/lib64/libkrb5.so.3.3
+              /c 7f745c807000-7f745c80a000 rw-p 000e5000 08:02 1686                       /usr/lib64/libkrb5.so.3.3
+              /c 7f745c80a000-7f745c854000 r-xp 00000000 08:02 634040                     /usr/lib64/libgssapi_krb5.so.2.2
+              /c 7f745c854000-7f745ca54000 ---p 0004a000 08:02 634040                     /usr/lib64/libgssapi_krb5.so.2.2
+              /c 7f745ca54000-7f745ca55000 r--p 0004a000 08:02 634040                     /usr/lib64/libgssapi_krb5.so.2.2
+              /c 7f745ca55000-7f745ca57000 rw-p 0004b000 08:02 634040                     /usr/lib64/libgssapi_krb5.so.2.2
+              /c 7f745ca57000-7f745caba000 r-xp 00000000 08:02 1691                       /usr/lib64/libcups.so.2
+              /c 7f745caba000-7f745ccba000 ---p 00063000 08:02 1691                       /usr/lib64/libcups.so.2
+              /c 7f745ccba000-7f745ccbe000 r--p 00063000 08:02 1691                       /usr/lib64/libcups.so.2
+              /c 7f745ccbe000-7f745ccbf000 rw-p 00067000 08:02 1691                       /usr/lib64/libcups.so.2
+              /c 7f745ccbf000-7f745ccc0000 rw-p 00000000 00:00 0 
+              /c 7f745ccc0000-7f745ccd6000 r-xp 00000000 08:02 754331                     /usr/lib64/libresolv-2.17.so
+              /c 7f745ccd6000-7f745ced6000 ---p 00016000 08:02 754331                     /usr/lib64/libresolv-2.17.so
+              /c 7f745ced6000-7f745ced7000 r--p 00016000 08:02 754331                     /usr/lib64/libresolv-2.17.so
+              /c 7f745ced7000-7f745ced8000 rw-p 00017000 08:02 754331                     /usr/lib64/libresolv-2.17.so
+              /c 7f745ced8000-7f745ceda000 rw-p 00000000 00:00 0 
+              /c 7f745ceda000-7f745cedf000 r-xp 00000000 08:02 1649                       /usr/lib64/libnss_dns-2.17.so
+              /c 7f745cedf000-7f745d0de000 ---p 00005000 08:02 1649                       /usr/lib64/libnss_dns-2.17.so
+              /c 7f745d0de000-7f745d0df000 r--p 00004000 08:02 1649                       /usr/lib64/libnss_dns-2.17.so
+              /c 7f745d0df000-7f745d0e0000 rw-p 00005000 08:02 1649                       /usr/lib64/libnss_dns-2.17.so
+              /c 7f745d0e0000-7f745d0f9000 r-xp 00000000 08:02 412673893                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/tcl-dp/lib/libdp42.so
+              /c 7f745d0f9000-7f745d2f8000 ---p 00019000 08:02 412673893                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/tcl-dp/lib/libdp42.so
+              /c 7f745d2f8000-7f745d2fa000 rw-p 00018000 08:02 412673893                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/tcl-dp/lib/libdp42.so
+              /c 7f745d2fa000-7f745d30c000 r-xp 00000000 08:02 354137                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclEngine.so
+              /c 7f745d30c000-7f745d50c000 ---p 00012000 08:02 354137                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclEngine.so
+              /c 7f745d50c000-7f745d50e000 rw-p 00012000 08:02 354137                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclEngine.so
+              /c 7f745d50e000-7f745d5eb000 r-xp 00000000 08:02 25101292                   /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/lib/librq_plugin.so
+              /c 7f745d5eb000-7f745d7ea000 ---p 000dd000 08:02 25101292                   /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/lib/librq_plugin.so
+              /c 7f745d7ea000-7f745d7f1000 rw-p 000dc000 08:02 25101292                   /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/lib/librq_plugin.so
+              /c 7f745d7f1000-7f745d84e000 r-xp 00000000 08:02 25101291                   /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/lib/libpcell_caching.so
+              /c 7f745d84e000-7f745da4d000 ---p 0005d000 08:02 25101291                   /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/lib/libpcell_caching.so
+              /c 7f745da4d000-7f745da52000 rw-p 0005c000 08:02 25101291                   /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/lib/libpcell_caching.so
+              /c 7f745da52000-7f745da5c000 r-xp 00000000 08:02 354127                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaNativeLock.so
+              /c 7f745da5c000-7f745dc5c000 ---p 0000a000 08:02 354127                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaNativeLock.so
+              /c 7f745dc5c000-7f745dc5d000 rw-p 0000a000 08:02 354127                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaNativeLock.so
+              /c 7f745dc5d000-7f745dc94000 r-xp 00000000 08:02 354144                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/libsnpsLibDef.so
+              /c 7f745dc94000-7f745de93000 ---p 00037000 08:02 354144                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/libsnpsLibDef.so
+              /c 7f745de93000-7f745de95000 rw-p 00036000 08:02 354144                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/libsnpsLibDef.so
+              /c 7f745de95000-7f745de96000 rw-p 00000000 00:00 0 
+              /c 7f745de96000-7f745df46000 r--p 00000000 08:02 347820209                  /usr/share/fonts/dejavu/DejaVuSans.ttf
+              /c 7f745df46000-7f745df9f000 r-xp 00000000 08:02 294590794                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqtiff.so
+              /c 7f745df9f000-7f745e09e000 ---p 00059000 08:02 294590794                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqtiff.so
+              /c 7f745e09e000-7f745e0a1000 rw-p 00058000 08:02 294590794                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqtiff.so
+              /c 7f745e0a1000-7f745e0a6000 r-xp 00000000 08:02 294130453                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqsvg.so
+              /c 7f745e0a6000-7f745e1a6000 ---p 00005000 08:02 294130453                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqsvg.so
+              /c 7f745e1a6000-7f745e1a7000 rw-p 00005000 08:02 294130453                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqsvg.so
+              /c 7f745e1a7000-7f745e203000 r-xp 00000000 08:02 294130457                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqmng.so
+              /c 7f745e203000-7f745e302000 ---p 0005c000 08:02 294130457                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqmng.so
+              /c 7f745e302000-7f745e306000 rw-p 0005b000 08:02 294130457                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqmng.so
+              /c 7f745e306000-7f745e342000 r-xp 00000000 08:02 294130454                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqjpeg.so
+              /c 7f745e342000-7f745e442000 ---p 0003c000 08:02 294130454                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqjpeg.so
+              /c 7f745e442000-7f745e443000 rw-p 0003c000 08:02 294130454                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqjpeg.so
+              /c 7f745e443000-7f745e44a000 r-xp 00000000 08:02 294130456                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqico.so
+              /c 7f745e44a000-7f745e549000 ---p 00007000 08:02 294130456                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqico.so
+              /c 7f745e549000-7f745e54a000 rw-p 00006000 08:02 294130456                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqico.so
+              /c 7f745e54a000-7f745e551000 r-xp 00000000 08:02 294130455                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqgif.so
+              /c 7f745e551000-7f745e650000 ---p 00007000 08:02 294130455                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqgif.so
+              /c 7f745e650000-7f745e651000 rw-p 00006000 08:02 294130455                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/plugins/imageformats/libqgif.so
+              /c 7f745e651000-7f745e653000 r-xp 00000000 08:02 134236306                  /usr/lib64/gconv/UTF-16.so
+              /c 7f745e653000-7f745e853000 ---p 00002000 08:02 134236306                  /usr/lib64/gconv/UTF-16.so
+              /c 7f745e853000-7f745e854000 r--p 00002000 08:02 134236306                  /usr/lib64/gconv/UTF-16.so
+              /c 7f745e854000-7f745e855000 rw-p 00003000 08:02 134236306                  /usr/lib64/gconv/UTF-16.so
+              /c 7f745e855000-7f7464d7e000 r--p 00000000 08:02 938277                     /usr/lib/locale/locale-archive
+              /c 7f7464d7e000-7f7465583000 r--s 00000000 08:02 768834                     /var/lib/sss/mc/passwd
+              /c 7f7465583000-7f746558b000 r-xp 00000000 08:02 976383                     /usr/lib64/libnss_sss.so.2
+              /c 7f746558b000-7f746578a000 ---p 00008000 08:02 976383                     /usr/lib64/libnss_sss.so.2
+              /c 7f746578a000-7f746578b000 r--p 00007000 08:02 976383                     /usr/lib64/libnss_sss.so.2
+              /c 7f746578b000-7f746578c000 rw-p 00008000 08:02 976383                     /usr/lib64/libnss_sss.so.2
+              /c 7f746578c000-7f7465798000 r-xp 00000000 08:02 681593                     /usr/lib64/libnss_files-2.17.so
+              /c 7f7465798000-7f7465997000 ---p 0000c000 08:02 681593                     /usr/lib64/libnss_files-2.17.so
+              /c 7f7465997000-7f7465998000 r--p 0000b000 08:02 681593                     /usr/lib64/libnss_files-2.17.so
+              /c 7f7465998000-7f7465999000 rw-p 0000c000 08:02 681593                     /usr/lib64/libnss_files-2.17.so
+              /c 7f7465999000-7f746599f000 rw-p 00000000 00:00 0 
+              /c 7f746599f000-7f74659a1000 r-xp 00000000 08:02 532095                     /usr/lib64/libXau.so.6.0.0
+              /c 7f74659a1000-7f7465ba1000 ---p 00002000 08:02 532095                     /usr/lib64/libXau.so.6.0.0
+              /c 7f7465ba1000-7f7465ba2000 r--p 00002000 08:02 532095                     /usr/lib64/libXau.so.6.0.0
+              /c 7f7465ba2000-7f7465ba3000 rw-p 00003000 08:02 532095                     /usr/lib64/libXau.so.6.0.0
+              /c 7f7465ba3000-7f7465c04000 r-xp 00000000 08:02 495355                     /usr/lib64/libXt.so.6.0.0
+              /c 7f7465c04000-7f7465e03000 ---p 00061000 08:02 495355                     /usr/lib64/libXt.so.6.0.0
+              /c 7f7465e03000-7f7465e04000 r--p 00060000 08:02 495355                     /usr/lib64/libXt.so.6.0.0
+              /c 7f7465e04000-7f7465e09000 rw-p 00061000 08:02 495355                     /usr/lib64/libXt.so.6.0.0
+              /c 7f7465e09000-7f7465e0a000 rw-p 00000000 00:00 0 
+              /c 7f7465e0a000-7f7465e10000 r-xp 00000000 08:02 354120                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDMFileSysBase.so
+              /c 7f7465e10000-7f746600f000 ---p 00006000 08:02 354120                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDMFileSysBase.so
+              /c 7f746600f000-7f7466010000 rw-p 00005000 08:02 354120                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDMFileSysBase.so
+              /c 7f7466010000-7f7466035000 r-xp 00000000 08:02 31710                      /usr/lib64/libtinfo.so.5.9
+              /c 7f7466035000-7f7466235000 ---p 00025000 08:02 31710                      /usr/lib64/libtinfo.so.5.9
+              /c 7f7466235000-7f7466239000 r--p 00025000 08:02 31710                      /usr/lib64/libtinfo.so.5.9
+              /c 7f7466239000-7f746623a000 rw-p 00029000 08:02 31710                      /usr/lib64/libtinfo.so.5.9
+              /c 7f746623a000-7f7466261000 r-xp 00000000 08:02 339294                     /usr/lib64/libxcb.so.1.1.0
+              /c 7f7466261000-7f7466460000 ---p 00027000 08:02 339294                     /usr/lib64/libxcb.so.1.1.0
+              /c 7f7466460000-7f7466461000 r--p 00026000 08:02 339294                     /usr/lib64/libxcb.so.1.1.0
+              /c 7f7466461000-7f7466462000 rw-p 00027000 08:02 339294                     /usr/lib64/libxcb.so.1.1.0
+              /c 7f7466462000-7f7466489000 r-xp 00000000 08:02 31856                      /usr/lib64/libexpat.so.1.6.0
+              /c 7f7466489000-7f7466689000 ---p 00027000 08:02 31856                      /usr/lib64/libexpat.so.1.6.0
+              /c 7f7466689000-7f746668b000 r--p 00027000 08:02 31856                      /usr/lib64/libexpat.so.1.6.0
+              /c 7f746668b000-7f746668c000 rw-p 00029000 08:02 31856                      /usr/lib64/libexpat.so.1.6.0
+              /c 7f746668c000-7f7466691000 r-xp 00000000 08:02 532109                     /usr/lib64/libXfixes.so.3.1.0
+              /c 7f7466691000-7f7466890000 ---p 00005000 08:02 532109                     /usr/lib64/libXfixes.so.3.1.0
+              /c 7f7466890000-7f7466891000 r--p 00004000 08:02 532109                     /usr/lib64/libXfixes.so.3.1.0
+              /c 7f7466891000-7f7466892000 rw-p 00005000 08:02 532109                     /usr/lib64/libXfixes.so.3.1.0
+              /c 7f7466892000-7f7466896000 r-xp 00000000 08:02 783880                     /usr/lib64/libuuid.so.1.3.0
+              /c 7f7466896000-7f7466a95000 ---p 00004000 08:02 783880                     /usr/lib64/libuuid.so.1.3.0
+              /c 7f7466a95000-7f7466a96000 r--p 00003000 08:02 783880                     /usr/lib64/libuuid.so.1.3.0
+              /c 7f7466a96000-7f7466a97000 rw-p 00004000 08:02 783880                     /usr/lib64/libuuid.so.1.3.0
+              /c 7f7466a97000-7f7466af7000 r-xp 00000000 08:02 31712                      /usr/lib64/libpcre.so.1.2.0
+              /c 7f7466af7000-7f7466cf7000 ---p 00060000 08:02 31712                      /usr/lib64/libpcre.so.1.2.0
+              /c 7f7466cf7000-7f7466cf8000 r--p 00060000 08:02 31712                      /usr/lib64/libpcre.so.1.2.0
+              /c 7f7466cf8000-7f7466cf9000 rw-p 00061000 08:02 31712                      /usr/lib64/libpcre.so.1.2.0
+              /c 7f7466cf9000-7f7466eb1000 r-xp 00000000 08:02 938284                     /usr/lib64/libc-2.17.so
+              /c 7f7466eb1000-7f74670b1000 ---p 001b8000 08:02 938284                     /usr/lib64/libc-2.17.so
+              /c 7f74670b1000-7f74670b5000 r--p 001b8000 08:02 938284                     /usr/lib64/libc-2.17.so
+              /c 7f74670b5000-7f74670b7000 rw-p 001bc000 08:02 938284                     /usr/lib64/libc-2.17.so
+              /c 7f74670b7000-7f74670bc000 rw-p 00000000 00:00 0 
+              /c 7f74670bc000-7f74670d1000 r-xp 00000000 08:02 294115924                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libgcc_s.so.1
+              /c 7f74670d1000-7f74672d0000 ---p 00015000 08:02 294115924                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libgcc_s.so.1
+              /c 7f74672d0000-7f74672d1000 rw-p 00014000 08:02 294115924                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libgcc_s.so.1
+              /c 7f74672d1000-7f74672df000 r-xp 00000000 08:02 294115923                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libgomp.so.1.0.0
+              /c 7f74672df000-7f74674de000 ---p 0000e000 08:02 294115923                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libgomp.so.1.0.0
+              /c 7f74674de000-7f74674df000 rw-p 0000d000 08:02 294115923                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libgomp.so.1.0.0
+              /c 7f74674df000-7f74674e6000 r-xp 00000000 08:02 1661                       /usr/lib64/librt-2.17.so
+              /c 7f74674e6000-7f74676e5000 ---p 00007000 08:02 1661                       /usr/lib64/librt-2.17.so
+              /c 7f74676e5000-7f74676e6000 r--p 00006000 08:02 1661                       /usr/lib64/librt-2.17.so
+              /c 7f74676e6000-7f74676e7000 rw-p 00007000 08:02 1661                       /usr/lib64/librt-2.17.so
+              /c 7f74676e7000-7f74676ff000 r-xp 00000000 08:02 754330                     /usr/lib64/libXmu.so.6.2.0
+              /c 7f74676ff000-7f74678ff000 ---p 00018000 08:02 754330                     /usr/lib64/libXmu.so.6.2.0
+              /c 7f74678ff000-7f7467900000 r--p 00018000 08:02 754330                     /usr/lib64/libXmu.so.6.2.0
+              /c 7f7467900000-7f7467901000 rw-p 00019000 08:02 754330                     /usr/lib64/libXmu.so.6.2.0
+              /c 7f7467901000-7f7467902000 rw-p 00000000 00:00 0 
+              /c 7f7467902000-7f7467908000 r-xp 00000000 08:02 412668065                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/ext/lib/webworks/libwwhapi.so
+              /c 7f7467908000-7f7467b07000 ---p 00006000 08:02 412668065                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/ext/lib/webworks/libwwhapi.so
+              /c 7f7467b07000-7f7467b08000 rw-p 00005000 08:02 412668065                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/ext/lib/webworks/libwwhapi.so
+              /c 7f7467b08000-7f7467b09000 rw-p 00000000 00:00 0 
+              /c 7f7467b09000-7f7467b55000 r-xp 00000000 08:02 354119                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDMFileSys.so
+              /c 7f7467b55000-7f7467d54000 ---p 0004c000 08:02 354119                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDMFileSys.so
+              /c 7f7467d54000-7f7467d57000 rw-p 0004b000 08:02 354119                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDMFileSys.so
+              /c 7f7467d57000-7f7467d59000 rw-p 00000000 00:00 0 
+              /c 7f7467d59000-7f7467df6000 r-xp 00000000 08:02 354143                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaWafer.so
+              /c 7f7467df6000-7f7467ff6000 ---p 0009d000 08:02 354143                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaWafer.so
+              /c 7f7467ff6000-7f7467ffe000 rw-p 0009d000 08:02 354143                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaWafer.so
+              /c 7f7467ffe000-7f7467fff000 rw-p 00000000 00:00 0 
+              /c 7f7467fff000-7f7468037000 r-xp 00000000 08:02 354113                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaCM.so
+              /c 7f7468037000-7f7468237000 ---p 00038000 08:02 354113                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaCM.so
+              /c 7f7468237000-7f746823a000 rw-p 00038000 08:02 354113                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaCM.so
+              /c 7f746823a000-7f746823d000 r-xp 00000000 08:02 354139                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclPlugIn.so
+              /c 7f746823d000-7f746843c000 ---p 00003000 08:02 354139                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclPlugIn.so
+              /c 7f746843c000-7f746843d000 rw-p 00002000 08:02 354139                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclPlugIn.so
+              /c 7f746843d000-7f7468a21000 r-xp 00000000 08:02 354138                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclHelp.so
+              /c 7f7468a21000-7f7468c21000 ---p 005e4000 08:02 354138                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclHelp.so
+              /c 7f7468c21000-7f7468c22000 rw-p 005e4000 08:02 354138                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclHelp.so
+              /c 7f7468c22000-7f7468d02000 r-xp 00000000 08:02 354118                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDM.so
+              /c 7f7468d02000-7f7468f01000 ---p 000e0000 08:02 354118                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDM.so
+              /c 7f7468f01000-7f7468f0e000 rw-p 000df000 08:02 354118                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDM.so
+              /c 7f7468f0e000-7f7468f0f000 rw-p 00000000 00:00 0 
+              /c 7f7468f0f000-7f7468f3c000 r-xp 00000000 08:02 354117                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaCommon.so
+              /c 7f7468f3c000-7f746913b000 ---p 0002d000 08:02 354117                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaCommon.so
+              /c 7f746913b000-7f746913d000 rw-p 0002c000 08:02 354117                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaCommon.so
+              /c 7f746913d000-7f7469343000 r-xp 00000000 08:02 354140                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTech.so
+              /c 7f7469343000-7f7469543000 ---p 00206000 08:02 354140                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTech.so
+              /c 7f7469543000-7f746955e000 rw-p 00206000 08:02 354140                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTech.so
+              /c 7f746955e000-7f7469560000 rw-p 00000000 00:00 0 
+              /c 7f7469560000-7f7469897000 r-xp 00000000 08:02 354112                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaBase.so
+              /c 7f7469897000-7f7469a97000 ---p 00337000 08:02 354112                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaBase.so
+              /c 7f7469a97000-7f7469abb000 rw-p 00337000 08:02 354112                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaBase.so
+              /c 7f7469abb000-7f7469adf000 rw-p 00000000 00:00 0 
+              /c 7f7469adf000-7f746a2d6000 r-xp 00000000 08:02 354123                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDesign.so
+              /c 7f746a2d6000-7f746a4d6000 ---p 007f7000 08:02 354123                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDesign.so
+              /c 7f746a4d6000-7f746a52e000 rw-p 007f7000 08:02 354123                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaDesign.so
+              /c 7f746a52e000-7f746a535000 rw-p 00000000 00:00 0 
+              /c 7f746a535000-7f746a53f000 r-xp 00000000 08:02 354124                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaLangBase.so
+              /c 7f746a53f000-7f746a73e000 ---p 0000a000 08:02 354124                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaLangBase.so
+              /c 7f746a73e000-7f746a73f000 rw-p 00009000 08:02 354124                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaLangBase.so
+              /c 7f746a73f000-7f746a752000 r-xp 00000000 08:02 354131                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaPlugIn.so
+              /c 7f746a752000-7f746a952000 ---p 00013000 08:02 354131                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaPlugIn.so
+              /c 7f746a952000-7f746a954000 rw-p 00013000 08:02 354131                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaPlugIn.so
+              /c 7f746a954000-7f746ab72000 r-xp 00000000 08:02 354125                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaLangInfo.so
+              /c 7f746ab72000-7f746ad72000 ---p 0021e000 08:02 354125                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaLangInfo.so
+              /c 7f746ad72000-7f746ad91000 rw-p 0021e000 08:02 354125                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaLangInfo.so
+              /c 7f746ad91000-7f746ada0000 r-xp 00000000 08:02 354135                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclCommon.so
+              /c 7f746ada0000-7f746af9f000 ---p 0000f000 08:02 354135                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclCommon.so
+              /c 7f746af9f000-7f746afa1000 rw-p 0000e000 08:02 354135                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclCommon.so
+              /c 7f746afa1000-7f746afb3000 r-xp 00000000 08:02 354134                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclBase.so
+              /c 7f746afb3000-7f746b1b3000 ---p 00012000 08:02 354134                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclBase.so
+              /c 7f746b1b3000-7f746b1b4000 rw-p 00012000 08:02 354134                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTclBase.so
+              /c 7f746b1b4000-7f746c484000 r-xp 00000000 08:02 354133                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTcl.so
+              /c 7f746c484000-7f746c684000 ---p 012d0000 08:02 354133                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTcl.so
+              /c 7f746c684000-7f746c6a9000 rw-p 012d0000 08:02 354133                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/OA/lib/linux_rhel50_gcc44x_64/opt/liboaTcl.so
+              /c 7f746c6a9000-7f746c6cf000 r-xp 00000000 08:02 31700                      /usr/lib64/libncurses.so.5.9
+              /c 7f746c6cf000-7f746c8ce000 ---p 00026000 08:02 31700                      /usr/lib64/libncurses.so.5.9
+              /c 7f746c8ce000-7f746c8cf000 r--p 00025000 08:02 31700                      /usr/lib64/libncurses.so.5.9
+              /c 7f746c8cf000-7f746c8d0000 rw-p 00026000 08:02 31700                      /usr/lib64/libncurses.so.5.9
+              /c 7f746c8d0000-7f746ca51000 r-xp 00000000 08:02 354099                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libsym_datacore-O.so
+              /c 7f746ca51000-7f746cc51000 ---p 00181000 08:02 354099                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libsym_datacore-O.so
+              /c 7f746cc51000-7f746cc5d000 rw-p 00181000 08:02 354099                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libsym_datacore-O.so
+              /c 7f746cc5d000-7f746cc83000 r-xp 00000000 08:02 354095                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libmym_core-O.so
+              /c 7f746cc83000-7f746ce82000 ---p 00026000 08:02 354095                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libmym_core-O.so
+              /c 7f746ce82000-7f746ce85000 rw-p 00025000 08:02 354095                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libmym_core-O.so
+              /c 7f746ce85000-7f746cf57000 r-xp 00000000 08:02 354094                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libgui_controls-O.so
+              /c 7f746cf57000-7f746d157000 ---p 000d2000 08:02 354094                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libgui_controls-O.so
+              /c 7f746d157000-7f746d15f000 rw-p 000d2000 08:02 354094                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libgui_controls-O.so
+              /c 7f746d15f000-7f746d5c4000 r-xp 00000000 08:02 354097                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libsnpsst-O.so
+              /c 7f746d5c4000-7f746d7c3000 ---p 00465000 08:02 354097                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libsnpsst-O.so
+              /c 7f746d7c3000-7f746d7e3000 rw-p 00464000 08:02 354097                     /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/MYMLibrary/lib/libsnpsst-O.so
+              /c 7f746d7e3000-7f746d7e4000 rw-p 00000000 00:00 0 
+              /c 7f746d7e4000-7f746d8ce000 r-xp 00000000 08:02 294115921                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libstdc++.so.6.0.17
+              /c 7f746d8ce000-7f746dacd000 ---p 000ea000 08:02 294115921                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libstdc++.so.6.0.17
+              /c 7f746dacd000-7f746dad5000 r--p 000e9000 08:02 294115921                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libstdc++.so.6.0.17
+              /c 7f746dad5000-7f746dad7000 rw-p 000f1000 08:02 294115921                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libstdc++.so.6.0.17
+              /c 7f746dad7000-7f746daec000 rw-p 00000000 00:00 0 
+              /c 7f746daec000-7f746db40000 r-xp 00000000 08:02 294131101                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_wserialization.so.1.55.0
+              /c 7f746db40000-7f746dd40000 ---p 00054000 08:02 294131101                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_wserialization.so.1.55.0
+              /c 7f746dd40000-7f746dd43000 rw-p 00054000 08:02 294131101                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_wserialization.so.1.55.0
+              /c 7f746dd43000-7f746dd5a000 r-xp 00000000 08:02 294130436                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_signals.so.1.55.0
+              /c 7f746dd5a000-7f746df5a000 ---p 00017000 08:02 294130436                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_signals.so.1.55.0
+              /c 7f746df5a000-7f746df5b000 rw-p 00017000 08:02 294130436                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_signals.so.1.55.0
+              /c 7f746df5b000-7f746dfd0000 r-xp 00000000 08:02 294130447                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_serialization.so.1.55.0
+              /c 7f746dfd0000-7f746e1d0000 ---p 00075000 08:02 294130447                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_serialization.so.1.55.0
+              /c 7f746e1d0000-7f746e1d4000 rw-p 00075000 08:02 294130447                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_serialization.so.1.55.0
+              /c 7f746e1d4000-7f746e1d5000 rw-p 00000000 00:00 0 
+              /c 7f746e1d5000-7f746e2cd000 r-xp 00000000 08:02 294130446                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_regex.so.1.55.0
+              /c 7f746e2cd000-7f746e4cd000 ---p 000f8000 08:02 294130446                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_regex.so.1.55.0
+              /c 7f746e4cd000-7f746e4d3000 rw-p 000f8000 08:02 294130446                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_regex.so.1.55.0
+              /c 7f746e4d3000-7f746e53f000 r-xp 00000000 08:02 294130433                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_program_options.so.1.55.0
+              /c 7f746e53f000-7f746e73e000 ---p 0006c000 08:02 294130433                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_program_options.so.1.55.0
+              /c 7f746e73e000-7f746e742000 rw-p 0006b000 08:02 294130433                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_program_options.so.1.55.0
+              /c 7f746e742000-7f746e757000 r-xp 00000000 08:02 294130432                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_iostreams.so.1.55.0
+              /c 7f746e757000-7f746e957000 ---p 00015000 08:02 294130432                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_iostreams.so.1.55.0
+              /c 7f746e957000-7f746e958000 rw-p 00015000 08:02 294130432                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_iostreams.so.1.55.0
+              /c 7f746e958000-7f746e959000 rw-p 00000000 00:00 0 
+              /c 7f746e959000-7f746e96f000 r-xp 00000000 08:02 294131100                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_filesystem.so.1.55.0
+              /c 7f746e96f000-7f746eb6f000 ---p 00016000 08:02 294131100                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_filesystem.so.1.55.0
+              /c 7f746eb6f000-7f746eb70000 rw-p 00016000 08:02 294131100                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_filesystem.so.1.55.0
+              /c 7f746eb70000-7f746eb73000 r-xp 00000000 08:02 294130438                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_system.so.1.55.0
+              /c 7f746eb73000-7f746ed72000 ---p 00003000 08:02 294130438                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_system.so.1.55.0
+              /c 7f746ed72000-7f746ed73000 rw-p 00002000 08:02 294130438                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_system.so.1.55.0
+              /c 7f746ed73000-7f746ed83000 r-xp 00000000 08:02 294131099                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_date_time.so.1.55.0
+              /c 7f746ed83000-7f746ef82000 ---p 00010000 08:02 294131099                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_date_time.so.1.55.0
+              /c 7f746ef82000-7f746ef84000 rw-p 0000f000 08:02 294131099                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/boost/lib/libsnps_boost_1_55_0_date_time.so.1.55.0
+              /c 7f746ef84000-7f746f085000 r-xp 00000000 08:02 816                        /usr/lib64/libm-2.17.so
+              /c 7f746f085000-7f746f284000 ---p 00101000 08:02 816                        /usr/lib64/libm-2.17.so
+              /c 7f746f284000-7f746f285000 r--p 00100000 08:02 816                        /usr/lib64/libm-2.17.so
+              /c 7f746f285000-7f746f286000 rw-p 00101000 08:02 816                        /usr/lib64/libm-2.17.so
+              /c 7f746f286000-7f746f29b000 r-xp 00000000 08:02 31741                      /usr/lib64/libz.so.1.2.7
+              /c 7f746f29b000-7f746f49a000 ---p 00015000 08:02 31741                      /usr/lib64/libz.so.1.2.7
+              /c 7f746f49a000-7f746f49b000 r--p 00014000 08:02 31741                      /usr/lib64/libz.so.1.2.7
+              /c 7f746f49b000-7f746f49c000 rw-p 00015000 08:02 31741                      /usr/lib64/libz.so.1.2.7
+              /c 7f746f49c000-7f746f5d4000 r-xp 00000000 08:02 532098                     /usr/lib64/libX11.so.6.3.0
+              /c 7f746f5d4000-7f746f7d4000 ---p 00138000 08:02 532098                     /usr/lib64/libX11.so.6.3.0
+              /c 7f746f7d4000-7f746f7d5000 r--p 00138000 08:02 532098                     /usr/lib64/libX11.so.6.3.0
+              /c 7f746f7d5000-7f746f7da000 rw-p 00139000 08:02 532098                     /usr/lib64/libX11.so.6.3.0
+              /c 7f746f7da000-7f746f7eb000 r-xp 00000000 08:02 532153                     /usr/lib64/libXext.so.6.4.0
+              /c 7f746f7eb000-7f746f9ea000 ---p 00011000 08:02 532153                     /usr/lib64/libXext.so.6.4.0
+              /c 7f746f9ea000-7f746f9eb000 r--p 00010000 08:02 532153                     /usr/lib64/libXext.so.6.4.0
+              /c 7f746f9eb000-7f746f9ec000 rw-p 00011000 08:02 532153                     /usr/lib64/libXext.so.6.4.0
+              /c 7f746f9ec000-7f746fa26000 r-xp 00000000 08:02 815020                     /usr/lib64/libfontconfig.so.1.7.0
+              /c 7f746fa26000-7f746fc26000 ---p 0003a000 08:02 815020                     /usr/lib64/libfontconfig.so.1.7.0
+              /c 7f746fc26000-7f746fc28000 r--p 0003a000 08:02 815020                     /usr/lib64/libfontconfig.so.1.7.0
+              /c 7f746fc28000-7f746fc29000 rw-p 0003c000 08:02 815020                     /usr/lib64/libfontconfig.so.1.7.0
+              /c 7f746fc29000-7f746fca5000 r-xp 00000000 08:02 294115922                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libfreetype.so.6.3.20
+              /c 7f746fca5000-7f746fea4000 ---p 0007c000 08:02 294115922                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libfreetype.so.6.3.20
+              /c 7f746fea4000-7f746feaa000 rw-p 0007b000 08:02 294115922                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/lib/libfreetype.so.6.3.20
+              /c 7f746feaa000-7f746feac000 r-xp 00000000 08:02 532173                     /usr/lib64/libXinerama.so.1.0.0
+              /c 7f746feac000-7f74700ab000 ---p 00002000 08:02 532173                     /usr/lib64/libXinerama.so.1.0.0
+              /c 7f74700ab000-7f74700ac000 r--p 00001000 08:02 532173                     /usr/lib64/libXinerama.so.1.0.0
+              /c 7f74700ac000-7f74700ad000 rw-p 00002000 08:02 532173                     /usr/lib64/libXinerama.so.1.0.0
+              /c 7f74700ad000-7f74700b7000 r-xp 00000000 08:02 532174                     /usr/lib64/libXcursor.so.1.0.2
+              /c 7f74700b7000-7f74702b6000 ---p 0000a000 08:02 532174                     /usr/lib64/libXcursor.so.1.0.2
+              /c 7f74702b6000-7f74702b7000 r--p 00009000 08:02 532174                     /usr/lib64/libXcursor.so.1.0.2
+              /c 7f74702b7000-7f74702b8000 rw-p 0000a000 08:02 532174                     /usr/lib64/libXcursor.so.1.0.2
+              /c 7f74702b8000-7f74702c2000 r-xp 00000000 08:02 532163                     /usr/lib64/libXrandr.so.2.2.0
+              /c 7f74702c2000-7f74704c1000 ---p 0000a000 08:02 532163                     /usr/lib64/libXrandr.so.2.2.0
+              /c 7f74704c1000-7f74704c2000 r--p 00009000 08:02 532163                     /usr/lib64/libXrandr.so.2.2.0
+              /c 7f74704c2000-7f74704c3000 rw-p 0000a000 08:02 532163                     /usr/lib64/libXrandr.so.2.2.0
+              /c 7f74704c3000-7f74704cc000 r-xp 00000000 08:02 532100                     /usr/lib64/libXrender.so.1.3.0
+              /c 7f74704cc000-7f74706cc000 ---p 00009000 08:02 532100                     /usr/lib64/libXrender.so.1.3.0
+              /c 7f74706cc000-7f74706cd000 r--p 00009000 08:02 532100                     /usr/lib64/libXrender.so.1.3.0
+              /c 7f74706cd000-7f74706ce000 rw-p 0000a000 08:02 532100                     /usr/lib64/libXrender.so.1.3.0
+              /c 7f74706ce000-7f74706dd000 r-xp 00000000 08:02 532102                     /usr/lib64/libXi.so.6.1.0
+              /c 7f74706dd000-7f74708dc000 ---p 0000f000 08:02 532102                     /usr/lib64/libXi.so.6.1.0
+              /c 7f74708dc000-7f74708dd000 r--p 0000e000 08:02 532102                     /usr/lib64/libXi.so.6.1.0
+              /c 7f74708dd000-7f74708de000 rw-p 0000f000 08:02 532102                     /usr/lib64/libXi.so.6.1.0
+              /c 7f74708de000-7f74708f5000 r-xp 00000000 08:02 339308                     /usr/lib64/libICE.so.6.3.0
+              /c 7f74708f5000-7f7470af4000 ---p 00017000 08:02 339308                     /usr/lib64/libICE.so.6.3.0
+              /c 7f7470af4000-7f7470af5000 r--p 00016000 08:02 339308                     /usr/lib64/libICE.so.6.3.0
+              /c 7f7470af5000-7f7470af6000 rw-p 00017000 08:02 339308                     /usr/lib64/libICE.so.6.3.0
+              /c 7f7470af6000-7f7470afa000 rw-p 00000000 00:00 0 
+              /c 7f7470afa000-7f7470b01000 r-xp 00000000 08:02 495410                     /usr/lib64/libSM.so.6.0.1
+              /c 7f7470b01000-7f7470d00000 ---p 00007000 08:02 495410                     /usr/lib64/libSM.so.6.0.1
+              /c 7f7470d00000-7f7470d01000 r--p 00006000 08:02 495410                     /usr/lib64/libSM.so.6.0.1
+              /c 7f7470d01000-7f7470d02000 rw-p 00007000 08:02 495410                     /usr/lib64/libSM.so.6.0.1
+              /c 7f7470d02000-7f7470e11000 r-xp 00000000 08:02 32187                      /usr/lib64/libglib-2.0.so.0.5000.3
+              /c 7f7470e11000-7f7471011000 ---p 0010f000 08:02 32187                      /usr/lib64/libglib-2.0.so.0.5000.3
+              /c 7f7471011000-7f7471012000 r--p 0010f000 08:02 32187                      /usr/lib64/libglib-2.0.so.0.5000.3
+              /c 7f7471012000-7f7471013000 rw-p 00110000 08:02 32187                      /usr/lib64/libglib-2.0.so.0.5000.3
+              /c 7f7471013000-7f7471014000 rw-p 00000000 00:00 0 
+              /c 7f7471014000-7f7471015000 r-xp 00000000 08:02 32193                      /usr/lib64/libgthread-2.0.so.0.5000.3
+              /c 7f7471015000-7f7471214000 ---p 00001000 08:02 32193                      /usr/lib64/libgthread-2.0.so.0.5000.3
+              /c 7f7471214000-7f7471215000 r--p 00000000 08:02 32193                      /usr/lib64/libgthread-2.0.so.0.5000.3
+              /c 7f7471215000-7f7471216000 rw-p 00001000 08:02 32193                      /usr/lib64/libgthread-2.0.so.0.5000.3
+              /c 7f7471216000-7f747123c000 r-xp 00000000 08:02 75828359                   /usr/lib64/libpng12.so.0.50.0
+              /c 7f747123c000-7f747143b000 ---p 00026000 08:02 75828359                   /usr/lib64/libpng12.so.0.50.0
+              /c 7f747143b000-7f747143c000 r--p 00025000 08:02 75828359                   /usr/lib64/libpng12.so.0.50.0
+              /c 7f747143c000-7f747143d000 rw-p 00026000 08:02 75828359                   /usr/lib64/libpng12.so.0.50.0
+              /c 7f747143d000-7f7471454000 r-xp 00000000 08:02 681922                     /usr/lib64/libpthread-2.17.so
+              /c 7f7471454000-7f7471653000 ---p 00017000 08:02 681922                     /usr/lib64/libpthread-2.17.so
+              /c 7f7471653000-7f7471654000 r--p 00016000 08:02 681922                     /usr/lib64/libpthread-2.17.so
+              /c 7f7471654000-7f7471655000 rw-p 00017000 08:02 681922                     /usr/lib64/libpthread-2.17.so
+              /c 7f7471655000-7f7471659000 rw-p 00000000 00:00 0 
+              /c 7f7471659000-7f7471697000 r-xp 00000000 08:02 143398000                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtSql.so.4.7.4
+              /c 7f7471697000-7f7471796000 ---p 0003e000 08:02 143398000                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtSql.so.4.7.4
+              /c 7f7471796000-7f7471798000 rw-p 0003d000 08:02 143398000                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtSql.so.4.7.4
+              /c 7f7471798000-7f74717ee000 r-xp 00000000 08:02 143397998                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtSvg.so.4.7.4
+              /c 7f74717ee000-7f74718ee000 ---p 00056000 08:02 143397998                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtSvg.so.4.7.4
+              /c 7f74718ee000-7f74718f1000 rw-p 00056000 08:02 143397998                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtSvg.so.4.7.4
+              /c 7f74718f1000-7f7471a20000 r-xp 00000000 08:02 143398016                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtNetwork.so.4.7.4
+              /c 7f7471a20000-7f7471b20000 ---p 0012f000 08:02 143398016                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtNetwork.so.4.7.4
+              /c 7f7471b20000-7f7471b28000 rw-p 0012f000 08:02 143398016                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtNetwork.so.4.7.4
+              /c 7f7471b28000-7f7471dc9000 r-xp 00000000 08:02 143398015                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtCore.so.4.7.4
+              /c 7f7471dc9000-7f7471ec9000 ---p 002a1000 08:02 143398015                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtCore.so.4.7.4
+              /c 7f7471ec9000-7f7471ed8000 rw-p 002a1000 08:02 143398015                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtCore.so.4.7.4
+              /c 7f7471ed8000-7f747294a000 r-xp 00000000 08:02 143397997                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtGui.so.4.7.4
+              /c 7f747294a000-7f7472a4a000 ---p 00a72000 08:02 143397997                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtGui.so.4.7.4
+              /c 7f7472a4a000-7f7472a9b000 rw-p 00a72000 08:02 143397997                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtGui.so.4.7.4
+              /c 7f7472a9b000-7f7472a9e000 rw-p 00000000 00:00 0 
+              /c 7f7472a9e000-7f7472aa0000 r-xp 00000000 08:02 814                        /usr/lib64/libdl-2.17.so
+              /c 7f7472aa0000-7f7472ca0000 ---p 00002000 08:02 814                        /usr/lib64/libdl-2.17.so
+              /c 7f7472ca0000-7f7472ca1000 r--p 00002000 08:02 814                        /usr/lib64/libdl-2.17.so
+              /c 7f7472ca1000-7f7472ca2000 rw-p 00003000 08:02 814                        /usr/lib64/libdl-2.17.so
+              /c 7f7472ca2000-7f7472cc3000 r-xp 00000000 08:02 938276                     /usr/lib64/ld-2.17.so
+              /c 7f7472cc4000-7f7472d16000 r--p 00000000 08:02 342042151                  /usr/share/fonts/dejavu/DejaVuSansMono.ttf
+              /c 7f7472d16000-7f7472d1c000 r--s 00000000 08:02 204195379                  /var/cache/fontconfig/d24eb68867f0466cb4a93a7b89170f70-le64.cache-4
+              /c 7f7472d1c000-7f7472d1d000 ---p 00000000 00:00 0 
+              /c 7f7472d1d000-7f7472d35000 rw-p 00000000 00:00 0 
+              /c 7f7472d35000-7f7472d40000 r--s 00000000 08:02 134583966                  /var/cache/fontconfig/b79f3aaa7d385a141ab53ec885cc22a8-le64.cache-4
+              /c 7f7472d40000-7f7472d60000 rw-p 00000000 00:00 0 
+              /c 7f7472d60000-7f7472da2000 r-xp 00000000 08:02 143398007                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtXml.so.4.7.4
+              /c 7f7472da2000-7f7472ea1000 ---p 00042000 08:02 143398007                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtXml.so.4.7.4
+              /c 7f7472ea1000-7f7472ea4000 rw-p 00041000 08:02 143398007                  /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/qt/lib/libQtXml.so.4.7.4
+              /c 7f7472ea6000-7f7472ea9000 rw-p 00000000 00:00 0 
+              /c 7f7472ea9000-7f7472eab000 r--s 00000000 08:02 134583967                  /var/cache/fontconfig/87f5e051180a7a75f16eb6fe7dbd3749-le64.cache-4
+              /c 7f7472eab000-7f7472eae000 r--s 00000000 08:02 134583973                  /var/cache/fontconfig/830f035fa84a65ce80e050178dbb630d-le64.cache-4
+              /c 7f7472eae000-7f7472eb5000 r--s 00000000 08:02 134583972                  /var/cache/fontconfig/12b26b760a24f8b4feb03ad48a333a72-le64.cache-4
+              /c 7f7472eb5000-7f7472eb6000 r--s 00000000 08:02 134583974                  /var/cache/fontconfig/d04038e664b0033ae700a78c51f179d3-le64.cache-4
+              /c 7f7472eb6000-7f7472eba000 r--s 00000000 08:02 134583964                  /var/cache/fontconfig/beeeeb3dfe132a8a0633a017c99ce0c0-le64.cache-4
+              /c 7f7472eba000-7f7472ec1000 r--s 00000000 08:02 134236320                  /usr/lib64/gconv/gconv-modules.cache
+              /c 7f7472ec1000-7f7472ec3000 rw-p 00000000 00:00 0 
+              /c 7f7472ec3000-7f7472ec4000 r--p 00021000 08:02 938276                     /usr/lib64/ld-2.17.so
+              /c 7f7472ec4000-7f7472ec5000 rw-p 00022000 08:02 938276                     /usr/lib64/ld-2.17.so
+              /c 7f7472ec5000-7f7472ec6000 rw-p 00000000 00:00 0 
+              /c 7fff54709000-7fff5472b000 rw-p 00000000 00:00 0                          [stack]
+              /c 7fff5479f000-7fff547a1000 r-xp 00000000 00:00 0                          [vdso]
+              /c ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+              /c 

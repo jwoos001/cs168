@@ -1,0 +1,466 @@
+#
+# runset is /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.drc/rules.drc.9m_saed90_icv.drc.rs
+#
+runset_csum = 22831
+num_hosts = 2
+events {
+S 1034 0
+# bender.engr.ucr.edu(0):       697  1 _prescan_library
+F 1034 0
+S 1072 0
+# bender.engr.ucr.edu(0):       532  1 _scan_hierarchy
+F 1072 0
+S 1112 0
+# bender.engr.ucr.edu(0):      5472  1 _read_library_segment
+F 1112 0
+S 1122 0
+# bender.engr.ucr.edu(0):      5835  1 _create_hierarchy_tree
+F 1122 0
+S 1343 0
+# bender.engr.ucr.edu(0):      1274  1 _optimize_hierarchy_tree
+S 1341 1
+# bender.engr.ucr.edu(1):       731  1 _generate_sibling_refref
+F 1343 0
+S 1354 0
+# bender.engr.ucr.edu(0):       894  1 _hierarchy_cleanup
+F 1354 0
+F 1341 1
+S 1357 1
+# bender.engr.ucr.edu(1):       987  1 _update_and_pushdown_refref
+F 1357 1
+S 1442 1
+# bender.engr.ucr.edu(1):      3191  1 _create_layer_dp
+F 1442 1
+S 1428 1
+# bender.engr.ucr.edu(1):      3191  1 _create_layer_dp
+S 1417 0
+# bender.engr.ucr.edu(0):      3191  1 _create_layer_dp
+F 1428 1
+S 1400 1
+# bender.engr.ucr.edu(1):      3197  1 _create_layer_dp
+F 1400 1
+S 1389 1
+# bender.engr.ucr.edu(1):      3197  1 _create_layer_dp
+F 1389 1
+S 1378 1
+# bender.engr.ucr.edu(1):      3197  1 _create_layer_dp
+F 1378 1
+S 1361 1
+# bender.engr.ucr.edu(1):      3201  1 _create_layer_dp
+F 1361 1
+S 1369 1
+# bender.engr.ucr.edu(1):      3245  1 _optimize_layer_dp
+F 1417 0
+S 1422 0
+# bender.engr.ucr.edu(0):      3235  1 _optimize_layer_dp
+F 1369 1
+S 1585 1
+# bender.engr.ucr.edu(1):      3221  1 _connect
+F 1422 0
+S 1383 0
+# bender.engr.ucr.edu(0):      3241  1 _optimize_layer_dp
+F 1383 0
+S 1630 0
+# bender.engr.ucr.edu(0):      5310  1 _external
+F 1585 1
+S 1587 1
+# bender.engr.ucr.edu(1):      5449  1 _external
+F 1587 1
+S 1611 1
+# bender.engr.ucr.edu(1):      1091  1 _copy
+F 1611 1
+S 1394 1
+# bender.engr.ucr.edu(1):      3241  1 _optimize_layer_dp
+F 1630 0
+S 1405 0
+# bender.engr.ucr.edu(0):      3241  1 _optimize_layer_dp
+F 1405 0
+S 1781 0
+# bender.engr.ucr.edu(0):      5323  1 _external
+F 1394 1
+S 1725 1
+# bender.engr.ucr.edu(1):      5323  1 _external
+F 1725 1
+S 1491 1
+# bender.engr.ucr.edu(1):       994  1 _boolean_or
+F 1781 0
+S 1464 0
+# bender.engr.ucr.edu(0):       469  1 _create_q
+F 1491 1
+S 1616 1
+# bender.engr.ucr.edu(1):       356  1 _create_q
+F 1616 1
+S 1614 1
+# bender.engr.ucr.edu(1):       356  1 _create_q
+F 1464 0
+S 1753 0
+# bender.engr.ucr.edu(0):      4516  1 _internal_q
+F 1614 1
+S 1618 1
+# bender.engr.ucr.edu(1):      1425  1 _boolean_not_q
+F 1753 0
+S 1462 0
+# bender.engr.ucr.edu(0):       432  1 _create_q
+F 1618 1
+S 1433 1
+# bender.engr.ucr.edu(1):      3235  1 _optimize_layer_dp
+F 1462 0
+S 1731 0
+# bender.engr.ucr.edu(0):      1660  1 _boolean_and_q
+F 1731 0
+S 1693 0
+# bender.engr.ucr.edu(0):      4516  1 _internal_q
+F 1433 1
+S 1954 1
+# bender.engr.ucr.edu(1):       357  1 _create_q
+F 1693 0
+S 1945 0
+# bender.engr.ucr.edu(0):      5302  1 _external
+F 1945 0
+S 1447 0
+# bender.engr.ucr.edu(0):      3235  1 _optimize_layer_dp
+F 1954 1
+S 1956 1
+# bender.engr.ucr.edu(1):      1178  1 _size_chain_q
+F 1447 0
+S 2038 0
+# bender.engr.ucr.edu(0):      5318  1 _external
+F 2038 0
+S 2030 0
+# bender.engr.ucr.edu(0):       355  1 _create_q
+F 1956 1
+S 1960 1
+# bender.engr.ucr.edu(1):      6100  1 _external
+F 1960 1
+S 1472 1
+# bender.engr.ucr.edu(1):      1024  1 _cell_extent
+F 1472 1
+S 1475 1
+# bender.engr.ucr.edu(1):       357  1 _create_q
+F 2030 0
+S 2032 0
+# bender.engr.ucr.edu(0):      2114  1 _rectangles_q
+F 2032 0
+S 1456 0
+# bender.engr.ucr.edu(0):      2141  1 _empty_layer
+F 1456 0
+S 1453 0
+# bender.engr.ucr.edu(0):      2129  1 _empty_layer
+F 1453 0
+S 1439 0
+# bender.engr.ucr.edu(0):      2132  1 _empty_layer
+F 1439 0
+S 1468 0
+# bender.engr.ucr.edu(0):       425  1 _create_q
+F 1475 1
+S 1477 1
+# bender.engr.ucr.edu(1):      1475  1 _oversize_q
+F 1468 0
+S 1951 0
+# bender.engr.ucr.edu(0):      1571  1 _area_q
+F 1477 1
+S 1483 1
+# bender.engr.ucr.edu(1):       360  1 _create_q
+F 1951 0
+S 1481 0
+# bender.engr.ucr.edu(0):       360  1 _create_q
+F 1483 1
+S 1937 1
+# bender.engr.ucr.edu(1):      4507  1 _internal_q
+F 1937 1
+S 1414 1
+# bender.engr.ucr.edu(1):      2131  1 _empty_layer
+F 1414 1
+S 1470 1
+# bender.engr.ucr.edu(1):       495  1 _create_q
+F 1481 0
+S 1485 0
+# bender.engr.ucr.edu(0):      1076  1 _boolean_not_q
+F 1470 1
+S 2142 1
+# bender.engr.ucr.edu(1):      2736  1 _select_q
+F 1485 0
+S 1489 0
+# bender.engr.ucr.edu(0):       431  1 _create_q
+F 1489 0
+S 2132 0
+# bender.engr.ucr.edu(0):      6241  1 _enclose_q
+F 2142 1
+S 2149 1
+# bender.engr.ucr.edu(1):       393  1 _create_q
+F 2149 1
+S 2151 1
+# bender.engr.ucr.edu(1):      3045  1 _covered_by_q
+F 2151 1
+S 2128 1
+# bender.engr.ucr.edu(1):      1378  1 _boolean_not_q
+F 2132 0
+S 1466 0
+# bender.engr.ucr.edu(0):       462  1 _create_q
+F 2128 1
+S 1411 1
+# bender.engr.ucr.edu(1):      2140  1 _empty_layer
+F 1411 1
+S 1460 1
+# bender.engr.ucr.edu(1):       651  1 _create_q
+F 1466 0
+S 2068 0
+# bender.engr.ucr.edu(0):      2739  1 _select_q
+F 1460 1
+S 1793 1
+# bender.engr.ucr.edu(1):      5984  1 _internal2_q
+F 2068 0
+S 2075 0
+# bender.engr.ucr.edu(0):       395  1 _create_q
+F 1793 1
+S 1743 1
+# bender.engr.ucr.edu(1):      5984  1 _internal2_q
+F 1743 1
+S 1690 1
+# bender.engr.ucr.edu(1):      1584  1 _area_q
+F 2075 0
+S 2077 0
+# bender.engr.ucr.edu(0):      3046  1 _covered_by_q
+F 1690 1
+S 1622 1
+# bender.engr.ucr.edu(1):      4516  1 _internal_q
+F 1622 1
+S 1557 1
+# bender.engr.ucr.edu(1):      1308  1 _boolean_and_q
+F 2077 0
+S 1527 0
+# bender.engr.ucr.edu(0):      1071  1 _boolean_not_q
+F 1557 1
+S 2081 1
+# bender.engr.ucr.edu(1):       393  1 _create_q
+F 2081 1
+S 2083 1
+# bender.engr.ucr.edu(1):      3042  1 _covered_by_q
+F 2083 1
+S 2062 1
+# bender.engr.ucr.edu(1):      5843  1 _enclose
+F 2062 1
+S 1502 1
+# bender.engr.ucr.edu(1):      1315  1 _boolean_and_q
+F 1527 0
+S 1863 0
+# bender.engr.ucr.edu(0):      5097  1 _external
+F 1863 0
+F 1502 1
+S 1541 0
+# bender.engr.ucr.edu(0):       359  1 _create_q
+S 1508 1
+# bender.engr.ucr.edu(1):       432  1 _create_q
+F 1541 0
+S 1543 0
+# bender.engr.ucr.edu(0):      1313  1 _boolean_and_q
+F 1508 1
+S 1701 1
+# bender.engr.ucr.edu(1):      6239  1 _enclose_q
+F 1543 0
+S 2089 0
+# bender.engr.ucr.edu(0):       358  1 _create_q
+F 1701 1
+S 2087 1
+# bender.engr.ucr.edu(1):       358  1 _create_q
+F 2089 0
+S 1713 0
+# bender.engr.ucr.edu(0):       394  1 _create_q
+F 2087 1
+S 2091 1
+# bender.engr.ucr.edu(1):      1312  1 _boolean_and_q
+F 1713 0
+S 1711 0
+# bender.engr.ucr.edu(0):       393  1 _create_q
+F 2091 1
+S 2102 1
+# bender.engr.ucr.edu(1):       396  1 _create_q
+F 1711 0
+S 1715 0
+# bender.engr.ucr.edu(0):      6222  1 _enclose_q
+F 2102 1
+S 2100 1
+# bender.engr.ucr.edu(1):       397  1 _create_q
+F 1715 0
+S 2097 0
+# bender.engr.ucr.edu(0):      1015  1 _copy
+F 2097 0
+S 2116 0
+# bender.engr.ucr.edu(0):       396  1 _create_q
+F 2100 1
+S 2104 1
+# bender.engr.ucr.edu(1):      6315  1 _enclose_q
+F 2116 0
+S 2114 0
+# bender.engr.ucr.edu(0):       397  1 _create_q
+F 2104 1
+S 1668 1
+# bender.engr.ucr.edu(1):       394  1 _create_q
+F 1668 1
+S 1666 1
+# bender.engr.ucr.edu(1):       393  1 _create_q
+F 2114 0
+S 2118 0
+# bender.engr.ucr.edu(0):      6315  1 _enclose_q
+F 1666 1
+S 1670 1
+# bender.engr.ucr.edu(1):      6248  1 _enclose_q
+F 2118 0
+S 1494 0
+# bender.engr.ucr.edu(0):      1315  1 _boolean_and_q
+F 1670 1
+S 1851 1
+# bender.engr.ucr.edu(1):      4505  1 _internal_q
+F 1851 1
+S 1563 1
+# bender.engr.ucr.edu(1):      1304  1 _boolean_and_q
+F 1494 0
+S 1510 0
+# bender.engr.ucr.edu(0):       359  1 _create_q
+F 1510 0
+S 1512 0
+# bender.engr.ucr.edu(0):      1313  1 _boolean_and_q
+F 1563 1
+S 2056 1
+# bender.engr.ucr.edu(1):      5899  1 _enclose
+F 2056 1
+S 2050 1
+# bender.engr.ucr.edu(1):      6095  1 _external
+F 2050 1
+S 1500 1
+# bender.engr.ucr.edu(1):       432  1 _create_q
+F 1512 0
+S 1737 0
+# bender.engr.ucr.edu(0):      6079  1 _external
+F 1737 0
+S 1642 0
+# bender.engr.ucr.edu(0):       394  1 _create_q
+F 1500 1
+S 1761 1
+# bender.engr.ucr.edu(1):      6239  1 _enclose_q
+F 1761 1
+S 1640 1
+# bender.engr.ucr.edu(1):       393  1 _create_q
+F 1642 0
+S 1375 0
+# bender.engr.ucr.edu(0):      2128  1 _empty_layer
+F 1375 0
+S 1458 0
+# bender.engr.ucr.edu(0):       543  1 _create_q
+F 1640 1
+S 1644 1
+# bender.engr.ucr.edu(1):      6317  1 _enclose_q
+F 1458 0
+S 1577 0
+# bender.engr.ucr.edu(0):      4523  1 _internal_q
+F 1644 1
+S 1549 1
+# bender.engr.ucr.edu(1):      1318  1 _boolean_and_q
+F 1577 0
+S 1518 0
+# bender.engr.ucr.edu(0):      1318  1 _boolean_and_q
+F 1549 1
+S 1555 1
+# bender.engr.ucr.edu(1):       431  1 _create_q
+F 1518 0
+S 1787 0
+# bender.engr.ucr.edu(0):      6079  1 _external
+F 1787 0
+S 1654 0
+# bender.engr.ucr.edu(0):       394  1 _create_q
+F 1555 1
+S 1771 1
+# bender.engr.ucr.edu(1):      6223  1 _enclose_q
+F 1654 0
+S 1656 0
+# bender.engr.ucr.edu(0):      6322  1 _enclose_q
+F 1656 0
+S 1680 0
+# bender.engr.ucr.edu(0):      6253  1 _enclose_q
+F 1771 1
+S 1524 1
+# bender.engr.ucr.edu(1):       992  1 _boolean_or
+F 1680 0
+S 1336 0
+# bender.engr.ucr.edu(0):       756  1 _grid_check_hierarchy
+F 1524 1
+S 1533 1
+# bender.engr.ucr.edu(1):       355  1 _create_q
+F 1336 0
+S 1531 0
+# bender.engr.ucr.edu(0):       355  1 _create_q
+F 1531 0
+F 0 0
+F 1533 1
+S 1535 0
+# bender.engr.ucr.edu(0):      1304  1 _boolean_and_q
+F 0 1
+F 1535 0
+S 2044 0
+# bender.engr.ucr.edu(0):      6090  1 _external
+S 1919 1
+# bender.engr.ucr.edu(1):       396  1 _create_q
+F 1919 1
+S 1917 1
+# bender.engr.ucr.edu(1):       397  1 _create_q
+F 2044 0
+S 1905 0
+# bender.engr.ucr.edu(0):       394  1 _create_q
+F 1917 1
+S 1921 1
+# bender.engr.ucr.edu(1):      1687  1 _coincident_edge_q
+F 1905 0
+S 1903 0
+# bender.engr.ucr.edu(0):       393  1 _create_q
+F 1903 0
+S 1907 0
+# bender.engr.ucr.edu(0):      6227  1 _enclose_q
+F 1907 0
+S 1891 0
+# bender.engr.ucr.edu(0):       390  1 _create_q
+F 1921 1
+S 1925 1
+# bender.engr.ucr.edu(1):       363  1 _create_q
+F 1891 0
+S 1889 0
+# bender.engr.ucr.edu(0):       391  1 _create_q
+F 1925 1
+S 1933 1
+# bender.engr.ucr.edu(1):      2360  1 _adjacent_edge_q
+F 1933 1
+S 1927 1
+# bender.engr.ucr.edu(1):      2360  1 _adjacent_edge_q
+F 1889 0
+S 1893 0
+# bender.engr.ucr.edu(0):      6241  1 _enclose_q
+F 1927 1
+S 1877 1
+# bender.engr.ucr.edu(1):      5332  1 _external
+F 1877 1
+S 1871 1
+# bender.engr.ucr.edu(1):       362  1 _create_q
+F 1871 1
+S 1869 1
+# bender.engr.ucr.edu(1):       362  1 _create_q
+F 1869 1
+S 1873 1
+# bender.engr.ucr.edu(1):      1418  1 _boolean_not_q
+F 1873 1
+S 1571 1
+# bender.engr.ucr.edu(1):       360  1 _create_q
+F 1893 0
+S 1569 0
+# bender.engr.ucr.edu(0):       360  1 _create_q
+F 1571 1
+F 0 1
+F 1569 0
+S 1573 0
+# bender.engr.ucr.edu(0):      1078  1 _boolean_not_q
+F 1573 0
+S 1883 0
+# bender.engr.ucr.edu(0):      6052  1 _external
+F 1883 0
+S 2284 0
+# bender.engr.ucr.edu(0):       372  1 _accumulate_results
+F 2284 0
+}

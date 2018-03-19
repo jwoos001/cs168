@@ -1,0 +1,40 @@
+Power Pad Synthesis(PPS) Summary File
+
+A. Report User Constraints
+power net name:	VSS
+power budget:	1000.00 [mW]
+supply voltage:	1.20 [V]
+target ir-drop:	250.00 [mV]
+target maximum pad current: ignored
+maximum number of pads:	40
+
+B. Report Pad Synthesis Results
+#iter.  ir-drop         pad-current     #synthesized_pads improvement(%)
+        max/(x y)       max/(x y)       current/total     ir-drop/pad-current
+-----------------------------------------------------------------
+1 400.11/(22.880 32.937) 92.86/(0.000 32.672) 16/32  0.00/0.00
+1 394.04/(22.880 32.937) 80.96/(54.400 32.672) 18/36  1.52/12.81
+2 392.53/(22.880 32.937) 79.35/(54.400 32.672) 20/40  0.38/1.99
+
+C. Report Pad Current Results
+Virtual Pad at (0.000 10.528) Supplies   43.51 mA Current (5.22%)
+Virtual Pad at (0.000 21.600) Supplies   66.23 mA Current (7.95%)
+Virtual Pad at (0.000 32.672) Supplies   43.97 mA Current (5.28%)
+Virtual Pad at (0.000 43.744) Supplies   38.62 mA Current (4.63%)
+Virtual Pad at (10.336 55.360) Supplies   23.64 mA Current (2.84%)
+Virtual Pad at (21.216 55.360) Supplies   22.75 mA Current (2.73%)
+Virtual Pad at (32.096 55.360) Supplies   27.13 mA Current (3.26%)
+Virtual Pad at (42.976 55.360) Supplies   27.55 mA Current (3.31%)
+Virtual Pad at (54.400 10.528) Supplies   44.47 mA Current (5.34%)
+Virtual Pad at (54.400 21.600) Supplies   76.90 mA Current (9.23%)
+Virtual Pad at (54.400 32.672) Supplies   79.35 mA Current (9.52%)
+Virtual Pad at (54.400 43.744) Supplies   49.73 mA Current (5.97%)
+Virtual Pad at (10.336 0.000) Supplies   29.02 mA Current (3.48%)
+Virtual Pad at (21.216 0.000) Supplies   31.80 mA Current (3.82%)
+Virtual Pad at (32.096 0.000) Supplies   32.71 mA Current (3.93%)
+Virtual Pad at (42.976 0.000) Supplies   30.41 mA Current (3.65%)
+Virtual Pad at (0.000 38.208) Supplies   45.83 mA Current (5.50%)
+Virtual Pad at (0.000 27.136) Supplies   57.45 mA Current (6.89%)
+Virtual Pad at (23.392 55.360) Supplies   23.51 mA Current (2.82%)
+Virtual Pad at (0.000 31.584) Supplies   38.74 mA Current (4.65%)
+

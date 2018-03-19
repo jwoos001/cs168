@@ -1,0 +1,72 @@
+[11:58:49.22] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Feb 14 11:58:44 2018
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[11:58:52.21] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+610
+[11:58:54.56] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+629+529
+[11:58:55.49] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+784+536
+[11:58:58.40] /# gi::executeAction deOpenDesign -in [gi::getWindows 0]
+[11:58:58.40] /i de::showOpenDesign
+[11:58:58.43] /o oa:0x22c2dc70
+[11:58:58.53] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[11:58:58.80] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+396+226
+[11:59:00.99] /i gi::setCurrentIndex {designLibs} -index {reference} -in [gi::getDialogs {deOpenDesign}]
+[11:59:01.00] /i gi::setItemSelection {designLibs} -index {reference} -in [gi::getDialogs {deOpenDesign}]
+[11:59:02.64] /i gi::setCurrentIndex {designLibs} -index {mylibrary} -in [gi::getDialogs {deOpenDesign}]
+[11:59:02.65] /i gi::setItemSelection {designLibs} -index {mylibrary} -in [gi::getDialogs {deOpenDesign}]
+[11:59:04.54] /i gi::setCurrentIndex {designCells} -index {NAND} -in [gi::getDialogs {deOpenDesign}]
+[11:59:04.55] /i gi::setItemSelection {designCells} -index {NAND} -in [gi::getDialogs {deOpenDesign}]
+[11:59:05.74] /i gi::setCurrentIndex {designViews} -index {schematic} -in [gi::getDialogs {deOpenDesign}]
+[11:59:05.75] /i gi::setItemSelection {designViews} -index {schematic} -in [gi::getDialogs {deOpenDesign}]
+[11:59:08.17] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[11:59:08.18] /# de::open [dm::findCellView {schematic} -cellName {NAND} -libName {mylibrary}] -readOnly 0
+[11:59:08.20] /o 	############################################
+[11:59:08.20] /o 	--------------------------------------------
+[11:59:08.20] /o 	PDK Name................... : SAED_PDK_90
+[11:59:08.20] /o 	PDK Release Date........... : 29-Sep-2015
+[11:59:08.20] /o 	PDK Custom Designer Version : J-2014.12-2
+[11:59:08.20] /o 	--------------------------------------------
+[11:59:08.20] /o 	############################################
+[11:59:08.20] /o 
+[11:59:08.20] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[11:59:08.20] /o SAED PDK 90: Loaded callbacks
+[11:59:08.21] /o SAED PDK 90: Loaded display resources
+[11:59:08.29] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[11:59:08.30] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[11:59:08.38] /r giDialog gi::setActiveDialog [gi::getDialogs {deOpenFailed}]
+[11:59:08.66] /r giDialog db::setAttr geometry -of [gi::getDialogs {deOpenFailed}] -value 443x99+495+413
+[11:59:10.65] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deOpenFailed}]
+[11:59:10.76] /r giWindowId 1
+[11:59:10.76] /r giWindowGeometry 1224x864
+[11:59:11.29] /o 0.1
+[11:59:12.07] /i db::setAttr geometry -of [gi::getFrames 1] -value 1224x864+15+54
+[11:59:14.25] /i db::setAttr geometry -of [gi::getFrames 1] -value 1224x864+608+186
+[11:59:15.01] /i db::setAttr geometry -of [gi::getFrames 1] -value 718x888+721+31
+[11:59:15.78] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[11:59:19.14] /# gi::executeAction deFitEdit -in [gi::getWindows 1]
+[11:59:19.14] /i de::fit -window 1 -fitEdit true
+[11:59:19.18] /o {-0.5375 -1.7625} {2.95625 2.2}
+[11:59:55.79] /# gi::executeAction deSelectActive -in [gi::getWindows 1]
+[12:00:00.29] /i gi::executeAction deChangeMode -in [gi::getWindows 1]
+[12:00:00.35] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[12:00:00.36] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[12:00:00.36] /e Error: Could not open design 'mylibrary/NAND/schematic' in edit mode: locked by user <jwoosam>. (TCL)
+[12:00:04.32] /i gi::setActiveWindow 0
+[12:00:04.33] /i gi::setActiveWindow 0 -raise true
+[12:01:15.28] /i gi::setActiveWindow 1
+[12:01:15.29] /i gi::setActiveWindow 1 -raise true
+[12:01:15.31] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[12:01:17.67] /i gi::setActiveWindow 0
+[12:01:17.68] /i gi::setActiveWindow 0 -raise true
+[12:01:17.69] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[12:01:17.76] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[12:01:18.04] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+533+362
+[12:01:21.16] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[12:01:21.22] /o Shutdown time: Wed Feb 14 12:01:21 2018
+[12:01:21.22] /o Elapsed session real time: 2.53 minutes
+[12:01:21.22] /o Session terminated. Log is at /home/cemaj/jwoosam/eecs168/cdesigner.jwoosam.14_2_11_40_0.log

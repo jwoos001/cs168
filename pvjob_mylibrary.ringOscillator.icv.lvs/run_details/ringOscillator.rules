@@ -1,0 +1,25 @@
+                                        
+                                 ICV_Master (R)
+                                        
+           Version K-2015.12-3 for linux64 - Dec 17, 2015 cl#3052145
+                                        
+                    Copyright (c) 1996 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i mylibrary -c ringOscillator -oa_view layout -oa_lib_defs /home/cemaj/jwoosam/eecs168/lib.defs -oa_layer_map /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.lvs.cdesigner.rc -s /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.cdesigner.sp -sf SPICE -stc ringOscillator -sf SPICE -ndg -quiet=0 -vue /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+User name:        jwoosam
+Layout format:    OPENACCESS
+Input file name:  mylibrary
+Top cell name:    ringOscillator
+Time started:     2018/01/31 12:37:22PM
+
+--------------------------------------------------------------------------------
+                             Rules to be Executed                               
+--------------------------------------------------------------------------------
+

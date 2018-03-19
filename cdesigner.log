@@ -1,66 +1,148 @@
-[09:58:04.72] /o Custom Designer (TM) Version J-2014.12-SP2-2
+[09:28:43.79] /o Custom Designer (TM) Version J-2014.12-SP2-2
               /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
               /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
-              /c Execution time: Wed Jan 31 09:58:00 2018
+              /c Execution time: Wed Feb 28 09:28:10 2018
               /c Host: bender.engr.ucr.edu
               /c 
               /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
               /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
               /c 
-[09:58:06.95] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+610
-[09:58:09.50] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+594+520
-[09:58:10.96] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+757+500
-[09:58:12.42] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+770+500
-[10:01:33.13] /# gi::executeAction deRecentFile_mylibrary_NAND_symbol_Editing -in [gi::getWindows 0]
-[10:01:33.13] /a de::open mylibrary/NAND/symbol -readOnly false
-[10:01:33.19] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
-[10:01:33.24] /o 	############################################
-[10:01:33.24] /o 	--------------------------------------------
-[10:01:33.24] /o 	PDK Name................... : SAED_PDK_90
-[10:01:33.24] /o 	PDK Release Date........... : 29-Sep-2015
-[10:01:33.24] /o 	PDK Custom Designer Version : J-2014.12-2
-[10:01:33.24] /o 	--------------------------------------------
-[10:01:33.24] /o 	############################################
-[10:01:33.24] /o 
-[10:01:33.24] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
-[10:01:33.24] /o SAED PDK 90: Loaded callbacks
-[10:01:33.25] /o SAED PDK 90: Loaded display resources
-[10:01:33.29] /r giWindowId 1
-[10:01:33.29] /r giWindowGeometry 1224x864
-[10:01:33.91] /o oa:0x2605f290
-[10:01:34.66] /i db::setAttr geometry -of [gi::getFrames 1] -value 1224x864+15+54
-[10:02:09.66] /i gi::setActiveWindow 0
-[10:02:09.66] /i gi::setActiveWindow 0 -raise true
-[10:02:20.96] /# gi::executeAction deRecentFile_mylibrary_NAND_symbol_Editing -in [gi::getWindows 0]
-[10:02:20.96] /a de::open mylibrary/NAND/symbol -readOnly false
-[10:02:20.98] /r giWindowId 2
-[10:02:20.98] /r giWindowGeometry 1224x864
-[10:02:21.48] /o oa:0x264f7b10
-[10:02:21.95] /i db::setAttr geometry -of [gi::getFrames 2] -value 1224x864+33+72
-[10:02:25.00] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
-[10:02:25.48] /i gi::setActiveWindow 0
-[10:02:25.49] /i gi::setActiveWindow 0 -raise true
-[10:02:27.28] /i gi::setActiveWindow 1
-[10:02:27.29] /i gi::setActiveWindow 1 -raise true
-[10:02:27.31] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
-[10:02:27.68] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
-[10:02:27.83] /i gi::setActiveWindow 0
-[10:02:27.84] /i gi::setActiveWindow 0 -raise true
-[10:02:33.40] /# gi::executeAction deRecentFile_mylibrary_NAND_schematic_Editing -in [gi::getWindows 0]
-[10:02:33.40] /a de::open mylibrary/NAND/schematic -readOnly false
-[10:02:33.52] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
-[10:02:33.57] /r giWindowId 3
-[10:02:33.57] /r giWindowGeometry 1224x864
-[10:02:34.30] /o oa:0x26205380
-[10:02:34.99] /i db::setAttr geometry -of [gi::getFrames 3] -value 1224x864+51+90
-[10:03:15.22] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
-[10:03:15.69] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
-[10:03:15.87] /i gi::setActiveWindow 0
-[10:03:15.88] /i gi::setActiveWindow 0 -raise true
-[10:04:06.23] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
-[10:04:06.38] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
-[10:04:06.68] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+533+362
-[10:04:08.36] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
-[10:04:08.47] /o Shutdown time: Wed Jan 31 10:04:08 2018
-[10:04:08.47] /o Elapsed session real time: 6.05 minutes
-[10:04:08.47] /o Session terminated. Log is at /home/cemaj/jwoosam/eecs168/cdesigner.log
+[09:29:05.34] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+610
+[09:30:01.33] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+776+497
+[09:30:05.36] /# gi::executeAction deOpenDesign -in [gi::getWindows 0]
+[09:30:05.36] /i de::showOpenDesign
+[09:30:05.60] /o oa:0x24d90f70
+[09:30:05.95] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[09:30:06.10] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+396+226
+[09:30:07.89] /i gi::setCurrentIndex {designLibs} -index {mylibrary} -in [gi::getDialogs {deOpenDesign}]
+[09:30:07.95] /i gi::setItemSelection {designLibs} -index {mylibrary} -in [gi::getDialogs {deOpenDesign}]
+[09:30:09.99] /i gi::setCurrentIndex {designCells} -index {inverter_testbench} -in [gi::getDialogs {deOpenDesign}]
+[09:30:10.22] /i gi::setItemSelection {designCells} -index {inverter_testbench} -in [gi::getDialogs {deOpenDesign}]
+[09:30:11.40] /i gi::setCurrentIndex {designCells} -index {inverter} -in [gi::getDialogs {deOpenDesign}]
+[09:30:11.55] /i gi::setItemSelection {designCells} -index {inverter} -in [gi::getDialogs {deOpenDesign}]
+[09:30:13.28] /i gi::setCurrentIndex {designViews} -index {starrc} -in [gi::getDialogs {deOpenDesign}]
+[09:30:13.34] /i gi::setItemSelection {designViews} -index {starrc} -in [gi::getDialogs {deOpenDesign}]
+[09:30:13.44] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[09:30:13.49] /# de::open [dm::findCellView {starrc} -cellName {inverter} -libName {mylibrary}] -readOnly 0
+[09:30:13.58] /m Information: License 'Layout Editor' checked out. (LICENSE-003)
+[09:30:13.77] /o 	############################################
+[09:30:13.77] /o 	--------------------------------------------
+[09:30:13.77] /o 	PDK Name................... : SAED_PDK_90
+[09:30:13.77] /o 	PDK Release Date........... : 29-Sep-2015
+[09:30:13.77] /o 	PDK Custom Designer Version : J-2014.12-2
+[09:30:13.77] /o 	--------------------------------------------
+[09:30:13.77] /o 	############################################
+[09:30:13.77] /o 
+[09:30:13.77] /w Warning: Preference 'leActiveLPP' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Designer Tcl Reference Manual. (PREFERENCE-058)
+[09:30:13.81] /o SAED PDK 90: Loaded callbacks
+[09:30:13.90] /o SAED PDK 90: Loaded display resources
+[09:30:14.79] /r giWindowId 1
+[09:30:14.80] /r giWindowGeometry 1224x864
+[09:30:21.54] /o 0.1
+[09:30:23.77] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]] -value 190x714
+[09:30:24.96] /i db::setAttr geometry -of [gi::getFrames 1] -value 1224x864+15+54
+[09:30:27.33] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 1]] -value 190x747
+[09:30:27.39] /i db::setAttr geometry -of [gi::getFrames 1] -value 1440x897+0+23
+[09:30:29.61] /# gi::executeAction deFitEdit -in [gi::getWindows 1]
+[09:30:29.62] /i de::fit -window 1 -fitEdit true
+[09:30:29.69] /o {-0.091 -0.956} {3.102 1.02}
+[09:31:20.97] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[09:31:23.83] /m Information: License 'Layout Editor' checked in. (LICENSE-004)
+[09:31:24.32] /i gi::setActiveWindow 0
+[09:31:24.35] /i gi::setActiveWindow 0 -raise true
+[09:31:59.48] /# gi::executeAction deOpenDesign -in [gi::getWindows 0]
+[09:31:59.48] /i de::showOpenDesign
+[09:31:59.59] /o oa:0x2355d630
+[09:31:59.97] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+396+226
+[09:32:00.00] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[09:32:01.39] /i gi::setCurrentIndex {designCells} -index {inverter_testbench} -in [gi::getDialogs {deOpenDesign}]
+[09:32:01.47] /i gi::setItemSelection {designCells} -index {inverter_testbench} -in [gi::getDialogs {deOpenDesign}]
+[09:32:02.80] /i gi::setCurrentIndex {designViews} -index {schematic} -in [gi::getDialogs {deOpenDesign}]
+[09:32:02.85] /i gi::setItemSelection {designViews} -index {schematic} -in [gi::getDialogs {deOpenDesign}]
+[09:32:03.74] /i gi::setCurrentIndex {designViews} -index {config} -in [gi::getDialogs {deOpenDesign}]
+[09:32:03.79] /i gi::setItemSelection {designViews} -index {config} -in [gi::getDialogs {deOpenDesign}]
+[09:32:03.91] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[09:32:03.95] /# de::open [dm::findCellView {config} -cellName {inverter_testbench} -libName {mylibrary}] -readOnly 0
+[09:32:04.21] /m Information: License 'Schematic Editor' checked out. (LICENSE-003)
+[09:32:04.64] /r giWindowId 2
+[09:32:04.65] /r giWindowGeometry 1224x864
+[09:32:07.84] /r giWindowId 3
+[09:32:07.89] /r giWindowGeometry 750x750
+[09:32:08.77] /o 2
+[09:32:11.82] /i gi::setActiveWindow 2
+[09:32:11.86] /i gi::setActiveWindow 2 -raise true
+[09:32:12.16] /i gi::setActiveWindow 3
+[09:32:12.20] /i gi::setActiveWindow 3 -raise true
+[09:32:12.42] /i db::setAttr geometry -of [gi::getFrames 2] -value 1224x864+33+72
+[09:32:12.46] /i db::setAttr geometry -of [gi::getFrames 3] -value 750x750+34+57
+[09:32:50.04] /i gi::setField {heViewSearchList} -value {schematic\ hspice\ symbol} -in [gi::getWindows 3]
+[09:32:51.14] /i gi::setActiveWindow 2
+[09:32:51.19] /i gi::setActiveWindow 2 -raise true
+[09:32:54.29] /i db::setAttr geometry -of [gi::getFrames 2] -value 1224x864+27+81
+[09:32:55.17] /i gi::setActiveWindow 3
+[09:32:55.21] /i gi::setActiveWindow 3 -raise true
+[09:32:59.52] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[09:32:59.98] /i gi::setActiveWindow 2
+[09:33:00.02] /i gi::setActiveWindow 2 -raise true
+[09:33:02.19] /i db::setAttr geometry -of [gi::getFrames 2] -value 1440x897+0+23
+[09:33:11.55] /# gi::executeAction seShowConsoleForWindow -in [gi::getWindows 2]
+[09:33:11.55] /i sa::showConsole -context [db::getNext [de::getContexts -window 2]]
+[09:33:27.35] /m Information: License 'Simulation & Analysis Environment' checked out. (LICENSE-003)
+[09:33:27.76] /r giWindowId 4
+[09:33:27.83] /r giWindowGeometry 600x500
+[09:33:30.34] /o oa:0x28ebc530
+[09:33:31.02] /i db::setAttr geometry -of [gi::getFrames 4] -value 600x500+86+109
+[09:33:54.68] /# gi::executeAction saSaveState -in [gi::getWindows 4]
+[09:33:54.69] /i sa::showSaveState -parent 4
+[09:33:57.43] /o oa:0x25bbf080
+[09:33:58.39] /i db::setAttr geometry -of [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]] -value 463x477+206+275
+[09:33:58.43] /i gi::setActiveDialog [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]]
+[09:33:59.79] /i gi::closeWindows [gi::getDialogs {saShowSaveState} -parent [gi::getWindows 4]]
+[09:34:01.59] /# gi::executeAction saLoadState -in [gi::getWindows 4]
+[09:34:01.59] /i sa::showLoadState -parent 4
+[09:34:03.90] /o oa:0x28bb6290
+[09:34:04.59] /i gi::setActiveDialog [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 4]]
+[09:34:05.29] /i db::setAttr geometry -of [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 4]] -value 600x645+206+209
+[09:34:10.01] /i gi::setField {/simulators} -value {HSPICE} -in [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 4]]
+[09:34:13.82] /i gi::setField {/loadFrom/openAccess} -value {true} -in [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 4]]
+[09:34:14.93] /i db::setAttr geometry -of [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 4]] -value 600x616+206+209
+[09:34:17.22] /i gi::pressButton {/apply} -in [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 4]]
+[09:34:18.71] /i gi::pressButton {/ok} -in [gi::getDialogs {saShowLoadState} -parent [gi::getWindows 4]]
+[09:34:23.11] /i gi::executeAction menuPreShow -in [gi::getWindows 4]
+[09:34:23.18] /r giMenuAccess db::getNext [gi::getMenus saConsoleSimMenu -from [gi::getWindows 4]]
+[09:34:25.17] /# gi::executeAction saNetlistAndRun -in [gi::getWindows 4]
+[09:34:25.18] /i isa::netlistAndRun -testbench [sa::findActiveTestbench -window 4]
+[09:34:25.51] /m Information: "Starting incremental netlisting for design "mylibrary/inverter_testbench/config"..." (NETLISTING-010)
+[09:34:26.00] /o No Design Integrity rule violations found in "mylibrary/inverter_testbench/schematic"
+[09:34:27.82] /m Information: "Netlisting design "mylibrary/inverter_testbench/config" finished successfully." (NETLISTING-012)
+[09:34:27.89] /m Information: "Composing simulator input file for design "mylibrary/inverter_testbench/config"..."
+[09:34:28.58] /m Information: "Simulator input file composed successfully for design "mylibrary/inverter_testbench/config""
+[09:34:31.87] /r giWindowId 5
+[09:34:31.96] /r giWindowGeometry 800x600
+[09:34:33.35] /# gi::expand {jobMonitorTable} -index {0,0} -in [gi::getWindows 5]
+[09:34:33.35] /# gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 5]
+[09:34:33.63] /m Information: "Starting HSPICE simulation for design: mylibrary/inverter_testbench/config"
+[09:34:33.80] /# db::setAttr geometry -of [gi::getFrames 5] -value 800x600+112+135
+[09:34:33.81] /# gi::collapse {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 5]
+[09:34:34.01] /o 1
+[09:34:34.23] /i gi::expand {jobMonitorTable} -index {0.0,0} -in [gi::getWindows 5]
+[09:34:36.73] /m Information: "Simulation completed successfully for design: mylibrary/inverter_testbench/config "
+[09:34:38.52] /m Information: Measurement calculations completed for testbench: default in 1s
+[09:34:38.67] /m Information: "Evaluating and plotting outputs..."
+[09:34:39.13] /m Information: Launching Waveform Viewer "cd /home/cemaj/jwoosam/simulation/mylibrary/inverter_testbench/config/HSPICE/nominal/results && wv -k -cdesigner > /home/cemaj/jwoosam/simulation/mylibrary/inverter_testbench/config/HSPICE/nominal/results/viewer.log 2>&1"
+[09:35:30.76] /m Information: Waveform Viewer exited normally.
+[09:35:32.81] /i gi::executeAction giCloseWindow -in [gi::getWindows 5]
+[09:35:32.99] /i gi::setActiveWindow 4
+[09:35:33.03] /i gi::setActiveWindow 4 -raise true
+[09:35:35.19] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[09:35:37.77] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[09:35:40.14] /m Information: License 'Schematic Editor' checked in. (LICENSE-004)
+[09:37:16.47] /i gi::setActiveWindow 0
+[09:37:16.51] /i gi::setActiveWindow 0 -raise true
+[09:37:18.88] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[09:37:19.14] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[09:37:19.40] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+533+362
+[09:37:20.89] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[09:37:21.24] /o Shutdown time: Wed Feb 28 09:37:21 2018
+[09:37:21.24] /o Elapsed session real time: 8.61 minutes
+[09:37:21.24] /o Session terminated. Log is at /home/cemaj/jwoosam/eecs168/cdesigner.log

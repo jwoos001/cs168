@@ -1,0 +1,24 @@
+icc_shell> gui_start
+ + VUE INFO: Please click Verification->IC Validator VUE in LayoutWindow menu
+to launch VUE.
+
+ + VUE ERROR: couldn't open socket: address already in use
+
+ + VUE ERROR: couldn't open socket: address already in use
+
+ + VUE INFO: Found a usable port: 2447
+
+Information: Loaded Icv extension from /usr/local/synopsys/icvalidator/K-2015.12-3 (GUI-024)
+Information: Visibility is turned ON for cells and cell contents because the task is set to Block Implementation (GUI-026)
+icc_shell> open_mw_lib /home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit_icc
+{fa_4bit_icc}
+icc_shell> ::iccGUI::open_mw_cel  fa_4bit
+icc_shell> open_mw_cel fa_4bit
+Warning: CEL does not have hierarchy preservation. (MWDC-133)
+Preparing data for query................... 
+Warning: No valid link library found; check the link_library variable. (IFS-008)
+Information: Opened "fa_4bit.CEL;2" from "/home/cemaj/jwoosam/eecs168/lab4-rtl/fa_4bit_icc" library. (MWUI-068)
+{fa_4bit}
+icc_shell> 
+icc_shell> 
+Exit IC Compiler!

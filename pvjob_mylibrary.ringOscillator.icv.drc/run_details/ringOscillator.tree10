@@ -1,0 +1,149 @@
+*** ringOscillator		Wed Jan 31 12:35:58 2018
+
+AFTER VCELL Pairing
+
+
+
+		DESIGN STATISTICS DEFINITIONS
+		______ __________ ______________.
+
+Hierarchical levels       The number of levels in the design.
+Unique Cells              The number of unique cells in the design.
+Hierarchical placements   The total number of placements (srefs and arefs)
+			  at each level in the design.
+Total Design placements   The total number of placements (srefs and arefs)
+			  in the design.
+Exploded references       The total number of exploded references in the
+			   design.
+Exploded placements       The total number of exploded placements in the
+			   design.
+Total Data count          The total number of all polygons, paths, 
+			  edges, and rectangles in the design.
+Sref Placements           The total number of cell references in the design.
+Arefs                     The total number of array references in the design.
+Aref Placements           The total number of references in each array
+			  reference in the design.
+Data                      The number of data primitives in each cell
+			  of the design.
+Text                      The number of text primitives in each cell of the design.
+
+
+*********************************************************************************
+
+
+		DESIGN STATISTICS FOR "ringOscillator".
+		______ __________ ___ ___________.
+
+	Hierarchical levels	=         2
+	Unique cells		=         2
+	Hierarchical placements	=         6
+	Total design placements	=         6
+	Exploded references	=         0
+	Exploded placements	=         0
+	Total data count	=       137
+	SREF placements		=         6
+	AREFS			=         0
+	AREF placements		=         0
+	DATA 			=        33
+	TEXT			=         0
+
+
+*********************************************************************************
+
+
+		CELL PROFILE STATISTICS DEFINITIONS
+		_______________________________________.
+
+Total Data      Count of all sref's, aref's, rectangles, paths, edges, and polygons in the cell.
+Prims           Count of all rectangles, paths, edges, and polygons in the cell.
+Refs            Count of all sref's and aref's in the cell.
+Text            Count of all text elements in the cell.
+Flat Plcs       The flat placement count for the cell.
+Explode Type    Cell explode type.
+
+
+*********************************************************************************
+
+
+			CELL PROFILE DATA
+			____ _______ ____.
+
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ ringOscillator           12       7       5       0       1    USED
+ inverter                 26      26       0       0       5    USED
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ ringOscillator            1       7       5       0      12    USED
+ inverter                  5      26       0       0      26    USED
+
+
+*********************************************************************************
+
+		HIERARCHICAL TREE FOR BLOCK "ringOscillator".
+
+
+							    TOTAL SREF AREF ROTR
+ ringOscillator                               Level=0  Count=   1    1    0    0
+  inverter                                    Level=1  Count=   5    5    0    0
+
+
+*********************************************************************************
+
+
+		CELL STATISTICS
+
+
+CELL = ringOscillator
+	Cell Status		= USED
+	LTL Library		= MAINLIB
+	LTL Cell Extents (LL,UR)	= (-0.505, 0.115) (15.455, 3.600)
+	Cell Area		= 55.62
+	Hierarchical Placements	=        1
+	Flat Placements		=        1
+	SREFS			=        5	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        7
+	TEXT			=        0
+	Via			=        0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   M1i        7       0       
+
+CELL = inverter
+	Cell Status		= USED
+	LTL Library		= MAINLIB
+	LTL Cell Extents (LL,UR)	= (0.250, -1.425) (2.970, 1.405)
+	Cell Area		= 8.78
+	Hierarchical Placements	=        5
+	Flat Placements		=        5
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       26
+	TEXT			=        0
+	Via			=        0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      4       0       
+   PIMPi      2       0       
+   NIMPi      2       0       
+   POi        3       0       
+   M1i        4       0       
+   COi        10      0       

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Created by Custom Designer (TM), build , on Wed Jan 31 12:37:14 2018-->
+<file-format version="1.0" name="netlisting-timestamps">
+<module contextID="switched: mylibrary ringOscillator schematic vl: auCdl schematic symbol sl: auCdl" isSubcircuit="1" viewStopList="auCdl" timestamp="630" viewSearchList="auCdl schematic symbol">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="2"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="519"/>
+<PortOrder>VDDVIO1VIO2VIO3VIO4VIO5VSS</PortOrder>
+</module>
+</file-format>

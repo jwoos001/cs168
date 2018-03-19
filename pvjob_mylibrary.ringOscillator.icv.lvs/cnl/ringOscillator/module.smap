@@ -1,0 +1,40 @@
+<module name="vsl: mylibrary ringOscillator schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="I1" dst="XI1"/>
+<mapping src="I0" dst="XI0"/>
+<mapping src="I2" dst="XI2"/>
+<mapping src="I4" dst="XI4"/>
+<mapping src="I3" dst="XI3"/>
+</forward>
+<reverse>
+<mapping src="XI2" dst="I2"/>
+<mapping src="XI0" dst="I0"/>
+<mapping src="XI1" dst="I1"/>
+<mapping src="XI4" dst="I4"/>
+<mapping src="XI3" dst="I3"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="VDD VIO1 VIO2 VIO3 VIO4 VIO5 VSS"/>
+<mapping src="&lt;termOrder>" dst="VDD VIO1 VIO2 VIO3 VIO4 VIO5 VSS"/>
+</forward>
+<reverse>
+<mapping src="VDD VIO1 VIO2 VIO3 VIO4 VIO5 VSS" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="inverter">
+<instance name="I0"/>
+<instance name="I1"/>
+<instance name="I2"/>
+<instance name="I3"/>
+<instance name="I4"/>
+</instance_header>
+</master_instances>
+</module>

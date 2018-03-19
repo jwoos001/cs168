@@ -1,0 +1,21 @@
+/* ICV_Nettran: RHEL64 K-2015.12-3.3052145 2015/12/17 */
+/* Created:  1/31/2018  12:37   */
+                                        
+                                ICV_Nettran (R)
+                                        
+           Version K-2015.12-3 for linux64 - Dec 17, 2015 cl#3052145
+                                        
+                    Copyright (c) 1996 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Options: -sp /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.cdesigner.sp -globalNets VDD VDD12 VDD22 -mprop -cell ringOscillator -quiet -logFile run_details/icv_nettran.log -globalNets VDD VDD12 VDD22 VSS VSS12 VDD22 -wireLog run_details/nettran_wire.log -outName /netlist_database_sch -outType ndb -ndb-noOrgname -ndb-micron 
+
+Reading "/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.cdesigner.sp" netlist ...
+Loading cell "inverter" ...
+Loading cell "ringOscillator" ...
+Processing Hierarchy ...
+Writing NDB netlist ...
+Translation completed.

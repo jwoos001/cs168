@@ -1,0 +1,9 @@
+[12:37:14.24] /m Information: "Starting netlisting for design
+               "mylibrary/ringOscillator/schematic"..." (NETLISTING-010)
+[12:37:14.28] /o No Design Integrity rule violations found in
+               "mylibrary/ringOscillator/schematic"
+[12:37:14.32] /m Information: 
+[12:37:14.32] /o Checking "mylibrary/inverter/schematic"
+[12:37:14.33] /o No rule violations found in "mylibrary/inverter/schematic"
+[12:37:14.52] /m Information: "Netlisting design "mylibrary/ringOscillator/schematic" finished
+               successfully." (NETLISTING-012)

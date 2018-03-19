@@ -1,0 +1,168 @@
+*** ringOscillator		Wed Jan 31 12:35:57 2018
+
+PRE_TREE
+
+
+
+		DESIGN STATISTICS DEFINITIONS
+		______ __________ ______________.
+
+Hierarchical levels       The number of levels in the design.
+Unique Cells              The number of unique cells in the design.
+Hierarchical placements   The total number of placements (srefs and arefs)
+			  at each level in the design.
+Total Design placements   The total number of placements (srefs and arefs)
+			  in the design.
+Exploded references       The total number of exploded references in the
+			   design.
+Exploded placements       The total number of exploded placements in the
+			   design.
+Total Data count          The total number of all polygons, paths, 
+			  edges, and rectangles in the design.
+Sref Placements           The total number of cell references in the design.
+Arefs                     The total number of array references in the design.
+Aref Placements           The total number of references in each array
+			  reference in the design.
+Data                      The number of data primitives in each cell
+			  of the design.
+Text                      The number of text primitives in each cell of the design.
+
+
+*********************************************************************************
+
+
+		DESIGN STATISTICS FOR "ringOscillator".
+		______ __________ ___ ___________.
+
+	Hierarchical levels	=         2
+	Unique cells		=         2
+	Hierarchical placements	=         6
+	Total design placements	=         6
+	Exploded references	=         0
+	Exploded placements	=         0
+	Total data count	=       137
+	SREF placements		=         6
+	AREFS			=         0
+	AREF placements		=         0
+	DATA 			=        33
+	TEXT			=         0
+
+
+*********************************************************************************
+
+
+		CELL PROFILE STATISTICS DEFINITIONS
+		_______________________________________.
+
+Total Data      Count of all sref's, aref's, rectangles, paths, edges, and polygons in the cell.
+Prims           Count of all rectangles, paths, edges, and polygons in the cell.
+Refs            Count of all sref's and aref's in the cell.
+Text            Count of all text elements in the cell.
+Flat Plcs       The flat placement count for the cell.
+Explode Type    Cell explode type.
+
+
+*********************************************************************************
+
+
+			CELL PROFILE DATA
+			____ _______ ____.
+
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ ringOscillator           12       7       5       0       1    USED
+ inverter                 26      26       0       0       5    USED
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ ringOscillator            1       7       5       0      12    USED
+ inverter                  5      26       0       0      26    USED
+
+
+*********************************************************************************
+
+		HIERARCHICAL TREE FOR BLOCK "ringOscillator".
+
+TOTAL: Number of placements
+SREF : Number of SREF placements
+AREF : Number of AREF placements
+1Q   : Number of placements at   0 degrees
+2Q   : Number of placements at  90 degrees
+3Q   : Number of placements at 180 degrees
+4Q   : Number of placements at 270 degrees
+1R   : Number of reflected placements at   0 degrees
+2R   : Number of reflected placements at  90 degrees
+3R   : Number of reflected placements at 180 degrees
+4R   : Number of reflected placements at 270 degrees
+
+							       TOTAL    SREF    AREF   1Q   2Q   3Q   4Q   1R   2R   3R   4R
+ringOscillator				      Level=0  Count=      1       1       0    0    0    0    0    0    0    0    0
+ inverter				      Level=1  Count=      5       5       0    5    0    0    0    0    0    0    0
+
+
+*********************************************************************************
+
+
+		CELL STATISTICS
+
+
+CELL = ringOscillator
+	Cell Status		= USED
+	OPENACCESS Library	= mylibrary
+	OPENACCESS Cell Name	= ringOscillator
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (-0.505, 0.115) (15.455, 3.600)
+	Cell Area		= 55.62
+	Hierarchical Placements	=        1
+	Flat Placements		=        1
+	SREFS			=        5	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        7
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ M1i              11:0    M1              drawing             7/0    (-0.51, 0.12) (15.46, 3.60)      7.47
+
+CELL = inverter
+	Cell Status		= USED
+	OPENACCESS Library	= mylibrary
+	OPENACCESS Cell Name	= inverter
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (0.000, -1.425) (3.000, 1.500)
+	Cell Area		= 8.78
+	Hierarchical Placements	=        5
+	Flat Placements		=        5
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       26
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ NWELLi            1:0    NWELL           drawing             1/0    (0.00, 0.00) (3.00, 1.50)      4.50
+ DIFFi             3:0    DIFF            drawing             4/0    (0.50, -0.90) (2.64, 0.97)      1.12
+ PIMPi             4:0    PIMP            drawing             2/0    (0.28, -1.13) (2.97, 1.19)      2.25
+ NIMPi             5:0    NIMP            drawing             2/0    (0.25, -1.13) (2.86, 1.19)      2.12
+ POi              10:0    PO              drawing             3/0    (0.83, -1.12) (1.12, 1.18)      0.33
+ M1i              11:0    M1              drawing             4/0    (0.48, -1.43) (2.46, 1.41)      1.25
+ COi              26:0    CO              drawing            10/0    (0.65, -0.86) (2.46, 0.93)      0.17

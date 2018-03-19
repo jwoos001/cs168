@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- created by Custom Designer build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="true" name="xtLVSCalibreUseSVRFTranscript"/>
+                <pref value="ringOscillator" name="xtLVSLayCell"/>
+                <pref value="/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.net" name="xtLVSLayInputNetlist"/>
+                <pref value="mylibrary/ringOscillator/layout" name="xtLVSLayLCV"/>
+                <pref value="/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.cdesigner.gds" name="xtLVSLayStreamFile"/>
+                <pref value="ringOscillator" name="xtLVSSchCell"/>
+                <pref value="/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.cdesigner.sp" name="xtLVSSchInputNetlist"/>
+                <pref value="CDL" name="xtLVSSchInputNetlistFormat"/>
+                <pref value="mylibrary/ringOscillator/schematic" name="xtLVSSchLCV"/>
+                <pref value="/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.cdesigner.sp" name="xtLVSSchOutputNetlist"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+        </preferences>
+</file-format>

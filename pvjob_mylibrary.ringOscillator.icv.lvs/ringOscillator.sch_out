@@ -1,0 +1,29 @@
+{netlist ringOscillator.sch_out
+{version 2 1 0}
+{net_global VSS VDD12 VSS12 VDD22 VDD }
+{cell inverter
+{port VDD VIN VOUT VSS}
+{inst MM1=n12 {TYPE MOS} 
+{prop W=0.25 L=0.1 NF=1}
+{pin VOUT=DRN VIN=GATE VSS=SRC VSS=BULK}}
+{inst MM0=p12 {TYPE MOS} 
+{prop W=0.5 L=0.1 NF=1}
+{pin VOUT=DRN VIN=GATE VDD=SRC VDD=BULK}}
+}
+
+{cell ringOscillator
+{port VDD VIO1 VIO2 VIO3 VIO4 VIO5
+ VSS}
+{inst XI0=inverter {TYPE CELL} 
+{pin VDD=VDD VIO5=VIN VIO1=VOUT VSS=VSS}}
+{inst XI1=inverter {TYPE CELL} 
+{pin VDD=VDD VIO1=VIN VIO2=VOUT VSS=VSS}}
+{inst XI2=inverter {TYPE CELL} 
+{pin VDD=VDD VIO2=VIN VIO3=VOUT VSS=VSS}}
+{inst XI3=inverter {TYPE CELL} 
+{pin VDD=VDD VIO3=VIN VIO4=VOUT VSS=VSS}}
+{inst XI4=inverter {TYPE CELL} 
+{pin VDD=VDD VIO4=VIN VIO5=VOUT VSS=VSS}}
+}
+
+}

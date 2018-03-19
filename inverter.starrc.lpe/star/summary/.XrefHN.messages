@@ -1,0 +1,18 @@
+iterate instance for cell inverter::inverter
+pre = 0
+main thread ( 5231 ) = 0.000000
+_write_tokens = 0
+_write_file = 0
+  
+ReadHNdb      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=181.6 
+LoadXF        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=186.1 
+BldXrefHN     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=186.1 
+ReadXHNdb     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=186.1 
+BldXrefTab    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=186.1 
+SNetSel       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=186.1 
+XrefHN        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=186.1 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=186.1 
+
+End Time: Wed Jan 31 11:28:59 2018
+

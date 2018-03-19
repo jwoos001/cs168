@@ -1,0 +1,133 @@
+                         LVS Compare Results: PASS
+
+                          ####   ###    ####   ####
+                         #   #  #   #  #      #
+                         ####   #####  #####  #####
+                         #      #   #      #      #
+                         #      #   #  ####   #### 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                     DRC and Extraction Results: CLEAN
+
+                      ####  #      #####   ###   #   #
+                     #      #      #      #   #  ##  #
+                     #      #      ####   #####  # # #
+                     #      #      #      #   #  #  ##
+                      ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+                                        
+                                IC Validator (R)
+                                        
+           Version K-2015.12-3 for linux64 - Dec 17, 2015 cl#3052145
+                                        
+                    Copyright (c) 1996 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i mylibrary -c ringOscillator -oa_view layout -oa_lib_defs /home/cemaj/jwoosam/eecs168/lib.defs -oa_layer_map /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.lvs.cdesigner.rc -s /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.cdesigner.sp -sf SPICE -stc ringOscillator -sf SPICE -ndg -quiet=0 -vue /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        jwoosam
+Layout format:    OPENACCESS
+Input file name:  mylibrary
+Top cell name:    ringOscillator
+Time started:     2018/01/31 12:37:14PM
+Time ended:       2018/01/31 12:37:34PM
+
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Compare Error Summary
+Refer to ringOscillator.LVS_ERRORS.
+
+LVS Compare Result: PASS
+TOP equivalence point:
+		[ringOscillator, ringOscillator]
+
+    1 successful equivalencies
+    0 failed equivalencies
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LVS Device Extraction Error Summary
+
+7 total rules were run.
+0 rules NOT EXECUTED.
+0 rules have violations.
+There are 0 total violations.
+Refer to ringOscillator.LAYOUT_ERRORS.
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 93
+ Empty Utilized Assign Layers = 85
+ Non-Empty Utilized Assign Layers = 8
+Pruned Assign Layers = 0
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 100
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 1
+ Turbo = Off
+
+ bender.engr.ucr.edu (1/8)
+   Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+   CPU:   8 cpu 2397 MHz
+   Cores: 8 
+   RAM:   60 Gb
+   Swap:  4 Gb
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:20
+Peak Single Command Memory = 37.535
+Peak Disk Usage = 0.047
+
+Distributed Host Peak Memory Usage
+ bender.engr.ucr.edu (1/8)  ....  38 Mb / 60 Gb
+
+Overall Distributed Utilization: 90.5%
+IC Validator is done.

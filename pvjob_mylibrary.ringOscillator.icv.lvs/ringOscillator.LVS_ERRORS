@@ -1,0 +1,44 @@
++------------------------------------------------------------------------+
+|                    ICV_Compare LVS Comparison Report                   |
++------------------------------------------------------------------------+
+
+ICV_Compare (R) Hierarchical Layout Vs. Schematic
+	RHEL64 K-2015.12-3.3052145 2015/12/17
+Copyright (C) Synopsys, Inc. All rights reserved.
+
+
+--------------------------------------------------------------------------
+LVS error file     = ringOscillator.LVS_ERRORS
+Layout error file  = ringOscillator.LAYOUT_ERRORS
+Schematic netlist  = ringOscillator.sch_out
+Layout netlist     = /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/ringOscillator.net
+Runset file        = /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+Working directory  = /home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs
+Compare directory  = run_details/compare
+Compare start time = 2018-01-31 12:37:30
+
+
+
+--------------------------------------------------------------------------
+Final comparison result:PASS
+
+			#####   ##   ##### #####
+			#   #  #  #  #     #    
+			##### ###### ##### #####
+			#     #    #     #     #
+			#     #    # ##### #####
+
+
+TOP equivalence point:
+		[ringOscillator, ringOscillator]
+
+Comparison summary
+
+    1 successful equivalencies
+    0 failed equivalencies
+
+Schematic and layout agree at all user-intended equivalent points involved
+in compare.
+
+
+End of LVS comparison report

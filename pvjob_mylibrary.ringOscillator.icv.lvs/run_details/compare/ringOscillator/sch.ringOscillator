@@ -1,0 +1,27 @@
+{NETLIST ringOscillator
+{VERSION 2 0 0}
+
+{CELL ringOscillator
+    {PORT VIO5 VSS VIO1 VDD VIO2 VIO3 VIO4 }
+    {INST XI0/MM0=p12 {TYPE MOS} {PROP n="inverter/p12" Length=0.1 Width=0.5 }
+	{PIN VIO1=DRN VIO5=GATE VDD=SRC VDD=BULK }}
+    {INST XI3/MM1=n12 {TYPE MOS} {PROP n="inverter/n12" Length=0.1 Width=0.25 }
+	{PIN VIO4=DRN VIO3=GATE VSS=SRC VSS=BULK }}
+    {INST XI4/MM0=p12 {TYPE MOS} {PROP n="inverter/p12" Length=0.1 Width=0.5 }
+	{PIN VIO5=DRN VIO4=GATE VDD=SRC VDD=BULK }}
+    {INST XI1/MM1=n12 {TYPE MOS} {PROP n="inverter/n12" Length=0.1 Width=0.25 }
+	{PIN VIO2=DRN VIO1=GATE VSS=SRC VSS=BULK }}
+    {INST XI2/MM1=n12 {TYPE MOS} {PROP n="inverter/n12" Length=0.1 Width=0.25 }
+	{PIN VIO3=DRN VIO2=GATE VSS=SRC VSS=BULK }}
+    {INST XI3/MM0=p12 {TYPE MOS} {PROP n="inverter/p12" Length=0.1 Width=0.5 }
+	{PIN VIO4=DRN VIO3=GATE VDD=SRC VDD=BULK }}
+    {INST XI1/MM0=p12 {TYPE MOS} {PROP n="inverter/p12" Length=0.1 Width=0.5 }
+	{PIN VIO2=DRN VIO1=GATE VDD=SRC VDD=BULK }}
+    {INST XI2/MM0=p12 {TYPE MOS} {PROP n="inverter/p12" Length=0.1 Width=0.5 }
+	{PIN VIO3=DRN VIO2=GATE VDD=SRC VDD=BULK }}
+    {INST XI0/MM1=n12 {TYPE MOS} {PROP n="inverter/n12" Length=0.1 Width=0.25 }
+	{PIN VIO1=DRN VIO5=GATE VSS=SRC VSS=BULK }}
+    {INST XI4/MM1=n12 {TYPE MOS} {PROP n="inverter/n12" Length=0.1 Width=0.25 }
+	{PIN VIO5=DRN VIO4=GATE VSS=SRC VSS=BULK }}
+}
+}

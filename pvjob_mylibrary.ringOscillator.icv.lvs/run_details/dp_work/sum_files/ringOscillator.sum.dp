@@ -1,0 +1,1342 @@
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pgate_25.polygonlayer.0001, psd.polygonlayer.0003, psd.polygonlayer.0003, device_db.polygonlayer.0004
+  Outputs: device_db.polygonlayer.0010, device_db.polygonlayer.0011, device_db.polygonlayer.0011, device_db.polygonlayer.0012
+Preprocessing device layers for pmos p25 ...
+Input layer "pgate_25.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0010" is empty.
+No output written.
+Layer "device_db.polygonlayer.0011" is empty.
+No output written.
+Layer "device_db.polygonlayer.0012" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pgate_33.polygonlayer.0001, psd.polygonlayer.0003, psd.polygonlayer.0003, device_db.polygonlayer.0004
+  Outputs: device_db.polygonlayer.0013, device_db.polygonlayer.0014, device_db.polygonlayer.0014, device_db.polygonlayer.0015
+Preprocessing device layers for pmos p33 ...
+Input layer "pgate_33.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0013" is empty.
+No output written.
+Layer "device_db.polygonlayer.0014" is empty.
+No output written.
+Layer "device_db.polygonlayer.0015" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pgate_12_lvt.polygonlayer.0001, psd.polygonlayer.0003, psd.polygonlayer.0003, device_db.polygonlayer.0004
+  Outputs: device_db.polygonlayer.0016, device_db.polygonlayer.0017, device_db.polygonlayer.0017, device_db.polygonlayer.0018
+Preprocessing device layers for pmos p12_lvt ...
+Input layer "pgate_12_lvt.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0016" is empty.
+No output written.
+Layer "device_db.polygonlayer.0017" is empty.
+No output written.
+Layer "device_db.polygonlayer.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pgate_12_hvt.polygonlayer.0001, psd.polygonlayer.0003, psd.polygonlayer.0003, device_db.polygonlayer.0004
+  Outputs: device_db.polygonlayer.0019, device_db.polygonlayer.0020, device_db.polygonlayer.0020, device_db.polygonlayer.0021
+Preprocessing device layers for pmos p12_hvt ...
+Input layer "pgate_12_hvt.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0019" is empty.
+No output written.
+Layer "device_db.polygonlayer.0020" is empty.
+No output written.
+Layer "device_db.polygonlayer.0021" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ngate_25.polygonlayer.0001, nsd.polygonlayer.0003, nsd.polygonlayer.0003, device_db.polygonlayer.0006
+  Outputs: device_db.polygonlayer.0025, device_db.polygonlayer.0026, device_db.polygonlayer.0026, device_db.polygonlayer.0027
+Preprocessing device layers for nmos n25 ...
+Input layer "ngate_25.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0025" is empty.
+No output written.
+Layer "device_db.polygonlayer.0026" is empty.
+No output written.
+Layer "device_db.polygonlayer.0027" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ngate_33.polygonlayer.0001, nsd.polygonlayer.0003, nsd.polygonlayer.0003, device_db.polygonlayer.0006
+  Outputs: device_db.polygonlayer.0028, device_db.polygonlayer.0029, device_db.polygonlayer.0029, device_db.polygonlayer.0030
+Preprocessing device layers for nmos n33 ...
+Input layer "ngate_33.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0028" is empty.
+No output written.
+Layer "device_db.polygonlayer.0029" is empty.
+No output written.
+Layer "device_db.polygonlayer.0030" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ngate_12_lvt.polygonlayer.0001, nsd.polygonlayer.0003, nsd.polygonlayer.0003, device_db.polygonlayer.0006
+  Outputs: device_db.polygonlayer.0031, device_db.polygonlayer.0032, device_db.polygonlayer.0032, device_db.polygonlayer.0033
+Preprocessing device layers for nmos n12_lvt ...
+Input layer "ngate_12_lvt.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0031" is empty.
+No output written.
+Layer "device_db.polygonlayer.0032" is empty.
+No output written.
+Layer "device_db.polygonlayer.0033" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ngate_12_hvt.polygonlayer.0001, nsd.polygonlayer.0003, nsd.polygonlayer.0003, device_db.polygonlayer.0006
+  Outputs: device_db.polygonlayer.0034, device_db.polygonlayer.0035, device_db.polygonlayer.0035, device_db.polygonlayer.0036
+Preprocessing device layers for nmos n12_hvt ...
+Input layer "ngate_12_hvt.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0034" is empty.
+No output written.
+Layer "device_db.polygonlayer.0035" is empty.
+No output written.
+Layer "device_db.polygonlayer.0036" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pdores.polygonlayer.0007, psdr.polygonlayer.0002, psdr.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0037, device_db.polygonlayer.0038, device_db.polygonlayer.0038
+Preprocessing device layers for resistor rpdiff ...
+Input layer "pdores.polygonlayer.0007" is empty.
+No output written.
+Layer "device_db.polygonlayer.0037" is empty.
+No output written.
+Layer "device_db.polygonlayer.0038" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ndores.polygonlayer.0006, nsdr.polygonlayer.0002, nsdr.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0039, device_db.polygonlayer.0040, device_db.polygonlayer.0040
+Preprocessing device layers for resistor rndiff ...
+Input layer "ndores.polygonlayer.0006" is empty.
+No output written.
+Layer "device_db.polygonlayer.0039" is empty.
+No output written.
+Layer "device_db.polygonlayer.0040" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ppores.polygonlayer.0002, ponr.polygonlayer.0001, ponr.polygonlayer.0001
+  Outputs: device_db.polygonlayer.0041, device_db.polygonlayer.0042, device_db.polygonlayer.0042
+Preprocessing device layers for resistor rppoly ...
+Input layer "ppores.polygonlayer.0002" is empty.
+No output written.
+Layer "device_db.polygonlayer.0041" is empty.
+No output written.
+Layer "device_db.polygonlayer.0042" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: npores.polygonlayer.0002, ponr.polygonlayer.0001, ponr.polygonlayer.0001
+  Outputs: device_db.polygonlayer.0043, device_db.polygonlayer.0044, device_db.polygonlayer.0044
+Preprocessing device layers for resistor rnpoly ...
+Input layer "npores.polygonlayer.0002" is empty.
+No output written.
+Layer "device_db.polygonlayer.0043" is empty.
+No output written.
+Layer "device_db.polygonlayer.0044" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ppores_sblk.polygonlayer.0001, ponr.polygonlayer.0001, ponr.polygonlayer.0001
+  Outputs: device_db.polygonlayer.0045, device_db.polygonlayer.0046, device_db.polygonlayer.0046
+Preprocessing device layers for resistor rppoly_wos ...
+Input layer "ppores_sblk.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0045" is empty.
+No output written.
+Layer "device_db.polygonlayer.0046" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: npores_sblk.polygonlayer.0001, ponr.polygonlayer.0001, ponr.polygonlayer.0001
+  Outputs: device_db.polygonlayer.0047, device_db.polygonlayer.0048, device_db.polygonlayer.0048
+Preprocessing device layers for resistor rnpoly_wos ...
+Input layer "npores_sblk.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0047" is empty.
+No output written.
+Layer "device_db.polygonlayer.0048" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m1res.polygonlayer.0001, m1.polygonlayer.0002, m1.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0049, device_db.polygonlayer.0050, device_db.polygonlayer.0050
+Preprocessing device layers for resistor rm1 ...
+Input layer "m1res.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0049" is empty.
+No output written.
+Layer "device_db.polygonlayer.0050" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m2res.polygonlayer.0001, m2.polygonlayer.0002, m2.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0051, device_db.polygonlayer.0052, device_db.polygonlayer.0052
+Preprocessing device layers for resistor rm2 ...
+Input layer "m2res.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0051" is empty.
+No output written.
+Layer "device_db.polygonlayer.0052" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m3res.polygonlayer.0001, m3.polygonlayer.0002, m3.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0053, device_db.polygonlayer.0054, device_db.polygonlayer.0054
+Preprocessing device layers for resistor rm3 ...
+Input layer "m3res.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0053" is empty.
+No output written.
+Layer "device_db.polygonlayer.0054" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m4res.polygonlayer.0001, m4.polygonlayer.0002, m4.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0055, device_db.polygonlayer.0056, device_db.polygonlayer.0056
+Preprocessing device layers for resistor rm4 ...
+Input layer "m4res.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0055" is empty.
+No output written.
+Layer "device_db.polygonlayer.0056" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m5res.polygonlayer.0001, m5.polygonlayer.0002, m5.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0057, device_db.polygonlayer.0058, device_db.polygonlayer.0058
+Preprocessing device layers for resistor rm5 ...
+Input layer "m5res.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0057" is empty.
+No output written.
+Layer "device_db.polygonlayer.0058" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m6res.polygonlayer.0001, m6.polygonlayer.0002, m6.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0059, device_db.polygonlayer.0060, device_db.polygonlayer.0060
+Preprocessing device layers for resistor rm6 ...
+Input layer "m6res.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0059" is empty.
+No output written.
+Layer "device_db.polygonlayer.0060" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m7res.polygonlayer.0001, m7.polygonlayer.0002, m7.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0061, device_db.polygonlayer.0062, device_db.polygonlayer.0062
+Preprocessing device layers for resistor rm7 ...
+Input layer "m7res.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0061" is empty.
+No output written.
+Layer "device_db.polygonlayer.0062" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m8res.polygonlayer.0001, m8.polygonlayer.0002, m8.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0063, device_db.polygonlayer.0064, device_db.polygonlayer.0064
+Preprocessing device layers for resistor rm8 ...
+Input layer "m8res.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0063" is empty.
+No output written.
+Layer "device_db.polygonlayer.0064" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m9res.polygonlayer.0001, m9.polygonlayer.0002, m9.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0065, device_db.polygonlayer.0066, device_db.polygonlayer.0066
+Preprocessing device layers for resistor rm9 ...
+Input layer "m9res.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0065" is empty.
+No output written.
+Layer "device_db.polygonlayer.0066" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ngate_12v.polygonlayer.0004, ngatepl.polygonlayer.0001, nsdv.polygonlayer.0001
+  Outputs: device_db.polygonlayer.0067, device_db.polygonlayer.0068, device_db.polygonlayer.0069
+Preprocessing device layers for capacitor nvar ...
+Input layer "ngate_12v.polygonlayer.0004" is empty.
+No output written.
+Layer "device_db.polygonlayer.0067" is empty.
+No output written.
+Layer "device_db.polygonlayer.0068" is empty.
+No output written.
+Layer "device_db.polygonlayer.0069" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pgate_12v.polygonlayer.0004, pgatepl.polygonlayer.0001, psdv.polygonlayer.0001
+  Outputs: device_db.polygonlayer.0070, device_db.polygonlayer.0071, device_db.polygonlayer.0072
+Preprocessing device layers for capacitor pvar ...
+Input layer "pgate_12v.polygonlayer.0004" is empty.
+No output written.
+Layer "device_db.polygonlayer.0070" is empty.
+No output written.
+Layer "device_db.polygonlayer.0071" is empty.
+No output written.
+Layer "device_db.polygonlayer.0072" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: body_1.polygonlayer.0001, term_1.polygonlayer.0001, term_1.polygonlayer.0001
+  Outputs: device_db.polygonlayer.0073, device_db.polygonlayer.0074, device_db.polygonlayer.0074
+Preprocessing device layers for capacitor ccap ...
+Input layer "body_1.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0073" is empty.
+No output written.
+Layer "device_db.polygonlayer.0074" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: body_2.polygonlayer.0001, term_2.polygonlayer.0001, term_2.polygonlayer.0001
+  Outputs: device_db.polygonlayer.0075, device_db.polygonlayer.0076, device_db.polygonlayer.0076
+Preprocessing device layers for capacitor ccap ...
+Input layer "body_2.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0075" is empty.
+No output written.
+Layer "device_db.polygonlayer.0076" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: body_3.polygonlayer.0001, term_3.polygonlayer.0001, term_3.polygonlayer.0001
+  Outputs: device_db.polygonlayer.0077, device_db.polygonlayer.0078, device_db.polygonlayer.0078
+Preprocessing device layers for capacitor ccap ...
+Input layer "body_3.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0077" is empty.
+No output written.
+Layer "device_db.polygonlayer.0078" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: body_4.polygonlayer.0001, term_4.polygonlayer.0001, term_4.polygonlayer.0001
+  Outputs: device_db.polygonlayer.0079, device_db.polygonlayer.0080, device_db.polygonlayer.0080
+Preprocessing device layers for capacitor ccap ...
+Input layer "body_4.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0079" is empty.
+No output written.
+Layer "device_db.polygonlayer.0080" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: indbody.polygonlayer.0001, indterm.polygonlayer.0001, indterm.polygonlayer.0001, pwell.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0081, device_db.polygonlayer.0082, device_db.polygonlayer.0082, device_db.polygonlayer.0083
+Preprocessing device layers for inductor spiind ...
+Input layer "indbody.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0081" is empty.
+No output written.
+Layer "device_db.polygonlayer.0082" is empty.
+No output written.
+Layer "device_db.polygonlayer.0083" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: BJT_EMIT_PNP.polygonlayer.0002, BJT_BASE_PNP.polygonlayer.0002, BJT_COLL_PNP.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0084, device_db.polygonlayer.0085, device_db.polygonlayer.0086
+Preprocessing device layers for pnp vpnp ...
+Input layer "BJT_EMIT_PNP.polygonlayer.0002" is empty.
+No output written.
+Layer "device_db.polygonlayer.0084" is empty.
+No output written.
+Layer "device_db.polygonlayer.0085" is empty.
+No output written.
+Layer "device_db.polygonlayer.0086" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: NPN_center.polygonlayer.0002, BJT_BASE_NPN.polygonlayer.0001, BJT_COLL_NPN.polygonlayer.0004
+  Outputs: device_db.polygonlayer.0087, device_db.polygonlayer.0088, device_db.polygonlayer.0089
+Preprocessing device layers for npn vnpn ...
+Input layer "NPN_center.polygonlayer.0002" is empty.
+No output written.
+Layer "device_db.polygonlayer.0087" is empty.
+No output written.
+Layer "device_db.polygonlayer.0088" is empty.
+No output written.
+Layer "device_db.polygonlayer.0089" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ndiffdio.polygonlayer.0001, nsd.polygonlayer.0003, pwell.polygonlayer.0002
+  Outputs: device_db.polygonlayer.0090, device_db.polygonlayer.0091, device_db.polygonlayer.0092
+Preprocessing device layers for np nd ...
+Input layer "ndiffdio.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0090" is empty.
+No output written.
+Layer "device_db.polygonlayer.0091" is empty.
+No output written.
+Layer "device_db.polygonlayer.0092" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pdiffdio.polygonlayer.0001, nwnr.polygonlayer.0001, psd.polygonlayer.0003
+  Outputs: device_db.polygonlayer.0093, device_db.polygonlayer.0094, device_db.polygonlayer.0095
+Preprocessing device layers for pn pd ...
+Input layer "pdiffdio.polygonlayer.0001" is empty.
+No output written.
+Layer "device_db.polygonlayer.0093" is empty.
+No output written.
+Layer "device_db.polygonlayer.0094" is empty.
+No output written.
+Layer "device_db.polygonlayer.0095" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pgate_25.polygonlayer.0001, device_db.polygonlayer.0010
+  Outputs: device_db.polygonlayer.0099
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pgate_33.polygonlayer.0001, device_db.polygonlayer.0013
+  Outputs: device_db.polygonlayer.0100
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pgate_12_lvt.polygonlayer.0001, device_db.polygonlayer.0016
+  Outputs: device_db.polygonlayer.0101
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pgate_12_hvt.polygonlayer.0001, device_db.polygonlayer.0019
+  Outputs: device_db.polygonlayer.0102
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ngate_25.polygonlayer.0001, device_db.polygonlayer.0025
+  Outputs: device_db.polygonlayer.0106
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ngate_33.polygonlayer.0001, device_db.polygonlayer.0028
+  Outputs: device_db.polygonlayer.0107
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ngate_12_lvt.polygonlayer.0001, device_db.polygonlayer.0031
+  Outputs: device_db.polygonlayer.0108
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ngate_12_hvt.polygonlayer.0001, device_db.polygonlayer.0034
+  Outputs: device_db.polygonlayer.0109
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pdores.polygonlayer.0007, device_db.polygonlayer.0037
+  Outputs: device_db.polygonlayer.0110
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ndores.polygonlayer.0006, device_db.polygonlayer.0039
+  Outputs: device_db.polygonlayer.0112
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ppores.polygonlayer.0002, device_db.polygonlayer.0041
+  Outputs: device_db.polygonlayer.0114
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: npores.polygonlayer.0002, device_db.polygonlayer.0043
+  Outputs: device_db.polygonlayer.0116
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ppores_sblk.polygonlayer.0001, device_db.polygonlayer.0045
+  Outputs: device_db.polygonlayer.0117
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: npores_sblk.polygonlayer.0001, device_db.polygonlayer.0047
+  Outputs: device_db.polygonlayer.0118
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m1res.polygonlayer.0001, device_db.polygonlayer.0049
+  Outputs: device_db.polygonlayer.0119
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m2res.polygonlayer.0001, device_db.polygonlayer.0051
+  Outputs: device_db.polygonlayer.0121
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m2.polygonlayer.0002, device_db.polygonlayer.0052
+  Outputs: device_db.polygonlayer.0122
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m3res.polygonlayer.0001, device_db.polygonlayer.0053
+  Outputs: device_db.polygonlayer.0123
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m3.polygonlayer.0002, device_db.polygonlayer.0054
+  Outputs: device_db.polygonlayer.0124
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m4res.polygonlayer.0001, device_db.polygonlayer.0055
+  Outputs: device_db.polygonlayer.0125
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m4.polygonlayer.0002, device_db.polygonlayer.0056
+  Outputs: device_db.polygonlayer.0126
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m5res.polygonlayer.0001, device_db.polygonlayer.0057
+  Outputs: device_db.polygonlayer.0127
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m5.polygonlayer.0002, device_db.polygonlayer.0058
+  Outputs: device_db.polygonlayer.0128
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m6res.polygonlayer.0001, device_db.polygonlayer.0059
+  Outputs: device_db.polygonlayer.0129
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m6.polygonlayer.0002, device_db.polygonlayer.0060
+  Outputs: device_db.polygonlayer.0130
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m7res.polygonlayer.0001, device_db.polygonlayer.0061
+  Outputs: device_db.polygonlayer.0131
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m7.polygonlayer.0002, device_db.polygonlayer.0062
+  Outputs: device_db.polygonlayer.0132
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m8res.polygonlayer.0001, device_db.polygonlayer.0063
+  Outputs: device_db.polygonlayer.0133
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m8.polygonlayer.0002, device_db.polygonlayer.0064
+  Outputs: device_db.polygonlayer.0134
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m9res.polygonlayer.0001, device_db.polygonlayer.0065
+  Outputs: device_db.polygonlayer.0135
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: m9.polygonlayer.0002, device_db.polygonlayer.0066
+  Outputs: device_db.polygonlayer.0136
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ngate_12v.polygonlayer.0004, device_db.polygonlayer.0067
+  Outputs: device_db.polygonlayer.0137
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ngatepl.polygonlayer.0001, device_db.polygonlayer.0068
+  Outputs: device_db.polygonlayer.0138
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: nsdv.polygonlayer.0001, device_db.polygonlayer.0069
+  Outputs: device_db.polygonlayer.0139
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pgate_12v.polygonlayer.0004, device_db.polygonlayer.0070
+  Outputs: device_db.polygonlayer.0140
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pgatepl.polygonlayer.0001, device_db.polygonlayer.0071
+  Outputs: device_db.polygonlayer.0141
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: psdv.polygonlayer.0001, device_db.polygonlayer.0072
+  Outputs: device_db.polygonlayer.0142
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: body_1.polygonlayer.0001, device_db.polygonlayer.0073
+  Outputs: device_db.polygonlayer.0143
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: term_1.polygonlayer.0001, device_db.polygonlayer.0074
+  Outputs: device_db.polygonlayer.0144
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: body_2.polygonlayer.0001, device_db.polygonlayer.0075
+  Outputs: device_db.polygonlayer.0145
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: term_2.polygonlayer.0001, device_db.polygonlayer.0076
+  Outputs: device_db.polygonlayer.0146
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: body_3.polygonlayer.0001, device_db.polygonlayer.0077
+  Outputs: device_db.polygonlayer.0147
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: term_3.polygonlayer.0001, device_db.polygonlayer.0078
+  Outputs: device_db.polygonlayer.0148
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: body_4.polygonlayer.0001, device_db.polygonlayer.0079
+  Outputs: device_db.polygonlayer.0149
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: term_4.polygonlayer.0001, device_db.polygonlayer.0080
+  Outputs: device_db.polygonlayer.0150
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: indbody.polygonlayer.0001, device_db.polygonlayer.0081
+  Outputs: device_db.polygonlayer.0151
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: indterm.polygonlayer.0001, device_db.polygonlayer.0082
+  Outputs: device_db.polygonlayer.0152
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: BJT_EMIT_PNP.polygonlayer.0002, device_db.polygonlayer.0084
+  Outputs: device_db.polygonlayer.0153
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: BJT_BASE_PNP.polygonlayer.0002, device_db.polygonlayer.0085
+  Outputs: device_db.polygonlayer.0154
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: BJT_COLL_PNP.polygonlayer.0002, device_db.polygonlayer.0086
+  Outputs: device_db.polygonlayer.0155
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: NPN_center.polygonlayer.0002, device_db.polygonlayer.0087
+  Outputs: device_db.polygonlayer.0156
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: BJT_BASE_NPN.polygonlayer.0001, device_db.polygonlayer.0088
+  Outputs: device_db.polygonlayer.0157
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: BJT_COLL_NPN.polygonlayer.0004, device_db.polygonlayer.0089
+  Outputs: device_db.polygonlayer.0158
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: ndiffdio.polygonlayer.0001, device_db.polygonlayer.0090
+  Outputs: device_db.polygonlayer.0159
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: extract_devices
+  Inputs: pdiffdio.polygonlayer.0001, device_db.polygonlayer.0093
+  Outputs: device_db.polygonlayer.0160
+Merging device layers ...
+All input layers are empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: pmos
+  Inputs: device_db.polygonlayer.0099, device_db.polygonlayer.0097, device_db.polygonlayer.0097, device_db.polygonlayer.0098, device_db.polygonlayer.0010
+pmos(my_devices, pm.n, psd, pm.g, psd, { { pm.b } }, merge_parallel = true, properties = { { \"l\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"w\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"nf\", DOUBLE } }, property_function = prop_mos)
+Input layer "device_db.polygonlayer.0099" is empty.
+Extracted 0 unique 4-terminal "p25" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: pmos
+  Inputs: device_db.polygonlayer.0100, device_db.polygonlayer.0097, device_db.polygonlayer.0097, device_db.polygonlayer.0098, device_db.polygonlayer.0013
+pmos(my_devices, pm.n, psd, pm.g, psd, { { pm.b } }, merge_parallel = true, properties = { { \"l\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"w\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"nf\", DOUBLE } }, property_function = prop_mos)
+Input layer "device_db.polygonlayer.0100" is empty.
+Extracted 0 unique 4-terminal "p33" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: pmos
+  Inputs: device_db.polygonlayer.0101, device_db.polygonlayer.0097, device_db.polygonlayer.0097, device_db.polygonlayer.0098, device_db.polygonlayer.0016
+pmos(my_devices, pm.n, psd, pm.g, psd, { { pm.b } }, merge_parallel = true, properties = { { \"l\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"w\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"nf\", DOUBLE } }, property_function = prop_mos)
+Input layer "device_db.polygonlayer.0101" is empty.
+Extracted 0 unique 4-terminal "p12_lvt" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: pmos
+  Inputs: device_db.polygonlayer.0102, device_db.polygonlayer.0097, device_db.polygonlayer.0097, device_db.polygonlayer.0098, device_db.polygonlayer.0019
+pmos(my_devices, pm.n, psd, pm.g, psd, { { pm.b } }, merge_parallel = true, properties = { { \"l\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"w\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"nf\", DOUBLE } }, property_function = prop_mos)
+Input layer "device_db.polygonlayer.0102" is empty.
+Extracted 0 unique 4-terminal "p12_hvt" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: nmos
+  Inputs: device_db.polygonlayer.0106, device_db.polygonlayer.0104, device_db.polygonlayer.0104, device_db.polygonlayer.0105, device_db.polygonlayer.0025
+nmos(my_devices, nm.n, nsd, nm.g, nsd, { { nm.b } }, merge_parallel = true, properties = { { \"l\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"w\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"nf\", DOUBLE } }, property_function = prop_mos)
+Input layer "device_db.polygonlayer.0106" is empty.
+Extracted 0 unique 4-terminal "n25" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: nmos
+  Inputs: device_db.polygonlayer.0107, device_db.polygonlayer.0104, device_db.polygonlayer.0104, device_db.polygonlayer.0105, device_db.polygonlayer.0028
+nmos(my_devices, nm.n, nsd, nm.g, nsd, { { nm.b } }, merge_parallel = true, properties = { { \"l\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"w\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"nf\", DOUBLE } }, property_function = prop_mos)
+Input layer "device_db.polygonlayer.0107" is empty.
+Extracted 0 unique 4-terminal "n33" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: nmos
+  Inputs: device_db.polygonlayer.0108, device_db.polygonlayer.0104, device_db.polygonlayer.0104, device_db.polygonlayer.0105, device_db.polygonlayer.0031
+nmos(my_devices, nm.n, nsd, nm.g, nsd, { { nm.b } }, merge_parallel = true, properties = { { \"l\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"w\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"nf\", DOUBLE } }, property_function = prop_mos)
+Input layer "device_db.polygonlayer.0108" is empty.
+Extracted 0 unique 4-terminal "n12_lvt" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: nmos
+  Inputs: device_db.polygonlayer.0109, device_db.polygonlayer.0104, device_db.polygonlayer.0104, device_db.polygonlayer.0105, device_db.polygonlayer.0034
+nmos(my_devices, nm.n, nsd, nm.g, nsd, { { nm.b } }, merge_parallel = true, properties = { { \"l\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"w\", DOUBLE, MICRO, NETLIST_XTR_SPICE }, { \"nf\", DOUBLE } }, property_function = prop_mos)
+Input layer "device_db.polygonlayer.0109" is empty.
+Extracted 0 unique 4-terminal "n12_hvt" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0110, device_db.polygonlayer.0111, device_db.polygonlayer.0111, device_db.polygonlayer.0037
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_respd, schematic_devices = (rr.d) ? { { rr.n, \"plus\", \"minus\" } } : { { rr.n, \"A\", \"B\" } }, x_card = (rr.p) ? (false) : (true), resistor_value = 0)
+Input layer "device_db.polygonlayer.0110" is empty.
+Extracted 0 unique 3-terminal "rpdiff" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0112, device_db.polygonlayer.0113, device_db.polygonlayer.0113, device_db.polygonlayer.0039
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_respd, schematic_devices = (rr.d) ? { { rr.n, \"plus\", \"minus\" } } : { { rr.n, \"A\", \"B\" } }, x_card = (rr.p) ? (false) : (true), resistor_value = 0)
+Input layer "device_db.polygonlayer.0112" is empty.
+Extracted 0 unique 3-terminal "rndiff" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0114, device_db.polygonlayer.0115, device_db.polygonlayer.0115, device_db.polygonlayer.0041
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_respd, schematic_devices = (rr.d) ? { { rr.n, \"plus\", \"minus\" } } : { { rr.n, \"A\", \"B\" } }, x_card = (rr.p) ? (false) : (true), resistor_value = 0)
+Input layer "device_db.polygonlayer.0114" is empty.
+Extracted 0 unique 3-terminal "rppoly" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0116, device_db.polygonlayer.0115, device_db.polygonlayer.0115, device_db.polygonlayer.0043
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_respd, schematic_devices = (rr.d) ? { { rr.n, \"plus\", \"minus\" } } : { { rr.n, \"A\", \"B\" } }, x_card = (rr.p) ? (false) : (true), resistor_value = 0)
+Input layer "device_db.polygonlayer.0116" is empty.
+Extracted 0 unique 3-terminal "rnpoly" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0117, device_db.polygonlayer.0115, device_db.polygonlayer.0115, device_db.polygonlayer.0045
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_respd, schematic_devices = (rr.d) ? { { rr.n, \"plus\", \"minus\" } } : { { rr.n, \"A\", \"B\" } }, x_card = (rr.p) ? (false) : (true), resistor_value = 0)
+Input layer "device_db.polygonlayer.0117" is empty.
+Extracted 0 unique 3-terminal "rppoly_wos" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0118, device_db.polygonlayer.0115, device_db.polygonlayer.0115, device_db.polygonlayer.0047
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_respd, schematic_devices = (rr.d) ? { { rr.n, \"plus\", \"minus\" } } : { { rr.n, \"A\", \"B\" } }, x_card = (rr.p) ? (false) : (true), resistor_value = 0)
+Input layer "device_db.polygonlayer.0118" is empty.
+Extracted 0 unique 3-terminal "rnpoly_wos" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0119, device_db.polygonlayer.0120, device_db.polygonlayer.0120, device_db.polygonlayer.0049
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_resm, resistor_value = 0)
+Input layer "device_db.polygonlayer.0119" is empty.
+Extracted 0 unique 3-terminal "rm1" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0121, device_db.polygonlayer.0122, device_db.polygonlayer.0122, device_db.polygonlayer.0051
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_resm, resistor_value = 0)
+Input layer "device_db.polygonlayer.0121" is empty.
+Extracted 0 unique 3-terminal "rm2" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0123, device_db.polygonlayer.0124, device_db.polygonlayer.0124, device_db.polygonlayer.0053
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_resm, resistor_value = 0)
+Input layer "device_db.polygonlayer.0123" is empty.
+Extracted 0 unique 3-terminal "rm3" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0125, device_db.polygonlayer.0126, device_db.polygonlayer.0126, device_db.polygonlayer.0055
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_resm, resistor_value = 0)
+Input layer "device_db.polygonlayer.0125" is empty.
+Extracted 0 unique 3-terminal "rm4" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0127, device_db.polygonlayer.0128, device_db.polygonlayer.0128, device_db.polygonlayer.0057
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_resm, resistor_value = 0)
+Input layer "device_db.polygonlayer.0127" is empty.
+Extracted 0 unique 3-terminal "rm5" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0129, device_db.polygonlayer.0130, device_db.polygonlayer.0130, device_db.polygonlayer.0059
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_resm, resistor_value = 0)
+Input layer "device_db.polygonlayer.0129" is empty.
+Extracted 0 unique 3-terminal "rm6" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0131, device_db.polygonlayer.0132, device_db.polygonlayer.0132, device_db.polygonlayer.0061
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_resm, resistor_value = 0)
+Input layer "device_db.polygonlayer.0131" is empty.
+Extracted 0 unique 3-terminal "rm7" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0133, device_db.polygonlayer.0134, device_db.polygonlayer.0134, device_db.polygonlayer.0063
+resistor(my_devices, rr.n, rr.b, rr.t, rr.t, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_resm, resistor_value = 0)
+Input layer "device_db.polygonlayer.0133" is empty.
+Extracted 0 unique 3-terminal "rm8" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: resistor
+  Inputs: device_db.polygonlayer.0135, device_db.polygonlayer.0136, device_db.polygonlayer.0136, device_db.polygonlayer.0065
+resistor(my_devices, \"rm9\", m9res, m9, m9, properties = { { \"l\", DOUBLE, MICRO }, { \"w\", DOUBLE, MICRO }, { \"rval\" } }, property_function = prop_resm9, resistor_value = 0)
+Input layer "device_db.polygonlayer.0135" is empty.
+Extracted 0 unique 3-terminal "rm9" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: capacitor
+  Inputs: device_db.polygonlayer.0137, device_db.polygonlayer.0138, device_db.polygonlayer.0139, device_db.polygonlayer.0067
+capacitor(my_devices, \"nvar\", ngate_12v, ngatepl, nsdv, properties = { { \"lr\", DOUBLE }, { \"wr\", DOUBLE } }, property_function = prop_cap, schematic_devices = { { \"nvar\", \"plus\", \"minus\" } })
+Input layer "device_db.polygonlayer.0137" is empty.
+Extracted 0 unique 3-terminal "nvar" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: capacitor
+  Inputs: device_db.polygonlayer.0140, device_db.polygonlayer.0141, device_db.polygonlayer.0142, device_db.polygonlayer.0070
+capacitor(my_devices, \"pvar\", pgate_12v, pgatepl, psdv, properties = { { \"lr\", DOUBLE }, { \"wr\", DOUBLE } }, property_function = prop_cap, schematic_devices = { { \"pvar\", \"plus\", \"minus\" } })
+Input layer "device_db.polygonlayer.0140" is empty.
+Extracted 0 unique 3-terminal "pvar" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: capacitor
+  Inputs: device_db.polygonlayer.0143, device_db.polygonlayer.0144, device_db.polygonlayer.0144, device_db.polygonlayer.0073
+capacitor(my_devices, \"ccap\", body_1, term_1, term_1, schematic_devices = { { \"ccap\", \"plus\", \"minus\" } }, x_card = true)
+Input layer "device_db.polygonlayer.0143" is empty.
+Extracted 0 unique 3-terminal "ccap" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: capacitor
+  Inputs: device_db.polygonlayer.0145, device_db.polygonlayer.0146, device_db.polygonlayer.0146, device_db.polygonlayer.0075
+capacitor(my_devices, \"ccap\", body_2, term_2, term_2, schematic_devices = { { \"ccap\", \"plus\", \"minus\" } }, x_card = true)
+Input layer "device_db.polygonlayer.0145" is empty.
+Extracted 0 unique 3-terminal "ccap" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: capacitor
+  Inputs: device_db.polygonlayer.0147, device_db.polygonlayer.0148, device_db.polygonlayer.0148, device_db.polygonlayer.0077
+capacitor(my_devices, \"ccap\", body_3, term_3, term_3, schematic_devices = { { \"ccap\", \"plus\", \"minus\" } }, x_card = true)
+Input layer "device_db.polygonlayer.0147" is empty.
+Extracted 0 unique 3-terminal "ccap" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: capacitor
+  Inputs: device_db.polygonlayer.0149, device_db.polygonlayer.0150, device_db.polygonlayer.0150, device_db.polygonlayer.0079
+capacitor(my_devices, \"ccap\", body_4, term_4, term_4, schematic_devices = { { \"ccap\", \"plus\", \"minus\" } }, x_card = true)
+Input layer "device_db.polygonlayer.0149" is empty.
+Extracted 0 unique 3-terminal "ccap" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: inductor
+  Inputs: device_db.polygonlayer.0151, device_db.polygonlayer.0152, device_db.polygonlayer.0152, device_db.polygonlayer.0105, device_db.polygonlayer.0081
+inductor(my_devices, \"spiind\", indbody, indterm, indterm, { { pwell } }, properties = { { \"R\" }, { \"w\", DOUBLE, MICRO }, { \"T\" }, { \"space\", DOUBLE, MICRO } }, property_function = prop_ind, schematic_devices = { { \"spiind\", \"plus\", \"minus\", { \"bulk\" } } }, x_card = true)
+Input layer "device_db.polygonlayer.0151" is empty.
+Extracted 0 unique 4-terminal "spiind" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: pnp
+  Inputs: device_db.polygonlayer.0155, device_db.polygonlayer.0154, device_db.polygonlayer.0153, device_db.polygonlayer.0084
+pnp(my_devices, \"vpnp\", BJT_COLL_PNP, BJT_BASE_PNP, BJT_EMIT_PNP, x_card = true)
+Input layer "device_db.polygonlayer.0155" is empty.
+Extracted 0 unique 3-terminal "vpnp" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: npn
+  Inputs: device_db.polygonlayer.0156, device_db.polygonlayer.0157, device_db.polygonlayer.0158, device_db.polygonlayer.0087
+npn(my_devices, \"vnpn\", BJT_COLL_NPN, BJT_BASE_NPN, BJT_EMIT_NPN, x_card = true)
+Input layer "device_db.polygonlayer.0156" is empty.
+Extracted 0 unique 3-terminal "vnpn" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: np
+  Inputs: device_db.polygonlayer.0159, device_db.polygonlayer.0104, device_db.polygonlayer.0105, device_db.polygonlayer.0090
+np(my_devices, \"nd\", ndiffdio, nsd, pwell, properties = { { \"area\", DOUBLE, PICO } })
+Input layer "device_db.polygonlayer.0159" is empty.
+Extracted 0 unique 3-terminal "nd" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+extract_devices() at rules.lvs.9m_saed90_lvs.lvs.rs:1084
+device_db = extract_devices(my_devices)
+  Function: pn
+  Inputs: device_db.polygonlayer.0160, device_db.polygonlayer.0098, device_db.polygonlayer.0097, device_db.polygonlayer.0093
+pn(my_devices, \"pd\", pdiffdio, nwnr, psd, properties = { { \"area\", DOUBLE, PICO } }, property_function = prop_diode)
+Input layer "device_db.polygonlayer.0160" is empty.
+Extracted 0 unique 3-terminal "pd" devices.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000
+
+/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1218: warning: ICV LVS device settings currently use overwrite mode. Use command line option '-D ICV_ENABLE_DEVICE_SETTING_APPEND_MODE' or runset instruction '#define ICV_ENABLE_DEVICE_SETTING_APPEND_MODE' to enable LVS device setting append mode in this release.
+/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1218: warning: compare(action_on_error = EXPLODE) will be retired in future release.
+/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1218: warning: ICV LVS currently does not leverage all of the information available in .connect nets in compare. The .connect information can now be passed directly into compare for improved debug. To enable this feature in this release, please refer to the release notes.
+/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1218: warning: An improved compound net text checking behavior will be on by default in the 2016.06 release. To enable the new behavior in this release, please refer to the release notes.
+/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1218: warning: ICV LVS will retire the option black_box_equiv_duplicate in print_messages in the 2016.06 release. Please use black_box_duplicates_equiv in match_condition instead.
+/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1218: warning: Current behavior in which equivs with empty cells or missing cells are exploded during compare will be changed to be preserved in the future. Use command line option "-D ICV_ENABLE_PRESERVE_ALL_EQUIV_CELLS" or runset instruction "#define ICV_ENABLE_PRESERVE_ALL_EQUIV_CELLS"to preserve all equiv cells.
+/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1882: warning: pex_generate_results(in a future release the default output resolution will be changed from inlib resolution to engine resolution).  Warning during pex_generate_results.
+/home/cemaj/jwoosam/eecs168/pvjob_mylibrary.ringOscillator.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:1882: warning: pex_generate_results(in a future release the default snapping method will be changed from rounding to oversizing).  Warning during pex_generate_results.
+Completing error storage...
+  Overall error storage time: None
+
+Generating ringOscillator.LAYOUT_ERRORS...
+  Generation Time=0:00:01  User=0.00 Sys=0.01 Mem=9.858
+

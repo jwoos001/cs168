@@ -1,0 +1,91 @@
+{
+    "CompileProcesses": [
+        "cgproc.21146.json"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "NameTable": {
+        "timeunit": [
+            "timeunit",
+            "H0Y6L",
+            "module"
+        ],
+        "counter_testbench": [
+            "counter_testbench",
+            "uuCq7",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStatus": "Successful",
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.025278999999999999,
+            "ru_maxrss_kb": 43028,
+            "ru_stime_sec": 0.019212,
+            "ru_minflt": 10253,
+            "ru_majflt": 0,
+            "ru_nivcsw": 2,
+            "ru_nvcsw": 157
+        },
+        "ru_self_end": {
+            "ru_utime_sec": 0.033661000000000003,
+            "ru_maxrss_kb": 49064,
+            "ru_stime_sec": 0.029814,
+            "ru_minflt": 12128,
+            "ru_majflt": 0,
+            "ru_nivcsw": 3,
+            "ru_nvcsw": 229
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_majflt": 0,
+            "ru_nivcsw": 0,
+            "ru_nvcsw": 0
+        },
+        "CodeGen(%)": 24.901220997593665,
+        "Frontend(%)": 75.098779002406332,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_majflt": 0,
+            "ru_nivcsw": 0,
+            "ru_nvcsw": 0
+        },
+        "totalObjSize": 53478,
+        "nMops": 403,
+        "nQuads": 237,
+        "outputSizePerQuad": 225.0
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "timeunit",
+        "counter_testbench"
+    ],
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 34042
+    },
+    "PEModules": [],
+    "Misc": {
+        "cwd": "/home/cemaj/jwoosam/eecs168/lab4-rtl/counter",
+        "csrc": "csrc",
+        "archive_dir": "archive.0",
+        "daidir_abs": "/home/cemaj/jwoosam/eecs168/lab4-rtl/counter/simv.daidir",
+        "csrc_abs": "/home/cemaj/jwoosam/eecs168/lab4-rtl/counter/csrc",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc"
+    }
+}

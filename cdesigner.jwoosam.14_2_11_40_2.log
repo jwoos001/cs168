@@ -1,0 +1,126 @@
+[12:09:58.43] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Feb 14 12:09:53 2018
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[12:10:01.69] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+610
+[12:10:03.88] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+341+620
+[12:10:04.98] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+708+585
+[12:10:05.96] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+756+580
+[12:10:12.96] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[12:10:12.97] /i dm::showLibraryManager
+[12:10:12.98] /r giWindowId 1
+[12:10:12.98] /r giWindowGeometry 660x600+50+50
+[12:10:13.19] /o oa:0x23224f20
+[12:10:13.52] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+58+81
+[12:10:16.28] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+389+166
+[12:10:17.24] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+740+181
+[12:10:18.54] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+735+176
+[12:10:22.82] /i gi::setCurrentIndex {libs} -index {basic} -in [gi::getWindows 1]
+[12:10:22.88] /i gi::setItemSelection {libs} -index {basic} -in [gi::getWindows 1]
+[12:10:24.06] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getWindows 1]
+[12:10:24.07] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getWindows 1]
+[12:10:25.87] /i gi::setCurrentIndex {cells} -index {NAND} -in [gi::getWindows 1]
+[12:10:25.89] /i gi::setItemSelection {cells} -index {NAND} -in [gi::getWindows 1]
+[12:10:28.13] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 1]
+[12:10:28.14] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 1]
+[12:10:32.39] /i gi::executeAction dmDeleteCellView -in [gi::getWindows 1]
+[12:10:32.47] /r giDialog gi::setActiveDialog [gi::getDialogs {dmDelete}]
+[12:10:32.75] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmDelete}] -value 364x104+536+419
+[12:10:34.88] /r giDialog gi::pressButton {delete} -in [gi::getDialogs {dmDelete}]
+[12:10:34.93] /# db::destroy [dm::findCellView schematic -cell [dm::findCell NAND -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary ]]]]
+[12:10:34.95] /e Error: Cannot unlock file(s):
+              /c mylibrary/NAND/schematic/schematic (DATA_MANAGEMENT-033)
+[12:10:35.04] /r giDialog gi::setActiveDialog [gi::getDialogs {dmErrorDialog}]
+[12:10:35.31] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmErrorDialog}] -value 480x89+478+427
+[12:10:36.76] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {dmErrorDialog}]
+[12:10:45.81] /i gi::executeAction dmShowLockInformation -in [gi::getWindows 1]
+[12:10:45.96] /i gi::setActiveDialog [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:46.23] /i db::setAttr geometry -of [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]] -value 504x360+811+287
+[12:10:55.68] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:56.64] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:56.86] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:57.05] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:57.25] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:57.46] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:57.65] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:57.90] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:58.12] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:58.32] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:58.55] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:58.80] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:59.02] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:10:59.30] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:13:27.37] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:13:28.46] /i gi::pressButton {cancel} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:13:39.20] /i gi::executeAction dmShowLockInformation -in [gi::getWindows 1]
+[12:13:39.34] /i gi::setActiveDialog [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:13:39.53] /i db::setAttr geometry -of [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]] -value 494x350+811+287
+[12:13:42.20] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:13:57.28] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:13:58.66] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:13:58.99] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:13:59.40] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:13:59.64] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:13:59.89] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:00.47] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:00.73] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:00.99] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:01.23] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:01.44] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:02.22] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:03.56] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:04.24] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:04.65] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:05.12] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:05.76] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:06.36] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:06.89] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:07.38] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:07.86] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:08.39] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:08.95] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:09.47] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:10.01] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:10.45] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:10.97] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:11.40] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:11.91] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:12.38] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:12.83] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:13.31] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:13.71] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:14:14.18] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:15:58.39] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:15:59.59] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:00.00] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:00.24] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:00.51] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:00.76] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:01.07] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:01.31] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:01.57] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:01.82] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:02.08] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:02.37] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:02.61] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:02.89] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:03.13] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:03.40] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:03.65] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:03.90] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:04.15] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:04.40] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:04.66] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:04.95] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:05.24] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:05.52] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:05.77] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:06.08] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:06.29] /i gi::pressButton {checkLock} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:16:45.33] /i gi::pressButton {cancel} -in [gi::getDialogs {dmLockInformation} -parent [gi::getWindows 1]]
+[12:17:18.71] /i gi::setItemSelection {libs} -index {} -in [gi::getWindows 1]

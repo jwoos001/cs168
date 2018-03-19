@@ -1,0 +1,10 @@
+Compare Options
+Schematic
+Layout
+Equated Nets
+Post Merge
+Port Xref
+Device Settings
+
+BGN_SUMMARY_TAB
+Post Compare
